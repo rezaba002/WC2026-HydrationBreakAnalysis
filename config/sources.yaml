@@ -32,23 +32,36 @@ repositories:
       inconsistent (e.g. Netherlands-Sweden xG). Never trust this repo's numbers;
       re-derive from original PDFs.
 
-pending_inputs:
   statsbomb-open-data:
     url: https://github.com/statsbomb/open-data
     role: WC 2018 + 2022 events (substitutions, goals, timing) for Outputs 4 and 6
-    status: not yet cloned (Milestone 2; large repo)
+    status: >
+      partial clone (filter=blob:none, sparse checkout) retrieved 2026-07-24:
+      competition 43 seasons 3+106 match lists and all 128 event files.
+      Extracted via src/statsbomb_extract.py.
+
+  fifa_post_match_pdfs_fetched:
+    source: fifatrainingcentre.com match-report hubs (public PDFs)
+    role: independent 2026 layer — per-shot log, substitution markers, per-player
+      physical data, team stats. NOTE no per-shot xG (team totals only).
+    status: >
+      all 104 PDFs downloaded 2026-07-24 to data/raw/fifa_pdfs/ (not committed;
+      hashes in data/raw/fifa_pdfs/index.csv). FIFA official match numbering
+      differs from the dataset's date-ordered match_id; joined by team-code pair.
+      Parsed via src/parse_fifa_pdfs.py.
+
+pending_inputs:
   narration_pdf:
     expected_path: external/narration/WC2026_104_games_narration.pdf
     role: video narrative support only — never an analytical event source
     status: MISSING (not found in Downloads on 2026-07-24)
-  fifa_post_match_pdfs:
-    source: fifatrainingcentre.com
-    role: independent shot/xG layer (Output 2)
-    status: not yet fetched (Milestone 2)
   fbref_match_reports:
     source: fbref.com
-    role: substitution minutes 2026 (Output 4) + validation
-    status: not yet fetched (Milestone 2; check terms, rate-limit ~3s, cache locally)
+    role: per-shot xG for 2026 (the FIFA PDFs lack it) + validation
+    status: >
+      NOT scraped. Site returns 403 to non-browser tooling (active bot blocking,
+      checked 2026-07-24). Revisit only if per-shot xG becomes indispensable,
+      with user approval.
   open_meteo_weather:
     source: open-meteo.com historical API
     role: kickoff/break weather join on venues lat/lon

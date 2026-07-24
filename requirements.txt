@@ -3,3 +3,5 @@ numpy==1.26.4
 matplotlib==3.11.1
 PyYAML==6.0.2
 pytest==9.1.1
+pymupdf==1.28.0
+requests==2.32.4

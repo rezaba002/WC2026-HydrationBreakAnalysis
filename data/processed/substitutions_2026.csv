@@ -1,0 +1,1915 @@
+team,player,minute,direction,source,match_id
+Mexico,Erik LIRA,76,off,pdf_marker,1
+Mexico,Alvaro FIDALGO,66,off,pdf_marker,1
+Mexico,Raul JIMENEZ,76,off,pdf_marker,1
+Mexico,Julian QUINONES,79,off,pdf_marker,1
+Mexico,Brian GUTIERREZ,66,off,pdf_marker,1
+Mexico,Alexis VEGA,79,on,pdf_marker,1
+Mexico,Armando GONZALEZ,76,on,pdf_marker,1
+Mexico,Gilberto MORA,66,on,pdf_marker,1
+Mexico,Luis CHAVEZ,66,on,pdf_marker,1
+South Africa,Aubrey MODIBA,77,off,pdf_marker,1
+South Africa,Lyle FOSTER,56,off,pdf_marker,1
+South Africa,Iqraam RAYNERS,76,off,pdf_marker,1
+South Africa,Jayden ADAMS,62,off,pdf_marker,1
+South Africa,Thalente MBATHA,56,on,pdf_marker,1
+South Africa,Oswin APPOLLIS,77,on,pdf_marker,1
+South Africa,Evidence MAKGOPA,76,on,pdf_marker,1
+Mexico,Edson Omar Alvarez,76,on,lineup_derived,1
+South Korea,LEE Gihyuk,96,off,pdf_marker_late,2
+South Korea,HWANG Inbeom,84,off,pdf_marker,2
+South Korea,PAIK Seungho,84,off,pdf_marker,2
+South Korea,LEE Taeseok,69,off,pdf_marker,2
+South Korea,PARK Jinseob,84,on,pdf_marker,2
+South Korea,OH Hyeongyu,69,on,pdf_marker,2
+South Korea,KIM Jingyu,84,on,pdf_marker,2
+South Korea,EOM Jisung,69,on,pdf_marker,2
+Czechia,Patrik SCHICK,64,off,pdf_marker,2
+Czechia,Pavel SULC,64,off,pdf_marker,2
+Czechia,Lukas PROVOD,64,off,pdf_marker,2
+Czechia,Alexandr SOJKA,85,off,pdf_marker,2
+Czechia,Adam HLOZEK,64,on,pdf_marker,2
+Czechia,Mojmir CHYTIL,85,on,pdf_marker,2
+Czechia,Michal SADILEK,64,on,pdf_marker,2
+Czechia,Tomas CHORY,64,on,pdf_marker,2
+South Korea,Heung Min Son,69,off,lineup_derived,2
+South Korea,Jae Sung Lee,62,off,lineup_derived,2
+South Korea,Hee Chan Hwang,62,on,lineup_derived,2
+Canada,Jonathan DAVID,61,off,pdf_marker,3
+Canada,Liam MILLAR,61,off,pdf_marker,3
+Canada,Tajon BUCHANAN,61,off,pdf_marker,3
+Canada,Cyle LARIN,76,on,pdf_marker,3
+Canada,Jacob SHAFFELBURG,61,on,pdf_marker,3
+Canada,Ali AHMED,61,on,pdf_marker,3
+Canada,Jonathan OSORIO,89,on,lineup_derived,3
+Canada,Promise DAVID,61,on,pdf_marker,3
+Bosnia and Herzegovina,Sead KOLASINAC,84,off,pdf_marker,3
+Bosnia and Herzegovina,Ivan BASIC,62,off,pdf_marker,3
+Bosnia and Herzegovina,Amar MEMIC,74,off,pdf_marker,3
+Bosnia and Herzegovina,Nikola KATIC,93,off,pdf_marker_late,3
+Bosnia and Herzegovina,Esmir BAJRAKTAREVIC,74,off,pdf_marker,3
+Bosnia and Herzegovina,Jovo LUKIC,62,off,pdf_marker,3
+Bosnia and Herzegovina,Armin GIGOVIC,62,on,pdf_marker,3
+Bosnia and Herzegovina,Samed BAZDAR,62,on,pdf_marker,3
+Bosnia and Herzegovina,Ivan SUNJIC,74,on,pdf_marker,3
+Bosnia and Herzegovina,Dzenis BURNIC,84,on,pdf_marker,3
+Bosnia and Herzegovina,Kerim ALAJBEGOVIC,74,on,pdf_marker,3
+Canada,Tanitoluwa Oluwatimilehin Oluwaseyi,76,off,lineup_derived,3
+USA,Sergino DEST,72,off,pdf_marker,4
+USA,Christian PULISIC,45,off,pdf_marker,4
+USA,Malik TILLMAN,82,off,pdf_marker,4
+USA,Folarin BALOGUN,72,off,pdf_marker,4
+USA,Ricardo PEPI,72,on,pdf_marker,4
+USA,Sebastian BERHALTER,45,on,pdf_marker,4
+USA,Timothy WEAH,72,on,pdf_marker,4
+Paraguay,Juan Jose CACERES,80,off,pdf_marker,4
+Paraguay,Junior ALONSO,93,off,pdf_marker_late,4
+Paraguay,Diego GOMEZ,79,off,lineup_derived,4
+Paraguay,Antonio SANABRIA,62,off,pdf_marker,4
+Paraguay,Miguel ALMIRON,79,off,pdf_marker,4
+Paraguay,Damian BOBADILLA,45,off,pdf_marker,4
+Paraguay,Gustavo VELAZQUEZ,80,on,pdf_marker,4
+Paraguay,Ramon SOSA,79,on,pdf_marker,4
+Paraguay,MAURICIO,45,on,pdf_marker,4
+Paraguay,Alejandro ROMERO GAMARRA,80,on,pdf_marker,4
+Paraguay,Alex ARCE,62,on,pdf_marker,4
+USA,Giovanni Alejandro Reyna,82,on,lineup_derived,4
+Qatar,JASSEM GABER,60,off,pdf_marker,5
+Qatar,EDMILSON JUNIOR,89,off,pdf_marker,5
+Qatar,AYOUB ALOUI,60,off,pdf_marker,5
+Qatar,YUSUF ABDURISAG,60,off,pdf_marker,5
+Qatar,ASSIM MADIBO,79,off,pdf_marker,5
+Qatar,AHMED ALAAELDIN,60,on,pdf_marker,5
+Qatar,HASSAN ALHAYDOS,89,on,pdf_marker,5
+Qatar,KARIM BOUDIAF,60,on,pdf_marker,5
+Qatar,AHMED FATHY,60,on,pdf_marker,5
+Qatar,MOHAMED MANAI,79,on,pdf_marker,5
+Switzerland,Remo FREULER,89,off,pdf_marker,5
+Switzerland,Dan NDOYE,66,off,pdf_marker,5
+Switzerland,Ricardo RODRIGUEZ,89,off,pdf_marker,5
+Switzerland,Ruben VARGAS,79,off,pdf_marker,5
+Switzerland,Michel AEBISCHER,66,off,pdf_marker,5
+Switzerland,Miro MUHEIM,89,on,lineup_derived,5
+Switzerland,Johan MANZAMBI,66,on,pdf_marker,5
+Switzerland,Ardon JASHARI,89,on,pdf_marker,5
+Switzerland,Fabian RIEDER,66,on,pdf_marker,5
+Switzerland,Zeki AMDOUNI,79,on,pdf_marker,5
+Brazil,LUCAS PAQUETA,61,off,pdf_marker,6
+Brazil,IGOR THIAGO,62,off,pdf_marker,6
+Brazil,MATHEUS CUNHA,61,on,pdf_marker,6
+Brazil,FABINHO,45,on,pdf_marker,6
+Brazil,DANILO SANTOS,80,on,pdf_marker,6
+Morocco,Noussair MAZRAOUI,80,off,pdf_marker,6
+Morocco,Brahim DIAZ,65,off,pdf_marker,6
+Morocco,Ismael SAIBARI,89,off,pdf_marker,6
+Morocco,Bilal EL KHANNOUSS,80,off,pdf_marker,6
+Morocco,Chemsdine TALBI,65,on,pdf_marker,6
+Morocco,Soufiane RAHIMI,89,on,pdf_marker,6
+Morocco,Samir EL MOURABET,65,on,pdf_marker,6
+Morocco,Ayoube AMAIMOUNI,80,on,pdf_marker,6
+Morocco,Anass SALAH EDDINE,80,on,pdf_marker,6
+Brazil,Henrique,46,off,lineup_derived,6
+Brazil,GUIMARAESBruno Bruno,80,off,lineup_derived,6
+Brazil,Luiz Danilo,46,on,lineup_derived,6
+Brazil,Henrique André Luiz,61,on,lineup_derived,6
+Brazil,IBANEZRoger Roger,46,off,lineup_derived,6
+Morocco,Azz-Eddine Ounahi,64,off,lineup_derived,6
+Haiti,Ruben PROVIDENCE,85,off,pdf_marker,7
+Haiti,Wilson ISIDOR,76,off,pdf_marker,7
+Haiti,Lenny JOSEPH,76,on,pdf_marker,7
+Haiti,Yassin FORTUNE,85,on,pdf_marker,7
+Haiti,Josue CASIMIR,61,on,pdf_marker,7
+Scotland,Aaron HICKEY,75,off,pdf_marker,7
+Scotland,Che ADAMS,75,off,pdf_marker,7
+Scotland,Lawrence SHANKLAND,83,off,pdf_marker,7
+Scotland,Lyndon DYKES,75,on,pdf_marker,7
+Scotland,Ryan CHRISTIE,75,on,pdf_marker,7
+Scotland,Nathan PATTERSON,75,on,pdf_marker,7
+Scotland,Findlay CURTIS,83,on,pdf_marker,7
+Haiti,Don Deedson Deedson,61,off,lineup_derived,7
+Scotland,Ben Gannon Gannon-Doak,75,off,lineup_derived,7
+Australia,Jacob ITALIANO,74,off,pdf_marker,8
+Australia,Jordan BOS,84,off,pdf_marker,8
+Australia,Mohamed TOURE,74,off,pdf_marker,8
+Australia,Nestory IRANKUNDA,61,off,pdf_marker,8
+Australia,Aziz BEHICH,84,on,pdf_marker,8
+Australia,Jackson IRVINE,84,on,pdf_marker,8
+Australia,Nishan VELUPILLAY,61,on,pdf_marker,8
+Australia,Tete YENGI,74,on,pdf_marker,8
+Türkiye,Orkun KOKCU,62,off,pdf_marker,8
+Türkiye,Kerem AKTURKOGLU,85,off,pdf_marker,8
+Türkiye,Salih OZCAN Third,81,on,pdf_marker,8
+Türkiye,Deniz GUL,85,on,pdf_marker,8
+Türkiye,Kenan YILDIZ,45,on,pdf_marker,8
+Türkiye,Irfan Can KAHVECI,80,on,lineup_derived,8
+Türkiye,Yunus AKGUN,62,on,pdf_marker,8
+Australia,Jason Kato Geria,74,on,lineup_derived,8
+Australia,Paul Michael Junior Okon-Engstler,83,off,lineup_derived,8
+Türkiye,Mehmet Zeki Celik,80,off,lineup_derived,8
+Türkiye,Ismailİsma Yuksek,80,off,lineup_derived,8
+Türkiye,Barı ş Alper Yilmaz,46,off,lineup_derived,8
+Germany,Jonathan TAH,73,off,pdf_marker,9
+Germany,Joshua KIMMICH,83,off,pdf_marker,9
+Germany,Jamal MUSIALA,64,off,pdf_marker,9
+Germany,Nathaniel BROWN,73,off,pdf_marker,9
+Germany,Felix NMECHA,73,off,pdf_marker,9
+Germany,Antonio RUEDIGER,73,on,pdf_marker,9
+Germany,Leon GORETZKA,73,on,pdf_marker,9
+Germany,David RAUM,73,on,pdf_marker,9
+Germany,Deniz UNDAV,64,on,pdf_marker,9
+Curaçao,Tahith CHONG,83,off,pdf_marker,9
+Curaçao,Jeremy ANTONISSE,45,on,pdf_marker,9
+Curaçao,Jearl MARGARITHA,65,on,pdf_marker,9
+Curaçao,Gervane KASTANEER,83,on,pdf_marker,9
+Germany,Waldemar Anton,83,on,lineup_derived,9
+Curaçao,Jürgen Leonardo Locadia,65,off,lineup_derived,9
+Curaçao,Juniffer Naigelino Hansen,46,off,lineup_derived,9
+Netherlands,Ryan GRAVENBERCH,81,off,pdf_marker,10
+Netherlands,Cody GAKPO,84,off,pdf_marker,10
+Netherlands,Tijjani REIJNDERS,71,off,pdf_marker,10
+Netherlands,Donyell MALEN,70,off,pdf_marker,10
+Netherlands,Crysencio,70,off,pdf_marker,10
+Netherlands,Nathan AKE,81,on,pdf_marker,10
+Netherlands,Memphis DEPAY,70,on,pdf_marker,10
+Netherlands,Brian BROBBEY,84,on,pdf_marker,10
+Netherlands,Teun KOOPMEINERS,70,on,pdf_marker,10
+Netherlands,Quinten TIMBER,71,on,pdf_marker,10
+Japan,Takefusa KUBO,75,off,pdf_marker,10
+Japan,Ritsu DOAN,75,off,pdf_marker,10
+Japan,Daizen MAEDA,66,off,pdf_marker,10
+Japan,Tsuyoshi WATANABE,75,off,pdf_marker,10
+Japan,Ayase UEDA,84,off,pdf_marker,10
+Japan,Yukinari SUGAWARA,75,on,pdf_marker,10
+Japan,Junya ITO,66,on,pdf_marker,10
+Japan,Koki OGAWA,75,on,pdf_marker,10
+Japan,Takehiro TOMIYASU,75,on,pdf_marker,10
+Japan,Kento SHIOGAI,84,on,pdf_marker,10
+Côte d'Ivoire,Seko FOFANA,77,off,pdf_marker,11
+Côte d'Ivoire,Elye WAHI,56,off,pdf_marker,11
+Côte d'Ivoire,Guela DOUE,89,off,pdf_marker,11
+Côte d'Ivoire,Nicolas PEPE,77,off,pdf_marker,11
+Côte d'Ivoire,Bazoumana TOURE,56,off,pdf_marker,11
+Côte d'Ivoire,Odilon KOSSOUNOU,89,on,pdf_marker,11
+Côte d'Ivoire,Amad DIALLO,56,on,pdf_marker,11
+Côte d'Ivoire,Ibrahim SANGARE,77,on,pdf_marker,11
+Côte d'Ivoire,Christ Inao OULAI,77,on,pdf_marker,11
+Ecuador,John YEBOAH,62,off,pdf_marker,11
+Ecuador,Enner VALENCIA,77,off,pdf_marker,11
+Ecuador,Alan MINDA,56,off,pdf_marker,11
+Ecuador,Alan FRANCO,62,off,pdf_marker,11
+Ecuador,Kevin RODRIGUEZ,77,on,pdf_marker,11
+Ecuador,Angelo PRECIADO,62,on,pdf_marker,11
+Ecuador,Nilson ANGULO,56,on,pdf_marker,11
+Ecuador,Jackson POROZO,62,on,pdf_marker,11
+Côte d'Ivoire,Ange-Yoan Laurent Bonny,56,on,lineup_derived,11
+Sweden,Gabriel GUDMUNDSSON,65,off,pdf_marker,12
+Sweden,Alexander ISAK,90,off,pdf_marker_late,12
+Sweden,Benjamin NYGREN,64,off,pdf_marker,12
+Sweden,Jesper KARLSTROM,84,off,pdf_marker,12
+Sweden,Alexander BERNHARDSSON,90,off,pdf_marker_late,12
+Sweden,Daniel SVENSSON,90,on,pdf_marker,12
+Sweden,Anthony ELANGA,90,on,pdf_marker,12
+Sweden,Mattias SVANBERG,84,on,lineup_derived,12
+Sweden,Elliot STROUD,65,on,pdf_marker,12
+Tunisia,Elias SAAD,72,off,pdf_marker,12
+Tunisia,Rani KHEDIRA,83,off,pdf_marker,12
+Tunisia,Ellyes SKHIRI,72,off,pdf_marker,12
+Tunisia,Yan VALERY,72,off,pdf_marker,12
+Tunisia,Anis SLIMANE,84,off,pdf_marker,12
+Tunisia,Ismael GHARBI,83,on,pdf_marker,12
+Tunisia,Mohamed HADJ MAHMOUD,72,on,pdf_marker,12
+Tunisia,Firas CHAOUAT,84,on,pdf_marker,12
+Tunisia,Sebastian TOUNEKTI,72,on,pdf_marker,12
+Sweden,Lucas Erik Holger Bergvall,65,on,lineup_derived,12
+Tunisia,Mohamed Elyes Achouri,72,on,lineup_derived,12
+Spain,Ferran TORRES,81,off,pdf_marker,13
+Spain,Fabian RUIZ,71,off,pdf_marker,13
+Spain,GAVI,71,off,pdf_marker,13
+Spain,RODRI,87,off,pdf_marker,13
+Spain,PEDRI,93,off,pdf_marker_late,13
+Spain,Mikel MERINO,71,on,pdf_marker,13
+Spain,Lamine YAMAL,71,on,pdf_marker,13
+Cabo Verde,JAMIRO MONTEIRO,79,off,pdf_marker,13
+Cabo Verde,LAROS DUARTE,61,off,pdf_marker,13
+Cabo Verde,DAILON LIVRAMENTO,61,off,pdf_marker,13
+Cabo Verde,JOAO PAULO,76,on,pdf_marker,13
+Cabo Verde,DEROY DUARTE,61,on,pdf_marker,13
+Cabo Verde,NUNO DA COSTA,61,on,pdf_marker,13
+Spain,Daniel Olmo,81,on,lineup_derived,13
+Spain,Nicholas Williams,87,on,lineup_derived,13
+Cabo Verde,Eduardo Jovane,61,off,lineup_derived,13
+Cabo Verde,CABRALSidny Sidny Lopes,76,off,lineup_derived,13
+Cabo Verde,Johnson Willy,61,on,lineup_derived,13
+Cabo Verde,Emanuel Telmo,79,on,lineup_derived,13
+Belgium,Kevin DE BRUYNE,86,off,pdf_marker,14
+Belgium,Jeremy DOKU,86,off,pdf_marker,14
+Belgium,Charles DE KETELAERE,66,off,pdf_marker,14
+Belgium,Timothy CASTAGNE,56,off,pdf_marker,14
+Belgium,Amadou ONANA,56,off,pdf_marker,14
+Belgium,Maxim DE CUYPER,56,on,pdf_marker,14
+Belgium,Romelu LUKAKU,66,on,pdf_marker,14
+Belgium,Hans VANAKEN,86,on,pdf_marker,14
+Belgium,Nicolas RASKIN,56,on,pdf_marker,14
+Egypt,EMAM ASHOUR,71,off,pdf_marker,14
+Egypt,MOHAMED SALAH,76,off,pdf_marker,14
+Egypt,MOSTAFA ZICO,76,off,pdf_marker,14
+Egypt,AHMED FATOUH,88,off,pdf_marker,14
+Egypt,HAMDY FATHY,89,off,pdf_marker,14
+Egypt,RAMY RABIA,71,on,pdf_marker,14
+Egypt,HAMZA ABDELKARIM,76,on,pdf_marker,14
+Egypt,KARIM HAFEZ,88,on,pdf_marker,14
+Egypt,IBRAHIM ADEL,89,on,pdf_marker,14
+Egypt,ZIZO,76,on,pdf_marker,14
+Belgium,Matias Fernandez-Pardo,86,on,lineup_derived,14
+Saudi Arabia,MUSAB ALJUWAYR,63,off,pdf_marker,15
+Saudi Arabia,MOHAMMED ABU ALSHAMAT,81,off,pdf_marker,15
+Saudi Arabia,NASSER ALDAWSARI,63,on,pdf_marker,15
+Saudi Arabia,NAWAF BU WASHL,81,on,pdf_marker,15
+Saudi Arabia,ALA ALHAJJI,89,on,lineup_derived,15
+Saudi Arabia,ABDULLAH ALHAMDDAN,89,on,lineup_derived,15
+Uruguay,Manuel UGARTE,72,off,pdf_marker,15
+Uruguay,Darwin NUNEZ,45,off,pdf_marker,15
+Uruguay,Matias VINA,45,off,pdf_marker,15
+Uruguay,Federico VINAS,90,off,pdf_marker_late,15
+Uruguay,Nicolas DE LA CRUZ,72,on,pdf_marker,15
+Uruguay,Agustin CANOBBIO,45,on,pdf_marker,15
+Uruguay,Brian RODRIGUEZ,81,on,pdf_marker,15
+Uruguay,Rodrigo AGUIRRE,90,on,pdf_marker,15
+Uruguay,Juan Manuel SANABRIA,45,on,pdf_marker,15
+Saudi Arabia,Mohammed Ali Lajami,89,on,lineup_derived,15
+Uruguay,Maximiliano Javier Araujo,81,off,lineup_derived,15
+IR Iran,Mehdi TAREMI,80,off,pdf_marker,16
+IR Iran,Saman GHODDOS,65,off,pdf_marker,16
+IR Iran,Arya YOUSEFI,45,off,pdf_marker,16
+IR Iran,Shahriyar MOGHANLOO,53,off,pdf_marker,16
+IR Iran,Mehdi GHAYEDI,45,on,pdf_marker,16
+IR Iran,Ali ALIPOUR,53,on,pdf_marker,16
+IR Iran,Amirhossein HOSSEINZADEH,80,on,pdf_marker,16
+New Zealand,Liberato CACACE,68,off,pdf_marker,16
+New Zealand,Jesse RANDALL,89,on,lineup_derived,16
+New Zealand,Ryan THOMAS,68,on,pdf_marker,16
+New Zealand,Callan ELLIOT,78,on,pdf_marker,16
+IR Iran,Ehsan Hajisafi,65,on,lineup_derived,16
+New Zealand,Timothy John Payne,78,off,lineup_derived,16
+New Zealand,Tyler Grant Bindon,89,on,lineup_derived,16
+New Zealand,Benjamin Craig Old,68,on,lineup_derived,16
+New Zealand,Mc,68,off,lineup_derived,16
+France,Ousmane DEMBELE,80,off,pdf_marker,17
+France,Desire DOUE,87,off,pdf_marker,17
+France,Bradley BARCOLA,80,on,pdf_marker,17
+France,Rayan CHERKI,87,on,pdf_marker,17
+Senegal,Idrissa Gana GUEYE,88,off,pdf_marker,17
+Senegal,Lamine CAMARA,76,off,pdf_marker,17
+Senegal,Nicolas JACKSON,83,off,pdf_marker,17
+Senegal,Ismaila SARR,76,off,pdf_marker,17
+Senegal,Pape GUEYE,83,off,pdf_marker,17
+Senegal,Pathe CISS,88,on,pdf_marker,17
+Senegal,Bamba DIENG,83,on,pdf_marker,17
+Senegal,Iliman NDIAYE,83,on,pdf_marker,17
+Senegal,Ibrahim MBAYE,76,on,pdf_marker,17
+Senegal,Habib DIARRA,76,on,pdf_marker,17
+Iraq,IBRAHIM BAYESH,78,off,pdf_marker,18
+Iraq,ALI ALHAMADI,59,off,pdf_marker,18
+Iraq,ALI JASIM,73,off,pdf_marker,18
+Iraq,ZAID ISMAEL,59,off,pdf_marker,18
+Iraq,MOHANAD ALI,78,on,pdf_marker,18
+Iraq,ZIDANE IQBAL,59,on,pdf_marker,18
+Iraq,MARKO FARJI,59,on,pdf_marker,18
+Iraq,MUSTAFA SAADOON,73,on,pdf_marker,18
+Norway,David MOLLER WOLFE,73,off,pdf_marker,18
+Norway,Alexander SORLOTH,73,off,pdf_marker,18
+Norway,Martin ODEGAARD,81,off,pdf_marker,18
+Norway,Fredrik AURSNES,73,off,pdf_marker,18
+Norway,Antonio NUSA,73,off,pdf_marker,18
+Norway,Patrick BERG,81,on,pdf_marker,18
+Norway,Kristian THORSTVEDT,73,on,pdf_marker,18
+Norway,Andreas SCHJELDERUP,73,on,pdf_marker,18
+Norway,Oscar BOBB,73,on,pdf_marker,18
+Iraq,Haydar Hussein Hussein,73,off,lineup_derived,18
+Iraq,Ihab Ahmed Ahmed,73,on,lineup_derived,18
+Norway,Leo Skiri Ostigard,73,on,lineup_derived,18
+Argentina,Gonzalo MONTIEL,45,off,pdf_marker,19
+Argentina,Lionel MESSI,80,off,pdf_marker,19
+Argentina,Cristian ROMERO,80,off,pdf_marker,19
+Argentina,Thiago ALMADA,55,off,pdf_marker,19
+Argentina,Lautaro MARTINEZ,55,off,pdf_marker,19
+Argentina,Julian ALVAREZ,55,on,pdf_marker,19
+Argentina,Nicolas OTAMENDI,80,on,pdf_marker,19
+Argentina,Nahuel MOLINA,45,on,pdf_marker,19
+Algeria,Amine GOUIRI,64,off,pdf_marker,19
+Algeria,Anis HADJ MOUSSA,64,off,pdf_marker,19
+Algeria,Hicham BOUDAOUI,64,off,pdf_marker,19
+Algeria,Nabil BENTALEB,82,off,pdf_marker,19
+Algeria,Ibrahim MAZA,82,off,pdf_marker,19
+Algeria,Ramiz ZERROUKI,82,on,pdf_marker,19
+Algeria,Riyad MAHREZ,64,on,pdf_marker,19
+Algeria,Adil BOULBINA,82,on,pdf_marker,19
+Argentina,Nicolas Ivan Gonzalez,55,on,lineup_derived,19
+Argentina,Nicolas Paz,80,on,lineup_derived,19
+Algeria,Houssem-Eddine Chaabane Aouar,64,on,lineup_derived,19
+Algeria,Mohammed Elamine Amoura,64,on,lineup_derived,19
+Austria,Xaver SCHLAGER,59,off,pdf_marker,20
+Austria,David ALABA,59,off,pdf_marker,20
+Austria,Sasa KALAJDZIC,45,off,pdf_marker,20
+Austria,Phillip MWENE,59,off,pdf_marker,20
+Austria,Romano SCHMID,83,off,pdf_marker,20
+Austria,Marko ARNAUTOVIC,45,on,pdf_marker,20
+Austria,Carney CHUKWUEMEKA,59,on,pdf_marker,20
+Austria,Patrick WIMMER,83,on,pdf_marker,20
+Austria,Paul WANNER,59,on,pdf_marker,20
+Jordan,ABDALLAH NASIB,81,off,pdf_marker,20
+Jordan,MOUSA ALTAMARI,88,off,pdf_marker,20
+Jordan,ODEH FAKHOURY,89,on,pdf_marker_late,20
+Jordan,MOHAMMAD ABUALNADI,72,off,pdf_marker,20
+Jordan,EHSAN HADDAD,82,off,pdf_marker,20
+Jordan,ABDALLAH ALFAKHORI,89,off,lineup_derived,20
+Jordan,MAHMOUD ALMARDI,82,on,pdf_marker,20
+Jordan,ALI AZAIZEH,89,on,pdf_marker,20
+Jordan,MOHAMMAD ALDAOUD,88,on,pdf_marker,20
+Austria,Kevin Danso,59,on,lineup_derived,20
+Jordan,Amer Saleem Saleem,72,on,lineup_derived,20
+Jordan,Ahmad Salameh Saed,81,on,lineup_derived,20
+Portugal,TOMAS ARAUJO,92,off,pdf_marker_late,21
+Portugal,BERNARDO SILVA,45,off,pdf_marker,21
+Portugal,PEDRO NETO,72,off,pdf_marker,21
+Portugal,VITINHA,83,off,pdf_marker,21
+Portugal,RAFAEL LEAO,72,on,pdf_marker,21
+Portugal,FRANCISCO CONCEICAO,45,on,pdf_marker,21
+Congo DR,Ngalayel MUKAU,57,off,pdf_marker,21
+Congo DR,Cedric BAKAMBU,85,off,pdf_marker,21
+Congo DR,Edo KAYEMBE,75,off,pdf_marker,21
+Congo DR,Arthur MASUAKU,75,off,pdf_marker,21
+Congo DR,Joris KAYEMBE,75,on,pdf_marker,21
+Congo DR,Noah SADIKI,57,on,pdf_marker,21
+Congo DR,Charles PICKEL,75,on,pdf_marker,21
+Congo DR,Simon BANZA,85,on,pdf_marker,21
+Congo DR,Gedeon KALULU,85,on,pdf_marker,21
+Portugal,SEMEDONélson Nelson,72,on,lineup_derived,21
+Portugal,RAMOSGonçalo Goncalo,83,on,lineup_derived,21
+Portugal,Alexandre Nuno,72,off,lineup_derived,21
+Congo DR,Wan Wan-Bissaka,85,off,lineup_derived,21
+England,Declan RICE,72,off,pdf_marker,22
+England,John STONES,87,off,pdf_marker,22
+England,Jude BELLINGHAM,80,off,pdf_marker,22
+England,Anthony GORDON,72,off,pdf_marker,22
+England,Marcus RASHFORD,72,on,pdf_marker,22
+England,Morgan ROGERS,72,on,pdf_marker,22
+Croatia,Luka MODRIC,58,off,pdf_marker,22
+Croatia,Mario PASALIC,78,off,pdf_marker,22
+Croatia,Martin BATURINA,78,off,pdf_marker,22
+Croatia,Luka VUSKOVIC,66,off,pdf_marker,22
+Croatia,Petar MUSA,66,off,pdf_marker,22
+Croatia,Mateo KOVACIC,58,on,pdf_marker,22
+Croatia,Andrej KRAMARIC,78,on,pdf_marker,22
+Croatia,Nikola VLASIC,78,on,pdf_marker,22
+Croatia,Igor MATANOVIC,66,on,pdf_marker,22
+Croatia,Marco PASALIC,66,on,pdf_marker,22
+England,Keaninkin Marc-Isreal Guehi,87,on,lineup_derived,22
+England,Bukayo Ayoyinka Saka,72,on,lineup_derived,22
+England,Azuka Tristan Madueke,72,off,lineup_derived,22
+England,Tehuti Djed-Hotep Spence,80,on,lineup_derived,22
+Ghana,Lawrence Ati ZIGI,45,off,pdf_marker,23
+Ghana,Jordan AYEW,87,off,pdf_marker,23
+Ghana,Elisha OWUSU,78,off,pdf_marker,23
+Ghana,Ernest NUAMAH,58,off,pdf_marker,23
+Ghana,Benjamin ASARE,45,on,pdf_marker,23
+Ghana,Abdul FATAWU,58,on,pdf_marker,23
+Ghana,Kwasi SIBO,78,on,pdf_marker,23
+Ghana,Prince ADU,87,on,pdf_marker,23
+Panama,Cesar BLACKMAN,90,off,pdf_marker_late,23
+Panama,Cristian MARTINEZ,63,off,pdf_marker,23
+Panama,Jose Luis RODRIGUEZ,74,off,pdf_marker,23
+Panama,Carlos HARVEY,99,off,pdf_marker_late,23
+Panama,Cecilio WATERMAN,63,off,pdf_marker,23
+Panama,Ismael DIAZ,74,on,pdf_marker,23
+Panama,Jose FAJARDO,63,on,pdf_marker,23
+Panama,Anibal GODOY,90,on,pdf_marker,23
+Panama,Azarias LONDONO,63,on,pdf_marker,23
+Ghana,Brandon Michael Clarke Thomas-Asante,58,on,lineup_derived,23
+Ghana,Kamal Deen Sulemana,58,off,lineup_derived,23
+Uzbekistan,Oston URUNOV,45,off,pdf_marker,24
+Uzbekistan,Sherzod NASRULLAEV,45,off,pdf_marker,24
+Uzbekistan,Abbosbek FAYZULLAEV,77,off,pdf_marker,24
+Uzbekistan,Dostonbek KHAMDAMOV,45,on,pdf_marker,24
+Uzbekistan,Azizbek AMONOV,77,on,pdf_marker,24
+Uzbekistan,Igor SERGEEV,89,on,lineup_derived,24
+Uzbekistan,Jakhongir UROZOV,77,on,pdf_marker,24
+Colombia,James RODRIGUEZ,72,off,pdf_marker,24
+Colombia,Gustavo PUERTA,80,off,pdf_marker,24
+Colombia,Luis SUAREZ,80,off,pdf_marker,24
+Colombia,Richard RIOS,80,on,pdf_marker,24
+Colombia,Jaminton CAMPAZ,72,on,pdf_marker,24
+Colombia,Andres GOMEZ,89,on,lineup_derived,24
+Uzbekistan,Farrukh Sayfiev,46,on,lineup_derived,24
+Uzbekistan,Rustamjon Ashurmatov,77,off,lineup_derived,24
+Colombia,Kevin Duvan Castano,89,on,lineup_derived,24
+Colombia,Juan Camilo Hernandez,80,on,lineup_derived,24
+Mexico,Luis ROMO,71,off,pdf_marker,25
+Mexico,Raul JIMENEZ,80,off,pdf_marker,25
+Mexico,Julian QUINONES,84,off,pdf_marker,25
+Mexico,Roberto ALVARADO,80,off,pdf_marker,25
+Mexico,Brian GUTIERREZ,71,off,pdf_marker,25
+Mexico,Santiago GIMENEZ,80,on,pdf_marker,25
+Mexico,Israel REYES,80,on,pdf_marker,25
+Mexico,Orbelin PINEDA,71,on,pdf_marker,25
+Mexico,Obed VARGAS,71,on,pdf_marker,25
+Mexico,Cesar HUERTA,84,on,pdf_marker,25
+South Korea,PAIK Seungho,77,off,pdf_marker,25
+South Korea,KIM Moonhwan,71,off,pdf_marker,25
+South Korea,SEOL Youngwoo,71,off,pdf_marker,25
+South Korea,CHO Guesung Third,77,on,pdf_marker,25
+South Korea,OH Hyeongyu,57,on,pdf_marker,25
+South Korea,YANG Hyunjun,71,on,pdf_marker,25
+South Korea,EOM Jisung,71,on,pdf_marker,25
+South Korea,Heung Min Son,57,off,lineup_derived,25
+South Korea,Jae Sung Lee,57,off,lineup_derived,25
+South Korea,Hee Chan Hwang,57,on,lineup_derived,25
+Czechia,Vladimir DARIDA,55,off,pdf_marker,26
+Czechia,Adam HLOZEK,67,off,pdf_marker,26
+Czechia,Lukas CERV,78,off,pdf_marker,26
+Czechia,Michal SADILEK,67,off,pdf_marker,26
+Czechia,Alexandr SOJKA,55,off,pdf_marker,26
+Czechia,David ZIMA,78,on,pdf_marker,26
+Czechia,Pavel SULC,55,on,pdf_marker,26
+Czechia,Lukas PROVOD,67,on,pdf_marker,26
+Czechia,Jaroslav ZELENY,55,on,pdf_marker,26
+Czechia,Tomas SOUCEK,67,on,pdf_marker,26
+South Africa,Thapelo MASEKO,84,off,pdf_marker,26
+South Africa,Iqraam RAYNERS,66,off,pdf_marker,26
+South Africa,Jayden ADAMS,45,off,pdf_marker,26
+South Africa,Relebohile MOFOKENG,45,on,pdf_marker,26
+South Africa,Evidence MAKGOPA,66,on,pdf_marker,26
+South Africa,Kamogelo SEBELEBELE,84,on,pdf_marker,26
+Canada,Luc DE FOUGEROLLES,71,off,pdf_marker,27
+Canada,Ismael KONE,55,off,pdf_marker,27
+Canada,Derek CORNELIUS,45,off,pdf_marker,27
+Canada,Tajon BUCHANAN,83,off,pdf_marker,27
+Canada,Ali AHMED,71,off,pdf_marker,27
+Canada,Jacob SHAFFELBURG,71,on,pdf_marker,27
+Canada,Moise BOMBITO,45,on,pdf_marker,27
+Canada,Niko SIGUR,83,on,pdf_marker,27
+Qatar,JASSEM GABER,45,off,pdf_marker,27
+Qatar,EDMILSON JUNIOR,45,off,pdf_marker,27
+Qatar,YUSUF ABDURISAG,40,off,pdf_marker,27
+Qatar,AHMED FATHY,49,on,lineup_derived,27
+Qatar,ALHASHMI ALHUSSEIN,59,on,pdf_marker,27
+Qatar,MOHAMED MANAI,45,on,pdf_marker,27
+Canada,Tanitoluwa Oluwatimilehin Oluwaseyi,71,on,lineup_derived,27
+Canada,Nathan-Dylan Saliba,56,on,lineup_derived,27
+Qatar,Michel Lucas,87,on,lineup_derived,27
+Qatar,Hassan Akram,59,off,lineup_derived,27
+Qatar,Hussain Sultan,40,on,lineup_derived,27
+Switzerland,Silvan WIDMER,86,off,pdf_marker,28
+Switzerland,Breel EMBOLO,89,off,pdf_marker,28
+Switzerland,Dan NDOYE,71,off,pdf_marker,28
+Switzerland,Michel AEBISCHER,71,off,pdf_marker,28
+Switzerland,Fabian RIEDER,71,off,pdf_marker,28
+Switzerland,Johan MANZAMBI,71,on,pdf_marker,28
+Switzerland,Djibril SOW,71,on,pdf_marker,28
+Switzerland,Ruben VARGAS,71,on,pdf_marker,28
+Switzerland,Luca JAQUEZ,86,on,pdf_marker,28
+Switzerland,Cedric ITTEN,89,on,pdf_marker,28
+Bosnia and Herzegovina,Benjamin TAHIROVIC,63,off,pdf_marker,28
+Bosnia and Herzegovina,Ermedin DEMIROVIC,85,off,pdf_marker,28
+Bosnia and Herzegovina,Edin DZEKO,64,off,pdf_marker,28
+Bosnia and Herzegovina,Ivan SUNJIC,85,off,pdf_marker,28
+Bosnia and Herzegovina,Ivan BASIC,63,on,pdf_marker,28
+Bosnia and Herzegovina,Amir HADZIAHMETOVIC,85,on,pdf_marker,28
+Bosnia and Herzegovina,Esmir BAJRAKTAREVIC,64,on,pdf_marker,28
+Bosnia and Herzegovina,Jovo LUKIC,85,on,pdf_marker,28
+Bosnia and Herzegovina,Ermin MAHMIC,89,on,lineup_derived,28
+Brazil,MATHEUS CUNHA,64,off,pdf_marker,29
+Brazil,RAPHINHA,40,off,pdf_marker,29
+Brazil,LUCAS PAQUETA,64,off,pdf_marker,29
+Brazil,DANILO SANTOS,81,on,pdf_marker,29
+Brazil,ENDRICK,64,on,pdf_marker,29
+Brazil,RAYAN,40,on,pdf_marker,29
+Haiti,Carlens ARCUS,45,off,pdf_marker,29
+Haiti,Jean Ricner BELLEGARDE,81,off,pdf_marker,29
+Haiti,Ruben PROVIDENCE,71,off,pdf_marker,29
+Haiti,Frantzdy PIERROT,49,off,pdf_marker,29
+Haiti,Josue CASIMIR,63,off,pdf_marker,29
+Haiti,Derrick ETIENNE,81,on,pdf_marker,29
+Haiti,Lenny JOSEPH,71,on,pdf_marker,29
+Haiti,Wilson ISIDOR,45,on,pdf_marker,29
+Haiti,Dominique SIMON,45,on,pdf_marker,29
+Brazil,José Ederson Silva,81,on,lineup_derived,29
+Brazil,José Vinicius,81,off,lineup_derived,29
+Brazil,GUIMARAESBruno Bruno,81,off,lineup_derived,29
+Brazil,MARTINELLIGabriel Gabriel,64,on,lineup_derived,29
+Haiti,Don Deedson Deedson,63,on,lineup_derived,29
+Scotland,Kieran TIERNEY,60,off,pdf_marker,30
+Scotland,Che ADAMS,71,off,pdf_marker,30
+Scotland,Ryan CHRISTIE,71,off,pdf_marker,30
+Scotland,Nathan PATTERSON,89,off,pdf_marker,30
+Scotland,Lyndon DYKES,71,on,pdf_marker,30
+Scotland,Ross STEWART,89,on,pdf_marker,30
+Scotland,Anthony RALSTON,89,on,pdf_marker,30
+Morocco,Brahim DIAZ,84,off,pdf_marker,30
+Morocco,Ismael SAIBARI,84,off,pdf_marker,30
+Morocco,Bilal EL KHANNOUSS,84,off,pdf_marker,30
+Morocco,Chemsdine TALBI,84,on,pdf_marker,30
+Morocco,Soufiane RAHIMI,84,on,pdf_marker,30
+Morocco,Samir EL MOURABET,90,on,pdf_marker,30
+Morocco,Ayoube AMAIMOUNI,84,on,pdf_marker,30
+Scotland,Ben Gannon Gannon-Doak,60,on,lineup_derived,30
+USA,Sergino DEST,80,off,pdf_marker,31
+USA,Antonee ROBINSON,80,off,pdf_marker,31
+USA,Ricardo PEPI,74,off,pdf_marker,31
+USA,Auston TRUSTY,80,on,pdf_marker,31
+USA,Sebastian BERHALTER,74,on,pdf_marker,31
+USA,Haji WRIGHT,89,on,lineup_derived,31
+Australia,Mathew LECKIE,61,off,pdf_marker,31
+Australia,Mohamed TOURE,45,off,pdf_marker,31
+Australia,Cameron BURGESS,45,off,pdf_marker,31
+Australia,Nishan VELUPILLAY,45,off,pdf_marker,31
+Australia,Connor METCALFE,45,on,pdf_marker,31
+Australia,Nestory IRANKUNDA,45,on,pdf_marker,31
+Australia,Cristian VOLPATO,61,on,pdf_marker,31
+Australia,Jackson IRVINE,78,on,pdf_marker,31
+USA,Giovanni Alejandro Reyna,89,on,lineup_derived,31
+USA,Joseph Michael Scally,80,on,lineup_derived,31
+Australia,Jason Kato Geria,46,on,lineup_derived,31
+Australia,Paul Michael Junior Okon-Engstler,78,off,lineup_derived,31
+Türkiye,Kerem AKTURKOGLU,45,off,pdf_marker,32
+Türkiye,Yunus AKGUN,60,off,pdf_marker,32
+Türkiye,Ferdi KADIOGLU,70,off,pdf_marker,32
+Türkiye,Orkun KOKCU,86,on,pdf_marker,32
+Türkiye,Deniz GUL,60,on,pdf_marker,32
+Türkiye,Eren ELMALI,70,on,lineup_derived,32
+Türkiye,Can UZUN,60,on,pdf_marker,32
+Paraguay,Juan Jose CACERES,81,off,pdf_marker,32
+Paraguay,Diego GOMEZ,67,off,pdf_marker,32
+Paraguay,Isidro PITTA,45,off,pdf_marker,32
+Paraguay,Gustavo VELAZQUEZ,67,on,pdf_marker,32
+Paraguay,Jose CANALE,89,on,lineup_derived,32
+Paraguay,Damian BOBADILLA,45,on,pdf_marker,32
+Paraguay,Gabriel AVALOS,89,on,lineup_derived,32
+Paraguay,Alexandro MAIDANA,81,on,pdf_marker,32
+Türkiye,Abdülker Bardakci,86,off,lineup_derived,32
+Türkiye,Ismailİsma Yuksek,60,off,lineup_derived,32
+Türkiye,Barı ş Alper Yilmaz,46,on,lineup_derived,32
+Germany,Aleksandar PAVLOVIC,60,off,pdf_marker,33
+Germany,Kai HAVERTZ,85,off,pdf_marker,33
+Germany,Jamal MUSIALA,60,off,pdf_marker,33
+Germany,Nico SCHLOTTERBECK,45,off,pdf_marker,33
+Germany,Leroy SANE,60,off,pdf_marker,33
+Germany,Antonio RUEDIGER,45,on,pdf_marker,33
+Germany,Leon GORETZKA,85,on,pdf_marker,33
+Germany,Jamie LEWELING,60,on,pdf_marker,33
+Germany,Nadiem AMIRI,60,on,pdf_marker,33
+Germany,Deniz UNDAV,60,on,pdf_marker,33
+Côte d'Ivoire,Wilfried SINGO,81,off,pdf_marker,33
+Côte d'Ivoire,Yan DIOMANDE,85,off,pdf_marker,33
+Côte d'Ivoire,Amad DIALLO,75,off,pdf_marker,33
+Côte d'Ivoire,Ibrahim SANGARE,75,off,pdf_marker,33
+Côte d'Ivoire,Seko FOFANA,75,on,pdf_marker,33
+Côte d'Ivoire,Simon ADINGRA,75,on,pdf_marker,33
+Côte d'Ivoire,Guela DOUE,81,on,pdf_marker,33
+Côte d'Ivoire,Nicolas PEPE,85,on,pdf_marker,33
+Côte d'Ivoire,Evann GUESSAND,75,on,pdf_marker,33
+Côte d'Ivoire,Ange-Yoan Laurent Bonny,75,off,lineup_derived,33
+Ecuador,Jordy ALCIVAR,45,off,pdf_marker,34
+Ecuador,Pervis ESTUPINAN,70,off,pdf_marker,34
+Ecuador,John YEBOAH,89,off,pdf_marker,34
+Ecuador,Alan FRANCO,83,off,pdf_marker,34
+Ecuador,Kevin RODRIGUEZ,45,on,pdf_marker,34
+Ecuador,Jordy CAICEDO,89,on,pdf_marker,34
+Ecuador,Angelo PRECIADO,83,on,pdf_marker,34
+Ecuador,Nilson ANGULO,70,on,pdf_marker,34
+Curaçao,Juninho BACUNA,75,off,pdf_marker,34
+Curaçao,Livano COMENENCIA,84,off,pdf_marker,34
+Curaçao,Tahith CHONG,76,off,pdf_marker,34
+Curaçao,Deveron FONVILLE,76,off,pdf_marker,34
+Curaçao,Godfried ROEMERATOE,84,on,pdf_marker,34
+Curaçao,Kenji GORRE,75,on,pdf_marker,34
+Curaçao,Jearl MARGARITHA,76,on,pdf_marker,34
+Curaçao,Gervane KASTANEER,83,on,pdf_marker,34
+Curaçao,Róshón Felix Romar Jordan Van Eijma,75,on,lineup_derived,34
+Curaçao,Jürgen Leonardo Locadia,83,off,lineup_derived,34
+Netherlands,Cody GAKPO,90,off,pdf_marker_late,35
+Netherlands,Tijjani REIJNDERS,59,off,pdf_marker,35
+Netherlands,Donyell MALEN,45,off,pdf_marker,35
+Netherlands,Brian BROBBEY,72,off,pdf_marker,35
+Netherlands,Frenkie DE JONG,59,off,pdf_marker,35
+Netherlands,Memphis DEPAY,72,on,pdf_marker,35
+Netherlands,Guus TIL,59,on,pdf_marker,35
+Netherlands,Noa LANG,90,on,pdf_marker,35
+Netherlands,Teun KOOPMEINERS,59,on,pdf_marker,35
+Netherlands,Crysencio SUMMERVILLE,45,on,pdf_marker,35
+Sweden,Benjamin NYGREN,56,off,pdf_marker,35
+Sweden,Jesper KARLSTROM,56,off,pdf_marker,35
+Sweden,Yasin AYARI,79,off,pdf_marker,35
+Sweden,Alexander BERNHARDSSON,55,off,pdf_marker,35
+Sweden,Anthony ELANGA,55,on,pdf_marker,35
+Sweden,Besfort ZENELI,56,on,pdf_marker,35
+Sweden,Elliot STROUD,89,on,lineup_derived,35
+Sweden,Taha ALI,79,on,pdf_marker,35
+Sweden,Lucas Erik Holger Bergvall,55,on,lineup_derived,35
+Tunisia,Dylan BRONN,45,off,pdf_marker,36
+Tunisia,Elias SAAD,45,off,pdf_marker,36
+Tunisia,Sebastian TOUNEKTI,64,off,pdf_marker,36
+Tunisia,Ismael GHARBI,45,on,pdf_marker,36
+Tunisia,Rani KHEDIRA,89,on,lineup_derived,36
+Tunisia,Firas CHAOUAT,64,on,pdf_marker,36
+Tunisia,Mohamed Amine BEN HMIDA,45,on,pdf_marker,36
+Japan,Ritsu DOAN,74,off,pdf_marker,36
+Japan,Keito NAKAMURA,79,off,pdf_marker,36
+Japan,Daichi KAMADA,73,off,pdf_marker,36
+Japan,Ayase UEDA,85,off,pdf_marker,36
+Japan,Takehiro TOMIYASU,79,off,pdf_marker,36
+Japan,Yukinari SUGAWARA,74,on,pdf_marker,36
+Japan,Keisuke GOTO,85,on,pdf_marker,36
+Japan,Yuito SUZUKI,79,on,pdf_marker,36
+Japan,Ayumu SEKO,79,on,pdf_marker,36
+Japan,Junnosuke SUZUKI,73,on,pdf_marker,36
+Tunisia,Mohamed Elyes Achouri,89,on,lineup_derived,36
+Belgium,Kevin DE BRUYNE,87,off,pdf_marker,37
+Belgium,Romelu LUKAKU,73,off,pdf_marker,37
+Belgium,Thomas MEUNIER,58,off,pdf_marker,37
+Belgium,Alexis SAELEMAEKERS,58,off,pdf_marker,37
+Belgium,Nicolas RASKIN,58,off,pdf_marker,37
+Belgium,Dodi LUKEBAKIO,58,on,pdf_marker,37
+Belgium,Hans VANAKEN,58,on,pdf_marker,37
+Belgium,Timothy CASTAGNE,58,on,pdf_marker,37
+IR Iran,Saleh HARDANI,45,off,pdf_marker,37
+IR Iran,Ehsan HAJISAFI,66,off,pdf_marker,37
+IR Iran,Saeid EZATOLAHI,85,off,pdf_marker,37
+IR Iran,Mohammad MOHEBBI,66,off,pdf_marker,37
+IR Iran,Saman GHODDOS,79,off,pdf_marker,37
+IR Iran,Milad MOHAMMADI,66,on,pdf_marker,37
+IR Iran,Alireza JAHANBAKHSH Third,45,on,pdf_marker,37
+IR Iran,Amirhossein HOSSEINZADEH,85,on,pdf_marker,37
+IR Iran,Shahriyar MOGHANLOO,79,on,pdf_marker,37
+Belgium,Arthur Nicolas Theate,73,on,lineup_derived,37
+Belgium,Matias Fernandez-Pardo,87,on,lineup_derived,37
+IR Iran,Mahdi Torabi,66,on,lineup_derived,37
+New Zealand,Sarpreet SINGH,76,off,pdf_marker,38
+New Zealand,Elijah JUST,85,off,pdf_marker,38
+New Zealand,Liberato CACACE,76,off,pdf_marker,38
+New Zealand,Francis DE VRIES,85,on,pdf_marker,38
+New Zealand,Jesse RANDALL,76,on,pdf_marker,38
+New Zealand,Ryan THOMAS,76,on,pdf_marker,38
+Egypt,EMAM ASHOUR,85,off,pdf_marker,38
+Egypt,MOHAMED SALAH,85,off,pdf_marker,38
+Egypt,MOSTAFA ZICO,76,off,pdf_marker,38
+Egypt,HAMDY FATHY,41,off,pdf_marker,38
+Egypt,RAMY RABIA,41,on,pdf_marker,38
+Egypt,MOHAMED ABDELMONEIM,89,on,lineup_derived,38
+Egypt,TREZEGUET,76,on,pdf_marker,38
+Egypt,HAMZA ABDELKARIM,76,on,pdf_marker,38
+Egypt,ZIZO,85,on,pdf_marker,38
+New Zealand,Timothy John Payne,85,off,lineup_derived,38
+New Zealand,Tyler Grant Bindon,85,on,lineup_derived,38
+New Zealand,Benjamin Craig Old,66,on,lineup_derived,38
+New Zealand,Mc,66,off,lineup_derived,38
+Egypt,Abdelmegeed Abdelsalam Hossam Abdelmaguid,84,on,lineup_derived,38
+Egypt,Mohamed Abdelsalam Omar,76,off,lineup_derived,38
+Spain,Lamine YAMAL,45,off,pdf_marker,39
+Spain,PEDRI,70,off,pdf_marker,39
+Spain,Mikel OYARZABAL,45,off,pdf_marker,39
+Spain,Mikel MERINO,61,on,pdf_marker,39
+Spain,Ferran TORRES,45,on,pdf_marker,39
+Spain,Fabian RUIZ,70,on,pdf_marker,39
+Spain,Yeremy PINO,45,on,pdf_marker,39
+Saudi Arabia,ABDULELAH ALAMRI,60,off,pdf_marker,39
+Saudi Arabia,NASSER ALDAWSARI,90,off,pdf_marker_late,39
+Saudi Arabia,MUSAB ALJUWAYR,45,off,pdf_marker,39
+Saudi Arabia,ABDULLAH ALKHAIBARI,45,off,pdf_marker,39
+Saudi Arabia,KHALID ALGHANNAM,90,on,pdf_marker,39
+Saudi Arabia,ALA ALHAJJI,60,on,pdf_marker,39
+Saudi Arabia,ABDULLAH ALHAMDDAN,45,on,pdf_marker,39
+Saudi Arabia,MOHAMMED ABU ALSHAMAT,60,on,pdf_marker,39
+Spain,Daniel Olmo,61,off,lineup_derived,39
+Spain,Alejandro Baena,61,off,lineup_derived,39
+Spain,Nicholas Williams,61,on,lineup_derived,39
+Saudi Arabia,Tariq Feras,60,off,lineup_derived,39
+Saudi Arabia,Ibrahim Mohamed,46,on,lineup_derived,39
+Uruguay,Manuel UGARTE,70,off,pdf_marker,40
+Uruguay,Federico VINAS,70,off,pdf_marker,40
+Uruguay,Nicolas DE LA CRUZ,70,on,pdf_marker,40
+Uruguay,Darwin NUNEZ,70,on,pdf_marker,40
+Uruguay,Brian RODRIGUEZ,82,on,pdf_marker,40
+Cabo Verde,KEVIN PINA,71,off,pdf_marker,40
+Cabo Verde,JAMIRO MONTEIRO,80,off,pdf_marker,40
+Cabo Verde,DEROY DUARTE,45,on,pdf_marker,40
+Cabo Verde,LAROS DUARTE,71,on,pdf_marker,40
+Cabo Verde,NUNO DA COSTA,58,on,pdf_marker,40
+Cabo Verde,HELIO VARELA,59,on,pdf_marker,40
+Uruguay,Maximiliano Javier Araujo,81,off,lineup_derived,40
+Cabo Verde,BENCHIMOLGilson Gilson,58,off,lineup_derived,40
+Cabo Verde,RODRIGUESGarry Garry,58,off,lineup_derived,40
+Cabo Verde,SEMEDOJair Yannick,80,on,lineup_derived,40
+Cabo Verde,Emanuel Telmo,46,off,lineup_derived,40
+France,Jules KOUNDE,83,off,pdf_marker,41
+France,Ousmane DEMBELE,68,off,lineup_derived,41
+France,Michael OLISE,68,off,pdf_marker,41
+France,Bradley BARCOLA,83,off,pdf_marker,41
+France,Malo GUSTO,83,on,pdf_marker,41
+France,Marcus THURAM,89,on,lineup_derived,41
+France,Desire DOUE,67,on,pdf_marker,41
+France,Rayan CHERKI,68,on,pdf_marker,41
+France,Maghnes AKLIOUCHE,83,on,pdf_marker,41
+Iraq,ZAID TAHSEEN,60,off,pdf_marker,41
+Iraq,IBRAHIM BAYESH,69,off,pdf_marker,41
+Iraq,AMIR ALAMMARI,68,off,pdf_marker,41
+Iraq,AYMEN HUSSEIN,26,off,pdf_marker,41
+Iraq,ZAID ISMAEL,60,off,pdf_marker,41
+Iraq,REBIN SULAKA,60,on,pdf_marker,41
+Iraq,YOUSSEF AMYN,60,on,pdf_marker,41
+Iraq,ALI ALHAMADI,26,on,pdf_marker,41
+Iraq,MARKO FARJI,69,on,pdf_marker,41
+Iraq,Hazar Anwar Aimar,68,on,lineup_derived,41
+Norway,Alexander SORLOTH,84,off,pdf_marker,42
+Norway,Fredrik AURSNES,45,off,pdf_marker,42
+Norway,Antonio NUSA,71,off,pdf_marker,42
+Norway,Julian RYERSON,13,off,pdf_marker,42
+Norway,Patrick BERG,45,on,pdf_marker,42
+Norway,Marcus HOLMGREN PEDERSEN,13,on,pdf_marker,42
+Norway,Andreas SCHJELDERUP,71,on,pdf_marker,42
+Norway,Oscar BOBB,84,on,pdf_marker,42
+Senegal,Edouard MENDY,63,off,pdf_marker,42
+Senegal,Kalidou KOULIBALY,72,off,pdf_marker,42
+Senegal,Lamine CAMARA,63,off,pdf_marker,42
+Senegal,El Hadji Malick DIOUF,54,off,pdf_marker,42
+Senegal,Pape GUEYE,54,off,pdf_marker,42
+Senegal,Mory DIAW,63,on,pdf_marker,42
+Senegal,Pathe CISS,63,on,pdf_marker,42
+Senegal,Ismail JAKOBS,54,on,pdf_marker,42
+Senegal,Pape Matar SARR,72,on,pdf_marker,42
+Senegal,Ibrahim MBAYE,54,on,pdf_marker,42
+Norway,Leo Skiri Ostigard,84,on,lineup_derived,42
+Norway,Torbjørn Lysaker Heggem,84,off,lineup_derived,42
+Argentina,Rodrigo DE PAUL,82,off,pdf_marker,43
+Argentina,Cristian ROMERO,58,off,pdf_marker,43
+Argentina,Thiago ALMADA,64,off,pdf_marker,43
+Argentina,Lautaro MARTINEZ,65,off,pdf_marker,43
+Argentina,Facundo MEDINA,82,off,pdf_marker,43
+Argentina,Leandro PAREDES,82,on,pdf_marker,43
+Argentina,Julian ALVAREZ,64,on,pdf_marker,43
+Argentina,Nicolas OTAMENDI,58,on,pdf_marker,43
+Austria,Stefan POSCH,68,off,pdf_marker,43
+Austria,David ALABA,68,off,pdf_marker,43
+Austria,Michael GREGORITSCH,85,off,pdf_marker,43
+Austria,Romano SCHMID,79,off,pdf_marker,43
+Austria,Paul WANNER,68,off,pdf_marker,43
+Austria,Marko ARNAUTOVIC Third,68,on,pdf_marker,43
+Austria,Carney CHUKWUEMEKA,85,on,pdf_marker,43
+Austria,Patrick WIMMER,79,on,pdf_marker,43
+Austria,Alexander PRASS,68,on,pdf_marker,43
+Austria,Marco FRIEDL,68,on,pdf_marker,43
+Argentina,Nicolás Alejandro Tagliafico,82,on,lineup_derived,43
+Argentina,Nicolas Ivan Gonzalez,64,on,lineup_derived,43
+Jordan,MOUSA ALTAMARI,85,off,pdf_marker,44
+Jordan,MAHMOUD ALMARDI,77,off,pdf_marker,44
+Jordan,MOHANNAD ABUTAHA,85,off,pdf_marker,44
+Jordan,ABDALLAH ALFAKHORI,76,on,lineup_derived,44
+Jordan,ALI AZAIZEH,85,on,pdf_marker,44
+Algeria,Ramiz ZERROUKI,45,off,lineup_derived,44
+Algeria,Riyad MAHREZ,76,off,pdf_marker,44
+Algeria,Amine GOUIRI,86,off,pdf_marker,44
+Algeria,Hicham BOUDAOUI,45,off,pdf_marker,44
+Algeria,Zineddine BELAID,86,on,pdf_marker,44
+Algeria,Anis HADJ MOUSSA,76,on,pdf_marker,44
+Algeria,Nadhir BENBOUALI,45,on,pdf_marker,44
+Algeria,Jaouen HADJAM,85,on,pdf_marker,44
+Algeria,Nabil BENTALEB,45,on,pdf_marker,44
+Jordan,Ali Hasan Mohammad,85,on,lineup_derived,44
+Jordan,Faisal Yousef Mohammad,89,on,lineup_derived,44
+Jordan,Amer Saleem Saleem,89,on,lineup_derived,44
+Algeria,Rayan Ait-Nouri,85,off,lineup_derived,44
+Portugal,JOAO FELIX,64,off,pdf_marker,45
+Portugal,JOAO NEVES,76,off,pdf_marker,45
+Portugal,PEDRO NETO,45,off,pdf_marker,45
+Portugal,JOAO CANCELO,45,off,pdf_marker,45
+Portugal,VITINHA,83,off,pdf_marker,45
+Portugal,BERNARDO SILVA,76,on,pdf_marker,45
+Portugal,FRANCISCO TRINCAO,64,on,pdf_marker,45
+Portugal,RAFAEL LEAO,83,on,pdf_marker,45
+Portugal,FRANCISCO CONCEICAO,45,on,pdf_marker,45
+Uzbekistan,Odiljon XAMROBEKOV,45,off,pdf_marker,45
+Uzbekistan,Sherzod NASRULLAEV,45,off,pdf_marker,45
+Uzbekistan,Abbosbek FAYZULLAEV,73,off,pdf_marker,45
+Uzbekistan,Khojiakbar ALIJONOV,45,on,pdf_marker,45
+Uzbekistan,Akmal MOZGOVOY,45,on,pdf_marker,45
+Uzbekistan,Ruslanbek JIYANOV,89,on,lineup_derived,45
+Uzbekistan,Igor SERGEEV,73,on,pdf_marker,45
+Uzbekistan,Sherzod ESANOV,89,on,lineup_derived,45
+Portugal,SEMEDONélson Nelson,46,on,lineup_derived,45
+Colombia,James RODRIGUEZ,58,off,pdf_marker,46
+Colombia,Jhon ARIAS,77,off,pdf_marker,46
+Colombia,Jefferson LERMA,94,off,pdf_marker_late,46
+Colombia,Luis SUAREZ,58,off,pdf_marker,46
+Colombia,Richard RIOS,77,on,pdf_marker,46
+Colombia,Jhon CORDOBA,58,on,pdf_marker,46
+Colombia,Juan QUINTERO,58,on,pdf_marker,46
+Congo DR,Ngalayel MUKAU,45,off,pdf_marker,46
+Congo DR,Samuel MOUTOUSSAMY,82,off,pdf_marker,46
+Congo DR,Cedric BAKAMBU,57,off,pdf_marker,46
+Congo DR,Edo KAYEMBE,72,off,pdf_marker,46
+Congo DR,Arthur MASUAKU,72,off,pdf_marker,46
+Congo DR,Nathanael MBUKU Third,82,on,pdf_marker,46
+Congo DR,Joris KAYEMBE,72,on,pdf_marker,46
+Congo DR,Noah SADIKI,45,on,pdf_marker,46
+Congo DR,Charles PICKEL,72,on,pdf_marker,46
+Congo DR,Simon BANZA,57,on,pdf_marker,46
+England,Elliot ANDERSON,74,off,pdf_marker,47
+England,Jude BELLINGHAM,74,off,pdf_marker,47
+England,Anthony GORDON,65,off,pdf_marker,47
+England,Nico OREILLY,66,on,pdf_marker,47
+England,Bukayo SAKA,65,on,pdf_marker,47
+England,Marcus RASHFORD,83,on,pdf_marker,47
+England,Morgan ROGERS,74,on,pdf_marker,47
+England,Eberechi EZE,74,on,pdf_marker,47
+Ghana,Jordan AYEW,67,off,pdf_marker,47
+Ghana,Inaki WILLIAMS,66,off,pdf_marker,47
+Ghana,Marvin SENAYA,87,off,pdf_marker,47
+Ghana,Abdul FATAWU,66,on,pdf_marker,47
+Ghana,Kojo Peprah OPPONG,87,on,pdf_marker,47
+Ghana,Prince ADU,67,on,pdf_marker,47
+England,Azuka Tristan Madueke,83,off,lineup_derived,47
+England,Tehuti Djed-Hotep Spence,65,off,lineup_derived,47
+Ghana,Abdul Rahman Rahman,89,on,lineup_derived,47
+Panama,Cesar BLACKMAN,90,off,pdf_marker_late,48
+Panama,Edgar Yoel BARCENAS,90,off,pdf_marker_late,48
+Panama,Jiovany RAMOS,77,off,pdf_marker,48
+Panama,Jose FAJARDO,83,off,pdf_marker,48
+Panama,Tomas RODRIGUEZ,90,on,pdf_marker,48
+Panama,Eric DAVIS,90,on,pdf_marker,48
+Panama,Cecilio WATERMAN,77,on,pdf_marker,48
+Panama,Azarias LONDONO,83,on,pdf_marker,48
+Croatia,Josko GVARDIOL,45,off,pdf_marker,48
+Croatia,Mateo KOVACIC,72,off,pdf_marker,48
+Croatia,Luka MODRIC,81,off,pdf_marker,48
+Croatia,Marco PASALIC,72,off,pdf_marker,48
+Croatia,Petar MUSA,45,off,pdf_marker,48
+Croatia,Andrej KRAMARIC,45,on,pdf_marker,48
+Croatia,Ante BUDIMIR,45,on,pdf_marker,48
+Croatia,Mario PASALIC,81,on,pdf_marker,48
+Croatia,Petar SUCIC,72,on,pdf_marker,48
+Croatia,Luka SUCIC,72,on,pdf_marker,48
+Czechia,Tomas HOLES,64,off,pdf_marker,49
+Czechia,Adam HLOZEK,64,off,pdf_marker,49
+Czechia,Lukas CERV,87,off,pdf_marker,49
+Czechia,Denis VISINSKY,56,off,pdf_marker,49
+Czechia,Patrik SCHICK,64,on,pdf_marker,49
+Czechia,Lukas PROVOD,56,on,pdf_marker,49
+Czechia,Tomas CHORY,87,on,pdf_marker,49
+Czechia,Tomas SOUCEK,64,on,pdf_marker,49
+Czechia,Alexandr SOJKA,87,on,pdf_marker,49
+Mexico,Raul RANGEL,78,off,pdf_marker,49
+Mexico,Luis ROMO,63,off,pdf_marker,49
+Mexico,Gilberto MORA,72,off,pdf_marker,49
+Mexico,Mateo CHAVEZ,78,off,pdf_marker,49
+Mexico,Guillermo MARTINEZ,63,off,pdf_marker,49
+Mexico,Guillermo OCHOA,78,on,pdf_marker,49
+Mexico,Alvaro FIDALGO,72,on,pdf_marker,49
+Mexico,Santiago GIMENEZ,63,on,pdf_marker,49
+Mexico,Obed VARGAS,63,on,pdf_marker,49
+Mexico,Jesus GALLARDO,78,on,pdf_marker,49
+South Africa,Oswin APPOLLIS,62,off,pdf_marker,50
+South Africa,Relebohile MOFOKENG,80,off,pdf_marker,50
+South Africa,Thapelo MASEKO,75,off,pdf_marker,50
+South Africa,Tshepang MOREMI,62,on,lineup_derived,50
+South Africa,Iqraam RAYNERS,75,on,pdf_marker,50
+South Africa,Jayden ADAMS,80,on,pdf_marker,50
+South Korea,KIM Minjae,65,off,pdf_marker,50
+South Korea,PAIK Seungho,45,off,pdf_marker,50
+South Korea,LEE Taeseok,45,off,pdf_marker,50
+South Korea,OH Hyeongyu,74,off,pdf_marker,50
+South Korea,CHO Guesung,74,on,pdf_marker,50
+South Korea,PARK Jinseob,65,on,pdf_marker,50
+South Korea,CASTROP Jens,45,on,pdf_marker,50
+South Korea,KIM Jingyu,45,on,pdf_marker,50
+South Korea,Heung Min Son,46,on,lineup_derived,50
+South Korea,Hee Chan Hwang,46,off,lineup_derived,50
+Switzerland,Breel EMBOLO,85,off,pdf_marker,51
+Switzerland,Johan MANZAMBI,85,off,pdf_marker,51
+Switzerland,Djibril SOW,74,off,pdf_marker,51
+Switzerland,Ruben VARGAS,80,off,pdf_marker,51
+Switzerland,Luca JAQUEZ,74,off,pdf_marker,51
+Switzerland,Dan NDOYE,80,on,pdf_marker,51
+Switzerland,Christian FASSNACHT,85,on,pdf_marker,51
+Switzerland,Michel AEBISCHER,74,on,pdf_marker,51
+Switzerland,Cedric ITTEN,85,on,pdf_marker,51
+Canada,Mathieu CHOINIERE,58,off,pdf_marker,51
+Canada,Cyle LARIN,58,off,pdf_marker,51
+Canada,Tajon BUCHANAN,75,off,pdf_marker,51
+Canada,Ali AHMED,58,off,pdf_marker,51
+Canada,Stephen EUSTAQUIO,58,on,pdf_marker,51
+Canada,Liam MILLAR,58,on,pdf_marker,51
+Canada,Jacob SHAFFELBURG,83,on,pdf_marker,51
+Canada,Promise DAVID,74,on,lineup_derived,51
+Switzerland,Silvan Dominic Widmer,74,on,lineup_derived,51
+Canada,Tanitoluwa Oluwatimilehin Oluwaseyi,58,on,lineup_derived,51
+Canada,Richmond Mamah Laryea,83,off,lineup_derived,51
+Bosnia and Herzegovina,Edin DZEKO,64,off,pdf_marker,52
+Bosnia and Herzegovina,Ivan SUNJIC,45,off,pdf_marker,52
+Bosnia and Herzegovina,Nikola KATIC,64,off,pdf_marker,52
+Bosnia and Herzegovina,Kerim ALAJBEGOVIC,82,off,pdf_marker,52
+Bosnia and Herzegovina,Arjan MALIC,45,off,pdf_marker,52
+Bosnia and Herzegovina,Benjamin TAHIROVIC,45,on,pdf_marker,52
+Bosnia and Herzegovina,Amar MEMIC,45,on,pdf_marker,52
+Bosnia and Herzegovina,Dzenis BURNIC,82,on,pdf_marker,52
+Bosnia and Herzegovina,Ermin MAHMIC,64,on,pdf_marker,52
+Qatar,JASSEM GABER,45,off,pdf_marker,52
+Qatar,EDMILSON JUNIOR,79,off,pdf_marker,52
+Qatar,HASSAN ALHAYDOS,55,off,pdf_marker,52
+Qatar,KARIM BOUDIAF,72,off,pdf_marker,52
+Qatar,AHMED FATHY,79,off,lineup_derived,52
+Qatar,AHMED ALAAELDIN,79,on,pdf_marker,52
+Qatar,AHMED ALGANEHI,55,on,pdf_marker,52
+Qatar,ALMOEZ ALI,72,on,pdf_marker,52
+Qatar,MOHAMED MANAI,79,on,pdf_marker,52
+Bosnia and Herzegovina,Dennis Hadzikadunic,63,on,lineup_derived,52
+Qatar,Hatim Abdulaziz Hatem,46,on,lineup_derived,52
+Scotland,Nathan PATTERSON,82,off,pdf_marker,53
+Scotland,Kieran TIERNEY,45,on,pdf_marker,53
+Scotland,Che ADAMS,89,on,lineup_derived,53
+Scotland,Ryan CHRISTIE,82,on,pdf_marker,53
+Scotland,Anthony RALSTON,82,on,pdf_marker,53
+Scotland,Findlay CURTIS,89,on,lineup_derived,53
+Brazil,MATHEUS CUNHA,76,off,pdf_marker,53
+Brazil,DOUGLAS SANTOS,82,off,pdf_marker,53
+Brazil,LUCAS PAQUETA,66,off,pdf_marker,53
+Brazil,RAYAN,82,off,pdf_marker,53
+Brazil,ALEX SANDRO Third,82,on,pdf_marker,53
+Brazil,NEYMAR JR,76,on,pdf_marker,53
+Brazil,FABINHO,65,on,pdf_marker,53
+Brazil,ENDRICK,82,on,pdf_marker,53
+Scotland,Andrew Henry Robertson,46,off,lineup_derived,53
+Scotland,Ben Gannon Gannon-Doak,81,off,lineup_derived,53
+Brazil,Henrique,66,off,lineup_derived,53
+Brazil,MARTINELLIGabriel Gabriel,66,on,lineup_derived,53
+Morocco,Brahim DIAZ,70,off,pdf_marker,54
+Morocco,Ismael SAIBARI,70,off,pdf_marker,54
+Morocco,Ayoub EL KAABI,70,off,pdf_marker,54
+Morocco,Neil EL AYNAOUI,83,off,pdf_marker,54
+Morocco,Anass SALAH EDDINE,83,off,pdf_marker,54
+Morocco,Noussair MAZRAOUI,83,on,pdf_marker,54
+Morocco,Soufiane RAHIMI,70,on,pdf_marker,54
+Morocco,Samir EL MOURABET,83,on,pdf_marker,54
+Morocco,Gessime YASSINE,70,on,pdf_marker,54
+Haiti,Ruben PROVIDENCE,67,off,pdf_marker,54
+Haiti,Lenny JOSEPH,83,off,pdf_marker,54
+Haiti,Danley JEAN JACQUES,80,off,pdf_marker,54
+Haiti,Wilson ISIDOR,67,off,pdf_marker,54
+Haiti,Josue CASIMIR,93,off,pdf_marker_late,54
+Haiti,Carlens ARCUS,80,on,pdf_marker,54
+Haiti,Duckens NAZON,67,on,pdf_marker,54
+Haiti,Frantzdy PIERROT,83,on,pdf_marker,54
+Haiti,Dominique SIMON,80,on,pdf_marker,54
+Morocco,Azz-Eddine Ounahi,70,on,lineup_derived,54
+Haiti,Don Deedson Deedson,67,on,lineup_derived,54
+Haiti,Jean-Kévin Duverne,80,off,lineup_derived,54
+Türkiye,Zeki CELIK,84,off,pdf_marker,55
+Türkiye,Orkun KOKCU,88,off,pdf_marker,55
+Türkiye,Kenan YILDIZ,84,off,pdf_marker,55
+Türkiye,Irfan Can KAHVECI,89,on,lineup_derived,55
+Türkiye,Kaan AYHAN,88,on,pdf_marker,55
+Türkiye,Can UZUN,84,on,pdf_marker,55
+USA,Giovanni REYNA,76,off,pdf_marker,55
+USA,Brenden AARONSON,77,off,pdf_marker,55
+USA,Timothy WEAH,58,off,pdf_marker,55
+USA,Sergino DEST,76,on,pdf_marker,55
+USA,Christian PULISIC,58,on,pdf_marker,55
+USA,Malik TILLMAN,86,on,pdf_marker,55
+Türkiye,Ça ğ lar Soyuncu,84,on,lineup_derived,55
+USA,Alexander Michael Freeman,76,on,lineup_derived,55
+USA,Joseph Michael Scally,76,off,lineup_derived,55
+USA,Alejandro Zendejas,76,on,lineup_derived,55
+Paraguay,Omar ALDERETE,84,off,pdf_marker,56
+Paraguay,Gabriel AVALOS,67,off,pdf_marker,56
+Paraguay,Alexandro MAIDANA,45,off,pdf_marker,56
+Paraguay,MAURICIO,45,on,pdf_marker,56
+Paraguay,Jose CANALE,84,on,pdf_marker,56
+Paraguay,Damian BOBADILLA,89,on,lineup_derived,56
+Paraguay,Alex ARCE,67,on,pdf_marker,56
+Australia,Nestory IRANKUNDA,84,off,pdf_marker,56
+Australia,Cristian VOLPATO,58,off,pdf_marker,56
+Australia,Jackson IRVINE,84,off,pdf_marker,56
+Australia,Ajdin HRUSTIC,58,on,pdf_marker,56
+Australia,Tete YENGI,84,on,pdf_marker,56
+Paraguay,Júnior Osmar Ignacio Alonso,89,on,lineup_derived,56
+Australia,Paul Michael Junior Okon-Engstler,84,on,lineup_derived,56
+Ecuador,Piero HINCAPIE,71,off,pdf_marker,57
+Ecuador,John YEBOAH,85,off,pdf_marker,57
+Ecuador,Enner VALENCIA,64,off,pdf_marker,57
+Ecuador,Nilson ANGULO,85,off,pdf_marker,57
+Ecuador,Alan FRANCO,64,off,pdf_marker,57
+Ecuador,Felix TORRES,85,on,pdf_marker,57
+Ecuador,Pervis ESTUPINAN,71,on,pdf_marker,57
+Ecuador,Kevin RODRIGUEZ,64,on,pdf_marker,57
+Ecuador,Jordy CAICEDO,85,on,pdf_marker,57
+Ecuador,Angelo PRECIADO,64,on,pdf_marker,57
+Germany,Aleksandar PAVLOVIC,46,off,lineup_derived,57
+Germany,Joshua KIMMICH,60,off,pdf_marker,57
+Germany,Kai HAVERTZ,60,off,pdf_marker,57
+Germany,Florian WIRTZ,73,off,pdf_marker,57
+Germany,Felix NMECHA,64,off,pdf_marker,57
+Germany,Pascal GROSS,73,on,pdf_marker,57
+Germany,Maximilian BEIER,64,on,pdf_marker,57
+Germany,Angelo STILLER,45,on,pdf_marker,57
+Germany,Malick THIAW,60,on,pdf_marker,57
+Germany,Deniz UNDAV,60,on,pdf_marker,57
+Curaçao,Jurien GAARI,77,off,pdf_marker,58
+Curaçao,Livano COMENENCIA,62,off,pdf_marker,58
+Curaçao,Joshua BRENET,90,off,pdf_marker_late,58
+Curaçao,Deveron FONVILLE,77,off,pdf_marker,58
+Curaçao,Shurandy SAMBO,90,on,pdf_marker,58
+Curaçao,Jeremy ANTONISSE,62,on,pdf_marker,58
+Curaçao,Tyrese NOSLIN,77,on,pdf_marker,58
+Curaçao,Brandley KUWAS,90,on,pdf_marker,58
+Curaçao,Gervane KASTANEER,77,on,pdf_marker,58
+Côte d'Ivoire,Franck KESSIE,77,off,pdf_marker,58
+Côte d'Ivoire,Yan DIOMANDE,67,off,pdf_marker,58
+Côte d'Ivoire,Amad DIALLO,45,off,pdf_marker,58
+Côte d'Ivoire,Nicolas PEPE,67,off,pdf_marker,58
+Côte d'Ivoire,Jean Michael SERI Third,77,on,pdf_marker,58
+Côte d'Ivoire,Elye WAHI,67,on,pdf_marker,58
+Côte d'Ivoire,Oumar DIAKITE,67,on,pdf_marker,58
+Côte d'Ivoire,Bazoumana TOURE,67,on,pdf_marker,58
+Côte d'Ivoire,Christ Inao OULAI,45,on,pdf_marker,58
+Côte d'Ivoire,Ange-Yoan Laurent Bonny,67,off,lineup_derived,58
+Tunisia,Hazem MASTOURI,90,off,pdf_marker_late,59
+Tunisia,Ismael GHARBI,75,off,pdf_marker,59
+Tunisia,Rani KHEDIRA,67,off,pdf_marker,59
+Tunisia,Mohamed Amine BEN HMIDA,68,off,pdf_marker,59
+Tunisia,Anis SLIMANE,68,off,pdf_marker,59
+Tunisia,Mortadha BEN OUANES,68,on,pdf_marker,59
+Tunisia,Mohamed HADJ MAHMOUD,67,on,pdf_marker,59
+Tunisia,Firas CHAOUAT,75,on,pdf_marker,59
+Tunisia,Sebastian TOUNEKTI,90,on,pdf_marker,59
+Netherlands,Cody GAKPO,84,off,pdf_marker,59
+Netherlands,Tijjani REIJNDERS,72,off,pdf_marker,59
+Netherlands,Donyell MALEN,72,off,pdf_marker,59
+Netherlands,Brian BROBBEY,77,off,pdf_marker,59
+Netherlands,Frenkie DE JONG,72,off,pdf_marker,59
+Netherlands,Justin KLUIVERT,72,on,pdf_marker,59
+Netherlands,Memphis DEPAY,77,on,pdf_marker,59
+Netherlands,Noa LANG,84,on,pdf_marker,59
+Netherlands,Teun KOOPMEINERS,72,on,pdf_marker,59
+Netherlands,Crysencio SUMMERVILLE,72,on,pdf_marker,59
+Tunisia,Mohamed Elyes Achouri,67,on,lineup_derived,59
+Japan,Kou ITAKURA,39,off,pdf_marker,60
+Japan,Ritsu DOAN,66,off,pdf_marker,60
+Japan,Keito NAKAMURA,75,off,pdf_marker,60
+Japan,Ayase UEDA,66,off,pdf_marker,60
+Japan,Ayumu SEKO,75,off,pdf_marker,60
+Japan,Shogo TANIGUCHI,39,on,pdf_marker,60
+Japan,Junya ITO,66,on,pdf_marker,60
+Japan,Tsuyoshi WATANABE,75,on,pdf_marker,60
+Japan,Koki OGAWA,66,on,pdf_marker,60
+Sweden,Victor LINDELOF,87,off,pdf_marker,60
+Sweden,Isak HIEN,37,off,pdf_marker,60
+Sweden,Gabriel GUDMUNDSSON,88,off,pdf_marker,60
+Sweden,Alexander BERNHARDSSON,75,off,pdf_marker,60
+Sweden,Elliot STROUD,75,off,pdf_marker,60
+Sweden,Daniel SVENSSON,75,on,pdf_marker,60
+Sweden,Benjamin NYGREN,88,on,pdf_marker,60
+Sweden,Ken SEMA,75,on,pdf_marker,60
+Sweden,Carl STARFELT,87,on,pdf_marker,60
+Japan,Yuto Nagatomo,75,on,lineup_derived,60
+Sweden,Lucas Erik Holger Bergvall,37,on,lineup_derived,60
+New Zealand,Joe BELL,64,off,pdf_marker,61
+New Zealand,Sarpreet SINGH,45,off,pdf_marker,61
+New Zealand,Liberato CACACE,79,off,pdf_marker,61
+New Zealand,Ryan THOMAS,45,off,pdf_marker,61
+New Zealand,Francis DE VRIES,79,on,pdf_marker,61
+New Zealand,Jesse RANDALL,45,on,pdf_marker,61
+Belgium,Kevin DE BRUYNE,72,off,pdf_marker,61
+Belgium,Youri TIELEMANS,85,off,pdf_marker,61
+Belgium,Leandro TROSSARD,72,off,pdf_marker,61
+Belgium,Jeremy DOKU,56,off,pdf_marker,61
+Belgium,Charles DE KETELAERE,85,off,pdf_marker,61
+Belgium,Romelu LUKAKU,85,on,lineup_derived,61
+Belgium,Alexis SAELEMAEKERS,72,on,pdf_marker,61
+Belgium,Nicolas RASKIN,85,on,pdf_marker,61
+Belgium,Amadou ONANA,72,on,pdf_marker,61
+New Zealand,Timothy John Payne,64,off,lineup_derived,61
+New Zealand,Michael Joseph Boxall,64,on,lineup_derived,61
+New Zealand,Benjamin Craig Old,46,on,lineup_derived,61
+New Zealand,Mc,64,on,lineup_derived,61
+Belgium,Matias Fernandez-Pardo,56,on,lineup_derived,61
+Egypt,MOHAMED ABDELMONEIM,14,off,pdf_marker,62
+Egypt,EMAM ASHOUR,45,off,pdf_marker,62
+Egypt,MOHAMED SALAH,57,off,pdf_marker,62
+Egypt,MOSTAFA ZICO,76,off,pdf_marker,62
+Egypt,MOHANAD LASHIN,92,off,pdf_marker_late,62
+Egypt,MAHMOUD SABER,45,off,pdf_marker,62
+Egypt,HAMZA ABDELKARIM,76,on,pdf_marker,62
+Egypt,MARAWAN ATTIA,45,on,pdf_marker,62
+Egypt,ZIZO,57,on,pdf_marker,62
+IR Iran,Saman GHODDOS,67,off,pdf_marker,62
+IR Iran,Saleh HARDANI,45,on,pdf_marker,62
+IR Iran,Alireza JAHANBAKHSH,89,on,lineup_derived,62
+IR Iran,Shahriyar MOGHANLOO,67,on,pdf_marker,62
+Egypt,Ahmed Ibrahim Yasser,14,on,lineup_derived,62
+Egypt,Mohamed Abdelsalam Omar,46,on,lineup_derived,62
+IR Iran,Mohammadhossein Kanani,46,off,lineup_derived,62
+Uruguay,Fernando MUSLERA,45,off,pdf_marker,63
+Uruguay,Manuel UGARTE,45,off,pdf_marker,63
+Uruguay,Federico VALVERDE,57,off,pdf_marker,63
+Uruguay,Agustin CANOBBIO,94,off,pdf_marker_late,63
+Uruguay,Juan Manuel SANABRIA,70,off,pdf_marker,63
+Uruguay,Sergio ROCHET,45,on,pdf_marker,63
+Uruguay,Nicolas DE LA CRUZ,45,on,pdf_marker,63
+Uruguay,Brian RODRIGUEZ,70,on,pdf_marker,63
+Uruguay,Federico VINAS,57,on,pdf_marker,63
+Spain,Mikel MERINO,60,off,pdf_marker,63
+Spain,Lamine YAMAL,76,off,pdf_marker,63
+Spain,PEDRI,60,off,pdf_marker,63
+Spain,Mikel OYARZABAL,76,off,pdf_marker,63
+Spain,Ferran TORRES,76,on,pdf_marker,63
+Spain,Fabian RUIZ,60,on,pdf_marker,63
+Spain,Yeremy PINO,66,on,pdf_marker,63
+Spain,Daniel Olmo,60,on,lineup_derived,63
+Spain,Alejandro Baena,66,off,lineup_derived,63
+Spain,Nicholas Williams,76,on,lineup_derived,63
+Cabo Verde,JAMIRO MONTEIRO,71,off,pdf_marker,64
+Cabo Verde,DAILON LIVRAMENTO,61,off,pdf_marker,64
+Cabo Verde,LAROS DUARTE,71,on,pdf_marker,64
+Cabo Verde,NUNO DA COSTA,61,on,pdf_marker,64
+Cabo Verde,HELIO VARELA,61,on,pdf_marker,64
+Saudi Arabia,HASSAN ALTAMBAKTI,33,off,pdf_marker,64
+Saudi Arabia,SALEM ALDAWSARI,66,off,pdf_marker,64
+Saudi Arabia,NAWAF BU WASHL,82,off,pdf_marker,64
+Saudi Arabia,ABDULLAH ALKHAIBARI,45,off,pdf_marker,64
+Saudi Arabia,SULTAN MANDASH,66,off,pdf_marker,64
+Saudi Arabia,MUSAB ALJUWAYR,45,on,pdf_marker,64
+Saudi Arabia,ABDULLAH ALHAMDDAN,66,on,pdf_marker,64
+Saudi Arabia,MOTEB ALHARBI,82,on,pdf_marker,64
+Saudi Arabia,MOHAMMED ABU ALSHAMAT,66,on,pdf_marker,64
+Cabo Verde,RODRIGUESGarry Garry,71,on,lineup_derived,64
+Cabo Verde,Johnson Willy,61,off,lineup_derived,64
+Cabo Verde,Isaac Ryan,71,off,lineup_derived,64
+Cabo Verde,MOREIRASteven Steven,89,on,lineup_derived,64
+Saudi Arabia,Mohammed Ali Lajami,33,on,lineup_derived,64
+Norway,Fredrik Andre BJORKAN,45,off,pdf_marker,65
+Norway,Kristian THORSTVEDT,45,off,pdf_marker,65
+Norway,Andreas SCHJELDERUP,83,off,pdf_marker,65
+Norway,Oscar BOBB,83,off,pdf_marker,65
+Norway,Henrik FALCHENER,67,off,pdf_marker,65
+Norway,Morten THORSBY,45,on,pdf_marker,65
+Norway,Marcus HOLMGREN PEDERSEN,45,on,pdf_marker,65
+Norway,Antonio NUSA,83,on,pdf_marker,65
+Norway,Jens Petter HAUGE,83,on,pdf_marker,65
+Norway,Sondre LANGAS,67,on,pdf_marker,65
+France,Jules KOUNDE,87,off,pdf_marker,65
+France,Ousmane,65,off,pdf_marker,65
+France,Kylian MBAPPE,87,off,pdf_marker,65
+France,Michael OLISE,65,off,pdf_marker,65
+France,Malo GUSTO,87,on,pdf_marker,65
+France,Bradley BARCOLA,65,on,pdf_marker,65
+France,Ibrahima KONATE,76,on,pdf_marker,65
+France,Rayan CHERKI,65,on,pdf_marker,65
+France,Dayotchanculle Oswald Upamecano,76,off,lineup_derived,65
+France,Jean-Philippe Mateta,86,on,lineup_derived,65
+Senegal,Abdoulaye SECK,58,off,pdf_marker,66
+Senegal,Lamine CAMARA,56,off,lineup_derived,66
+Senegal,Ismaila SARR,81,off,pdf_marker,66
+Senegal,Ibrahim MBAYE,57,off,pdf_marker,66
+Senegal,Habib DIARRA,57,off,pdf_marker,66
+Senegal,Pathe CISS,58,on,pdf_marker,66
+Senegal,Assane DIAO,81,on,pdf_marker,66
+Senegal,Nicolas JACKSON,57,on,pdf_marker,66
+Senegal,Iliman NDIAYE,57,on,pdf_marker,66
+Senegal,Pape GUEYE,57,on,pdf_marker,66
+Iraq,AHMED BASIL,45,off,pdf_marker,66
+Iraq,ALI ALHAMADI,58,off,pdf_marker,66
+Iraq,ZIDANE IQBAL,67,off,pdf_marker,66
+Iraq,ALI JASIM,58,off,pdf_marker,66
+Iraq,JALAL HASSAN,45,on,pdf_marker,66
+Iraq,MUNAF YOUNUS,16,on,pdf_marker,66
+Iraq,ALI YOUSIF,58,on,pdf_marker,66
+Iraq,AHMED MAKNAZI,58,on,pdf_marker,66
+Iraq,KEVIN YAKOB,67,on,pdf_marker,66
+Iraq,Ihab Ahmed Ahmed,16,off,lineup_derived,66
+Jordan,HUSAM ABUDAHAB,90,off,pdf_marker_late,67
+Jordan,ALI OLWAN,90,off,pdf_marker_late,67
+Jordan,NIZAR ALRASHDAN,76,off,pdf_marker,67
+Jordan,ALI AZAIZEH,45,off,pdf_marker,67
+Jordan,ABDALLAH ALFAKHORI,46,off,lineup_derived,67
+Jordan,MOUSA ALTAMARI,45,on,pdf_marker,67
+Jordan,MAHMOUD ALMARDI,45,on,pdf_marker,67
+Argentina,Julian ALVAREZ,82,off,pdf_marker,67
+Argentina,Giovani LO CELSO,60,off,pdf_marker,67
+Argentina,Giuliano SIMEONE,71,off,pdf_marker,67
+Argentina,Lautaro MARTINEZ,60,off,pdf_marker,67
+Argentina,Valentin BARCO,71,on,pdf_marker,67
+Argentina,Lionel MESSI,60,on,pdf_marker,67
+Argentina,Thiago ALMADA,60,on,pdf_marker,67
+Argentina,Alexis MAC ALLISTER,61,on,pdf_marker,67
+Argentina,Jose Manuel LOPEZ,82,on,pdf_marker,67
+Jordan,Rasem Adel Amer Jamous,76,on,lineup_derived,67
+Jordan,Faisal Yousef Mohammad,89,on,lineup_derived,67
+Jordan,Amer Saleem Saleem,89,on,lineup_derived,67
+Argentina,Nicolas Paz,60,off,lineup_derived,67
+Algeria,Amine GOUIRI,71,off,pdf_marker,68
+Algeria,Jaouen HADJAM,71,off,pdf_marker,68
+Algeria,Rafik BELGHALI,71,off,pdf_marker,68
+Algeria,Zineddine BELAID,71,on,pdf_marker,68
+Algeria,Fares GHEDJEMIS,89,on,lineup_derived,68
+Algeria,Samir CHERGUI,71,on,pdf_marker,68
+Austria,Marko ARNAUTOVIC,45,off,pdf_marker,68
+Austria,David ALABA,62,off,pdf_marker,68
+Austria,Romano SCHMID,45,off,pdf_marker,68
+Austria,Kevin DANSO Third,62,on,pdf_marker,68
+Austria,Florian GRILLITSCH,45,on,pdf_marker,68
+Austria,Michael GREGORITSCH,45,on,pdf_marker,68
+Austria,Sasa KALAJDZIC,89,on,lineup_derived,68
+Austria,Paul WANNER,45,on,pdf_marker,68
+Algeria,Rayan Ait-Nouri,71,on,lineup_derived,68
+Austria,Xaver Schlager,46,off,lineup_derived,68
+Colombia,Santiago ARIAS,87,off,pdf_marker,69
+Colombia,Jhon CORDOBA,60,off,pdf_marker,69
+Colombia,James RODRIGUEZ,76,off,pdf_marker,69
+Colombia,Jhon ARIAS,76,off,pdf_marker,69
+Colombia,Jefferson LERMA,60,off,pdf_marker,69
+Colombia,Daniel MUNOZ,87,on,pdf_marker,69
+Colombia,Richard RIOS,60,on,pdf_marker,69
+Colombia,Juan QUINTERO,76,on,pdf_marker,69
+Colombia,Luis SUAREZ,60,on,pdf_marker,69
+Portugal,JOAO FELIX,70,off,pdf_marker,69
+Portugal,JOAO CANCELO,45,off,pdf_marker,69
+Portugal,VITINHA,70,off,pdf_marker,69
+Portugal,DIOGO DALOT,45,on,pdf_marker,69
+Portugal,JOAO NEVES,45,on,pdf_marker,69
+Portugal,RAFAEL LEAO,70,on,pdf_marker,69
+Portugal,SAMU COSTA,70,on,pdf_marker,69
+Colombia,Kevin Duvan Castano,76,on,lineup_derived,69
+Portugal,Luiz Matheus,89,on,lineup_derived,69
+Portugal,Diogo Ruben,46,off,lineup_derived,69
+Congo DR,Nathanael MBUKU,72,off,pdf_marker,70
+Congo DR,Samuel MOUTOUSSAMY,72,off,pdf_marker,70
+Congo DR,Brian CIPENGA,72,off,pdf_marker,70
+Congo DR,Cedric BAKAMBU,51,off,pdf_marker,70
+Congo DR,Arthur MASUAKU,83,off,pdf_marker,70
+Congo DR,Ngalayel MUKAU,72,on,pdf_marker,70
+Congo DR,Theo BONGONDA,72,on,pdf_marker,70
+Congo DR,Joris KAYEMBE,83,on,pdf_marker,70
+Congo DR,Meschack ELIA,72,on,pdf_marker,70
+Congo DR,Fiston MAYELE,51,on,pdf_marker,70
+Uzbekistan,Akmal MOZGOVOY,82,off,pdf_marker,70
+Uzbekistan,Otabek SHUKUROV,59,off,pdf_marker,70
+Uzbekistan,Dostonbek KHAMDAMOV,59,off,pdf_marker,70
+Uzbekistan,Abbosbek FAYZULLAEV,73,off,pdf_marker,70
+Uzbekistan,Jakhongir UROZOV,82,off,pdf_marker,70
+Uzbekistan,Jamshid ISKANDEROV Third,82,on,pdf_marker,70
+Uzbekistan,Odiljon XAMROBEKOV,59,on,pdf_marker,70
+Uzbekistan,Oston URUNOV,73,on,pdf_marker,70
+Uzbekistan,Azizjon GANIEV,59,on,pdf_marker,70
+Uzbekistan,Igor SERGEEV,82,on,pdf_marker,70
+Panama,Jose Luis RODRIGUEZ,71,off,pdf_marker,71
+Panama,Tomas RODRIGUEZ,45,off,pdf_marker,71
+Panama,Edgar Yoel BARCENAS,71,off,pdf_marker,71
+Panama,Carlos HARVEY,88,off,pdf_marker,71
+Panama,Jorge GUTIERREZ,88,off,pdf_marker,71
+Panama,Ismael DIAZ,71,on,pdf_marker,71
+Panama,Eric DAVIS,88,on,pdf_marker,71
+Panama,Jose FAJARDO,45,on,pdf_marker,71
+Panama,Alberto QUINTERO,88,on,pdf_marker,71
+Panama,Azarias LONDONO,71,on,pdf_marker,71
+England,Bukayo SAKA,63,off,lineup_derived,71
+England,Elliot ANDERSON,84,off,pdf_marker,71
+England,Harry KANE,84,off,pdf_marker,71
+England,Jude BELLINGHAM,71,off,pdf_marker,71
+England,Jarell QUANSAH,63,off,pdf_marker,71
+England,Jordan HENDERSON,84,on,pdf_marker,71
+England,Eberechi EZE,71,on,pdf_marker,71
+England,George Arthur Watkins,84,on,lineup_derived,71
+England,Azuka Tristan Madueke,63,on,lineup_derived,71
+England,Tehuti Djed-Hotep Spence,63,on,lineup_derived,71
+Croatia,Mateo KOVACIC,78,off,pdf_marker,72
+Croatia,Ante BUDIMIR,67,off,pdf_marker,72
+Croatia,Nikola VLASIC,88,off,pdf_marker,72
+Croatia,Martin BATURINA,88,off,pdf_marker,72
+Croatia,Josko GVARDIOL,88,on,pdf_marker,72
+Croatia,Mario PASALIC,78,on,pdf_marker,72
+Croatia,Igor MATANOVIC,67,on,pdf_marker,72
+Croatia,Marco PASALIC,88,on,pdf_marker,72
+Ghana,Jonas ADJETEY,45,off,pdf_marker,72
+Ghana,Kwasi SIBO,85,off,pdf_marker,72
+Ghana,Jordan AYEW,71,off,pdf_marker,72
+Ghana,Elisha OWUSU,45,off,pdf_marker,72
+Ghana,Abdul FATAWU,45,on,pdf_marker,72
+Ghana,Kojo Peprah OPPONG,45,on,pdf_marker,72
+Ghana,Ernest NUAMAH,71,on,pdf_marker,72
+Ghana,Caleb Marfo Yirenkyi,85,on,lineup_derived,72
+Ghana,Brandon Michael Clarke Thomas-Asante,71,on,lineup_derived,72
+Ghana,Kamal Deen Sulemana,71,off,lineup_derived,72
+South Africa,Relebohile MOFOKENG,45,off,pdf_marker,73
+South Africa,Thapelo MASEKO,86,off,pdf_marker,73
+South Africa,Evidence MAKGOPA,86,off,pdf_marker,73
+South Africa,Thalente MBATHA,45,on,pdf_marker,73
+South Africa,Tshepang MOREMI,86,on,pdf_marker,73
+South Africa,Iqraam RAYNERS,86,on,pdf_marker,73
+Canada,Liam MILLAR,71,off,pdf_marker,73
+Canada,Moise BOMBITO,59,off,pdf_marker,73
+Canada,Tajon BUCHANAN,75,off,pdf_marker,73
+Canada,Luc DE FOUGEROLLES Third,59,on,pdf_marker,73
+Canada,Jacob SHAFFELBURG,71,on,pdf_marker,73
+Canada,Alphonso DAVIES,75,on,pdf_marker,73
+Canada,Niko SIGUR,59,on,pdf_marker,73
+Canada,Promise DAVID,70,on,pdf_marker,73
+Canada,Tanitoluwa Oluwatimilehin Oluwaseyi,70,off,lineup_derived,73
+Canada,Nathan-Dylan Saliba,59,off,lineup_derived,73
+Brazil,MATHEUS CUNHA,66,off,pdf_marker,74
+Brazil,LUCAS PAQUETA,45,off,pdf_marker,74
+Brazil,FABINHO,89,on,lineup_derived,74
+Brazil,DANILO SANTOS,89,on,lineup_derived,74
+Brazil,ENDRICK,45,on,pdf_marker,74
+Japan,Ritsu DOAN,66,off,pdf_marker,74
+Japan,Keito NAKAMURA,66,off,pdf_marker,74
+Japan,Junya ITO,78,off,pdf_marker,74
+Japan,Daichi KAMADA,78,off,pdf_marker,74
+Japan,Yukinari SUGAWARA,66,on,pdf_marker,74
+Japan,Shuto MACHINO,78,on,pdf_marker,74
+Japan,Ao TANAKA,78,on,pdf_marker,74
+Japan,Koki OGAWA,89,on,lineup_derived,74
+Japan,Junnosuke SUZUKI,66,on,pdf_marker,74
+Brazil,MARTINELLIGabriel Gabriel,66,on,lineup_derived,74
+Germany,Antonio RUEDIGER,110,off,lineup_derived,75
+Germany,Aleksandar PAVLOVIC,79,off,pdf_marker,75
+Germany,Florian WIRTZ,110,off,pdf_marker,75
+Germany,Leroy SANE,88,off,pdf_marker,75
+Germany,Felix NMECHA,45,off,pdf_marker,75
+Germany,Deniz UNDAV,63,off,pdf_marker,75
+Germany,Waldemar ANTON,79,on,pdf_marker,75
+Germany,Jamal MUSIALA,63,on,pdf_marker,75
+Germany,Nick WOLTEMADE,88,on,pdf_marker,75
+Germany,Nadiem AMIRI,110,on,pdf_marker,75
+Germany,Malick THIAW,110,on,pdf_marker,75
+Paraguay,Juan Jose CACERES,99,off,pdf_marker,75
+Paraguay,Miguel ALMIRON,90,off,pdf_marker,75
+Paraguay,Damian BOBADILLA,99,off,pdf_marker,75
+Paraguay,Julio ENCISO,57,off,pdf_marker,75
+Paraguay,Gabriel AVALOS,55,off,pdf_marker,75
+Paraguay,Gustavo VELAZQUEZ,90,on,pdf_marker,75
+Paraguay,120 Fabian BALBUENA,119,on,lineup_derived,75
+Paraguay,Antonio SANABRIA,99,on,pdf_marker,75
+Paraguay,MAURICIO,57,on,pdf_marker,75
+Paraguay,Braian OJEDA,99,on,pdf_marker,75
+Paraguay,Gustavo CABALLERO,55,on,pdf_marker,75
+Germany,Leon Christoph Goretzka,46,on,lineup_derived,75
+Netherlands,Nathan AKE,71,off,lineup_derived,76
+Netherlands,Ryan GRAVENBERCH,86,off,pdf_marker,76
+Netherlands,Cody GAKPO,113,off,pdf_marker,76
+Netherlands,Micky VAN DE VEN,86,off,pdf_marker,76
+Netherlands,Brian BROBBEY,71,off,pdf_marker,76
+Netherlands,Frenkie DE JONG,110,off,pdf_marker,76
+Netherlands,Justin KLUIVERT,113,on,pdf_marker,76
+Netherlands,Wout WEGHORST,71,on,pdf_marker,76
+Netherlands,Teun KOOPMEINERS,71,on,pdf_marker,76
+Netherlands,Jorrel HATO,86,on,pdf_marker,76
+Netherlands,Quinten TIMBER,86,on,pdf_marker,76
+Morocco,Ayyoub BOUADDI,79,off,pdf_marker,76
+Morocco,Brahim DIAZ,79,off,pdf_marker,76
+Morocco,Chadi RIAD,76,off,pdf_marker,76
+Morocco,Bilal EL KHANNOUSS,87,off,pdf_marker,76
+Morocco,Chemsdine TALBI,87,on,pdf_marker,76
+Morocco,Soufiane RAHIMI,86,on,pdf_marker,76
+Morocco,Samir EL MOURABET,79,on,pdf_marker,76
+Morocco,Gessime YASSINE,79,on,pdf_marker,76
+Morocco,Anass SALAH EDDINE,76,on,pdf_marker,76
+Netherlands,Marten Elco De Roon,110,on,lineup_derived,76
+Morocco,Azz-Eddine Ounahi,86,off,lineup_derived,76
+Côte d'Ivoire,Nicolas PEPE,87,off,pdf_marker,77
+Côte d'Ivoire,Christ Inao OULAI,60,off,pdf_marker,77
+Côte d'Ivoire,Elye WAHI,60,on,pdf_marker,77
+Côte d'Ivoire,Oumar DIAKITE,87,on,pdf_marker,77
+Côte d'Ivoire,Amad DIALLO,60,on,pdf_marker,77
+Côte d'Ivoire,Evann GUESSAND,89,on,lineup_derived,77
+Côte d'Ivoire,Bazoumana TOURE,89,on,lineup_derived,77
+Norway,Alexander SORLOTH,71,off,pdf_marker,77
+Norway,Marcus HOLMGREN PEDERSEN,83,off,pdf_marker,77
+Norway,Antonio NUSA,71,off,pdf_marker,77
+Norway,Fredrik AURSNES,83,on,pdf_marker,77
+Norway,Andreas SCHJELDERUP,71,on,pdf_marker,77
+Norway,Oscar BOBB,71,on,pdf_marker,77
+Côte d'Ivoire,Ange-Yoan Laurent Bonny,60,off,lineup_derived,77
+France,Lucas DIGNE,78,off,pdf_marker,78
+France,Jules KOUNDE,75,off,pdf_marker,78
+France,Ousmane DEMBELE,75,off,pdf_marker,78
+France,Kylian MBAPPE,85,off,pdf_marker,78
+France,Michael OLISE,85,off,pdf_marker,78
+France,Malo GUSTO,75,on,pdf_marker,78
+France,Theo HERNANDEZ,78,on,pdf_marker,78
+France,Desire DOUE,75,on,pdf_marker,78
+France,Rayan CHERKI,85,on,pdf_marker,78
+Sweden,Lucas BERGVALL,66,off,pdf_marker,78
+Sweden,Daniel SVENSSON,82,off,pdf_marker,78
+Sweden,Alexander ISAK,89,off,pdf_marker,78
+Sweden,Yasin AYARI,82,off,pdf_marker,78
+Sweden,Elliot STROUD,66,off,pdf_marker,78
+Sweden,Benjamin NYGREN,82,on,pdf_marker,78
+Sweden,Mattias SVANBERG,82,on,pdf_marker,78
+Sweden,Besfort ZENELI,66,on,pdf_marker,78
+Sweden,Gustaf NILSSON,89,on,pdf_marker,78
+Sweden,Taha ALI,66,on,pdf_marker,78
+France,Jean-Philippe Mateta,85,on,lineup_derived,78
+Mexico,Luis ROMO,73,off,pdf_marker,79
+Mexico,Raul JIMENEZ,74,off,pdf_marker,79
+Mexico,Julian QUINONES,80,off,pdf_marker,79
+Mexico,Gilberto MORA,58,off,pdf_marker,79
+Mexico,Roberto ALVARADO,80,off,pdf_marker,79
+Mexico,Santiago GIMENEZ,74,on,pdf_marker,79
+Mexico,Israel REYES,80,on,pdf_marker,79
+Mexico,Orbelin PINEDA,80,on,pdf_marker,79
+Mexico,Obed VARGAS,73,on,pdf_marker,79
+Mexico,Brian GUTIERREZ,58,on,pdf_marker,79
+Ecuador,Joel ORDONEZ,45,off,pdf_marker,79
+Ecuador,John YEBOAH,79,off,pdf_marker,79
+Ecuador,Enner VALENCIA,59,off,pdf_marker,79
+Ecuador,Nilson ANGULO,79,off,pdf_marker,79
+Ecuador,Alan FRANCO,46,off,lineup_derived,79
+Ecuador,Moises CAICEDO,99,off,pdf_marker_late,79
+Ecuador,Kendry PAEZ,79,on,pdf_marker,79
+Ecuador,Kevin RODRIGUEZ,59,on,pdf_marker,79
+Ecuador,Jordy CAICEDO,79,on,pdf_marker,79
+Ecuador,Angelo PRECIADO,45,on,pdf_marker,79
+Ecuador,Yaimar MEDINA,45,on,pdf_marker,79
+England,Marcus RASHFORD,61,off,pdf_marker,80
+England,John STONES,89,on,lineup_derived,80
+England,Anthony GORDON,61,on,pdf_marker,80
+England,Eberechi EZE,70,on,pdf_marker,80
+Congo DR,Ngalayel MUKAU,76,off,pdf_marker,80
+Congo DR,Nathanael MBUKU,64,off,pdf_marker,80
+Congo DR,Samuel MOUTOUSSAMY,89,off,pdf_marker,80
+Congo DR,Brian CIPENGA,76,off,pdf_marker,80
+Congo DR,Arthur MASUAKU,89,off,pdf_marker,80
+Congo DR,Theo BONGONDA,76,on,pdf_marker,80
+Congo DR,Joris KAYEMBE,89,on,pdf_marker,80
+Congo DR,Meschack ELIA,64,on,pdf_marker,80
+Congo DR,Fiston MAYELE,89,on,pdf_marker,80
+Congo DR,Edo KAYEMBE,76,on,pdf_marker,80
+England,Bukayo Ayoyinka Saka,60,on,lineup_derived,80
+England,Azuka Tristan Madueke,60,off,lineup_derived,80
+England,Tehuti Djed-Hotep Spence,70,off,lineup_derived,80
+Belgium,Maxim DE CUYPER,78,off,pdf_marker,81
+Belgium,Kevin DE BRUYNE,56,off,pdf_marker,81
+Belgium,Leandro TROSSARD,109,off,pdf_marker,81
+Belgium,Jeremy DOKU,56,off,pdf_marker,81
+Belgium,Charles DE KETELAERE,45,off,pdf_marker,81
+Belgium,Hans VANAKEN,63,off,pdf_marker,81
+Belgium,Romelu LUKAKU,45,on,pdf_marker,81
+Belgium,Dodi LUKEBAKIO,56,on,pdf_marker,81
+Belgium,Thomas MEUNIER,78,on,pdf_marker,81
+Belgium,Diego MOREIRA,63,on,pdf_marker,81
+Belgium,Nicolas RASKIN,56,on,pdf_marker,81
+Belgium,Amadou ONANA,109,on,pdf_marker,81
+Senegal,Idrissa Gana GUEYE,96,off,pdf_marker,81
+Senegal,Sadio MANE,94,off,pdf_marker,81
+Senegal,Iliman NDIAYE,73,off,pdf_marker,81
+Senegal,Ismail JAKOBS,93,off,pdf_marker,81
+Senegal,Habib DIARRA,73,off,pdf_marker,81
+Senegal,Pape GUEYE,66,off,pdf_marker,81
+Senegal,Lamine CAMARA,66,on,lineup_derived,81
+Senegal,Nicolas JACKSON,94,on,pdf_marker,81
+Senegal,Pape Matar SARR,73,on,pdf_marker,81
+Senegal,Ibrahim MBAYE,73,on,pdf_marker,81
+Senegal,Bara Sapoko NDIAYE,96,on,pdf_marker,81
+Senegal,El Hadji Malick DIOUF,93,on,pdf_marker,81
+USA,Sergino DEST,88,off,pdf_marker,82
+USA,Christian PULISIC,88,off,pdf_marker,82
+USA,Ricardo PEPI,88,on,pdf_marker,82
+USA,Sebastian BERHALTER,88,on,pdf_marker,82
+Bosnia and Herzegovina,Sead KOLASINAC,75,off,pdf_marker,82
+Bosnia and Herzegovina,Armin GIGOVIC,51,off,pdf_marker,82
+Bosnia and Herzegovina,Edin DZEKO,51,off,pdf_marker,82
+Bosnia and Herzegovina,Ivan SUNJIC,51,off,pdf_marker,82
+Bosnia and Herzegovina,Nikola KATIC,75,off,pdf_marker,82
+Bosnia and Herzegovina,Benjamin TAHIROVIC,51,on,pdf_marker,82
+Bosnia and Herzegovina,Amar MEMIC,75,on,pdf_marker,82
+Bosnia and Herzegovina,Esmir BAJRAKTAREVIC,51,on,pdf_marker,82
+Bosnia and Herzegovina,Haris TABAKOVIC,75,on,pdf_marker,82
+Bosnia and Herzegovina,Ermin MAHMIC,51,on,pdf_marker,82
+USA,Giovanni Alejandro Reyna,89,on,lineup_derived,82
+Spain,Lamine YAMAL,85,off,pdf_marker,83
+Spain,Marc PUBILL,89,on,lineup_derived,83
+Spain,Mikel MERINO,71,on,pdf_marker,83
+Spain,Ferran TORRES,71,on,pdf_marker,83
+Spain,Fabian RUIZ,89,on,lineup_derived,83
+Spain,GAVI,85,on,pdf_marker,83
+Austria,Xaver SCHLAGER,45,off,pdf_marker,83
+Austria,Stefan POSCH,85,off,pdf_marker,83
+Austria,Nicolas SEIWALD,45,off,pdf_marker,83
+Austria,Michael GREGORITSCH,60,off,pdf_marker,83
+Austria,Romano SCHMID,60,off,pdf_marker,83
+Austria,Marko ARNAUTOVIC Third,60,on,pdf_marker,83
+Austria,Florian GRILLITSCH,45,on,pdf_marker,83
+Austria,Sasa KALAJDZIC,60,on,pdf_marker,83
+Austria,Carney CHUKWUEMEKA,45,on,pdf_marker,83
+Austria,Alexander PRASS,85,on,pdf_marker,83
+Spain,Daniel Olmo,71,off,lineup_derived,83
+Spain,Alejandro Baena,71,off,lineup_derived,83
+Portugal,CRISTIANO RONALDO,81,off,pdf_marker,84
+Portugal,PEDRO NETO,62,off,pdf_marker,84
+Portugal,JOAO CANCELO,63,off,pdf_marker,84
+Portugal,VITINHA,62,off,pdf_marker,84
+Portugal,BERNARDO SILVA,62,on,pdf_marker,84
+Portugal,FRANCISCO CONCEICAO,62,on,pdf_marker,84
+Croatia,Ante BUDIMIR,45,off,pdf_marker,84
+Croatia,Martin BATURINA,68,off,pdf_marker,84
+Croatia,Josko GVARDIOL,89,on,lineup_derived,84
+Croatia,Andrej KRAMARIC,89,on,lineup_derived,84
+Croatia,Mario PASALIC,68,on,pdf_marker,84
+Croatia,Igor MATANOVIC,45,on,pdf_marker,84
+Portugal,SEMEDONélson Nelson,63,on,lineup_derived,84
+Portugal,Miguel Bruno,63,off,lineup_derived,84
+Portugal,RAMOSGonçalo Goncalo,63,on,lineup_derived,84
+Portugal,Diogo Ruben,81,on,lineup_derived,84
+Switzerland,Denis ZAKARIA,87,off,pdf_marker,85
+Switzerland,Breel EMBOLO,83,off,pdf_marker,85
+Switzerland,Remo FREULER,71,off,lineup_derived,85
+Switzerland,Johan MANZAMBI,71,off,pdf_marker,85
+Switzerland,Dan NDOYE,87,off,pdf_marker,85
+Switzerland,Ruben VARGAS,71,off,pdf_marker,85
+Switzerland,Djibril SOW,71,on,lineup_derived,85
+Switzerland,Noah OKAFOR,71,on,pdf_marker,85
+Switzerland,Michel AEBISCHER,87,on,pdf_marker,85
+Switzerland,Fabian RIEDER,71,on,pdf_marker,85
+Switzerland,Zeki AMDOUNI,83,on,pdf_marker,85
+Algeria,Ramiz ZERROUKI,59,off,pdf_marker,85
+Algeria,Rafik BELGHALI,82,off,pdf_marker,85
+Algeria,Nabil BENTALEB,71,off,pdf_marker,85
+Algeria,Amine GOUIRI,59,on,pdf_marker,85
+Algeria,Anis HADJ MOUSSA,71,on,pdf_marker,85
+Algeria,Jaouen HADJAM,58,on,pdf_marker,85
+Algeria,Hicham BOUDAOUI,71,on,lineup_derived,85
+Algeria,Adil BOULBINA,82,on,pdf_marker,85
+Switzerland,Silvan Dominic Widmer,87,on,lineup_derived,85
+Algeria,Houssem-Eddine Chaabane Aouar,58,off,lineup_derived,85
+Algeria,Selmane Rami Bensebaini,71,off,lineup_derived,85
+Australia,Patrick BEACH,119,off,pdf_marker,86
+Australia,Jordan BOS,45,off,pdf_marker,86
+Australia,Connor METCALFE,90,off,pdf_marker,86
+Australia,Aiden ONEILL,90,off,pdf_marker,86
+Australia,Nestory IRANKUNDA,74,off,pdf_marker,86
+Australia,Cristian VOLPATO,74,off,pdf_marker,86
+Australia,Mathew RYAN,119,on,pdf_marker,86
+Australia,Mohamed TOURE,74,on,pdf_marker,86
+Australia,Ajdin HRUSTIC,74,on,pdf_marker,86
+Australia,Awer MABIL,90,on,pdf_marker,86
+Australia,Kai TREWIN,45,on,pdf_marker,86
+Egypt,YASSER IBRAHIM,120,off,pdf_marker_late,86
+Egypt,MOSTAFA ZICO,67,off,pdf_marker,86
+Egypt,HAMDY FATHY,67,off,pdf_marker,86
+Egypt,KARIM HAFEZ,80,off,pdf_marker,86
+Egypt,120 MARAWAN ATTIA,119,off,lineup_derived,86
+Egypt,TREZEGUET,80,on,pdf_marker,86
+Egypt,HAMZA ABDELKARIM,105,on,pdf_marker,86
+Egypt,HAISSEM HASSAN,67,on,pdf_marker,86
+Egypt,120 MAHMOUD SABER,119,on,lineup_derived,86
+Australia,Paul Michael Junior Okon-Engstler,91,on,lineup_derived,86
+Egypt,Abdelmegeed Abdelsalam Hossam Abdelmaguid,67,on,lineup_derived,86
+Egypt,Mohamed Abdelsalam Omar,106,off,lineup_derived,86
+Argentina,Rodrigo DE PAUL,84,off,pdf_marker,87
+Argentina,Thiago ALMADA,64,off,pdf_marker,87
+Argentina,Lautaro MARTINEZ,64,off,pdf_marker,87
+Argentina,Facundo MEDINA,86,off,pdf_marker,87
+Argentina,Nahuel MOLINA,104,off,pdf_marker,87
+Argentina,Gonzalo MONTIEL,104,on,pdf_marker,87
+Argentina,Leandro PAREDES,84,on,pdf_marker,87
+Argentina,Julian ALVAREZ,64,on,pdf_marker,87
+Cabo Verde,KEVIN PINA,100,off,pdf_marker,87
+Cabo Verde,DEROY DUARTE,100,off,pdf_marker,87
+Cabo Verde,LAROS DUARTE,67,off,pdf_marker,87
+Cabo Verde,NUNO DA COSTA,67,off,pdf_marker,87
+Cabo Verde,JAMIRO MONTEIRO,67,on,pdf_marker,87
+Cabo Verde,DAILON LIVRAMENTO,67,on,pdf_marker,87
+Cabo Verde,HELIO VARELA,80,on,pdf_marker,87
+Argentina,Nicolás Alejandro Tagliafico,85,on,lineup_derived,87
+Argentina,Nicolas Ivan Gonzalez,63,on,lineup_derived,87
+Cabo Verde,Eduardo Jovane,80,off,lineup_derived,87
+Cabo Verde,BENCHIMOLGilson Gilson,100,on,lineup_derived,87
+Cabo Verde,SEMEDOJair Yannick,100,on,lineup_derived,87
+Cabo Verde,Johnson Willy,80,on,lineup_derived,87
+Cabo Verde,Isaac Ryan,80,off,lineup_derived,87
+Colombia,Luis DIAZ,90,off,pdf_marker_late,88
+Colombia,Jhon CORDOBA,8,off,pdf_marker,88
+Colombia,James RODRIGUEZ,45,off,pdf_marker,88
+Colombia,Jhon ARIAS,73,off,pdf_marker,88
+Colombia,Richard RIOS,45,on,pdf_marker,88
+Colombia,Juan QUINTERO,73,on,pdf_marker,88
+Colombia,Jaminton CAMPAZ,90,on,pdf_marker,88
+Colombia,Luis SUAREZ,8,on,pdf_marker,88
+Ghana,Caleb YIRENKYI,79,off,pdf_marker,88
+Ghana,Kwasi SIBO,62,off,pdf_marker,88
+Ghana,Jordan AYEW,79,off,pdf_marker,88
+Ghana,Inaki WILLIAMS,62,off,pdf_marker,88
+Ghana,Marvin SENAYA,13,off,pdf_marker,88
+Ghana,Alidu SEIDU,13,on,pdf_marker,88
+Ghana,Abdul FATAWU,62,on,pdf_marker,88
+Ghana,Elisha OWUSU,62,on,pdf_marker,88
+Ghana,Ernest NUAMAH,79,on,pdf_marker,88
+Ghana,Prince ADU,79,on,pdf_marker,88
+France,Michael OLISE,97,off,pdf_marker_late,89
+Canada,Tajon BUCHANAN,87,on,pdf_marker_late,90
+Canada,Niko SIGUR,87,on,pdf_marker_late,90
+Canada,Jonathan OSORIO,87,on,pdf_marker_late,90
+Canada,Jayden NELSON,87,on,pdf_marker_late,90
+Morocco,OUNAHI,60,on,lineup_derived,90
+Morocco,Issa DIOP,87,on,pdf_marker_late,90
+Morocco,Marwane SAADANE,87,on,pdf_marker_late,90
+Morocco,Soufiane RAHIMI,60,on,lineup_derived,90
+Morocco,Samir EL MOURABET,87,on,pdf_marker_late,90
+Brazil,MATHEUS CUNHA,58,off,pdf_marker,91
+Brazil,RAYAN,67,off,pdf_marker,91
+Brazil,NEYMAR JR,67,on,pdf_marker,91
+Brazil,DANILO SANTOS,67,on,pdf_marker,91
+Brazil,ENDRICK,58,on,pdf_marker,91
+Norway,Alexander SORLOTH,45,off,pdf_marker,91
+Norway,Antonio NUSA,45,off,pdf_marker,91
+Norway,Julian RYERSON,63,off,pdf_marker,91
+Norway,Fredrik AURSNES,63,on,pdf_marker,91
+Norway,Andreas SCHJELDERUP,45,on,pdf_marker,91
+Norway,Oscar BOBB,45,on,pdf_marker,91
+Brazil,José Ederson Silva,79,on,lineup_derived,91
+Brazil,GUIMARAESBruno Bruno,79,off,lineup_derived,91
+Brazil,MARTINELLIGabriel Gabriel,67,off,lineup_derived,91
+Norway,Leo Skiri Ostigard,89,on,lineup_derived,91
+Mexico,Jorge SANCHEZ,79,off,pdf_marker,92
+Mexico,Cesar MONTES,45,off,pdf_marker,92
+Mexico,Luis ROMO,61,off,pdf_marker,92
+Mexico,Julian QUINONES,81,off,pdf_marker,92
+Mexico,Gilberto MORA,61,off,pdf_marker,92
+Mexico,Edson ALVAREZ,45,on,pdf_marker,92
+Mexico,Santiago GIMENEZ,61,on,pdf_marker,92
+Mexico,Guillermo MARTINEZ,81,on,pdf_marker,92
+Mexico,Brian GUTIERREZ,61,on,pdf_marker,92
+England,Nico OREILLY,74,off,pdf_marker,92
+England,Bukayo SAKA,57,off,pdf_marker,92
+England,Elliot ANDERSON,75,off,pdf_marker,92
+England,Harry KANE,90,off,pdf_marker_late,92
+England,John STONES,57,on,pdf_marker,92
+England,Jordan HENDERSON,89,on,lineup_derived,92
+England,Morgan ROGERS,90,on,pdf_marker,92
+Mexico,Álvaro Fidalgo,79,on,lineup_derived,92
+England,Daniel Johnson Burn,75,on,lineup_derived,92
+England,Tehuti Djed-Hotep Spence,75,on,lineup_derived,92
+Portugal,JOAO FELIX,71,off,pdf_marker,93
+Portugal,PEDRO NETO,83,off,pdf_marker,93
+Portugal,JOAO CANCELO,71,off,pdf_marker,93
+Portugal,VITINHA,83,off,pdf_marker,93
+Portugal,DIOGO DALOT,71,on,pdf_marker,93
+Portugal,BERNARDO SILVA,83,on,pdf_marker,93
+Portugal,RAFAEL LEAO,71,on,pdf_marker,93
+Portugal,FRANCISCO CONCEICAO,83,on,pdf_marker,93
+Spain,PEDRI,85,off,pdf_marker,93
+Spain,Mikel MERINO,85,on,pdf_marker,93
+Spain,Ferran TORRES,75,on,pdf_marker,93
+Spain,Fabian RUIZ,85,on,pdf_marker,93
+Spain,Borja IGLESIAS,89,on,lineup_derived,93
+Portugal,SEMEDONélson Nelson,56,on,lineup_derived,93
+Portugal,Alexandre Nuno,56,off,lineup_derived,93
+Spain,Daniel Olmo,84,off,lineup_derived,93
+Spain,Alejandro Baena,75,off,lineup_derived,93
+USA,Sergino DEST,45,off,pdf_marker,94
+USA,Tyler ADAMS,72,off,pdf_marker,94
+USA,Christian PULISIC,59,off,pdf_marker,94
+USA,Ricardo PEPI,72,on,pdf_marker,94
+USA,Sebastian BERHALTER,59,on,pdf_marker,94
+USA,Haji WRIGHT,89,on,lineup_derived,94
+Belgium,Leandro TROSSARD,89,off,pdf_marker,94
+Belgium,Dodi LUKEBAKIO,67,off,pdf_marker,94
+Belgium,Charles DE KETELAERE,67,off,pdf_marker,94
+Belgium,Nicolas RASKIN,89,off,pdf_marker,94
+Belgium,Amadou ONANA,21,off,pdf_marker,94
+Belgium,Axel WITSEL,89,on,pdf_marker,94
+Belgium,Romelu LUKAKU,67,on,pdf_marker,94
+Belgium,Jeremy DOKU,67,on,pdf_marker,94
+Belgium,Hans VANAKEN,21,on,pdf_marker,94
+Belgium,Alexis SAELEMAEKERS,89,on,pdf_marker,94
+USA,Giovanni Alejandro Reyna,45,on,lineup_derived,94
+USA,Maximilian Michael Arfsten,89,on,lineup_derived,94
+Argentina,Nicolas TAGLIAFICO,66,off,pdf_marker,95
+Argentina,Rodrigo DE PAUL,66,off,pdf_marker,95
+Argentina,Nahuel MOLINA,73,off,pdf_marker,95
+Argentina,Nicolas OTAMENDI,89,on,lineup_derived,95
+Argentina,Lautaro MARTINEZ,66,on,pdf_marker,95
+Argentina,Facundo MEDINA,89,on,lineup_derived,95
+Egypt,EMAM ASHOUR,45,off,pdf_marker,95
+Egypt,MOSTAFA ZICO,80,off,pdf_marker,95
+Egypt,HAISSEM HASSAN,73,off,pdf_marker,95
+Egypt,TREZEGUET,73,on,pdf_marker,95
+Egypt,HAMDY FATHY,45,on,pdf_marker,95
+Egypt,ZIZO,89,on,lineup_derived,95
+Argentina,Gonzalo Ariel Montiel,73,on,lineup_derived,95
+Argentina,Nicolas Ivan Gonzalez,66,on,lineup_derived,95
+Egypt,Mohamed Abdelsalam Omar,80,on,lineup_derived,95
+Switzerland,Denis ZAKARIA,87,off,pdf_marker,96
+Switzerland,Breel EMBOLO,87,off,pdf_marker,96
+Switzerland,Dan NDOYE,90,off,lineup_derived,96
+Switzerland,Ricardo RODRIGUEZ,71,off,pdf_marker,96
+Switzerland,Ardon JASHARI,45,off,pdf_marker,96
+Switzerland,Fabian RIEDER,103,off,pdf_marker,96
+Switzerland,Miro MUHEIM,71,on,pdf_marker,96
+Switzerland,Djibril SOW,45,on,pdf_marker,96
+Switzerland,Ruben VARGAS,90,on,lineup_derived,96
+Switzerland,Zeki AMDOUNI,103,on,pdf_marker,96
+Switzerland,Cedric ITTEN,87,on,pdf_marker,96
+Colombia,Jhon LUCUMI,119,off,pdf_marker,96
+Colombia,James RODRIGUEZ,66,off,pdf_marker,96
+Colombia,Jhon ARIAS,66,off,pdf_marker,96
+Colombia,Jefferson LERMA,82,off,pdf_marker,96
+Colombia,Luis SUAREZ,83,off,pdf_marker,96
+Colombia,Richard RIOS,82,on,pdf_marker,96
+Colombia,Yerry MINA,119,on,pdf_marker,96
+Colombia,Juan QUINTERO,66,on,pdf_marker,96
+Colombia,Jaminton CAMPAZ,66,on,pdf_marker,96
+Switzerland,Silvan Dominic Widmer,87,on,lineup_derived,96
+Colombia,Juan Camilo Hernandez,82,on,lineup_derived,96
+France,Jules KOUNDE,87,off,pdf_marker_late,97
+France,Kylian MBAPPE,77,off,pdf_marker,97
+France,Desire DOUE,77,off,pdf_marker,97
+France,Malo GUSTO,87,on,pdf_marker_late,97
+France,Bradley BARCOLA,77,on,pdf_marker,97
+Morocco,Chemsdine TALBI,85,off,pdf_marker_late,97
+Morocco,Bilal EL KHANNOUSS,76,off,lineup_derived,97
+Morocco,Soufiane RAHIMI,76,on,lineup_derived,97
+Morocco,Amine SBAI,85,on,pdf_marker_late,97
+France,Jean-Philippe Mateta,77,on,lineup_derived,97
+Spain,Fabian RUIZ,55,off,pdf_marker,98
+Spain,Mikel OYARZABAL,79,off,pdf_marker,98
+Spain,Mikel MERINO,86,on,pdf_marker,98
+Spain,Ferran TORRES,55,on,pdf_marker,98
+Spain,PEDRI,55,on,pdf_marker,98
+Belgium,Thibaut COURTOIS,71,off,pdf_marker,98
+Belgium,Maxim DE CUYPER,61,off,pdf_marker,98
+Belgium,Kevin DE BRUYNE,86,off,lineup_derived,98
+Belgium,Leandro TROSSARD,60,off,pdf_marker,98
+Belgium,Hans VANAKEN,60,off,pdf_marker,98
+Belgium,Senne LAMMENS,71,on,pdf_marker,98
+Belgium,Axel WITSEL,60,on,pdf_marker,98
+Belgium,Romelu LUKAKU,60,on,pdf_marker,98
+Belgium,Joaquin SEYS,61,on,pdf_marker,98
+Belgium,Alexis SAELEMAEKERS,86,on,pdf_marker,98
+Spain,Alejandro Baena,55,off,lineup_derived,98
+Spain,Daniel Olmo,86,off,lineup_derived,98
+Spain,Nicholas Williams,79,on,lineup_derived,98
+Norway,David MOLLER WOLFE,90,off,pdf_marker,99
+Norway,Alexander SORLOTH,68,off,pdf_marker,99
+Norway,Erling HAALAND,105,off,pdf_marker,99
+Norway,Andreas SCHJELDERUP,68,off,pdf_marker,99
+Norway,Julian RYERSON,60,off,pdf_marker,99
+Norway,Fredrik AURSNES,60,on,pdf_marker,99
+Norway,Marcus HOLMGREN PEDERSEN,90,on,pdf_marker,99
+Norway,Antonio NUSA,68,on,pdf_marker,99
+Norway,Oscar BOBB,68,on,pdf_marker,99
+England,Nico OREILLY,86,off,pdf_marker,99
+England,Declan RICE,45,off,pdf_marker,99
+England,Jude BELLINGHAM,111,off,pdf_marker,99
+England,Anthony GORDON,71,off,pdf_marker,99
+England,Bukayo SAKA,45,on,pdf_marker,99
+England,Morgan ROGERS,89,on,pdf_marker,99
+England,Eberechi EZE,45,on,pdf_marker,99
+England,Reece JAMES,71,on,pdf_marker,99
+Norway,Torbjørn Lysaker Heggem,90,off,lineup_derived,99
+Norway,Leo Skiri Ostigard,90,on,lineup_derived,99
+Norway,Jørgen Strand Strand Larsen,105,on,lineup_derived,99
+England,Ezri Ngoyo Konsa,89,off,lineup_derived,99
+England,Azuka Tristan Madueke,45,off,lineup_derived,99
+England,Tehuti Djed-Hotep Spence,86,on,lineup_derived,99
+England,Daniel Johnson Burn,114,on,lineup_derived,99
+Argentina,Nicolas TAGLIAFICO,78,off,pdf_marker,100
+Argentina,Leandro PAREDES,110,off,pdf_marker,100
+Argentina,Rodrigo DE PAUL,85,off,pdf_marker,100
+Argentina,Cristian ROMERO,105,off,pdf_marker,100
+Argentina,Enzo FERNANDEZ,90,off,pdf_marker,100
+Argentina,Nahuel MOLINA,85,off,pdf_marker,100
+Argentina,Thiago ALMADA,90,on,pdf_marker,100
+Argentina,Nicolas OTAMENDI,105,on,pdf_marker,100
+Argentina,Jose Manuel LOPEZ,110,on,pdf_marker,100
+Argentina,Lautaro MARTINEZ 120,85,on,pdf_marker,100
+Switzerland,Denis ZAKARIA,96,off,pdf_marker,100
+Switzerland,Remo FREULER,115,off,pdf_marker,100
+Switzerland,Dan NDOYE,86,off,pdf_marker,100
+Switzerland,Ricardo RODRIGUEZ,90,off,lineup_derived,100
+Switzerland,Djibril SOW,86,off,pdf_marker,100
+Switzerland,Fabian RIEDER,86,off,pdf_marker,100
+Switzerland,Miro MUHEIM,86,on,pdf_marker,100
+Switzerland,Ardon JASHARI,96,on,pdf_marker,100
+Switzerland,Ruben VARGAS,115,on,pdf_marker,100
+Switzerland,Eray COEMERT,90,on,lineup_derived,100
+Switzerland,Zeki AMDOUNI,86,on,pdf_marker,100
+Argentina,Nicolas Ivan Gonzalez,78,on,lineup_derived,100
+Argentina,Gonzalo Ariel Montiel,85,on,lineup_derived,100
+Switzerland,Silvan Dominic Widmer,86,on,lineup_derived,100
+France,Lucas DIGNE,72,off,pdf_marker,101
+France,Michael OLISE,73,off,pdf_marker,101
+France,Bradley BARCOLA,57,off,pdf_marker,101
+France,Adrien RABIOT,45,off,pdf_marker,101
+France,William SALIBA,30,off,pdf_marker,101
+France,Theo HERNANDEZ,72,on,pdf_marker,101
+France,Desire DOUE,57,on,pdf_marker,101
+France,Rayan CHERKI,73,on,pdf_marker,101
+France,Maxence LACROIX,30,on,pdf_marker,101
+Spain,Fabian RUIZ,78,off,pdf_marker,101
+Spain,Pedro PORRO,84,off,pdf_marker,101
+Spain,Mikel OYARZABAL,74,off,pdf_marker,101
+Spain,Marcos LLORENTE,84,on,pdf_marker,101
+Spain,Mikel MERINO,78,on,pdf_marker,101
+Spain,Ferran TORRES,74,on,pdf_marker,101
+Spain,PEDRI,78,on,pdf_marker,101
+France,Emmanuel Boris Kone,45,on,lineup_derived,101
+Spain,Daniel Olmo,78,off,lineup_derived,101
+Spain,Alejandro Baena,84,off,lineup_derived,101
+Spain,Nicholas Williams,84,on,lineup_derived,101
+England,Declan RICE,83,off,pdf_marker,102
+England,Anthony GORDON,72,off,pdf_marker,102
+England,Reece JAMES,82,off,pdf_marker,102
+England,Ezri KONSA,72,on,pdf_marker,102
+Argentina,Nicolas TAGLIAFICO,81,off,pdf_marker,102
+Argentina,Leandro PAREDES,64,off,pdf_marker,102
+Argentina,Lisandro MARTINEZ,72,off,pdf_marker,102
+Argentina,Giuliano SIMEONE,72,off,pdf_marker,102
+Argentina,Nahuel MOLINA,72,off,pdf_marker,102
+Argentina,Rodrigo DE PAUL,72,on,pdf_marker,102
+Argentina,Nicolas OTAMENDI,72,on,pdf_marker,102
+Argentina,Lautaro MARTINEZ,81,on,pdf_marker,102
+England,Nico Oreilly,82,on,lineup_derived,102
+England,Daniel Johnson Burn,82,on,lineup_derived,102
+Argentina,Nicolas Ivan Gonzalez,64,on,lineup_derived,102
+Argentina,Gonzalo Ariel Montiel,72,on,lineup_derived,102
+France,Ibrahima KONATE,45,off,pdf_marker,103
+France,Theo HERNANDEZ,45,off,pdf_marker,103
+France,Desire DOUE,45,off,pdf_marker,103
+France,Rayan CHERKI,45,off,pdf_marker,103
+France,Lucas DIGNE,45,on,pdf_marker,103
+France,Jules KOUNDE,89,on,lineup_derived,103
+France,Ousmane DEMBELE,45,on,pdf_marker,103
+France,Bradley BARCOLA,45,on,pdf_marker,103
+England,Marcus RASHFORD,45,off,pdf_marker,103
+England,Eberechi EZE,79,off,pdf_marker,103
+England,Ivan TONEY,79,off,pdf_marker,103
+England,Elliot ANDERSON,79,on,pdf_marker,103
+England,Jude BELLINGHAM,79,on,pdf_marker,103
+England,Trevoh CHALOBAH,89,on,lineup_derived,103
+England,Reece JAMES,83,on,pdf_marker,103
+France,Dayotchanculle Oswald Upamecano,45,on,lineup_derived,103
+England,Tehuti Djed-Hotep Spence,83,off,lineup_derived,103
+England,George Arthur Watkins,45,on,lineup_derived,103
+Spain,Fabian RUIZ,62,off,pdf_marker,104
+Spain,Aymeric LAPORTE,99,off,pdf_marker,104
+Spain,RODRI,99,off,pdf_marker_late,104
+Spain,Mikel OYARZABAL,62,off,pdf_marker,104
+Spain,Eric GARCIA,99,on,pdf_marker,104
+Spain,Mikel MERINO,75,on,pdf_marker,104
+Spain,Ferran TORRES,62,on,pdf_marker,104
+Spain,Martin ZUBIMENDI,99,on,pdf_marker_late,104
+Spain,PEDRI,62,on,pdf_marker,104
+Argentina,Gonzalo MONTIEL,57,off,pdf_marker,104
+Argentina,Lisandro MARTINEZ,44,off,pdf_marker,104
+Argentina,Rodrigo DE PAUL,70,off,pdf_marker,104
+Argentina,Julian ALVAREZ,102,off,pdf_marker,104
+Argentina,Cristian ROMERO,70,off,pdf_marker,104
+Argentina,Marcos SENESI,102,on,pdf_marker,104
+Argentina,Giuliano SIMEONE,70,on,pdf_marker,104
+Argentina,Nicolas OTAMENDI,44,on,pdf_marker,104
+Argentina,Facundo MEDINA,70,on,pdf_marker,104
+Argentina,Nahuel MOLINA,57,on,pdf_marker,104
+Spain,Alejandro Baena,75,off,lineup_derived,104
+Spain,Daniel Olmo,75,off,lineup_derived,104
+Spain,Nicholas Williams,75,on,lineup_derived,104
+Argentina,Nicolas Ivan Gonzalez,45,off,lineup_derived,104

@@ -1,0 +1,970 @@
+tournament,match_id,date,stage,team,opponent,period,minute,second,player_out,player_in,sub_reason,sub_number_for_team,score_for,score_against,score_state
+WC2018,8650,2018-07-06,Quarter-finals,Brazil,Belgium,2,45,0,Willian Borges da Silva,Roberto Firmino Barbosa de Oliveira,Tactical,1,0,2,trailing
+WC2018,8650,2018-07-06,Quarter-finals,Brazil,Belgium,2,57,12,Gabriel Fernando de Jesus,Douglas Costa de Souza,Tactical,2,0,2,trailing
+WC2018,8650,2018-07-06,Quarter-finals,Brazil,Belgium,2,72,4,José Paulo Bezzera Maciel Júnior,Renato Soares de Oliveira Augusto,Tactical,3,0,2,trailing
+WC2018,8650,2018-07-06,Quarter-finals,Belgium,Brazil,2,82,7,Nacer Chadli,Thomas Vermaelen,Tactical,1,2,1,leading
+WC2018,8650,2018-07-06,Quarter-finals,Belgium,Brazil,2,86,31,Romelu Lukaku Menama,Youri Tielemans,Tactical,2,2,1,leading
+WC2018,7584,2018-07-02,Round of 16,Belgium,Japan,2,64,15,Dries Mertens,Marouane Fellaini-Bakkioui,Tactical,1,0,2,trailing
+WC2018,7584,2018-07-02,Round of 16,Belgium,Japan,2,64,26,Yannick Ferreira Carrasco,Nacer Chadli,Tactical,2,0,2,trailing
+WC2018,7584,2018-07-02,Round of 16,Japan,Belgium,2,80,29,Gaku Shibasaki,Hotaru Yamaguchi,Tactical,1,2,2,level
+WC2018,7584,2018-07-02,Round of 16,Japan,Belgium,2,80,37,Genki Haraguchi,Keisuke Honda,Tactical,2,2,2,level
+WC2018,7554,2018-06-24,Group Stage,Panama,England,2,61,46,Aníbal Cesis Godoy,Ricardo Guardia Avila,Tactical,1,0,6,trailing
+WC2018,7554,2018-06-24,Group Stage,England,Panama,2,62,31,Harry Kane,Jamie Vardy,Tactical,1,6,0,leading
+WC2018,7554,2018-06-24,Group Stage,England,Panama,2,62,55,Jesse Lingard,Fabian Delph,Tactical,2,6,0,leading
+WC2018,7554,2018-06-24,Group Stage,Panama,England,2,68,32,Edgar Yoel Bárcenas Herrera,Abdiel Arroyo Molinar,Tactical,2,0,6,trailing
+WC2018,7554,2018-06-24,Group Stage,Panama,England,2,68,33,Gabriel Enrique Gómez Girón,Felipe Abdiel Baloy Ramírez,Tactical,3,0,6,trailing
+WC2018,7554,2018-06-24,Group Stage,England,Panama,2,69,22,Kieran Trippier,Danny Rose,Tactical,3,6,0,leading
+WC2018,7539,2018-06-19,Group Stage,Poland,Senegal,2,45,0,Jakub Błaszczykowski,Jan Bednarek,Tactical,1,0,1,trailing
+WC2018,7539,2018-06-19,Group Stage,Senegal,Poland,2,61,25,Mame Biram Diouf,Cheikh N'Doye,Tactical,1,2,0,leading
+WC2018,7539,2018-06-19,Group Stage,Poland,Senegal,2,72,51,Arkadiusz Milik,Dawid Kownacki,Tactical,2,0,2,trailing
+WC2018,7539,2018-06-19,Group Stage,Senegal,Poland,2,74,23,M'Baye Babacar Niang,Pape Moussa Konaté,Tactical,2,2,0,leading
+WC2018,7539,2018-06-19,Group Stage,Poland,Senegal,2,82,15,Łukasz Piszczek,Bartosz Bereszyński,Tactical,3,0,2,trailing
+WC2018,7539,2018-06-19,Group Stage,Senegal,Poland,2,86,22,Alfred John Momar N'Diaye,Cheikhou Kouyaté,Tactical,3,2,1,leading
+WC2018,7550,2018-06-22,Group Stage,Switzerland,Serbia,2,45,0,Haris Seferović,Mario Gavranović,Tactical,1,0,1,trailing
+WC2018,7550,2018-06-22,Group Stage,Serbia,Switzerland,2,63,56,Filip Kostić,Adem Ljajić,Tactical,1,1,1,level
+WC2018,7550,2018-06-22,Group Stage,Switzerland,Serbia,2,72,12,Blerim Džemaili,Breel-Donald Embolo,Tactical,2,1,1,level
+WC2018,7550,2018-06-22,Group Stage,Serbia,Switzerland,2,80,6,Luka Milivojević,Nemanja Radonjić,Tactical,2,1,1,level
+WC2018,7550,2018-06-22,Group Stage,Switzerland,Serbia,2,92,39,Steven Zuber,Josip Drmic,Tactical,3,2,1,leading
+WC2018,7538,2018-06-18,Group Stage,South Korea,Sweden,1,27,48,Joo-Ho Park,Min-Woo Kim,Injury,1,0,0,level
+WC2018,7538,2018-06-18,Group Stage,South Korea,Sweden,2,66,2,Shin-Wook Kim,Woo-Young Jung,Tactical,2,0,1,trailing
+WC2018,7538,2018-06-18,Group Stage,Sweden,South Korea,2,70,47,Albin Ekdal,Oscar Hiljemark,Tactical,1,1,0,leading
+WC2018,7538,2018-06-18,Group Stage,South Korea,Sweden,2,72,3,Ja-Cheol Koo,Seung-Woo Lee,Tactical,3,0,1,trailing
+WC2018,7538,2018-06-18,Group Stage,Sweden,South Korea,2,76,7,Ola Toivonen,Isaac Kiese Thelin,Tactical,2,1,0,leading
+WC2018,7538,2018-06-18,Group Stage,Sweden,South Korea,2,80,19,Sebastian Larsson,Gustav Svensson,Injury,3,1,0,leading
+WC2018,7534,2018-06-17,Group Stage,Mexico,Germany,2,57,40,Carlos Alberto Vela Garrido,Edson Omar Álvarez Velázquez,,1,1,0,leading
+WC2018,7534,2018-06-17,Group Stage,Germany,Mexico,2,59,49,Sami Khedira,Marco Reus,Tactical,1,0,1,trailing
+WC2018,7534,2018-06-17,Group Stage,Mexico,Germany,2,65,50,Hirving Rodrigo Lozano Bahena,Raúl Alonso Jiménez Rodríguez,Tactical,2,1,0,leading
+WC2018,7534,2018-06-17,Group Stage,Mexico,Germany,2,72,39,José Andrés Guardado Hernández,Rafael Márquez Álvarez,Tactical,3,1,0,leading
+WC2018,7534,2018-06-17,Group Stage,Germany,Mexico,2,78,49,Marvin Plattenhardt,Mario Gómez García,Tactical,2,0,1,trailing
+WC2018,7534,2018-06-17,Group Stage,Germany,Mexico,2,85,44,Timo Werner,Julian Brandt,Tactical,3,0,1,trailing
+WC2018,7543,2018-06-20,Group Stage,Iran,Spain,2,68,38,Ehsan Hajsafi,Milad Mohammadi,Tactical,1,0,1,trailing
+WC2018,7543,2018-06-20,Group Stage,Spain,Iran,2,70,5,Andrés Iniesta Luján,Jorge Resurrección Merodio,Tactical,1,1,0,leading
+WC2018,7543,2018-06-20,Group Stage,Iran,Spain,2,73,51,Karim Ansarifard,Alireza Jahanbakhsh,Tactical,2,0,1,trailing
+WC2018,7543,2018-06-20,Group Stage,Spain,Iran,2,78,39,Lucas Vázquez Iglesias,Marco Asensio Willemsen,Tactical,2,1,0,leading
+WC2018,7543,2018-06-20,Group Stage,Iran,Spain,2,85,37,Vahid Amiri,Saman Ghoddos,Tactical,3,0,1,trailing
+WC2018,7543,2018-06-20,Group Stage,Spain,Iran,2,87,54,Diego da Silva Costa,Rodrigo Moreno Machado,Tactical,3,1,0,leading
+WC2018,7544,2018-06-20,Group Stage,Saudi Arabia,Uruguay,1,43,30,Taisir Jabir Al Jassim,Hussain Al Mogahwi,Injury,1,0,1,trailing
+WC2018,7544,2018-06-20,Group Stage,Uruguay,Saudi Arabia,2,58,5,Cristian Gabriel Rodríguez Barrotti,Diego Sebastián Laxalt Suárez,Tactical,1,1,0,leading
+WC2018,7544,2018-06-20,Group Stage,Uruguay,Saudi Arabia,2,58,38,Matías Vecino Falero,Lucas Torreira Di Pascua,Tactical,2,1,0,leading
+WC2018,7544,2018-06-20,Group Stage,Saudi Arabia,Uruguay,2,74,46,Hattan Babhir,Mohammed Kanoo,Tactical,2,0,1,trailing
+WC2018,7544,2018-06-20,Group Stage,Saudi Arabia,Uruguay,2,77,21,Fahad Mosaed Al Muwallad Al Harbi,Mohammad Ibrahim Al Sahlawi,Tactical,3,0,1,trailing
+WC2018,7544,2018-06-20,Group Stage,Uruguay,Saudi Arabia,2,81,16,Carlos Andrés Sánchez Arcosa,Nahitan Michel Nández Acosta,Tactical,3,1,0,leading
+WC2018,7546,2018-06-21,Group Stage,Peru,France,2,45,0,Alberto Junior Rodríguez Valdelomar,Anderson Santamaría Bardales,Tactical,1,0,1,trailing
+WC2018,7546,2018-06-21,Group Stage,Peru,France,2,45,0,Víctor Yoshimar Yotún Flores,Jefferson Agustín Farfán Guadalupe,Tactical,2,0,1,trailing
+WC2018,7546,2018-06-21,Group Stage,France,Peru,2,73,44,Kylian Mbappé Lottin,Ousmane Dembélé,Tactical,1,1,0,leading
+WC2018,7546,2018-06-21,Group Stage,France,Peru,2,79,17,Antoine Griezmann,Nabil Fekir,Tactical,2,1,0,leading
+WC2018,7546,2018-06-21,Group Stage,Peru,France,2,81,40,Christian Alberto Cueva Bravo,Raúl Mario Ruidíaz Misitich,Tactical,3,0,1,trailing
+WC2018,7546,2018-06-21,Group Stage,France,Peru,2,88,40,Paul Pogba,Steven N'Kemboanza Mike Christopher Nzonzi,Tactical,3,1,0,leading
+WC2018,7545,2018-06-21,Group Stage,Argentina,Croatia,2,53,57,Sergio Leonel Agüero del Castillo,Gonzalo Gerardo Higuaín,Tactical,1,0,1,trailing
+WC2018,7545,2018-06-21,Group Stage,Argentina,Croatia,2,55,39,Eduardo Antonio Salvio,Cristian David Pavón,Tactical,2,0,1,trailing
+WC2018,7545,2018-06-21,Group Stage,Croatia,Argentina,2,56,20,Ante Rebić,Andrej Kramarić,Tactical,1,1,0,leading
+WC2018,7545,2018-06-21,Group Stage,Argentina,Croatia,2,67,46,Enzo Nicolás Pérez,Paulo Bruno Exequiel Dybala,Tactical,3,0,1,trailing
+WC2018,7545,2018-06-21,Group Stage,Croatia,Argentina,2,81,45,Ivan Perišić,Mateo Kovačić,Tactical,2,2,0,leading
+WC2018,7545,2018-06-21,Group Stage,Croatia,Argentina,2,92,38,Mario Mandžukić,Vedran Ćorluka,Tactical,3,3,0,leading
+WC2018,7585,2018-07-03,Round of 16,Colombia,England,2,61,5,Jefferson Andrés Lerma Solís,Carlos Arturo Bacca Ahumada,Tactical,1,0,1,trailing
+WC2018,7585,2018-07-03,Round of 16,Colombia,England,2,78,19,Carlos Alberto Sánchez Moreno,Andrés Mateus Uribe Villa,Tactical,2,0,1,trailing
+WC2018,7585,2018-07-03,Round of 16,England,Colombia,2,80,1,Bamidele Alli,Eric Dier,Tactical,1,1,0,leading
+WC2018,7585,2018-07-03,Round of 16,England,Colombia,2,87,23,Raheem Sterling,Jamie Vardy,Tactical,2,1,0,leading
+WC2018,7585,2018-07-03,Round of 16,Colombia,England,2,87,41,Juan Fernando Quintero Paniagua,Luis Fernando Muriel Fruto,Tactical,3,0,1,trailing
+WC2018,7585,2018-07-03,Round of 16,England,Colombia,3,101,33,Ashley Young,Danny Rose,Tactical,3,1,1,level
+WC2018,7585,2018-07-03,Round of 16,England,Colombia,4,112,33,Kyle Walker,Marcus Rashford,Tactical,4,1,1,level
+WC2018,7585,2018-07-03,Round of 16,Colombia,England,4,115,17,Santiago Arias Naranjo,Cristian Eduardo Zapata Valencia,Tactical,4,1,1,level
+WC2018,7569,2018-06-28,Group Stage,Panama,Tunisia,2,45,0,Gabriel Arturo Torres Tejada,Harold Oshkaly Cummings Segura,Tactical,1,1,0,leading
+WC2018,7569,2018-06-28,Group Stage,Tunisia,Panama,2,45,0,Ferjani Sassi,Anice Badri,Tactical,1,0,1,trailing
+WC2018,7569,2018-06-28,Group Stage,Panama,Tunisia,2,55,54,Román Aureliano Torres Morcillo,Luis Carlos Tejada Hansell,Injury,2,1,1,level
+WC2018,7569,2018-06-28,Group Stage,Tunisia,Panama,2,76,2,Naïm Sliti,Ahmed Khalil,Tactical,2,2,1,leading
+WC2018,7569,2018-06-28,Group Stage,Panama,Tunisia,2,80,12,Ricardo Guardia Avila,Abdiel Arroyo Molinar,Tactical,3,1,2,trailing
+WC2018,7569,2018-06-28,Group Stage,Tunisia,Panama,2,87,54,Wahbi Khazri,Bassem Srarfi,Tactical,3,2,1,leading
+WC2018,7572,2018-06-28,Group Stage,Japan,Poland,2,46,31,Shinji Okazaki,Yūya Ōsako,Injury,1,0,0,level
+WC2018,7572,2018-06-28,Group Stage,Japan,Poland,2,64,37,Takashi Usami,Takashi Inui,Tactical,2,0,1,trailing
+WC2018,7572,2018-06-28,Group Stage,Poland,Japan,2,78,28,Piotr Zieliński,Łukasz Teodorczyk,Tactical,1,1,0,leading
+WC2018,7572,2018-06-28,Group Stage,Poland,Japan,2,78,45,Rafał Kurzawa,Sławomir Peszko,Tactical,2,1,0,leading
+WC2018,7572,2018-06-28,Group Stage,Japan,Poland,2,81,10,Yoshinori Muto,Makoto Hasebe,Tactical,3,0,1,trailing
+WC2018,7561,2018-06-26,Group Stage,Croatia,Iceland,2,64,12,Luka Modrić,Filip Bradarić,Tactical,1,1,0,leading
+WC2018,7561,2018-06-26,Group Stage,Croatia,Iceland,2,69,7,Marko Pjaca,Dejan Lovren,Injury,2,1,0,leading
+WC2018,7561,2018-06-26,Group Stage,Iceland,Croatia,2,69,59,Ragnar Sigurðsson,Björn Bergmann Sigurðarson,Tactical,1,0,1,trailing
+WC2018,7561,2018-06-26,Group Stage,Croatia,Iceland,2,80,41,Mateo Kovačić,Ivan Rakitić,Tactical,3,1,1,level
+WC2018,7561,2018-06-26,Group Stage,Iceland,Croatia,2,84,44,Alfreð Finnbogason,Albert Gudmundsson,Tactical,2,1,1,level
+WC2018,7561,2018-06-26,Group Stage,Iceland,Croatia,2,89,13,Birkir Bjarnason,Arnór Ingvi Traustason,Tactical,3,1,1,level
+WC2018,7540,2018-06-19,Group Stage,Egypt,Russia,2,63,13,Mohamed Naser Elsayed Elneny,Amr Medhat Warda,Tactical,1,0,3,trailing
+WC2018,7540,2018-06-19,Group Stage,Egypt,Russia,2,67,19,Mahmoud Ibrahim Hassan,Ramadan Sobhi Ramadan Ahmed,Tactical,2,0,3,trailing
+WC2018,7540,2018-06-19,Group Stage,Russia,Egypt,2,73,26,Denis Cheryshev,Daler Kuzyaev,Tactical,1,3,1,leading
+WC2018,7540,2018-06-19,Group Stage,Russia,Egypt,2,78,20,Artem Dzyuba,Fyodor Smolov,Tactical,2,3,1,leading
+WC2018,7540,2018-06-19,Group Stage,Egypt,Russia,2,81,14,Marwan Mohsen,Mahmoud Abdul Monem Abdelhamid Soliman,Tactical,3,1,3,trailing
+WC2018,7540,2018-06-19,Group Stage,Russia,Egypt,2,85,9,Yuri Zhirkov,Fedor Kudryashov,Tactical,3,3,1,leading
+WC2018,7531,2018-06-16,Group Stage,Argentina,Iceland,2,53,5,Lucas Rodrigo Biglia,Éver Maximiliano David Banega,Tactical,1,1,1,level
+WC2018,7531,2018-06-16,Group Stage,Iceland,Argentina,2,62,42,Johann Berg Guðmunds­son,Rúrik Gíslason,Injury,1,1,1,level
+WC2018,7531,2018-06-16,Group Stage,Argentina,Iceland,2,74,52,Ángel Fabián Di María Hernández,Cristian David Pavón,Tactical,2,1,1,level
+WC2018,7531,2018-06-16,Group Stage,Iceland,Argentina,2,75,30,Aron Einar Gunnarsson,Ari Freyr Skúlason,Tactical,2,1,1,level
+WC2018,7531,2018-06-16,Group Stage,Argentina,Iceland,2,83,41,Maximiliano Eduardo Meza,Gonzalo Gerardo Higuaín,Tactical,3,1,1,level
+WC2018,7531,2018-06-16,Group Stage,Iceland,Argentina,2,88,10,Alfreð Finnbogason,Björn Bergmann Sigurðarson,Injury,3,1,1,level
+WC2018,7570,2018-06-28,Group Stage,England,Belgium,2,45,0,John Stones,Harry Maguire,Injury,1,0,0,level
+WC2018,7570,2018-06-28,Group Stage,Belgium,England,2,74,3,Thomas Vermaelen,Vincent Kompany,Tactical,1,1,0,leading
+WC2018,7570,2018-06-28,Group Stage,England,Belgium,2,77,58,Trent Alexander-Arnold,Daniel Nii Tackie Mensah Welbeck,Tactical,2,0,1,trailing
+WC2018,7570,2018-06-28,Group Stage,Belgium,England,2,85,26,Adnan Januzaj,Dries Mertens,Tactical,2,1,0,leading
+WC2018,7586,2018-07-03,Round of 16,Switzerland,Sweden,2,72,27,Steven Zuber,Breel-Donald Embolo,Tactical,1,0,1,trailing
+WC2018,7586,2018-07-03,Round of 16,Switzerland,Sweden,2,72,38,Blerim Džemaili,Haris Seferović,Tactical,2,0,1,trailing
+WC2018,7586,2018-07-03,Round of 16,Sweden,Switzerland,2,80,43,Emil Peter Forsberg,Martin Olsson,Injury,1,1,0,leading
+WC2018,7586,2018-07-03,Round of 16,Sweden,Switzerland,2,81,40,Mikael Lustig,Emil Krafth,Tactical,2,1,0,leading
+WC2018,7586,2018-07-03,Round of 16,Sweden,Switzerland,2,90,3,Marcus Berg,Isaac Kiese Thelin,Tactical,3,1,0,leading
+WC2018,7557,2018-06-25,Group Stage,Iran,Portugal,2,55,37,Ehsan Hajsafi,Milad Mohammadi,Tactical,1,0,1,trailing
+WC2018,7557,2018-06-25,Group Stage,Portugal,Iran,2,68,57,Ricardo Andrade Quaresma Bernardo,Bernardo Mota Veiga de Carvalho e Silva,Tactical,1,1,0,leading
+WC2018,7557,2018-06-25,Group Stage,Iran,Portugal,2,69,22,Alireza Jahanbakhsh,Saman Ghoddos,,2,0,1,trailing
+WC2018,7557,2018-06-25,Group Stage,Iran,Portugal,2,75,16,Saeid Ezatolahi Afagh,Karim Ansarifard,Tactical,3,0,1,trailing
+WC2018,7557,2018-06-25,Group Stage,Portugal,Iran,2,83,37,João Mário Naval da Costa Eduardo,João Filipe Iria Santos Moutinho,Tactical,2,1,0,leading
+WC2018,7557,2018-06-25,Group Stage,Portugal,Iran,2,94,55,André Miguel Valente Silva,Gonçalo Manuel Ganchinho Guedes,Tactical,3,1,1,level
+WC2018,7542,2018-06-20,Group Stage,Portugal,Morocco,2,58,29,Bernardo Mota Veiga de Carvalho e Silva,Gelson Dany Batalha Martins,Tactical,1,1,0,leading
+WC2018,7542,2018-06-20,Group Stage,Morocco,Portugal,2,68,53,Khalid Boutaïb,Ayoub El Kaabi,Tactical,1,0,1,trailing
+WC2018,7542,2018-06-20,Group Stage,Portugal,Morocco,2,69,12,João Mário Naval da Costa Eduardo,Bruno Miguel Borges Fernandes,Tactical,2,1,0,leading
+WC2018,7542,2018-06-20,Group Stage,Morocco,Portugal,2,74,42,Younès Belhanda,Mehdi Carcela-González,,2,0,1,trailing
+WC2018,7542,2018-06-20,Group Stage,Morocco,Portugal,2,85,28,Karim El Ahmadi Al Aroos,Fayçal Fajr,Tactical,3,0,1,trailing
+WC2018,7542,2018-06-20,Group Stage,Portugal,Morocco,2,88,1,João Filipe Iria Santos Moutinho,Adrien Sebastian Perruchet Silva,Tactical,3,1,0,leading
+WC2018,8656,2018-07-11,Semi-finals,England,Croatia,2,73,10,Raheem Sterling,Marcus Rashford,Tactical,1,1,1,level
+WC2018,8656,2018-07-11,Semi-finals,England,Croatia,3,90,0,Ashley Young,Danny Rose,Tactical,2,1,1,level
+WC2018,8656,2018-07-11,Semi-finals,Croatia,England,3,94,11,Ivan Strinić,Josip Pivarić,Injury,1,1,1,level
+WC2018,8656,2018-07-11,Semi-finals,England,Croatia,3,96,39,Jordan Brian Henderson,Eric Dier,Tactical,3,1,1,level
+WC2018,8656,2018-07-11,Semi-finals,Croatia,England,3,100,47,Ante Rebić,Andrej Kramarić,Tactical,2,1,1,level
+WC2018,8656,2018-07-11,Semi-finals,England,Croatia,4,111,11,Kyle Walker,Jamie Vardy,Tactical,4,1,2,trailing
+WC2018,8656,2018-07-11,Semi-finals,Croatia,England,4,114,51,Mario Mandžukić,Vedran Ćorluka,Injury,3,2,1,leading
+WC2018,8656,2018-07-11,Semi-finals,Croatia,England,4,117,46,Luka Modrić,Milan Badelj,Tactical,4,2,1,leading
+WC2018,7548,2018-06-22,Group Stage,Brazil,Costa Rica,2,45,0,Willian Borges da Silva,Douglas Costa de Souza,Tactical,1,0,0,level
+WC2018,7548,2018-06-22,Group Stage,Costa Rica,Brazil,2,53,46,Marcos Danilo Ureña Porras,Christian Bolaños Navarro,Tactical,1,0,0,level
+WC2018,7548,2018-06-22,Group Stage,Brazil,Costa Rica,2,67,37,José Paulo Bezzera Maciel Júnior,Roberto Firmino Barbosa de Oliveira,Tactical,2,0,0,level
+WC2018,7548,2018-06-22,Group Stage,Costa Rica,Brazil,2,74,20,Cristian Gamboa Luna,Francisco Javier Calvo Quesada,Tactical,2,0,0,level
+WC2018,7548,2018-06-22,Group Stage,Costa Rica,Brazil,2,82,36,David Alberto Guzmán Pérez,Yeltsin Ignacio Tejeda Valverde,Tactical,3,0,0,level
+WC2018,7548,2018-06-22,Group Stage,Brazil,Costa Rica,2,92,13,Gabriel Fernando de Jesus,Fernando Luiz Roza,Tactical,3,1,0,leading
+WC2018,7578,2018-06-15,Group Stage,Egypt,Uruguay,2,49,51,Tarek Hamed,Sam Morsy,Tactical,1,0,0,level
+WC2018,7578,2018-06-15,Group Stage,Uruguay,Egypt,2,57,36,Nahitan Michel Nández Acosta,Carlos Andrés Sánchez Arcosa,Tactical,1,0,0,level
+WC2018,7578,2018-06-15,Group Stage,Uruguay,Egypt,2,58,4,Giorgian Daniel De Arrascaeta Benedetti,Cristian Gabriel Rodríguez Barrotti,Tactical,2,0,0,level
+WC2018,7578,2018-06-15,Group Stage,Egypt,Uruguay,2,62,24,Marwan Mohsen,Mahmoud Abdul Monem Abdelhamid Soliman,Tactical,2,0,0,level
+WC2018,7578,2018-06-15,Group Stage,Egypt,Uruguay,2,81,33,Amr Medhat Warda,Ramadan Sobhi Ramadan Ahmed,Tactical,3,0,0,level
+WC2018,7578,2018-06-15,Group Stage,Uruguay,Egypt,2,86,55,Matías Vecino Falero,Lucas Torreira Di Pascua,Tactical,3,0,0,level
+WC2018,7553,2018-06-23,Group Stage,South Korea,Mexico,2,63,14,Se-Jong Ju,Seung-Woo Lee,Tactical,1,0,1,trailing
+WC2018,7553,2018-06-23,Group Stage,Mexico,South Korea,2,67,3,José Andrés Guardado Hernández,Rafael Márquez Álvarez,Tactical,1,2,0,leading
+WC2018,7553,2018-06-23,Group Stage,Mexico,South Korea,2,70,10,Hirving Rodrigo Lozano Bahena,Jesús Manuel Corona Ruíz,Tactical,2,2,0,leading
+WC2018,7553,2018-06-23,Group Stage,Mexico,South Korea,2,76,3,Carlos Alberto Vela Garrido,Giovani dos Santos Ramírez,Tactical,3,2,0,leading
+WC2018,7553,2018-06-23,Group Stage,South Korea,Mexico,2,76,33,Seon-Min Moon,Woo-Young Jung,Tactical,2,0,2,trailing
+WC2018,7553,2018-06-23,Group Stage,South Korea,Mexico,2,83,7,Min-Woo Kim,Chul Hong,Tactical,3,0,2,trailing
+WC2018,7536,2018-06-18,Group Stage,Panama,Belgium,2,62,20,Edgar Yoel Bárcenas Herrera,Gabriel Arturo Torres Tejada,Tactical,1,0,1,trailing
+WC2018,7536,2018-06-18,Group Stage,Panama,Belgium,2,62,46,José Luis Rodríguez Francis,Ismael Díaz De León,Tactical,2,0,1,trailing
+WC2018,7536,2018-06-18,Group Stage,Panama,Belgium,2,73,3,Blas Antonio Miguel Pérez Ortega,Luis Carlos Tejada Hansell,Tactical,3,0,2,trailing
+WC2018,7536,2018-06-18,Group Stage,Belgium,Panama,2,73,35,Yannick Ferreira Carrasco,Mousa Sidi Yaya Dembélé,Tactical,1,2,0,leading
+WC2018,7536,2018-06-18,Group Stage,Belgium,Panama,2,82,40,Dries Mertens,Thorgan Hazard,Tactical,2,3,0,leading
+WC2018,7536,2018-06-18,Group Stage,Belgium,Panama,2,89,21,Axel Witsel,Nacer Chadli,Tactical,3,3,0,leading
+WC2018,7555,2018-06-24,Group Stage,Colombia,Poland,1,31,18,Abel Enrique Aguilar Tapia,Andrés Mateus Uribe Villa,Injury,1,0,0,level
+WC2018,7555,2018-06-24,Group Stage,Poland,Colombia,2,56,28,Dawid Kownacki,Kamil Grosicki,Tactical,1,0,1,trailing
+WC2018,7555,2018-06-24,Group Stage,Poland,Colombia,2,71,58,Bartosz Bereszyński,Łukasz Teodorczyk,Tactical,2,0,2,trailing
+WC2018,7555,2018-06-24,Group Stage,Colombia,Poland,2,72,15,Juan Fernando Quintero Paniagua,Jefferson Andrés Lerma Solís,Injury,2,2,0,leading
+WC2018,7555,2018-06-24,Group Stage,Colombia,Poland,2,77,39,Radamel Falcao García Zárate,Carlos Arturo Bacca Ahumada,Tactical,3,3,0,leading
+WC2018,7555,2018-06-24,Group Stage,Poland,Colombia,2,79,51,Michał Pazdan,Kamil Glik,Tactical,3,0,3,trailing
+WC2018,7576,2018-06-15,Group Stage,Portugal,Spain,2,67,4,Bruno Miguel Borges Fernandes,João Mário Naval da Costa Eduardo,Tactical,1,2,3,trailing
+WC2018,7576,2018-06-15,Group Stage,Portugal,Spain,2,68,39,Bernardo Mota Veiga de Carvalho e Silva,Ricardo Andrade Quaresma Bernardo,Tactical,2,2,3,trailing
+WC2018,7576,2018-06-15,Group Stage,Spain,Portugal,2,69,18,Andrés Iniesta Luján,Thiago Alcântara do Nascimento,Tactical,1,3,2,leading
+WC2018,7576,2018-06-15,Group Stage,Spain,Portugal,2,76,14,Diego da Silva Costa,Iago Aspas Juncal,Tactical,2,3,2,leading
+WC2018,7576,2018-06-15,Group Stage,Portugal,Spain,2,79,10,Gonçalo Manuel Ganchinho Guedes,André Miguel Valente Silva,Tactical,3,2,3,trailing
+WC2018,7576,2018-06-15,Group Stage,Spain,Portugal,2,85,19,David Josué Jiménez Silva,Lucas Vázquez Iglesias,Tactical,3,3,2,leading
+WC2018,7565,2018-06-27,Group Stage,Brazil,Serbia,1,9,25,Marcelo Vieira da Silva Júnior,Filipe Luís Kasmirski,Injury,1,0,0,level
+WC2018,7565,2018-06-27,Group Stage,Brazil,Serbia,2,65,20,José Paulo Bezzera Maciel Júnior,Fernando Luiz Roza,Tactical,2,1,0,leading
+WC2018,7565,2018-06-27,Group Stage,Serbia,Brazil,2,74,24,Adem Ljajić,Andrija Živković,Tactical,1,0,2,trailing
+WC2018,7565,2018-06-27,Group Stage,Brazil,Serbia,2,79,13,Philippe Coutinho Correia,Renato Soares de Oliveira Augusto,Tactical,3,2,0,leading
+WC2018,7565,2018-06-27,Group Stage,Serbia,Brazil,2,81,25,Filip Kostić,Nemanja Radonjić,Tactical,2,0,2,trailing
+WC2018,7565,2018-06-27,Group Stage,Serbia,Brazil,2,88,55,Aleksandar Mitrović,Luka Jović,Tactical,3,0,2,trailing
+WC2018,7551,2018-06-23,Group Stage,Germany,Sweden,1,30,33,Sebastian Rudy,İlkay Gündoğan,Tactical,1,0,0,level
+WC2018,7551,2018-06-23,Group Stage,Germany,Sweden,2,45,0,Julian Draxler,Mario Gómez García,Tactical,2,0,1,trailing
+WC2018,7551,2018-06-23,Group Stage,Sweden,Germany,2,73,38,Viktor Claesson,Jimmy Durmaz,Tactical,1,1,1,level
+WC2018,7551,2018-06-23,Group Stage,Sweden,Germany,2,77,34,Ola Toivonen,John Guidetti,Tactical,2,1,1,level
+WC2018,7551,2018-06-23,Group Stage,Germany,Sweden,2,86,16,Jonas Hector,Julian Brandt,Tactical,3,1,1,level
+WC2018,7551,2018-06-23,Group Stage,Sweden,Germany,2,89,25,Marcus Berg,Isaac Kiese Thelin,Tactical,3,1,1,level
+WC2018,7537,2018-06-18,Group Stage,Tunisia,England,1,14,14,Mouez Hassen,Farouk Ben Mustapha,Injury,1,0,1,trailing
+WC2018,7537,2018-06-18,Group Stage,England,Tunisia,2,67,48,Raheem Sterling,Marcus Rashford,Tactical,1,1,1,level
+WC2018,7537,2018-06-18,Group Stage,Tunisia,England,2,72,41,Naïm Sliti,Mohamed Amine Ben Amor,Tactical,2,1,1,level
+WC2018,7537,2018-06-18,Group Stage,England,Tunisia,2,79,20,Bamidele Alli,Ruben Loftus-Cheek,Tactical,2,1,1,level
+WC2018,7537,2018-06-18,Group Stage,Tunisia,England,2,84,15,Wahbi Khazri,Saber Khalifa,Tactical,3,1,1,level
+WC2018,7537,2018-06-18,Group Stage,England,Tunisia,2,91,52,Jesse Lingard,Eric Dier,Tactical,3,2,1,leading
+WC2018,7580,2018-06-30,Round of 16,Argentina,France,2,45,0,Faustino Marcos Alberto Rojo,Federico Julián Fazio,Tactical,1,1,1,level
+WC2018,7580,2018-06-30,Round of 16,Argentina,France,2,65,25,Enzo Nicolás Pérez,Sergio Leonel Agüero del Castillo,Tactical,2,2,3,trailing
+WC2018,7580,2018-06-30,Round of 16,Argentina,France,2,74,33,Cristian David Pavón,Maximiliano Eduardo Meza,Tactical,3,2,4,trailing
+WC2018,7580,2018-06-30,Round of 16,France,Argentina,2,74,46,Blaise Matuidi,Corentin Tolisso,Tactical,1,4,2,leading
+WC2018,7580,2018-06-30,Round of 16,France,Argentina,2,82,56,Antoine Griezmann,Nabil Fekir,Tactical,2,4,2,leading
+WC2018,7580,2018-06-30,Round of 16,France,Argentina,2,88,3,Kylian Mbappé Lottin,Florian Thauvin,Tactical,3,4,2,leading
+WC2018,7581,2018-07-01,Round of 16,Denmark,Croatia,2,45,2,Andreas Christensen,Lasse Schöne,Injury,1,1,1,level
+WC2018,7581,2018-07-01,Round of 16,Denmark,Croatia,2,65,35,Andreas Evald Cornelius,Nicolai Jørgensen,Tactical,2,1,1,level
+WC2018,7581,2018-07-01,Round of 16,Croatia,Denmark,2,70,46,Marcelo Brozović,Mateo Kovačić,Tactical,1,1,1,level
+WC2018,7581,2018-07-01,Round of 16,Croatia,Denmark,2,80,16,Ivan Strinić,Josip Pivarić,Injury,2,1,1,level
+WC2018,7581,2018-07-01,Round of 16,Croatia,Denmark,3,96,22,Ivan Perišić,Andrej Kramarić,Tactical,3,1,1,level
+WC2018,7581,2018-07-01,Round of 16,Denmark,Croatia,3,97,40,Thomas Delaney,Michael Krohn-Dehli,Tactical,3,1,1,level
+WC2018,7581,2018-07-01,Round of 16,Denmark,Croatia,4,105,1,Martin Braithwaite Christensen,Pione Sisto Ifolo Emirmija,Tactical,4,1,1,level
+WC2018,7581,2018-07-01,Round of 16,Croatia,Denmark,4,107,43,Mario Mandžukić,Milan Badelj,Tactical,4,1,1,level
+WC2018,7549,2018-06-22,Group Stage,Nigeria,Iceland,2,45,0,Brian Oladapo Idowu,Tyronne Ebuehi,Tactical,1,0,0,level
+WC2018,7549,2018-06-22,Group Stage,Iceland,Nigeria,2,64,13,Ragnar Sigurðsson,Sverrir Ingi Ingason,Tactical,1,0,1,trailing
+WC2018,7549,2018-06-22,Group Stage,Iceland,Nigeria,2,70,15,Jón Daði Böðvarsson,Björn Bergmann Sigurðarson,Tactical,2,0,1,trailing
+WC2018,7549,2018-06-22,Group Stage,Nigeria,Iceland,2,84,3,Kelechi Promise Iheanacho,Odion Jude Ighalo,Tactical,2,2,0,leading
+WC2018,7549,2018-06-22,Group Stage,Iceland,Nigeria,2,86,34,Aron Einar Gunnarsson,Ari Freyr Skúlason,Tactical,3,0,2,trailing
+WC2018,7549,2018-06-22,Group Stage,Nigeria,Iceland,2,89,40,Oghenekaro Etebo,Alex Iwobi,Tactical,3,2,0,leading
+WC2018,7529,2018-06-16,Group Stage,Croatia,Nigeria,2,59,59,Andrej Kramarić,Marcelo Brozović,Tactical,1,1,0,leading
+WC2018,7529,2018-06-16,Group Stage,Nigeria,Croatia,2,61,5,Alex Iwobi,Ahmed Musa,Tactical,1,0,1,trailing
+WC2018,7529,2018-06-16,Group Stage,Nigeria,Croatia,2,71,56,Odion Jude Ighalo,Kelechi Promise Iheanacho,Tactical,2,0,2,trailing
+WC2018,7529,2018-06-16,Group Stage,Croatia,Nigeria,2,77,48,Ante Rebić,Mateo Kovačić,Tactical,2,2,0,leading
+WC2018,7529,2018-06-16,Group Stage,Croatia,Nigeria,2,84,58,Mario Mandžukić,Marko Pjaca,Tactical,3,2,0,leading
+WC2018,7529,2018-06-16,Group Stage,Nigeria,Croatia,2,87,32,John Michael Nchekwube Obinna,Simeon Tochukwu Nwankwo,Tactical,3,0,2,trailing
+WC2018,7562,2018-06-26,Group Stage,Peru,Australia,2,45,0,Víctor Yoshimar Yotún Flores,Pedro Jesús Aquino Sánchez,Tactical,1,1,0,leading
+WC2018,7562,2018-06-26,Group Stage,Australia,Peru,2,52,36,Tomi Jurić,Tim Cahill,Tactical,1,0,2,trailing
+WC2018,7562,2018-06-26,Group Stage,Australia,Peru,2,57,40,Robbie Kruse,Daniel Arzani,Tactical,2,0,2,trailing
+WC2018,7562,2018-06-26,Group Stage,Peru,Australia,2,62,29,Renato Fabrizio Tapia Cortijo,Christopher Paolo César Hurtado Huertas,Injury,2,2,0,leading
+WC2018,7562,2018-06-26,Group Stage,Australia,Peru,2,71,25,Tom Rogić,Jackson Irvine,Tactical,3,0,2,trailing
+WC2018,7562,2018-06-26,Group Stage,Peru,Australia,2,77,51,André Martín Carrillo Díaz,Wilder José Cartagena Mendoza,Tactical,3,2,0,leading
+WC2018,7571,2018-06-28,Group Stage,Colombia,Senegal,1,30,7,James David Rodríguez Rubio,Luis Fernando Muriel Fruto,Tactical,1,0,0,level
+WC2018,7571,2018-06-28,Group Stage,Senegal,Colombia,2,73,21,Youssouf Sabaly,Moussa Wagué,Injury,1,0,0,level
+WC2018,7571,2018-06-28,Group Stage,Senegal,Colombia,2,79,20,Keita Baldé Diao,Pape Moussa Konaté,Tactical,2,0,1,trailing
+WC2018,7571,2018-06-28,Group Stage,Colombia,Senegal,2,82,9,Andrés Mateus Uribe Villa,Jefferson Andrés Lerma Solís,Tactical,2,1,0,leading
+WC2018,7571,2018-06-28,Group Stage,Senegal,Colombia,2,85,15,M'Baye Babacar Niang,Diafra Sakho,Tactical,3,0,1,trailing
+WC2018,7571,2018-06-28,Group Stage,Colombia,Senegal,2,88,37,Radamel Falcao García Zárate,Miguel Ángel Borja Hernández,Tactical,3,1,0,leading
+WC2018,7568,2018-06-27,Group Stage,Switzerland,Costa Rica,2,59,38,Valon Behrami,Denis Lemi Zakaria Lako Lado,Tactical,1,1,1,level
+WC2018,7568,2018-06-27,Group Stage,Switzerland,Costa Rica,2,68,29,Mario Gavranović,Josip Drmic,Tactical,2,1,1,level
+WC2018,7568,2018-06-27,Group Stage,Costa Rica,Switzerland,2,79,57,Daniel Colindres Solera,Rodney Wallace,Tactical,1,1,1,level
+WC2018,7568,2018-06-27,Group Stage,Switzerland,Costa Rica,2,80,24,Xherdan Shaqiri,Michael Lang,Tactical,3,1,1,level
+WC2018,7568,2018-06-27,Group Stage,Costa Rica,Switzerland,2,90,40,David Alberto Guzmán Pérez,Rándall Azofeifa Corrales,Tactical,2,1,2,trailing
+WC2018,7568,2018-06-27,Group Stage,Costa Rica,Switzerland,2,92,30,Cristian Gamboa Luna,Ian Rey Smith Quiros,Tactical,3,1,2,trailing
+WC2018,7530,2018-06-16,Group Stage,Australia,France,2,63,2,Andrew Nabbout,Tomi Jurić,Tactical,1,1,1,level
+WC2018,7530,2018-06-16,Group Stage,France,Australia,2,69,14,Antoine Griezmann,Olivier Giroud,Tactical,1,1,1,level
+WC2018,7530,2018-06-16,Group Stage,France,Australia,2,69,31,Ousmane Dembélé,Nabil Fekir,Tactical,2,1,1,level
+WC2018,7530,2018-06-16,Group Stage,Australia,France,2,70,33,Tom Rogić,Jackson Irvine,Tactical,2,1,1,level
+WC2018,7530,2018-06-16,Group Stage,France,Australia,2,77,31,Corentin Tolisso,Blaise Matuidi,Tactical,3,1,1,level
+WC2018,7530,2018-06-16,Group Stage,Australia,France,2,83,53,Robbie Kruse,Daniel Arzani,Tactical,3,1,2,trailing
+WC2018,7558,2018-06-25,Group Stage,Russia,Uruguay,1,37,12,Denis Cheryshev,Mário Figueira Fernandes,Tactical,1,0,2,trailing
+WC2018,7558,2018-06-25,Group Stage,Russia,Uruguay,2,45,0,Yury Gazinskiy,Daler Kuzyaev,Tactical,2,0,2,trailing
+WC2018,7558,2018-06-25,Group Stage,Russia,Uruguay,2,59,41,Aleksey Miranchuk,Fyodor Smolov,Tactical,3,0,2,trailing
+WC2018,7558,2018-06-25,Group Stage,Uruguay,Russia,2,62,3,Rodrigo Bentancur Colmán,Giorgian Daniel De Arrascaeta Benedetti,Tactical,1,2,0,leading
+WC2018,7558,2018-06-25,Group Stage,Uruguay,Russia,2,71,54,Nahitan Michel Nández Acosta,Cristian Gabriel Rodríguez Barrotti,Tactical,2,2,0,leading
+WC2018,7558,2018-06-25,Group Stage,Uruguay,Russia,2,92,35,Edinson Roberto Cavani Gómez,Maximiliano Gómez González,Tactical,3,3,0,leading
+WC2018,7583,2018-07-02,Round of 16,Mexico,Brazil,2,45,0,Rafael Márquez Álvarez,Miguel Arturo Layún Prado,Tactical,1,0,0,level
+WC2018,7583,2018-07-02,Round of 16,Mexico,Brazil,2,54,38,Edson Omar Álvarez Velázquez,Jonathan dos Santos Ramírez,Tactical,2,0,1,trailing
+WC2018,7583,2018-07-02,Round of 16,Mexico,Brazil,2,59,37,Javier Hernández Balcázar,Raúl Alonso Jiménez Rodríguez,Tactical,3,0,1,trailing
+WC2018,7583,2018-07-02,Round of 16,Brazil,Mexico,2,80,6,José Paulo Bezzera Maciel Júnior,Fernando Luiz Roza,Tactical,1,1,0,leading
+WC2018,7583,2018-07-02,Round of 16,Brazil,Mexico,2,85,55,Philippe Coutinho Correia,Roberto Firmino Barbosa de Oliveira,Tactical,2,1,0,leading
+WC2018,7583,2018-07-02,Round of 16,Brazil,Mexico,2,90,48,Willian Borges da Silva,Marcos Aoás Corrêa,Tactical,3,2,0,leading
+WC2018,7547,2018-06-21,Group Stage,Denmark,Australia,2,58,5,Yussuf Yurary Poulsen,Martin Braithwaite Christensen,Tactical,1,1,1,level
+WC2018,7547,2018-06-21,Group Stage,Denmark,Australia,2,67,42,Nicolai Jørgensen,Andreas Evald Cornelius,Tactical,2,1,1,level
+WC2018,7547,2018-06-21,Group Stage,Australia,Denmark,2,67,53,Robbie Kruse,Daniel Arzani,Tactical,1,1,1,level
+WC2018,7547,2018-06-21,Group Stage,Australia,Denmark,2,74,16,Andrew Nabbout,Tomi Jurić,Injury,2,1,1,level
+WC2018,7547,2018-06-21,Group Stage,Australia,Denmark,2,81,4,Tom Rogić,Jackson Irvine,Tactical,3,1,1,level
+WC2018,7535,2018-06-17,Group Stage,Costa Rica,Serbia,2,59,18,Johan Alberto Venegas Ulloa,Christian Bolaños Navarro,Tactical,1,0,1,trailing
+WC2018,7535,2018-06-17,Group Stage,Costa Rica,Serbia,2,66,4,Marcos Danilo Ureña Porras,Joel Nathaniel Campbell Samuels,Tactical,2,0,1,trailing
+WC2018,7535,2018-06-17,Group Stage,Serbia,Costa Rica,2,69,17,Adem Ljajić,Filip Kostić,Tactical,1,1,0,leading
+WC2018,7535,2018-06-17,Group Stage,Costa Rica,Serbia,2,72,13,David Alberto Guzmán Pérez,Daniel Colindres Solera,Tactical,3,0,1,trailing
+WC2018,7535,2018-06-17,Group Stage,Serbia,Costa Rica,2,81,39,Dušan Tadić,Antonio Rukavina,Tactical,2,1,0,leading
+WC2018,7535,2018-06-17,Group Stage,Serbia,Costa Rica,2,88,38,Aleksandar Mitrović,Aleksandar Prijović,Tactical,3,1,0,leading
+WC2018,8649,2018-07-06,Quarter-finals,Uruguay,France,2,58,18,Cristhian Ricardo Stuani Curbelo,Maximiliano Gómez González,Tactical,1,0,1,trailing
+WC2018,8649,2018-07-06,Quarter-finals,Uruguay,France,2,58,37,Rodrigo Bentancur Colmán,Cristian Gabriel Rodríguez Barrotti,Tactical,2,0,1,trailing
+WC2018,8649,2018-07-06,Quarter-finals,Uruguay,France,2,72,42,Nahitan Michel Nández Acosta,Jonathan Matías Urretaviscaya da Luz,Tactical,3,0,2,trailing
+WC2018,8649,2018-07-06,Quarter-finals,France,Uruguay,2,79,21,Corentin Tolisso,Steven N'Kemboanza Mike Christopher Nzonzi,Tactical,1,2,0,leading
+WC2018,8649,2018-07-06,Quarter-finals,France,Uruguay,2,87,15,Kylian Mbappé Lottin,Ousmane Dembélé,Tactical,2,2,0,leading
+WC2018,8649,2018-07-06,Quarter-finals,France,Uruguay,2,92,31,Antoine Griezmann,Nabil Fekir,Tactical,3,2,0,leading
+WC2018,8658,2018-07-15,Final,France,Croatia,2,54,7,N''Golo Kanté,Steven N''Kemboanza Mike Christopher Nzonzi,Tactical,1,2,1,leading
+WC2018,8658,2018-07-15,Final,Croatia,France,2,70,24,Ante Rebić,Andrej Kramarić,Tactical,1,2,4,trailing
+WC2018,8658,2018-07-15,Final,France,Croatia,2,72,51,Blaise Matuidi,Corentin Tolisso,Tactical,2,4,2,leading
+WC2018,8658,2018-07-15,Final,Croatia,France,2,80,50,Ivan Strinić,Marko Pjaca,Tactical,2,2,4,trailing
+WC2018,8658,2018-07-15,Final,France,Croatia,2,80,57,Olivier Giroud,Nabil Fekir,Tactical,3,4,2,leading
+WC2018,7582,2018-07-01,Round of 16,Russia,Spain,2,45,0,Yuri Zhirkov,Vladimir Granat,Tactical,1,1,1,level
+WC2018,7582,2018-07-01,Round of 16,Russia,Spain,2,60,3,Aleksandr Samedov,Denis Cheryshev,Tactical,2,1,1,level
+WC2018,7582,2018-07-01,Round of 16,Russia,Spain,2,64,3,Artem Dzyuba,Fyodor Smolov,Tactical,3,1,1,level
+WC2018,7582,2018-07-01,Round of 16,Spain,Russia,2,66,13,David Josué Jiménez Silva,Andrés Iniesta Luján,Tactical,1,1,1,level
+WC2018,7582,2018-07-01,Round of 16,Spain,Russia,2,69,30,José Ignacio Fernández Iglesias,Daniel Carvajal Ramos,Tactical,2,1,1,level
+WC2018,7582,2018-07-01,Round of 16,Spain,Russia,2,79,2,Diego da Silva Costa,Iago Aspas Juncal,Tactical,3,1,1,level
+WC2018,7582,2018-07-01,Round of 16,Russia,Spain,3,96,17,Daler Kuzyaev,Aleksandr Erokhin,Tactical,4,1,1,level
+WC2018,7582,2018-07-01,Round of 16,Spain,Russia,3,103,21,Marco Asensio Willemsen,Rodrigo Moreno Machado,Tactical,4,1,1,level
+WC2018,7552,2018-06-23,Group Stage,Tunisia,Belgium,1,23,36,Dylan Daniel Mahmoud Bronn,Hamdi Nagguez,Injury,1,1,2,trailing
+WC2018,7552,2018-06-23,Group Stage,Tunisia,Belgium,1,40,36,Syam Ben Youssef,Yohan Benalouane,Injury,2,1,2,trailing
+WC2018,7552,2018-06-23,Group Stage,Belgium,Tunisia,2,58,8,Romelu Lukaku Menama,Marouane Fellaini-Bakkioui,Injury,1,4,1,leading
+WC2018,7552,2018-06-23,Group Stage,Tunisia,Belgium,2,59,0,Ferjani Sassi,Naïm Sliti,Tactical,3,1,4,trailing
+WC2018,7552,2018-06-23,Group Stage,Belgium,Tunisia,2,67,6,Eden Hazard,Michy Batshuayi Tunga,Tactical,2,4,1,leading
+WC2018,7552,2018-06-23,Group Stage,Belgium,Tunisia,2,85,16,Dries Mertens,Youri Tielemans,Tactical,3,4,1,leading
+WC2018,7532,2018-06-16,Group Stage,Denmark,Peru,1,35,2,William Vitved Kvist Jørgensen,Lasse Schöne,Injury,1,0,0,level
+WC2018,7532,2018-06-16,Group Stage,Peru,Denmark,2,61,59,Édison Michael Flores Peralta,José Paolo Guerrero Gonzáles,Tactical,1,0,1,trailing
+WC2018,7532,2018-06-16,Group Stage,Denmark,Peru,2,66,50,Pione Sisto Ifolo Emirmija,Martin Braithwaite Christensen,Tactical,2,1,0,leading
+WC2018,7532,2018-06-16,Group Stage,Denmark,Peru,2,80,48,Andreas Christensen,Mathias Jattah-Njie Jørgensen,Tactical,3,1,0,leading
+WC2018,7532,2018-06-16,Group Stage,Peru,Denmark,2,84,9,Jefferson Agustín Farfán Guadalupe,Raúl Mario Ruidíaz Misitich,Tactical,2,0,1,trailing
+WC2018,7532,2018-06-16,Group Stage,Peru,Denmark,2,86,10,Renato Fabrizio Tapia Cortijo,Pedro Jesús Aquino Sánchez,Tactical,3,0,1,trailing
+WC2018,7560,2018-06-25,Group Stage,Morocco,Spain,2,62,51,Younès Belhanda,Fayçal Fajr,Tactical,1,1,1,level
+WC2018,7560,2018-06-25,Group Stage,Morocco,Spain,2,70,40,Khalid Boutaïb,Youssef En-Nesyri,Tactical,2,1,1,level
+WC2018,7560,2018-06-25,Group Stage,Spain,Morocco,2,73,16,Diego da Silva Costa,Iago Aspas Juncal,Tactical,1,1,1,level
+WC2018,7560,2018-06-25,Group Stage,Spain,Morocco,2,73,41,Thiago Alcântara do Nascimento,Marco Asensio Willemsen,Tactical,2,1,1,level
+WC2018,7560,2018-06-25,Group Stage,Spain,Morocco,2,83,47,David Josué Jiménez Silva,Rodrigo Moreno Machado,Tactical,3,1,2,trailing
+WC2018,7560,2018-06-25,Group Stage,Morocco,Spain,2,84,15,Hakim Ziyech,Aziz Bouhaddouz,Tactical,3,2,1,leading
+WC2018,7533,2018-06-17,Group Stage,Brazil,Switzerland,2,59,17,Carlos Henrique Casimiro,Fernando Luiz Roza,Tactical,1,1,1,level
+WC2018,7533,2018-06-17,Group Stage,Brazil,Switzerland,2,66,36,José Paulo Bezzera Maciel Júnior,Renato Soares de Oliveira Augusto,Tactical,2,1,1,level
+WC2018,7533,2018-06-17,Group Stage,Switzerland,Brazil,2,69,37,Valon Behrami,Denis Lemi Zakaria Lako Lado,Tactical,1,1,1,level
+WC2018,7533,2018-06-17,Group Stage,Brazil,Switzerland,2,78,10,Gabriel Fernando de Jesus,Roberto Firmino Barbosa de Oliveira,Tactical,3,1,1,level
+WC2018,7533,2018-06-17,Group Stage,Switzerland,Brazil,2,79,33,Haris Seferović,Breel-Donald Embolo,Tactical,2,1,1,level
+WC2018,7533,2018-06-17,Group Stage,Switzerland,Brazil,2,86,22,Stephan Lichtsteiner,Michael Lang,Injury,3,1,1,level
+WC2018,7564,2018-06-26,Group Stage,Nigeria,Argentina,2,45,0,Kelechi Promise Iheanacho,Odion Jude Ighalo,Tactical,1,0,1,trailing
+WC2018,7564,2018-06-26,Group Stage,Argentina,Nigeria,2,60,3,Enzo Nicolás Pérez,Cristian David Pavón,Tactical,1,1,1,level
+WC2018,7564,2018-06-26,Group Stage,Argentina,Nigeria,2,71,2,Ángel Fabián Di María Hernández,Maximiliano Eduardo Meza,Tactical,2,1,1,level
+WC2018,7564,2018-06-26,Group Stage,Argentina,Nigeria,2,79,12,Nicolás Alejandro Tagliafico,Sergio Leonel Agüero del Castillo,Tactical,3,1,1,level
+WC2018,7564,2018-06-26,Group Stage,Nigeria,Argentina,2,89,22,Kenneth Josiah Omeruo,Alex Iwobi,Tactical,2,1,2,trailing
+WC2018,7564,2018-06-26,Group Stage,Nigeria,Argentina,2,91,43,Ahmed Musa,Simeon Tochukwu Nwankwo,Tactical,3,1,2,trailing
+WC2018,7579,2018-06-30,Round of 16,Uruguay,Portugal,2,62,37,Rodrigo Bentancur Colmán,Cristian Gabriel Rodríguez Barrotti,Tactical,1,2,1,leading
+WC2018,7579,2018-06-30,Round of 16,Portugal,Uruguay,2,64,24,Adrien Sebastian Perruchet Silva,Ricardo Andrade Quaresma Bernardo,Tactical,1,1,2,trailing
+WC2018,7579,2018-06-30,Round of 16,Portugal,Uruguay,2,72,56,Gonçalo Manuel Ganchinho Guedes,André Miguel Valente Silva,Tactical,2,1,2,trailing
+WC2018,7579,2018-06-30,Round of 16,Uruguay,Portugal,2,73,16,Edinson Roberto Cavani Gómez,Cristhian Ricardo Stuani Curbelo,Injury,2,2,1,leading
+WC2018,7579,2018-06-30,Round of 16,Uruguay,Portugal,2,80,6,Nahitan Michel Nández Acosta,Carlos Andrés Sánchez Arcosa,Tactical,3,2,1,leading
+WC2018,7579,2018-06-30,Round of 16,Portugal,Uruguay,2,84,15,João Mário Naval da Costa Eduardo,Manuel Henrique Tavares Fernandes,,3,1,2,trailing
+WC2018,7577,2018-06-15,Group Stage,Iran,Morocco,2,67,19,Masoud Shojaei Soleimani,Mehdi Taremi,Tactical,1,0,0,level
+WC2018,7577,2018-06-15,Group Stage,Morocco,Iran,2,75,23,Nordin Amrabat,Sofyan Amrabat,Injury,1,0,0,level
+WC2018,7577,2018-06-15,Group Stage,Morocco,Iran,2,76,11,Ayoub El Kaabi,Aziz Bouhaddouz,Tactical,2,0,0,level
+WC2018,7577,2018-06-15,Group Stage,Iran,Morocco,2,79,18,Omid Ebrahimi,Seyed Majid Hosseini,Injury,2,0,0,level
+WC2018,7577,2018-06-15,Group Stage,Morocco,Iran,2,81,40,Amine Harit,Manuel Marouan da Costa Trinidade,Tactical,3,0,0,level
+WC2018,7577,2018-06-15,Group Stage,Iran,Morocco,2,83,55,Alireza Jahanbakhsh,Saman Ghoddos,Injury,3,0,0,level
+WC2018,7525,2018-06-14,Group Stage,Russia,Saudi Arabia,1,23,24,Alan Dzagoev,Denis Cheryshev,Injury,1,1,0,leading
+WC2018,7525,2018-06-14,Group Stage,Saudi Arabia,Russia,2,63,14,Abdullah Ibrahim Otayf,Fahad Mosaed Al Muwallad Al Harbi,Tactical,1,0,2,trailing
+WC2018,7525,2018-06-14,Group Stage,Russia,Saudi Arabia,2,63,48,Aleksandr Samedov,Daler Kuzyaev,Tactical,2,2,0,leading
+WC2018,7525,2018-06-14,Group Stage,Russia,Saudi Arabia,2,69,21,Fyodor Smolov,Artem Dzyuba,Tactical,3,2,0,leading
+WC2018,7525,2018-06-14,Group Stage,Saudi Arabia,Russia,2,71,5,Yehya Sulaiman Ali Al-Shehri,Hattan Babhir,Tactical,2,0,3,trailing
+WC2018,7525,2018-06-14,Group Stage,Saudi Arabia,Russia,2,83,58,Mohammad Ibrahim Al Sahlawi,Mohanad Aseri Abu Radiah,Tactical,3,0,3,trailing
+WC2018,7566,2018-06-27,Group Stage,Sweden,Mexico,2,56,37,Sebastian Larsson,Gustav Svensson,Injury,1,1,0,leading
+WC2018,7566,2018-06-27,Group Stage,Mexico,Sweden,2,64,47,Jesús Daniel Gallardo Vasconcelos,Marco Jhonfai Fabián De La Mora,Tactical,1,0,2,trailing
+WC2018,7566,2018-06-27,Group Stage,Sweden,Mexico,2,67,5,Marcus Berg,Isaac Kiese Thelin,Injury,2,2,0,leading
+WC2018,7566,2018-06-27,Group Stage,Mexico,Sweden,2,74,41,José Andrés Guardado Hernández,Jesús Manuel Corona Ruíz,Tactical,2,0,3,trailing
+WC2018,7566,2018-06-27,Group Stage,Sweden,Mexico,2,79,47,Albin Ekdal,Oscar Hiljemark,Tactical,3,3,0,leading
+WC2018,7566,2018-06-27,Group Stage,Mexico,Sweden,2,88,1,Miguel Arturo Layún Prado,Oribe Peralta Morones,Tactical,3,0,3,trailing
+WC2018,8651,2018-07-07,Quarter-finals,Sweden,England,2,64,16,Emil Peter Forsberg,Martin Olsson,Tactical,1,0,2,trailing
+WC2018,8651,2018-07-07,Quarter-finals,Sweden,England,2,64,16,Ola Toivonen,John Guidetti,Tactical,2,0,2,trailing
+WC2018,8651,2018-07-07,Quarter-finals,England,Sweden,2,76,0,Bamidele Alli,Fabian Delph,Tactical,1,2,0,leading
+WC2018,8651,2018-07-07,Quarter-finals,England,Sweden,2,83,43,Jordan Brian Henderson,Eric Dier,Tactical,2,2,0,leading
+WC2018,8651,2018-07-07,Quarter-finals,Sweden,England,2,84,21,Emil Krafth,Pontus Jansson,Tactical,3,0,2,trailing
+WC2018,8651,2018-07-07,Quarter-finals,England,Sweden,2,90,22,Raheem Sterling,Marcus Rashford,Tactical,3,2,0,leading
+WC2018,7567,2018-06-27,Group Stage,South Korea,Germany,2,55,48,Ja-Cheol Koo,Hee-Chan Hwang,Injury,1,0,0,level
+WC2018,7567,2018-06-27,Group Stage,Germany,South Korea,2,57,52,Sami Khedira,Mario Gómez García,Tactical,1,0,0,level
+WC2018,7567,2018-06-27,Group Stage,Germany,South Korea,2,62,18,Leon Goretzka,Thomas Müller,Tactical,2,0,0,level
+WC2018,7567,2018-06-27,Group Stage,South Korea,Germany,2,68,12,Seon-Min Moon,Se-Jong Ju,Tactical,2,0,0,level
+WC2018,7567,2018-06-27,Group Stage,Germany,South Korea,2,77,13,Jonas Hector,Julian Brandt,Tactical,3,0,0,level
+WC2018,7567,2018-06-27,Group Stage,South Korea,Germany,2,78,14,Hee-Chan Hwang,Yo-Han Go,Tactical,3,0,0,level
+WC2018,7541,2018-06-19,Group Stage,Colombia,Japan,1,30,43,Juan Guillermo Cuadrado Bello,Wílmar Enrique Barrios Terán,Tactical,1,0,1,trailing
+WC2018,7541,2018-06-19,Group Stage,Colombia,Japan,2,57,54,Juan Fernando Quintero Paniagua,James David Rodríguez Rubio,Tactical,2,1,1,level
+WC2018,7541,2018-06-19,Group Stage,Japan,Colombia,2,69,11,Shinji Kagawa,Keisuke Honda,Tactical,1,1,1,level
+WC2018,7541,2018-06-19,Group Stage,Colombia,Japan,2,69,29,José Heriberto Izquierdo Mena,Carlos Arturo Bacca Ahumada,Tactical,3,1,1,level
+WC2018,7541,2018-06-19,Group Stage,Japan,Colombia,2,79,17,Gaku Shibasaki,Hotaru Yamaguchi,Tactical,2,2,1,leading
+WC2018,7541,2018-06-19,Group Stage,Japan,Colombia,2,84,44,Yūya Ōsako,Shinji Okazaki,Tactical,3,2,1,leading
+WC2018,8655,2018-07-10,Semi-finals,Belgium,France,2,59,29,Mousa Sidi Yaya Dembélé,Dries Mertens,Tactical,1,0,1,trailing
+WC2018,8655,2018-07-10,Semi-finals,Belgium,France,2,79,45,Marouane Fellaini-Bakkioui,Yannick Ferreira Carrasco,Tactical,2,0,1,trailing
+WC2018,8655,2018-07-10,Semi-finals,France,Belgium,2,84,15,Olivier Giroud,Steven N'Kemboanza Mike Christopher Nzonzi,Tactical,1,1,0,leading
+WC2018,8655,2018-07-10,Semi-finals,France,Belgium,2,85,42,Blaise Matuidi,Corentin Tolisso,Injury,2,1,0,leading
+WC2018,8655,2018-07-10,Semi-finals,Belgium,France,2,90,45,Nacer Chadli,Michy Batshuayi Tunga,Tactical,3,0,1,trailing
+WC2018,8657,2018-07-14,3rd Place Final,Belgium,England,1,38,38,Nacer Chadli,Thomas Vermaelen,Injury,1,1,0,leading
+WC2018,8657,2018-07-14,3rd Place Final,England,Belgium,2,45,0,Danny Rose,Jesse Lingard,Tactical,1,0,1,trailing
+WC2018,8657,2018-07-14,3rd Place Final,England,Belgium,2,45,0,Raheem Sterling,Marcus Rashford,Tactical,2,0,1,trailing
+WC2018,8657,2018-07-14,3rd Place Final,Belgium,England,2,59,38,Romelu Lukaku Menama,Dries Mertens,Tactical,2,1,0,leading
+WC2018,8657,2018-07-14,3rd Place Final,Belgium,England,2,77,47,Youri Tielemans,Mousa Sidi Yaya Dembélé,Tactical,3,1,0,leading
+WC2018,8657,2018-07-14,3rd Place Final,England,Belgium,2,83,28,Ruben Loftus-Cheek,Bamidele Alli,Tactical,3,0,2,trailing
+WC2018,8652,2018-07-07,Quarter-finals,Russia,Croatia,2,53,42,Aleksandr Samedov,Aleksandr Erokhin,Tactical,1,1,1,level
+WC2018,8652,2018-07-07,Quarter-finals,Croatia,Russia,2,62,28,Ivan Perišić,Marcelo Brozović,Tactical,1,1,1,level
+WC2018,8652,2018-07-07,Quarter-finals,Russia,Croatia,2,66,22,Denis Cheryshev,Fyodor Smolov,Tactical,2,1,1,level
+WC2018,8652,2018-07-07,Quarter-finals,Croatia,Russia,2,73,29,Ivan Strinić,Josip Pivarić,Tactical,2,1,1,level
+WC2018,8652,2018-07-07,Quarter-finals,Russia,Croatia,2,78,34,Artem Dzyuba,Yury Gazinskiy,Tactical,3,1,1,level
+WC2018,8652,2018-07-07,Quarter-finals,Croatia,Russia,2,87,48,Andrej Kramarić,Mateo Kovačić,Tactical,3,1,1,level
+WC2018,8652,2018-07-07,Quarter-finals,Croatia,Russia,3,96,17,Šime Vrsaljko,Vedran Ćorluka,Tactical,4,1,1,level
+WC2018,8652,2018-07-07,Quarter-finals,Russia,Croatia,3,101,43,Aleksandr Golovin,Alan Dzagoev,Tactical,4,1,2,trailing
+WC2018,7563,2018-06-26,Group Stage,France,Denmark,2,49,24,Lucas Hernández Pi,Benjamin Mendy,Tactical,1,0,0,level
+WC2018,7563,2018-06-26,Group Stage,Denmark,France,2,59,5,Pione Sisto Ifolo Emirmija,Viktor Fischer,Tactical,1,0,0,level
+WC2018,7563,2018-06-26,Group Stage,France,Denmark,2,67,58,Antoine Griezmann,Nabil Fekir,Tactical,2,0,0,level
+WC2018,7563,2018-06-26,Group Stage,Denmark,France,2,74,21,Andreas Evald Cornelius,Kasper Dolberg,Tactical,2,0,0,level
+WC2018,7563,2018-06-26,Group Stage,France,Denmark,2,77,34,Ousmane Dembélé,Kylian Mbappé Lottin,Tactical,3,0,0,level
+WC2018,7563,2018-06-26,Group Stage,Denmark,France,2,91,43,Thomas Delaney,Lukas Reiff Lerager,Injury,3,0,0,level
+WC2018,7556,2018-06-24,Group Stage,Senegal,Japan,2,64,33,Alfred John Momar N'Diaye,Cheikhou Kouyaté,Tactical,1,1,1,level
+WC2018,7556,2018-06-24,Group Stage,Japan,Senegal,2,71,38,Shinji Kagawa,Keisuke Honda,Tactical,1,1,2,trailing
+WC2018,7556,2018-06-24,Group Stage,Japan,Senegal,2,74,38,Genki Haraguchi,Shinji Okazaki,Tactical,2,1,2,trailing
+WC2018,7556,2018-06-24,Group Stage,Senegal,Japan,2,80,33,Papa Alioune N'Diaye,Cheikh N'Doye,Tactical,2,2,2,level
+WC2018,7556,2018-06-24,Group Stage,Senegal,Japan,2,85,17,M'Baye Babacar Niang,Mame Biram Diouf,Injury,3,2,2,level
+WC2018,7556,2018-06-24,Group Stage,Japan,Senegal,2,86,23,Takashi Inui,Takashi Usami,Tactical,3,2,2,level
+WC2018,7559,2018-06-25,Group Stage,Egypt,Saudi Arabia,1,51,27,Abdalla Mahmoud El Said Bekhit,Amr Medhat Warda,Tactical,1,1,1,level
+WC2018,7559,2018-06-25,Group Stage,Egypt,Saudi Arabia,2,63,35,Marwan Mohsen,Ramadan Sobhi Ramadan Ahmed,Tactical,2,1,1,level
+WC2018,7559,2018-06-25,Group Stage,Saudi Arabia,Egypt,2,64,30,Hattan Babhir,Mohanad Aseri Abu Radiah,Tactical,1,1,1,level
+WC2018,7559,2018-06-25,Group Stage,Saudi Arabia,Egypt,2,78,52,Fahad Mosaed Al Muwallad Al Harbi,Yehya Sulaiman Ali Al-Shehri,Tactical,2,1,1,level
+WC2018,7559,2018-06-25,Group Stage,Egypt,Saudi Arabia,2,80,26,Mahmoud Ibrahim Hassan,Mahmoud Abdul Monem Abdelhamid Soliman,Tactical,3,1,1,level
+WC2022,3857276,2022-12-01,Group Stage,Canada,Morocco,2,59,47,Cyle Larin,Jonathan David,Tactical,1,1,2,trailing
+WC2022,3857276,2022-12-01,Group Stage,Canada,Morocco,2,59,51,Mark Anthony Kaye,Atiba Hutchinson,Tactical,2,1,2,trailing
+WC2022,3857276,2022-12-01,Group Stage,Canada,Morocco,2,60,12,Sam Adekugbe,Ismael Koné,Tactical,3,1,2,trailing
+WC2022,3857276,2022-12-01,Group Stage,Morocco,Canada,2,64,10,Sofiane Boufal,Zakaria Aboukhlal,Tactical,1,2,1,leading
+WC2022,3857276,2022-12-01,Group Stage,Morocco,Canada,2,64,28,Abdelhamid Sabiri,Selim Amallah,Tactical,2,2,1,leading
+WC2022,3857276,2022-12-01,Group Stage,Canada,Morocco,2,65,4,Jonathan Osorio,Richie Laryea,Tactical,4,1,2,trailing
+WC2022,3857276,2022-12-01,Group Stage,Canada,Morocco,2,75,24,David Junior Hoilett,David Wallace Wotherspoon,Tactical,5,1,2,trailing
+WC2022,3857276,2022-12-01,Group Stage,Morocco,Canada,2,75,36,Hakim Ziyech,Abderrazak Hamdallah,Tactical,3,2,1,leading
+WC2022,3857276,2022-12-01,Group Stage,Morocco,Canada,2,75,48,Azzedine Ounahi,Jawad El Yamiq,Tactical,4,2,1,leading
+WC2022,3857276,2022-12-01,Group Stage,Morocco,Canada,2,84,55,Achraf Hakimi Mouh,Yahya Jabrane,Tactical,5,2,1,leading
+WC2022,3857271,2022-11-21,Group Stage,Iran,England,1,19,12,Alireza Safar Beiranvand,Seyed Hossein Hosseini,Tactical,1,0,0,level
+WC2022,3857271,2022-11-21,Group Stage,Iran,England,2,45,0,Ali Karimi,Saeid Ezatolahi Afagh,Tactical,2,0,2,trailing
+WC2022,3857271,2022-11-21,Group Stage,Iran,England,2,45,0,Alireza Jahanbakhsh,Ali Gholizadeh,Tactical,3,0,2,trailing
+WC2022,3857271,2022-11-21,Group Stage,Iran,England,2,45,0,Roozbeh Cheshmi,Mohammad Hossein Kanani Zadegan,Tactical,4,0,2,trailing
+WC2022,3857271,2022-11-21,Group Stage,Iran,England,2,62,50,Milad Mohammadi,Mehdi Torabi,Tactical,5,0,4,trailing
+WC2022,3857271,2022-11-21,Group Stage,England,Iran,2,70,27,Raheem Sterling,Jack Grealish,Tactical,1,4,1,leading
+WC2022,3857271,2022-11-21,Group Stage,England,Iran,2,70,27,Bukayo Saka,Marcus Rashford,Tactical,2,4,1,leading
+WC2022,3857271,2022-11-21,Group Stage,England,Iran,2,70,28,Harry Maguire,Eric Dier,Injury,3,4,1,leading
+WC2022,3857271,2022-11-21,Group Stage,England,Iran,2,70,28,Mason Mount,Phil Foden,Tactical,4,4,1,leading
+WC2022,3857271,2022-11-21,Group Stage,England,Iran,2,75,10,Harry Kane,Callum Wilson,Tactical,5,5,1,leading
+WC2022,3857271,2022-11-21,Group Stage,Iran,England,2,76,42,Ahmad Nourollahi,Sardar Azmoun,Tactical,6,1,5,trailing
+WC2022,3857296,2022-12-01,Group Stage,Belgium,Croatia,2,45,0,Dries Mertens,Romelu Lukaku Menama,Tactical,1,0,0,level
+WC2022,3857296,2022-12-01,Group Stage,Belgium,Croatia,2,58,5,Leandro Trossard,Thorgan Hazard,Tactical,2,0,0,level
+WC2022,3857296,2022-12-01,Group Stage,Croatia,Belgium,2,63,16,Marko Livaja,Bruno Petković,Tactical,1,0,0,level
+WC2022,3857296,2022-12-01,Group Stage,Croatia,Belgium,2,63,42,Andrej Kramarić,Mario Pašalić,Tactical,2,0,0,level
+WC2022,3857296,2022-12-01,Group Stage,Belgium,Croatia,2,71,30,Yannick Ferreira Carrasco,Jeremy Doku,Tactical,3,0,0,level
+WC2022,3857296,2022-12-01,Group Stage,Belgium,Croatia,2,71,37,Leander Dendoncker,Youri Tielemans,Tactical,4,0,0,level
+WC2022,3857296,2022-12-01,Group Stage,Belgium,Croatia,2,86,37,Thomas Meunier,Eden Hazard,Tactical,5,0,0,level
+WC2022,3857296,2022-12-01,Group Stage,Croatia,Belgium,2,90,54,Mateo Kovačić,Lovro Majer,Tactical,3,0,0,level
+WC2022,3857274,2022-11-25,Group Stage,Netherlands,Ecuador,2,45,0,Steven Bergwijn,Memphis Depay,Tactical,1,1,0,leading
+WC2022,3857274,2022-11-25,Group Stage,Netherlands,Ecuador,2,68,56,Davy Klaassen,Steven Berghuis,Tactical,2,1,1,level
+WC2022,3857274,2022-11-25,Group Stage,Ecuador,Netherlands,2,73,23,Michael Steveen Estrada Martínez,Jeremy Leonel Sarmiento Morante,Tactical,1,1,1,level
+WC2022,3857274,2022-11-25,Group Stage,Netherlands,Ecuador,2,78,56,Cody Mathès Gakpo,Wout Weghorst,Tactical,3,1,1,level
+WC2022,3857274,2022-11-25,Group Stage,Netherlands,Ecuador,2,79,2,Teun Koopmeiners,Marten de Roon,Tactical,4,1,1,level
+WC2022,3857274,2022-11-25,Group Stage,Ecuador,Netherlands,2,89,2,Enner Remberto Valencia Lastra,Kevin José Rodríguez Cortez,Injury,2,1,1,level
+WC2022,3857274,2022-11-25,Group Stage,Ecuador,Netherlands,2,89,9,Gonzalo Jordy Plata Jiménez,Romario Andrés Ibarra Mina,Tactical,3,1,1,level
+WC2022,3857255,2022-12-01,Group Stage,Japan,Spain,2,45,0,Takefusa Kubo,Ritsu Doan,Tactical,1,0,1,trailing
+WC2022,3857255,2022-12-01,Group Stage,Spain,Japan,2,45,0,César Azpilicueta Tanco,Daniel Carvajal Ramos,Tactical,1,1,0,leading
+WC2022,3857255,2022-12-01,Group Stage,Japan,Spain,2,45,0,Yuto Nagatomo,Kaoru Mitoma,Tactical,2,0,1,trailing
+WC2022,3857255,2022-12-01,Group Stage,Spain,Japan,2,56,6,Nicholas Williams Arthuer,Ferrán Torres García,Tactical,2,1,2,trailing
+WC2022,3857255,2022-12-01,Group Stage,Spain,Japan,2,56,17,Álvaro Borja Morata Martín,Marco Asensio Willemsen,Tactical,3,1,2,trailing
+WC2022,3857255,2022-12-01,Group Stage,Japan,Spain,2,61,2,Daizen Maeda,Takuma Asano,Tactical,3,2,1,leading
+WC2022,3857255,2022-12-01,Group Stage,Spain,Japan,2,67,13,Pablo Martín Páez Gavira,Anssumane Fati,Tactical,4,1,2,trailing
+WC2022,3857255,2022-12-01,Group Stage,Japan,Spain,2,68,49,Daichi Kamada,Takehiro Tomiyasu,Tactical,4,2,1,leading
+WC2022,3857255,2022-12-01,Group Stage,Spain,Japan,2,68,54,Alejandro Balde Martínez,Jordi Alba Ramos,Tactical,5,1,2,trailing
+WC2022,3857255,2022-12-01,Group Stage,Japan,Spain,2,86,30,Ao Tanaka,Wataru Endo,Tactical,5,2,1,leading
+WC2022,3857272,2022-11-25,Group Stage,England,United States,2,67,51,Raheem Sterling,Jack Grealish,Tactical,1,0,0,level
+WC2022,3857272,2022-11-25,Group Stage,England,United States,2,68,17,Jude Bellingham,Jordan Brian Henderson,Tactical,2,0,0,level
+WC2022,3857272,2022-11-25,Group Stage,United States,England,2,76,42,Weston McKennie,Brenden Aaronson,Tactical,1,0,0,level
+WC2022,3857272,2022-11-25,Group Stage,United States,England,2,77,13,Sergino Dest,Shaquell Moore,Tactical,2,0,0,level
+WC2022,3857272,2022-11-25,Group Stage,England,United States,2,77,42,Bukayo Saka,Marcus Rashford,Tactical,3,0,0,level
+WC2022,3857272,2022-11-25,Group Stage,United States,England,2,82,21,Timothy Weah,Giovanni Reyna,Tactical,3,0,0,level
+WC2022,3857272,2022-11-25,Group Stage,United States,England,2,82,30,Haji Wright,Joshua Sargent,Tactical,4,0,0,level
+WC2022,3857278,2022-11-29,Group Stage,Iran,United States,1,47,1,Milad Mohammadi,Ali Karimi,Injury,1,0,1,trailing
+WC2022,3857278,2022-11-29,Group Stage,United States,Iran,2,45,0,Christian Pulisic,Brenden Aaronson,Tactical,1,1,0,leading
+WC2022,3857278,2022-11-29,Group Stage,Iran,United States,2,45,0,Sardar Azmoun,Saman Ghoddos,Tactical,2,0,1,trailing
+WC2022,3857278,2022-11-29,Group Stage,United States,Iran,2,64,48,Weston McKennie,Kellyn Kai Perry-Acosta,Tactical,2,1,0,leading
+WC2022,3857278,2022-11-29,Group Stage,Iran,United States,2,70,36,Ahmad Nourollahi,Mehdi Torabi,Tactical,3,0,1,trailing
+WC2022,3857278,2022-11-29,Group Stage,Iran,United States,2,71,3,Ehsan Hajsafi,Abolfazl Jalali,Tactical,4,0,1,trailing
+WC2022,3857278,2022-11-29,Group Stage,United States,Iran,2,76,55,Joshua Sargent,Haji Wright,Injury,3,1,0,leading
+WC2022,3857278,2022-11-29,Group Stage,Iran,United States,2,76,56,Ali Gholizadeh,Karim Ansarifard,Tactical,5,0,1,trailing
+WC2022,3857278,2022-11-29,Group Stage,United States,Iran,2,81,8,Timothy Weah,Walker Zimmerman,Tactical,4,1,0,leading
+WC2022,3857278,2022-11-29,Group Stage,United States,Iran,2,81,9,Sergino Dest,Shaquell Moore,Tactical,5,1,0,leading
+WC2022,3857277,2022-11-23,Group Stage,Croatia,Morocco,2,45,0,Nikola Vlašić,Mario Pašalić,Tactical,1,0,0,level
+WC2022,3857277,2022-11-23,Group Stage,Morocco,Croatia,2,59,52,Noussair Mazraoui,Yahia Attiyat allah,Injury,1,0,0,level
+WC2022,3857277,2022-11-23,Group Stage,Morocco,Croatia,2,64,46,Sofiane Boufal,Abdessamad Ezzalzouli,Tactical,2,0,0,level
+WC2022,3857277,2022-11-23,Group Stage,Croatia,Morocco,2,69,58,Andrej Kramarić,Marko Livaja,Tactical,2,0,0,level
+WC2022,3857277,2022-11-23,Group Stage,Croatia,Morocco,2,78,43,Mateo Kovačić,Lovro Majer,Tactical,3,0,0,level
+WC2022,3857277,2022-11-23,Group Stage,Morocco,Croatia,2,80,46,Youssef En-Nesyri,Abderrazak Hamdallah,Tactical,3,0,0,level
+WC2022,3857277,2022-11-23,Group Stage,Morocco,Croatia,2,81,13,Azzedine Ounahi,Abdelhamid Sabiri,Tactical,4,0,0,level
+WC2022,3857277,2022-11-23,Group Stage,Croatia,Morocco,2,89,16,Ivan Perišić,Mislav Oršić,Tactical,4,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Wales,Iran,2,56,53,Connor Roberts,Brennan Johnson,Tactical,1,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Wales,Iran,2,56,54,Harry Wilson,Daniel James,Tactical,2,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Iran,Wales,2,67,18,Sardar Azmoun,Karim Ansarifard,Tactical,1,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Iran,Wales,2,75,43,Ali Gholizadeh,Alireza Jahanbakhsh,Tactical,2,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Iran,Wales,2,75,48,Ehsan Hajsafi,Mehdi Torabi,Tactical,3,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Wales,Iran,2,76,52,Ethan Ampadu,Joe Allen,Tactical,3,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Iran,Wales,2,77,24,Ahmad Nourollahi,Roozbeh Cheshmi,Injury,4,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Iran,Wales,2,82,11,Saeid Ezatolahi Afagh,Ali Karimi,Injury,5,0,0,level
+WC2022,3857273,2022-11-25,Group Stage,Wales,Iran,2,86,48,Aaron Ramsey,Daniel Ward,Tactical,4,0,0,level
+WC2022,3857275,2022-11-30,Group Stage,Tunisia,France,2,59,4,Wahbi Khazri,Issam Jebali,Injury,1,1,0,leading
+WC2022,3857275,2022-11-30,Group Stage,France,Tunisia,2,62,34,Raphaël Varane,William Saliba,Tactical,1,0,1,trailing
+WC2022,3857275,2022-11-30,Group Stage,France,Tunisia,2,62,35,Kingsley Coman,Kylian Mbappé Lottin,Tactical,2,0,1,trailing
+WC2022,3857275,2022-11-30,Group Stage,France,Tunisia,2,62,43,Jordan Veretout,Adrien Rabiot,Tactical,3,0,1,trailing
+WC2022,3857275,2022-11-30,Group Stage,France,Tunisia,2,72,16,Youssouf Fofana,Antoine Griezmann,Tactical,4,0,1,trailing
+WC2022,3857275,2022-11-30,Group Stage,Tunisia,France,2,73,52,Mohamed Ali Ben Romdhane,Ghilane Chalali,Tactical,2,1,0,leading
+WC2022,3857275,2022-11-30,Group Stage,France,Tunisia,2,78,6,Mattéo Guendouzi Olié,Ousmane Dembélé,Tactical,5,0,1,trailing
+WC2022,3857275,2022-11-30,Group Stage,Tunisia,France,2,82,56,Anis Ben Slimane,Ali Abdi,Tactical,3,1,0,leading
+WC2022,3857261,2022-11-29,Group Stage,Wales,England,1,35,56,Neco Williams,Connor Roberts,Injury,1,0,0,level
+WC2022,3857261,2022-11-29,Group Stage,Wales,England,2,45,0,Gareth Frank Bale,Brennan Johnson,Tactical,2,0,0,level
+WC2022,3857261,2022-11-29,Group Stage,England,Wales,2,56,50,Kyle Walker,Trent Alexander-Arnold,Tactical,1,2,0,leading
+WC2022,3857261,2022-11-29,Group Stage,England,Wales,2,57,6,Harry Kane,Callum Wilson,Tactical,2,2,0,leading
+WC2022,3857261,2022-11-29,Group Stage,England,Wales,2,57,13,Declan Rice,Kalvin Phillips,Tactical,3,2,0,leading
+WC2022,3857261,2022-11-29,Group Stage,Wales,England,2,58,37,Ben Davies,Joseff Morrell,Injury,3,0,2,trailing
+WC2022,3857261,2022-11-29,Group Stage,England,Wales,2,64,50,Luke Shaw,Kieran Trippier,Tactical,4,2,0,leading
+WC2022,3857261,2022-11-29,Group Stage,England,Wales,2,75,1,Marcus Rashford,Jack Grealish,Tactical,5,3,0,leading
+WC2022,3857261,2022-11-29,Group Stage,Wales,England,2,76,15,Daniel James,Harry Wilson,Tactical,4,0,3,trailing
+WC2022,3857261,2022-11-29,Group Stage,Wales,England,2,80,20,Joe Allen,Rubin Colwill,Injury,5,0,3,trailing
+WC2022,3857290,2022-11-24,Group Stage,Cameroon,Switzerland,2,67,53,Martin Hongla Yma II,Gaël Ondoua,Tactical,1,0,1,trailing
+WC2022,3857290,2022-11-24,Group Stage,Switzerland,Cameroon,2,70,58,Djibril Sow,Fabian Frei,Tactical,1,1,0,leading
+WC2022,3857290,2022-11-24,Group Stage,Switzerland,Cameroon,2,71,10,Xherdan Shaqiri,Noah Okafor,Tactical,2,1,0,leading
+WC2022,3857290,2022-11-24,Group Stage,Switzerland,Cameroon,2,71,22,Breel-Donald Embolo,Haris Seferović,Tactical,3,1,0,leading
+WC2022,3857290,2022-11-24,Group Stage,Cameroon,Switzerland,2,73,27,Karl Brillant Toko Ekambi,Georges-Kévin Nkoudou Mbida,Tactical,2,0,1,trailing
+WC2022,3857290,2022-11-24,Group Stage,Cameroon,Switzerland,2,73,40,Jean-Eric Maxim Choupo-Moting,Vincent Paté Aboubakar,Tactical,3,0,1,trailing
+WC2022,3857290,2022-11-24,Group Stage,Switzerland,Cameroon,2,80,31,Ruben Vargas,Fabian Rieder,Tactical,4,1,0,leading
+WC2022,3857290,2022-11-24,Group Stage,Cameroon,Switzerland,2,80,44,Bryan Mbeumo,Nicolas Moumi Ngamaleu,Tactical,4,0,1,trailing
+WC2022,3857290,2022-11-24,Group Stage,Switzerland,Cameroon,2,89,53,Ricardo Iván Rodríguez Araya,Eray Ervin Cömert,Tactical,5,1,0,leading
+WC2022,3857298,2022-11-24,Group Stage,Portugal,Ghana,2,55,49,Otávio Edmilson da Silva Monteiro,William Silva de Carvalho,Injury,1,0,0,level
+WC2022,3857298,2022-11-24,Group Stage,Ghana,Portugal,2,65,40,Alidu Seidu,Tariq Lamptey,Tactical,1,0,1,trailing
+WC2022,3857298,2022-11-24,Group Stage,Ghana,Portugal,2,75,40,Mohammed Kudus,Osman Bukari,Tactical,2,1,1,level
+WC2022,3857298,2022-11-24,Group Stage,Ghana,Portugal,2,76,22,André Ayew Pelé,Jordan Ayew,Tactical,3,1,1,level
+WC2022,3857298,2022-11-24,Group Stage,Portugal,Ghana,2,76,46,Rúben Diogo Da Silva Neves,Rafael Alexandre Conceição Leão,Tactical,2,1,1,level
+WC2022,3857298,2022-11-24,Group Stage,Portugal,Ghana,2,87,18,Cristiano Ronaldo dos Santos Aveiro,Gonçalo Matias Ramos,Tactical,3,3,1,leading
+WC2022,3857298,2022-11-24,Group Stage,Portugal,Ghana,2,87,23,João Félix Sequeira,João Mário Naval da Costa Eduardo,Tactical,4,3,1,leading
+WC2022,3857298,2022-11-24,Group Stage,Portugal,Ghana,2,87,31,Bernardo Mota Veiga de Carvalho e Silva,João Maria Lobo Alves Palhinha Gonçalves,Tactical,5,3,1,leading
+WC2022,3857298,2022-11-24,Group Stage,Ghana,Portugal,2,91,43,Alexander Djiku,Antoine Semenyo,Tactical,4,2,3,trailing
+WC2022,3857298,2022-11-24,Group Stage,Ghana,Portugal,2,92,6,Salis Abdul Samed,Daniel-Kofi Kyereh,Tactical,5,2,3,trailing
+WC2022,3857285,2022-11-21,Group Stage,Netherlands,Senegal,2,61,23,Vincent Janssen,Memphis Depay,Tactical,1,0,0,level
+WC2022,3857285,2022-11-21,Group Stage,Senegal,Netherlands,2,61,25,Abdou Diallo,Ismail Jakobs,Injury,1,0,0,level
+WC2022,3857285,2022-11-21,Group Stage,Senegal,Netherlands,2,68,11,Boulaye Dia,Cheikh Ahmadou Bamba Mbacke Dieng,Tactical,2,0,0,level
+WC2022,3857285,2022-11-21,Group Stage,Senegal,Netherlands,2,73,11,Cheikhou Kouyaté,Pape Gueye,Injury,3,0,0,level
+WC2022,3857285,2022-11-21,Group Stage,Senegal,Netherlands,2,73,12,Krépin Diatta,Nicolas Jackson,Tactical,4,0,0,level
+WC2022,3857285,2022-11-21,Group Stage,Netherlands,Senegal,2,78,5,Steven Bergwijn,Davy Klaassen,Tactical,2,0,0,level
+WC2022,3857285,2022-11-21,Group Stage,Netherlands,Senegal,2,78,14,Steven Berghuis,Teun Koopmeiners,Tactical,3,0,0,level
+WC2022,3857285,2022-11-21,Group Stage,Netherlands,Senegal,2,93,35,Cody Mathès Gakpo,Marten de Roon,Tactical,4,1,0,leading
+WC2022,3857282,2022-11-21,Group Stage,Wales,United States,2,45,0,Daniel James,Kieffer Roberto Francisco Moore,Tactical,1,0,1,trailing
+WC2022,3857282,2022-11-21,Group Stage,United States,Wales,2,65,12,Weston McKennie,Brenden Aaronson,Tactical,1,1,0,leading
+WC2022,3857282,2022-11-21,Group Stage,United States,Wales,2,73,29,Joshua Sargent,Haji Wright,Tactical,2,1,0,leading
+WC2022,3857282,2022-11-21,Group Stage,United States,Wales,2,74,15,Sergino Dest,DeAndre Yedlin,Tactical,3,1,0,leading
+WC2022,3857282,2022-11-21,Group Stage,United States,Wales,2,74,15,Yunus Dimoara Musah,Kellyn Kai Perry-Acosta,Injury,4,1,0,leading
+WC2022,3857282,2022-11-21,Group Stage,Wales,United States,2,78,19,Neco Williams,Brennan Johnson,Tactical,2,0,1,trailing
+WC2022,3857282,2022-11-21,Group Stage,United States,Wales,2,87,33,Timothy Weah,Jordan Morris,Tactical,5,1,1,level
+WC2022,3857282,2022-11-21,Group Stage,Wales,United States,2,92,35,Harry Wilson,Sorba Thomas,Tactical,3,1,1,level
+WC2022,3857282,2022-11-21,Group Stage,Wales,United States,2,94,42,Ethan Ampadu,Joseff Morrell,Injury,4,1,1,level
+WC2022,3857297,2022-11-26,Group Stage,Saudi Arabia,Poland,2,45,0,Sami Khalil Al Naji,Nawaf Shaker Al Abid,Tactical,1,0,1,trailing
+WC2022,3857297,2022-11-26,Group Stage,Poland,Saudi Arabia,2,62,8,Piotr Zieliński,Jakub Kamiński,Tactical,1,1,0,leading
+WC2022,3857297,2022-11-26,Group Stage,Saudi Arabia,Poland,2,64,45,Mohammed Al Burayk,Sultan Abdullah Salim Al Ghannam,Tactical,2,0,1,trailing
+WC2022,3857297,2022-11-26,Group Stage,Poland,Saudi Arabia,2,70,37,Arkadiusz Milik,Krzysztof Piątek,Tactical,2,1,0,leading
+WC2022,3857297,2022-11-26,Group Stage,Saudi Arabia,Poland,2,84,56,Abdulelah Saad Hameed Al-Malki,Abdulrahman Al-Obood,Tactical,3,0,2,trailing
+WC2022,3857297,2022-11-26,Group Stage,Saudi Arabia,Poland,2,85,0,Saleh Khalid Al Shehri,Nasser Al Dawsari,Tactical,4,0,2,trailing
+WC2022,3857297,2022-11-26,Group Stage,Saudi Arabia,Poland,2,94,41,Nawaf Shaker Al Abid,Hattan Babhir,Tactical,5,0,2,trailing
+WC2022,3857294,2022-11-29,Group Stage,Qatar,Netherlands,2,63,47,Hassan Khalid Al Heidos,Ali Assadalla Thaimn Qambar,Injury,1,0,2,trailing
+WC2022,3857294,2022-11-29,Group Stage,Qatar,Netherlands,2,63,49,Assim Omer Al Haj Madibo,Karim Boudiaf,Tactical,2,0,2,trailing
+WC2022,3857294,2022-11-29,Group Stage,Qatar,Netherlands,2,64,12,Almoez Ali Zainalabiddin Abdulla,Mohammed Muntari,Tactical,3,0,2,trailing
+WC2022,3857294,2022-11-29,Group Stage,Netherlands,Qatar,2,65,24,Davy Klaassen,Steven Berghuis,Tactical,1,2,0,leading
+WC2022,3857294,2022-11-29,Group Stage,Netherlands,Qatar,2,65,45,Memphis Depay,Vincent Janssen,Tactical,2,2,0,leading
+WC2022,3857294,2022-11-29,Group Stage,Netherlands,Qatar,2,82,6,Cody Mathès Gakpo,Wout Weghorst,Tactical,3,2,0,leading
+WC2022,3857294,2022-11-29,Group Stage,Netherlands,Qatar,2,82,10,Marten de Roon,Teun Koopmeiners,Tactical,4,2,0,leading
+WC2022,3857294,2022-11-29,Group Stage,Qatar,Netherlands,2,84,28,Abdulaziz Hatem Mohammed Abdullah,Ahmed Alaa Eldin Abdelmotaal,Tactical,4,0,2,trailing
+WC2022,3857294,2022-11-29,Group Stage,Qatar,Netherlands,2,84,35,Ismaeel Mohammad Mohammad,Mosaab Khoder Jibril,Tactical,5,0,2,trailing
+WC2022,3857294,2022-11-29,Group Stage,Netherlands,Qatar,2,85,59,Frenkie de Jong,Kenneth Taylor,Tactical,5,2,0,leading
+WC2022,3857266,2022-11-26,Group Stage,Denmark,France,2,45,0,Andreas Evald Cornelius,Martin Braithwaite Christensen,Tactical,1,0,0,level
+WC2022,3857266,2022-11-26,Group Stage,France,Denmark,2,61,59,Olivier Giroud,Marcus Thuram,Tactical,1,1,0,leading
+WC2022,3857266,2022-11-26,Group Stage,Denmark,France,2,72,57,Mikkel Damsgaard,Kasper Dolberg,Tactical,2,1,1,level
+WC2022,3857266,2022-11-26,Group Stage,France,Denmark,2,73,51,Raphaël Varane,Ibrahima Konaté,Tactical,2,1,1,level
+WC2022,3857266,2022-11-26,Group Stage,France,Denmark,2,74,10,Ousmane Dembélé,Kingsley Coman,Tactical,3,1,1,level
+WC2022,3857266,2022-11-26,Group Stage,Denmark,France,2,84,16,Jesper Lindstrøm,Christian Nørgaard,Tactical,3,1,1,level
+WC2022,3857266,2022-11-26,Group Stage,Denmark,France,2,91,37,Rasmus Nissen Kristensen,Alexander Hartmann Bah,Tactical,4,1,2,trailing
+WC2022,3857266,2022-11-26,Group Stage,France,Denmark,2,92,13,Antoine Griezmann,Youssouf Fofana,Tactical,4,2,1,leading
+WC2022,3857284,2022-11-23,Group Stage,Japan,Germany,2,45,0,Takefusa Kubo,Takehiro Tomiyasu,Tactical,1,0,1,trailing
+WC2022,3857284,2022-11-23,Group Stage,Japan,Germany,2,56,33,Yuto Nagatomo,Kaoru Mitoma,Tactical,2,0,1,trailing
+WC2022,3857284,2022-11-23,Group Stage,Japan,Germany,2,56,39,Daizen Maeda,Takuma Asano,Tactical,3,0,1,trailing
+WC2022,3857284,2022-11-23,Group Stage,Germany,Japan,2,66,37,Thomas Müller,Jonas Hofmann,Tactical,1,1,0,leading
+WC2022,3857284,2022-11-23,Group Stage,Germany,Japan,2,67,5,İlkay Gündoğan,Leon Goretzka,Tactical,2,1,0,leading
+WC2022,3857284,2022-11-23,Group Stage,Japan,Germany,2,70,38,Ao Tanaka,Ritsu Doan,Tactical,4,0,1,trailing
+WC2022,3857284,2022-11-23,Group Stage,Japan,Germany,2,73,53,Hiroki Sakai,Takumi Minamino,Injury,5,0,1,trailing
+WC2022,3857284,2022-11-23,Group Stage,Germany,Japan,2,78,13,Jamal Musiala,Mario Götze,Tactical,3,1,1,level
+WC2022,3857284,2022-11-23,Group Stage,Germany,Japan,2,78,14,Kai Havertz,Niclas Füllkrug,Tactical,4,1,1,level
+WC2022,3857284,2022-11-23,Group Stage,Germany,Japan,2,89,1,Serge Gnabry,Youssoufa Moukoko,Tactical,5,1,2,trailing
+WC2022,3857254,2022-11-22,Group Stage,Denmark,Tunisia,1,45,32,Thomas Delaney,Mikkel Damsgaard,Injury,1,0,0,level
+WC2022,3857254,2022-11-22,Group Stage,Denmark,Tunisia,2,63,59,Simon Thorup Kjær,Mathias Jensen,Tactical,2,0,0,level
+WC2022,3857254,2022-11-22,Group Stage,Denmark,Tunisia,2,64,28,Andreas Skov Olsen,Jesper Lindstrøm,Tactical,3,0,0,level
+WC2022,3857254,2022-11-22,Group Stage,Denmark,Tunisia,2,64,28,Kasper Dolberg,Andreas Evald Cornelius,Tactical,4,0,0,level
+WC2022,3857254,2022-11-22,Group Stage,Tunisia,Denmark,2,66,43,Anis Ben Slimane,Naïm Sliti,Tactical,1,0,0,level
+WC2022,3857254,2022-11-22,Group Stage,Tunisia,Denmark,2,79,47,Youssef Msakni,Hannibal Mejbri,Tactical,2,0,0,level
+WC2022,3857254,2022-11-22,Group Stage,Tunisia,Denmark,2,80,1,Issam Jebali,Taha Yassine Khenissi,Tactical,3,0,0,level
+WC2022,3857254,2022-11-22,Group Stage,Tunisia,Denmark,2,87,17,Mohamed Dräger,Wajdi Kechrida,Tactical,4,0,0,level
+WC2022,3857254,2022-11-22,Group Stage,Tunisia,Denmark,2,87,46,Aïssa Bilal Laïdouni,Ferjani Sassi,Tactical,5,0,0,level
+WC2022,3857265,2022-11-22,Group Stage,Poland,Mexico,2,45,0,Nicola Zalewski,Krystian Bielik,Tactical,1,0,0,level
+WC2022,3857265,2022-11-22,Group Stage,Mexico,Poland,2,70,15,Héctor Miguel Herrera López,Carlos Alberto Rodríguez Gómez,Tactical,1,0,0,level
+WC2022,3857265,2022-11-22,Group Stage,Mexico,Poland,2,70,18,Henry Josué Martín Mex,Raúl Alonso Jiménez Rodríguez,Tactical,2,0,0,level
+WC2022,3857265,2022-11-22,Group Stage,Poland,Mexico,2,71,10,Sebastian Szymański,Przemysław Frankowski,Tactical,2,0,0,level
+WC2022,3857265,2022-11-22,Group Stage,Mexico,Poland,2,83,48,Ernesto Alexis Vega Rojas,Carlos Uriel Antuna Romero,Tactical,3,0,0,level
+WC2022,3857265,2022-11-22,Group Stage,Poland,Mexico,2,87,0,Piotr Zieliński,Arkadiusz Milik,Tactical,3,0,0,level
+WC2022,3857301,2022-11-25,Group Stage,Senegal,Qatar,2,63,43,Krépin Diatta,Pathé Ismaël Ciss,Tactical,1,2,0,leading
+WC2022,3857301,2022-11-25,Group Stage,Qatar,Senegal,2,68,19,Karim Boudiaf,Abdulaziz Hatem Mohammed Abdullah,Tactical,1,0,2,trailing
+WC2022,3857301,2022-11-25,Group Stage,Senegal,Qatar,2,73,47,Famara Diedhiou,Cheikh Ahmadou Bamba Mbacke Dieng,Tactical,2,2,0,leading
+WC2022,3857301,2022-11-25,Group Stage,Senegal,Qatar,2,73,57,Ismaïla Sarr,Iliman Ndiaye,Tactical,3,2,0,leading
+WC2022,3857301,2022-11-25,Group Stage,Qatar,Senegal,2,74,17,Hassan Khalid Al Heidos,Mohammed Muntari,Tactical,2,0,2,trailing
+WC2022,3857301,2022-11-25,Group Stage,Senegal,Qatar,2,76,57,Ismail Jakobs,Pape Abou Cissé,Tactical,4,2,0,leading
+WC2022,3857301,2022-11-25,Group Stage,Senegal,Qatar,2,76,58,Nampalys Mendy,Pape Matar Sarr,Tactical,5,2,0,leading
+WC2022,3857301,2022-11-25,Group Stage,Qatar,Senegal,2,82,8,Homam Alamin Ahmed,Tarek Salman Salman,Tactical,3,1,2,trailing
+WC2022,3857301,2022-11-25,Group Stage,Qatar,Senegal,2,82,14,Pedro Miguel Correia,Mohammed Waed Abdulwahhab Al Bayati,Tactical,4,1,2,trailing
+WC2022,3857268,2022-11-23,Group Stage,Belgium,Canada,2,45,0,Youri Tielemans,Amadou Onana,Tactical,1,1,0,leading
+WC2022,3857268,2022-11-23,Group Stage,Belgium,Canada,2,45,0,Yannick Ferreira Carrasco,Thomas Meunier,Tactical,2,1,0,leading
+WC2022,3857268,2022-11-23,Group Stage,Canada,Belgium,2,57,24,David Junior Hoilett,Cyle Larin,Tactical,1,0,1,trailing
+WC2022,3857268,2022-11-23,Group Stage,Canada,Belgium,2,57,41,Atiba Hutchinson,Ismael Koné,Tactical,2,0,1,trailing
+WC2022,3857268,2022-11-23,Group Stage,Belgium,Canada,2,61,49,Eden Hazard,Leandro Trossard,Tactical,3,1,0,leading
+WC2022,3857268,2022-11-23,Group Stage,Canada,Belgium,2,73,12,Richie Laryea,Sam Adekugbe,Tactical,3,0,1,trailing
+WC2022,3857268,2022-11-23,Group Stage,Belgium,Canada,2,77,53,Michy Batshuayi Tunga,Ikoma Loïs Openda,Tactical,4,1,0,leading
+WC2022,3857268,2022-11-23,Group Stage,Canada,Belgium,2,80,10,Tajon Buchanan,Liam Millar,Tactical,4,0,1,trailing
+WC2022,3857268,2022-11-23,Group Stage,Canada,Belgium,2,80,21,Stephen Antunes Eustáquio,Jonathan Osorio,Tactical,5,0,1,trailing
+WC2022,3857269,2022-11-28,Group Stage,Brazil,Switzerland,2,45,0,Lucas Tolentino Coelho de Lima,Rodrygo Silva de Goes,Tactical,1,0,0,level
+WC2022,3857269,2022-11-28,Group Stage,Brazil,Switzerland,2,57,40,Frederico Rodrigues Santos,Bruno Guimarães Rodriguez Moura,Tactical,2,0,0,level
+WC2022,3857269,2022-11-28,Group Stage,Switzerland,Brazil,2,57,52,Ruben Vargas,Edimilson Fernandes,Tactical,1,0,0,level
+WC2022,3857269,2022-11-28,Group Stage,Switzerland,Brazil,2,58,15,Fabian Rieder,Renato Steffen,Tactical,2,0,0,level
+WC2022,3857269,2022-11-28,Group Stage,Brazil,Switzerland,2,72,40,Richarlison de Andrade,Gabriel Fernando de Jesus,Tactical,3,0,0,level
+WC2022,3857269,2022-11-28,Group Stage,Brazil,Switzerland,2,72,59,Raphael Dias Belloli,Antony Matheus dos Santos,Tactical,4,0,0,level
+WC2022,3857269,2022-11-28,Group Stage,Switzerland,Brazil,2,74,43,Djibril Sow,Michel Aebischer,Tactical,3,0,0,level
+WC2022,3857269,2022-11-28,Group Stage,Switzerland,Brazil,2,74,47,Breel-Donald Embolo,Haris Seferović,Tactical,4,0,0,level
+WC2022,3857269,2022-11-28,Group Stage,Switzerland,Brazil,2,85,19,Silvan Widmer,Fabian Frei,Tactical,5,0,1,trailing
+WC2022,3857269,2022-11-28,Group Stage,Brazil,Switzerland,2,85,22,Alex Sandro Lobo Silva,Alex Nicolao Telles,Tactical,5,1,0,leading
+WC2022,3869321,2022-12-09,Quarter-finals,Netherlands,Argentina,2,45,0,Steven Bergwijn,Steven Berghuis,Tactical,1,0,1,trailing
+WC2022,3869321,2022-12-09,Quarter-finals,Netherlands,Argentina,2,45,0,Marten de Roon,Teun Koopmeiners,Tactical,2,0,1,trailing
+WC2022,3869321,2022-12-09,Quarter-finals,Netherlands,Argentina,2,64,1,Daley Blind,Luuk de Jong,Tactical,3,0,1,trailing
+WC2022,3869321,2022-12-09,Quarter-finals,Argentina,Netherlands,2,65,47,Rodrigo Javier De Paul,Leandro Daniel Paredes,Tactical,1,1,0,leading
+WC2022,3869321,2022-12-09,Quarter-finals,Argentina,Netherlands,2,77,9,Marcos Javier Acuña,Nicolás Alejandro Tagliafico,Tactical,2,2,0,leading
+WC2022,3869321,2022-12-09,Quarter-finals,Argentina,Netherlands,2,77,28,Cristian Gabriel Romero,Germán Alejandro Pezzella,Tactical,3,2,0,leading
+WC2022,3869321,2022-12-09,Quarter-finals,Netherlands,Argentina,2,77,57,Memphis Depay,Wout Weghorst,Tactical,4,0,2,trailing
+WC2022,3869321,2022-12-09,Quarter-finals,Argentina,Netherlands,2,80,55,Julián Álvarez,Lautaro Javier Martínez,Tactical,4,2,0,leading
+WC2022,3869321,2022-12-09,Quarter-finals,Argentina,Netherlands,4,105,0,Nahuel Molina Lucero,Gonzalo Ariel Montiel,Tactical,5,2,2,level
+WC2022,3869321,2022-12-09,Quarter-finals,Argentina,Netherlands,4,111,1,Lisandro Martínez,Ángel Fabián Di María Hernández,Tactical,6,2,2,level
+WC2022,3869321,2022-12-09,Quarter-finals,Netherlands,Argentina,4,112,41,Cody Mathès Gakpo,Noa Lang,Tactical,5,2,2,level
+WC2022,3857292,2022-12-01,Group Stage,Costa Rica,Germany,2,45,0,Brandon Aguilera Zamora,Youstin Delfin Salas Gómez,Tactical,1,0,1,trailing
+WC2022,3857292,2022-12-01,Group Stage,Germany,Costa Rica,2,45,0,Leon Goretzka,Lukas Klostermann,Tactical,1,1,0,leading
+WC2022,3857292,2022-12-01,Group Stage,Germany,Costa Rica,2,53,56,İlkay Gündoğan,Niclas Füllkrug,Tactical,2,1,0,leading
+WC2022,3857292,2022-12-01,Group Stage,Germany,Costa Rica,2,65,51,Thomas Müller,Kai Havertz,Tactical,3,1,1,level
+WC2022,3857292,2022-12-01,Group Stage,Germany,Costa Rica,2,65,52,David Raum,Mario Götze,Tactical,4,1,1,level
+WC2022,3857292,2022-12-01,Group Stage,Costa Rica,Germany,2,73,14,Johan Alberto Venegas Ulloa,Ronald Alberto Matarrita Ulate,Tactical,2,2,2,level
+WC2022,3857292,2022-12-01,Group Stage,Costa Rica,Germany,2,73,30,Keysher Fuller Spence,Jewison Bennette,Tactical,3,2,2,level
+WC2022,3857292,2022-12-01,Group Stage,Costa Rica,Germany,2,92,29,Bryan Oviedo,Anthony Daniel Contreras Enríquez,Tactical,4,2,4,trailing
+WC2022,3857292,2022-12-01,Group Stage,Costa Rica,Germany,2,92,32,Yeltsin Ignacio Tejeda Valverde,Roan Roberto Wilson Gordon,Tactical,5,2,4,trailing
+WC2022,3857292,2022-12-01,Group Stage,Germany,Costa Rica,2,93,37,Niklas Süle,Matthias Ginter,Tactical,5,4,2,leading
+WC2022,3857295,2022-11-27,Group Stage,Japan,Costa Rica,2,45,0,Yuto Nagatomo,Hiroki Ito,Tactical,1,0,0,level
+WC2022,3857295,2022-11-27,Group Stage,Japan,Costa Rica,2,45,0,Ayase Ueda,Takuma Asano,Tactical,2,0,0,level
+WC2022,3857295,2022-11-27,Group Stage,Japan,Costa Rica,2,61,34,Miki Yamane,Kaoru Mitoma,Tactical,3,0,0,level
+WC2022,3857295,2022-11-27,Group Stage,Costa Rica,Japan,2,64,4,Gerson Torres Barrantes,Brandon Aguilera Zamora,Tactical,1,0,0,level
+WC2022,3857295,2022-11-27,Group Stage,Costa Rica,Japan,2,64,27,Anthony Daniel Contreras Enríquez,Jewison Bennette,Tactical,2,0,0,level
+WC2022,3857295,2022-11-27,Group Stage,Japan,Costa Rica,2,66,11,Ritsu Doan,Junya Ito,Tactical,4,0,0,level
+WC2022,3857295,2022-11-27,Group Stage,Japan,Costa Rica,2,81,49,Yuki Soma,Takumi Minamino,Tactical,5,0,1,trailing
+WC2022,3857295,2022-11-27,Group Stage,Costa Rica,Japan,2,88,49,Celso Borges Mora,Youstin Delfin Salas Gómez,Tactical,3,1,0,leading
+WC2022,3857295,2022-11-27,Group Stage,Costa Rica,Japan,2,94,20,Joel Nathaniel Campbell Samuels,Daniel Alonso Chacón Salas,Tactical,4,1,0,leading
+WC2022,3869685,2022-12-18,Final,France,Argentina,1,40,32,Ousmane Dembélé,Randal Kolo Muani,Tactical,1,0,2,trailing
+WC2022,3869685,2022-12-18,Final,France,Argentina,1,41,1,Olivier Giroud,Marcus Thuram,Tactical,2,0,2,trailing
+WC2022,3869685,2022-12-18,Final,Argentina,France,2,63,51,Ángel Fabián Di María Hernández,Marcos Javier Acuña,Tactical,1,2,0,leading
+WC2022,3869685,2022-12-18,Final,France,Argentina,2,70,27,Theo Bernard François Hernández,Eduardo Camavinga,Tactical,3,0,2,trailing
+WC2022,3869685,2022-12-18,Final,France,Argentina,2,70,29,Antoine Griezmann,Kingsley Coman,Tactical,4,0,2,trailing
+WC2022,3869685,2022-12-18,Final,Argentina,France,3,90,0,Nahuel Molina Lucero,Gonzalo Ariel Montiel,Tactical,2,2,2,level
+WC2022,3869685,2022-12-18,Final,France,Argentina,3,95,10,Adrien Rabiot,Youssouf Fofana,Tactical,5,2,2,level
+WC2022,3869685,2022-12-18,Final,Argentina,France,3,101,37,Rodrigo Javier De Paul,Leandro Daniel Paredes,Tactical,3,2,2,level
+WC2022,3869685,2022-12-18,Final,Argentina,France,3,101,49,Julián Álvarez,Lautaro Javier Martínez,Tactical,4,2,2,level
+WC2022,3869685,2022-12-18,Final,France,Argentina,4,112,28,Raphaël Varane,Ibrahima Konaté,Injury,6,2,3,trailing
+WC2022,3869685,2022-12-18,Final,Argentina,France,4,115,22,Alexis Mac Allister,Germán Alejandro Pezzella,Tactical,5,3,2,leading
+WC2022,3869685,2022-12-18,Final,France,Argentina,4,120,35,Jules Koundé,Axel Disasi,Tactical,7,4,3,leading
+WC2022,3869685,2022-12-18,Final,Argentina,France,4,120,46,Nicolás Alejandro Tagliafico,Paulo Bruno Exequiel Dybala,Tactical,6,3,4,trailing
+WC2022,3869684,2022-12-17,3rd Place Final,Morocco,Croatia,2,45,0,Abdelhamid Sabiri,Ilias Chair,Tactical,1,1,2,trailing
+WC2022,3869684,2022-12-17,3rd Place Final,Morocco,Croatia,2,55,2,Bilal El Khannous,Azzedine Ounahi,Tactical,2,1,2,trailing
+WC2022,3869684,2022-12-17,3rd Place Final,Croatia,Morocco,2,61,4,Andrej Kramarić,Nikola Vlašić,Injury,1,2,1,leading
+WC2022,3869684,2022-12-17,3rd Place Final,Morocco,Croatia,2,63,17,Sofiane Boufal,Anass Zaroury,Tactical,3,1,2,trailing
+WC2022,3869684,2022-12-17,3rd Place Final,Morocco,Croatia,2,63,24,Achraf Dari,Badr Banoun,Injury,4,1,2,trailing
+WC2022,3869684,2022-12-17,3rd Place Final,Morocco,Croatia,2,66,48,Jawad El Yamiq,Selim Amallah,Injury,5,1,2,trailing
+WC2022,3869684,2022-12-17,3rd Place Final,Croatia,Morocco,2,66,55,Lovro Majer,Mario Pašalić,Tactical,2,2,1,leading
+WC2022,3869684,2022-12-17,3rd Place Final,Croatia,Morocco,2,66,58,Marko Livaja,Bruno Petković,Tactical,3,2,1,leading
+WC2022,3869684,2022-12-17,3rd Place Final,Croatia,Morocco,2,94,52,Mislav Oršić,Kristijan Jakić,Tactical,4,2,1,leading
+WC2022,3857256,2022-12-02,Group Stage,Serbia,Switzerland,2,54,2,Milos Veljkovic,Nemanja Gudelj,Tactical,1,2,3,trailing
+WC2022,3857256,2022-12-02,Group Stage,Serbia,Switzerland,2,54,15,Dušan Vlahović,Luka Jović,Tactical,2,2,3,trailing
+WC2022,3857256,2022-12-02,Group Stage,Serbia,Switzerland,2,66,59,Sergej Milinković-Savić,Nemanja Maksimović,Tactical,3,2,3,trailing
+WC2022,3857256,2022-12-02,Group Stage,Switzerland,Serbia,2,67,51,Djibril Sow,Edimilson Fernandes,Tactical,1,3,2,leading
+WC2022,3857256,2022-12-02,Group Stage,Switzerland,Serbia,2,68,17,Xherdan Shaqiri,Denis Lemi Zakaria Lako Lado,Tactical,2,3,2,leading
+WC2022,3857256,2022-12-02,Group Stage,Serbia,Switzerland,2,77,35,Dušan Tadić,Filip Đuričić,Tactical,4,2,3,trailing
+WC2022,3857256,2022-12-02,Group Stage,Serbia,Switzerland,2,77,40,Andrija Živković,Nemanja Radonjić,Tactical,5,2,3,trailing
+WC2022,3857256,2022-12-02,Group Stage,Switzerland,Serbia,2,82,51,Ruben Vargas,Christian Fassnacht,Tactical,3,3,2,leading
+WC2022,3857256,2022-12-02,Group Stage,Switzerland,Serbia,2,95,24,Breel-Donald Embolo,Noah Okafor,Tactical,4,3,2,leading
+WC2022,3869151,2022-12-03,Round of 16,Argentina,Australia,2,49,7,Alejandro Darío Gómez,Lisandro Martínez,Tactical,1,1,0,leading
+WC2022,3869151,2022-12-03,Round of 16,Australia,Argentina,2,57,52,Riley McGree,Craig Goodwin,Tactical,1,0,2,trailing
+WC2022,3869151,2022-12-03,Round of 16,Australia,Argentina,2,57,52,Keanu Baccus,Ajdin Hrustic,Tactical,2,0,2,trailing
+WC2022,3869151,2022-12-03,Round of 16,Argentina,Australia,2,71,0,Julián Álvarez,Lautaro Javier Martínez,Tactical,2,2,0,leading
+WC2022,3869151,2022-12-03,Round of 16,Argentina,Australia,2,71,19,Marcos Javier Acuña,Nicolás Alejandro Tagliafico,Tactical,3,2,0,leading
+WC2022,3869151,2022-12-03,Round of 16,Australia,Argentina,2,71,48,Mitchell Thomas Duke,Jamie MacLaren,Tactical,3,0,2,trailing
+WC2022,3869151,2022-12-03,Round of 16,Australia,Argentina,2,71,48,Mathew Leckie,Garang Kuol,Tactical,4,0,2,trailing
+WC2022,3869151,2022-12-03,Round of 16,Australia,Argentina,2,71,49,Miloš Degenek,Fran Karačić,Tactical,5,0,2,trailing
+WC2022,3869151,2022-12-03,Round of 16,Argentina,Australia,2,79,15,Nahuel Molina Lucero,Exequiel Alejandro Palacios,Tactical,4,2,1,leading
+WC2022,3869151,2022-12-03,Round of 16,Argentina,Australia,2,79,17,Alexis Mac Allister,Gonzalo Ariel Montiel,Tactical,5,2,1,leading
+WC2022,3857257,2022-11-30,Group Stage,Australia,Denmark,2,45,0,Craig Goodwin,Keanu Baccus,Tactical,1,0,0,level
+WC2022,3857257,2022-11-30,Group Stage,Denmark,Australia,2,45,0,Rasmus Nissen Kristensen,Alexander Hartmann Bah,Tactical,1,0,0,level
+WC2022,3857257,2022-11-30,Group Stage,Denmark,Australia,2,58,13,Martin Braithwaite Christensen,Kasper Dolberg,Tactical,2,0,0,level
+WC2022,3857257,2022-11-30,Group Stage,Denmark,Australia,2,58,30,Mathias Jensen,Mikkel Damsgaard,Tactical,3,0,0,level
+WC2022,3857257,2022-11-30,Group Stage,Denmark,Australia,2,68,56,Andreas Skov Olsen,Robert Skov,Tactical,4,0,1,trailing
+WC2022,3857257,2022-11-30,Group Stage,Denmark,Australia,2,69,21,Joakim Mæhle,Andreas Evald Cornelius,Tactical,5,0,1,trailing
+WC2022,3857257,2022-11-30,Group Stage,Australia,Denmark,2,73,15,Riley McGree,Bailey Wright,Tactical,2,1,0,leading
+WC2022,3857257,2022-11-30,Group Stage,Australia,Denmark,2,81,52,Mitchell Thomas Duke,Jamie MacLaren,Tactical,3,1,0,leading
+WC2022,3857257,2022-11-30,Group Stage,Australia,Denmark,2,88,8,Mathew Leckie,Ajdin Hrustic,Tactical,4,1,0,leading
+WC2022,3857258,2022-11-24,Group Stage,Serbia,Brazil,2,56,23,Nemanja Gudelj,Ivan Ilić,Tactical,1,0,0,level
+WC2022,3857258,2022-11-24,Group Stage,Serbia,Brazil,2,56,44,Andrija Živković,Nemanja Radonjić,Tactical,2,0,0,level
+WC2022,3857258,2022-11-24,Group Stage,Serbia,Brazil,2,65,8,Saša Lukić,Darko Lazović,Tactical,3,0,1,trailing
+WC2022,3857258,2022-11-24,Group Stage,Serbia,Brazil,2,65,19,Filip Mladenović,Dušan Vlahović,Tactical,4,0,1,trailing
+WC2022,3857258,2022-11-24,Group Stage,Brazil,Serbia,2,74,48,Lucas Tolentino Coelho de Lima,Frederico Rodrigues Santos,Tactical,1,2,0,leading
+WC2022,3857258,2022-11-24,Group Stage,Brazil,Serbia,2,75,12,Vinícius José Paixão de Oliveira Júnior,Rodrygo Silva de Goes,Tactical,2,2,0,leading
+WC2022,3857258,2022-11-24,Group Stage,Brazil,Serbia,2,78,19,Richarlison de Andrade,Gabriel Fernando de Jesus,Tactical,3,2,0,leading
+WC2022,3857258,2022-11-24,Group Stage,Brazil,Serbia,2,79,9,Neymar da Silva Santos Junior,Antony Matheus dos Santos,Injury,4,2,0,leading
+WC2022,3857258,2022-11-24,Group Stage,Serbia,Brazil,2,82,54,Aleksandar Mitrović,Nemanja Maksimović,Tactical,5,0,2,trailing
+WC2022,3857258,2022-11-24,Group Stage,Brazil,Serbia,2,86,54,Raphael Dias Belloli,Gabriel Teodoro Martinelli Silva,Tactical,5,2,0,leading
+WC2022,3857288,2022-11-26,Group Stage,Tunisia,Australia,2,45,0,Mohamed Dräger,Ferjani Sassi,Tactical,1,0,1,trailing
+WC2022,3857288,2022-11-26,Group Stage,Australia,Tunisia,2,63,1,Mitchell Thomas Duke,Jamie MacLaren,Tactical,1,1,0,leading
+WC2022,3857288,2022-11-26,Group Stage,Australia,Tunisia,2,63,5,Riley McGree,Ajdin Hrustic,Tactical,2,1,0,leading
+WC2022,3857288,2022-11-26,Group Stage,Tunisia,Australia,2,66,47,Aïssa Bilal Laïdouni,Wahbi Khazri,Tactical,2,0,1,trailing
+WC2022,3857288,2022-11-26,Group Stage,Tunisia,Australia,2,72,43,Issam Jebali,Taha Yassine Khenissi,Tactical,3,0,1,trailing
+WC2022,3857288,2022-11-26,Group Stage,Tunisia,Australia,2,72,43,Dylan Daniel Mahmoud Bronn,Wajdi Kechrida,Tactical,4,0,1,trailing
+WC2022,3857288,2022-11-26,Group Stage,Australia,Tunisia,2,74,49,Fran Karačić,Miloš Degenek,Tactical,3,1,0,leading
+WC2022,3857288,2022-11-26,Group Stage,Australia,Tunisia,2,84,28,Mathew Leckie,Keanu Baccus,Tactical,4,1,0,leading
+WC2022,3857288,2022-11-26,Group Stage,Australia,Tunisia,2,84,32,Craig Goodwin,Awer Denis Bul Mabil,Tactical,5,1,0,leading
+WC2022,3857267,2022-11-29,Group Stage,Ecuador,Senegal,2,45,0,Carlos Armando Gruezo Arboleda,José Adoni Cifuentes Charcopa,Tactical,1,0,1,trailing
+WC2022,3857267,2022-11-29,Group Stage,Ecuador,Senegal,2,45,0,Alan Steven Franco Palma,Jeremy Leonel Sarmiento Morante,Tactical,2,0,1,trailing
+WC2022,3857267,2022-11-29,Group Stage,Ecuador,Senegal,2,63,16,Michael Steveen Estrada Martínez,Djorkaeff Neicer Reasco González,Tactical,3,0,1,trailing
+WC2022,3857267,2022-11-29,Group Stage,Senegal,Ecuador,2,73,51,Pathé Ismaël Ciss,Nampalys Mendy,Tactical,1,2,1,leading
+WC2022,3857267,2022-11-29,Group Stage,Senegal,Ecuador,2,74,3,Iliman Ndiaye,Cheikh Ahmadou Bamba Mbacke Dieng,Tactical,2,2,1,leading
+WC2022,3857267,2022-11-29,Group Stage,Ecuador,Senegal,2,84,46,Angelo Smit Preciado Quiñónez,Jackson Gabriel Porozo Vernaza,Tactical,4,1,2,trailing
+WC2022,3857267,2022-11-29,Group Stage,Senegal,Ecuador,2,94,43,Boulaye Dia,Pape Abou Cissé,Tactical,3,2,1,leading
+WC2022,3857287,2022-11-24,Group Stage,Uruguay,South Korea,2,63,36,Luis Alberto Suárez Díaz,Edinson Roberto Cavani Gómez,Tactical,1,0,0,level
+WC2022,3857287,2022-11-24,Group Stage,South Korea,Uruguay,2,73,34,Ui-Jo Hwang,Gue-Sung Cho,Tactical,1,0,0,level
+WC2022,3857287,2022-11-24,Group Stage,South Korea,Uruguay,2,73,38,Jae-Sung Lee,Jun-Ho Son,Tactical,2,0,0,level
+WC2022,3857287,2022-11-24,Group Stage,South Korea,Uruguay,2,74,3,Sang-Ho Na,Kang-In Lee,Tactical,3,0,0,level
+WC2022,3857287,2022-11-24,Group Stage,Uruguay,South Korea,2,77,50,Matías Vecino Falero,Diego Nicolás De La Cruz Arcosa,Tactical,2,0,0,level
+WC2022,3857287,2022-11-24,Group Stage,Uruguay,South Korea,2,78,17,Mathías Olivera Miramontes,Matías Nicolás Viña Susperreguy,Tactical,3,0,0,level
+WC2022,3857287,2022-11-24,Group Stage,Uruguay,South Korea,2,87,22,Facundo Pellistri Rebollo,Guillermo Varela Olivera,Tactical,4,0,0,level
+WC2022,3869486,2022-12-10,Quarter-finals,Portugal,Morocco,2,50,43,Raphaël Adelino José Guerreiro,João Pedro Cavaco Cancelo,Tactical,1,0,1,trailing
+WC2022,3869486,2022-12-10,Quarter-finals,Portugal,Morocco,2,50,47,Rúben Diogo Da Silva Neves,Cristiano Ronaldo dos Santos Aveiro,Tactical,2,0,1,trailing
+WC2022,3869486,2022-12-10,Quarter-finals,Morocco,Portugal,2,56,57,Romain Saïss,Achraf Dari,Injury,1,1,0,leading
+WC2022,3869486,2022-12-10,Quarter-finals,Morocco,Portugal,2,63,46,Selim Amallah,Walid Cheddira,Tactical,2,1,0,leading
+WC2022,3869486,2022-12-10,Quarter-finals,Morocco,Portugal,2,64,0,Youssef En-Nesyri,Badr Banoun,Tactical,3,1,0,leading
+WC2022,3869486,2022-12-10,Quarter-finals,Portugal,Morocco,2,68,21,Gonçalo Matias Ramos,Rafael Alexandre Conceição Leão,Tactical,3,0,1,trailing
+WC2022,3869486,2022-12-10,Quarter-finals,Portugal,Morocco,2,68,29,Otávio Edmilson da Silva Monteiro,Vitor Machado Ferreira,Tactical,4,0,1,trailing
+WC2022,3869486,2022-12-10,Quarter-finals,Portugal,Morocco,2,78,40,José Diogo Dalot Teixeira,Ricardo Jorge Luz Horta,Tactical,5,0,1,trailing
+WC2022,3869486,2022-12-10,Quarter-finals,Morocco,Portugal,2,80,35,Hakim Ziyech,Zakaria Aboukhlal,Tactical,4,1,0,leading
+WC2022,3869486,2022-12-10,Quarter-finals,Morocco,Portugal,2,80,52,Sofiane Boufal,Yahya Jabrane,Tactical,5,1,0,leading
+WC2022,3857260,2022-11-30,Group Stage,Saudi Arabia,Mexico,1,36,2,Ali Albulayhi,Riyadh Sharahili,Injury,1,0,0,level
+WC2022,3857260,2022-11-30,Group Stage,Mexico,Saudi Arabia,2,45,0,Ernesto Alexis Vega Rojas,Carlos Uriel Antuna Romero,Tactical,1,0,0,level
+WC2022,3857260,2022-11-30,Group Stage,Saudi Arabia,Mexico,2,45,0,Ali Al Hassan,Abdullah Mohammed Madu,Tactical,2,0,0,level
+WC2022,3857260,2022-11-30,Group Stage,Saudi Arabia,Mexico,2,61,3,Saleh Khalid Al Shehri,Abdulrahman Al-Obood,Tactical,3,0,2,trailing
+WC2022,3857260,2022-11-30,Group Stage,Mexico,Saudi Arabia,2,76,23,Orbelín Pineda Alvarado,Carlos Alberto Rodríguez Gómez,Tactical,2,2,0,leading
+WC2022,3857260,2022-11-30,Group Stage,Mexico,Saudi Arabia,2,76,28,Henry Josué Martín Mex,Raúl Alonso Jiménez Rodríguez,Tactical,3,2,0,leading
+WC2022,3857260,2022-11-30,Group Stage,Mexico,Saudi Arabia,2,85,43,Jorge Eduardo Sánchez Ramos,Kevin Nahin Álvarez Campos,Tactical,4,2,0,leading
+WC2022,3857260,2022-11-30,Group Stage,Mexico,Saudi Arabia,2,85,51,Edson Omar Álvarez Velázquez,Rogelio Gabriel Funes Mori,Tactical,5,2,0,leading
+WC2022,3857260,2022-11-30,Group Stage,Saudi Arabia,Mexico,2,87,23,Sultan Abdullah Salim Al Ghannam,Hattan Babhir,Tactical,4,0,2,trailing
+WC2022,3857264,2022-11-30,Group Stage,Poland,Argentina,2,45,0,Karol Świderski,Michał Skóraś,Tactical,1,0,0,level
+WC2022,3857264,2022-11-30,Group Stage,Poland,Argentina,2,45,0,Przemysław Frankowski,Jakub Kamiński,Tactical,2,0,0,level
+WC2022,3857264,2022-11-30,Group Stage,Argentina,Poland,2,58,18,Ángel Fabián Di María Hernández,Leandro Daniel Paredes,Tactical,1,1,0,leading
+WC2022,3857264,2022-11-30,Group Stage,Argentina,Poland,2,58,27,Marcos Javier Acuña,Nicolás Alejandro Tagliafico,Tactical,2,1,0,leading
+WC2022,3857264,2022-11-30,Group Stage,Poland,Argentina,2,61,45,Krystian Bielik,Damian Szymański,Tactical,3,0,1,trailing
+WC2022,3857264,2022-11-30,Group Stage,Poland,Argentina,2,72,0,Bartosz Bereszyński,Artur Jędrzejczyk,Tactical,4,0,2,trailing
+WC2022,3857264,2022-11-30,Group Stage,Argentina,Poland,2,78,5,Julián Álvarez,Lautaro Javier Martínez,Tactical,3,2,0,leading
+WC2022,3857264,2022-11-30,Group Stage,Argentina,Poland,2,78,24,Enzo Fernandez,Germán Alejandro Pezzella,Tactical,4,2,0,leading
+WC2022,3857264,2022-11-30,Group Stage,Argentina,Poland,2,82,47,Alexis Mac Allister,Thiago Ezequiel Almada,Tactical,5,2,0,leading
+WC2022,3857264,2022-11-30,Group Stage,Poland,Argentina,2,82,57,Grzegorz Krychowiak,Krzysztof Piątek,Tactical,5,0,2,trailing
+WC2022,3857289,2022-11-26,Group Stage,Mexico,Argentina,1,40,52,José Andrés Guardado Hernández,Érick Gabriel Gutiérrez Galaviz,Injury,1,0,0,level
+WC2022,3857289,2022-11-26,Group Stage,Argentina,Mexico,2,56,46,Guido Rodríguez,Enzo Fernandez,Tactical,1,0,0,level
+WC2022,3857289,2022-11-26,Group Stage,Argentina,Mexico,2,62,26,Lautaro Javier Martínez,Julián Álvarez,Tactical,2,0,0,level
+WC2022,3857289,2022-11-26,Group Stage,Argentina,Mexico,2,62,32,Gonzalo Ariel Montiel,Nahuel Molina Lucero,Tactical,3,0,0,level
+WC2022,3857289,2022-11-26,Group Stage,Mexico,Argentina,2,65,21,Kevin Nahin Álvarez Campos,Raúl Alonso Jiménez Rodríguez,Tactical,2,0,1,trailing
+WC2022,3857289,2022-11-26,Group Stage,Mexico,Argentina,2,65,22,Ernesto Alexis Vega Rojas,Carlos Uriel Antuna Romero,Tactical,3,0,1,trailing
+WC2022,3857289,2022-11-26,Group Stage,Argentina,Mexico,2,68,16,Alexis Mac Allister,Exequiel Alejandro Palacios,Tactical,4,1,0,leading
+WC2022,3857289,2022-11-26,Group Stage,Argentina,Mexico,2,68,48,Ángel Fabián Di María Hernández,Cristian Gabriel Romero,Tactical,5,1,0,leading
+WC2022,3857289,2022-11-26,Group Stage,Mexico,Argentina,2,72,18,Hirving Rodrigo Lozano Bahena,Roberto Carlos Alvarado Hernández,Tactical,4,0,1,trailing
+WC2022,3869254,2022-12-06,Round of 16,Switzerland,Portugal,2,45,0,Fabian Lukas Schär,Eray Ervin Cömert,Tactical,1,0,2,trailing
+WC2022,3869254,2022-12-06,Round of 16,Switzerland,Portugal,2,53,36,Remo Freuler,Denis Lemi Zakaria Lako Lado,Tactical,2,0,3,trailing
+WC2022,3869254,2022-12-06,Round of 16,Switzerland,Portugal,2,53,54,Djibril Sow,Haris Seferović,Tactical,3,0,3,trailing
+WC2022,3869254,2022-12-06,Round of 16,Switzerland,Portugal,2,65,43,Ruben Vargas,Noah Okafor,Tactical,4,1,4,trailing
+WC2022,3869254,2022-12-06,Round of 16,Portugal,Switzerland,2,72,35,Gonçalo Matias Ramos,Ricardo Jorge Luz Horta,Tactical,1,5,1,leading
+WC2022,3869254,2022-12-06,Round of 16,Portugal,Switzerland,2,72,49,João Félix Sequeira,Cristiano Ronaldo dos Santos Aveiro,Tactical,2,5,1,leading
+WC2022,3869254,2022-12-06,Round of 16,Portugal,Switzerland,2,73,4,Otávio Edmilson da Silva Monteiro,Vitor Machado Ferreira,Tactical,3,5,1,leading
+WC2022,3869254,2022-12-06,Round of 16,Portugal,Switzerland,2,80,39,Bernardo Mota Veiga de Carvalho e Silva,Rúben Diogo Da Silva Neves,Tactical,4,5,1,leading
+WC2022,3869254,2022-12-06,Round of 16,Portugal,Switzerland,2,86,40,Bruno Miguel Borges Fernandes,Rafael Alexandre Conceição Leão,Tactical,5,5,1,leading
+WC2022,3869254,2022-12-06,Round of 16,Switzerland,Portugal,2,88,36,Breel-Donald Embolo,Ardon Jashari,Tactical,5,1,5,trailing
+WC2022,3869118,2022-12-04,Round of 16,Senegal,England,2,45,0,Pathé Ismaël Ciss,Pape Gueye,Tactical,1,0,1,trailing
+WC2022,3869118,2022-12-04,Round of 16,Senegal,England,2,45,0,Krépin Diatta,Pape Matar Sarr,Tactical,2,0,1,trailing
+WC2022,3869118,2022-12-04,Round of 16,Senegal,England,2,45,1,Iliman Ndiaye,Cheikh Ahmadou Bamba Mbacke Dieng,Tactical,3,0,1,trailing
+WC2022,3869118,2022-12-04,Round of 16,England,Senegal,2,64,19,Bukayo Saka,Marcus Rashford,Tactical,1,3,0,leading
+WC2022,3869118,2022-12-04,Round of 16,England,Senegal,2,64,27,Philip Foden,Jack Grealish,Tactical,2,3,0,leading
+WC2022,3869118,2022-12-04,Round of 16,Senegal,England,2,71,7,Boulaye Dia,Famara Diedhiou,Tactical,4,0,3,trailing
+WC2022,3869118,2022-12-04,Round of 16,England,Senegal,2,75,55,Jude Bellingham,Mason Mount,Tactical,3,3,0,leading
+WC2022,3869118,2022-12-04,Round of 16,England,Senegal,2,76,10,John Stones,Eric Dier,Tactical,4,3,0,leading
+WC2022,3869118,2022-12-04,Round of 16,England,Senegal,2,81,9,Jordan Brian Henderson,Kalvin Phillips,Tactical,5,3,0,leading
+WC2022,3869118,2022-12-04,Round of 16,Senegal,England,2,83,54,Ismail Jakobs,Fodé Ballo Touré,Tactical,5,0,3,trailing
+WC2022,3869519,2022-12-13,Semi-finals,Croatia,Argentina,2,45,0,Borna Sosa,Mislav Oršić,Tactical,1,0,2,trailing
+WC2022,3869519,2022-12-13,Semi-finals,Croatia,Argentina,2,45,0,Mario Pašalić,Nikola Vlašić,Tactical,2,0,2,trailing
+WC2022,3869519,2022-12-13,Semi-finals,Croatia,Argentina,2,49,43,Marcelo Brozović,Bruno Petković,Tactical,3,0,2,trailing
+WC2022,3869519,2022-12-13,Semi-finals,Argentina,Croatia,2,61,28,Leandro Daniel Paredes,Lisandro Martínez,Tactical,1,2,0,leading
+WC2022,3869519,2022-12-13,Semi-finals,Croatia,Argentina,2,71,47,Andrej Kramarić,Marko Livaja,Tactical,4,0,3,trailing
+WC2022,3869519,2022-12-13,Semi-finals,Argentina,Croatia,2,73,38,Rodrigo Javier De Paul,Exequiel Alejandro Palacios,Tactical,2,3,0,leading
+WC2022,3869519,2022-12-13,Semi-finals,Argentina,Croatia,2,73,47,Julián Álvarez,Paulo Bruno Exequiel Dybala,Tactical,3,3,0,leading
+WC2022,3869519,2022-12-13,Semi-finals,Croatia,Argentina,2,80,40,Luka Modrić,Lovro Majer,Tactical,5,0,3,trailing
+WC2022,3869519,2022-12-13,Semi-finals,Argentina,Croatia,2,85,36,Alexis Mac Allister,Ángel Martín Correa,Tactical,4,3,0,leading
+WC2022,3869519,2022-12-13,Semi-finals,Argentina,Croatia,2,85,57,Nahuel Molina Lucero,Juan Marcos Foyth,Tactical,5,3,0,leading
+WC2022,3869354,2022-12-10,Quarter-finals,France,England,2,78,37,Ousmane Dembélé,Kingsley Coman,Tactical,1,2,1,leading
+WC2022,3869354,2022-12-10,Quarter-finals,England,France,2,78,48,Jordan Brian Henderson,Mason Mount,Tactical,1,1,2,trailing
+WC2022,3869354,2022-12-10,Quarter-finals,England,France,2,78,51,Bukayo Saka,Raheem Sterling,Tactical,2,1,2,trailing
+WC2022,3869354,2022-12-10,Quarter-finals,England,France,2,84,28,Philip Foden,Marcus Rashford,Tactical,3,1,2,trailing
+WC2022,3869354,2022-12-10,Quarter-finals,England,France,2,97,4,John Stones,Jack Grealish,Injury,4,1,2,trailing
+WC2022,3869552,2022-12-14,Semi-finals,Morocco,France,1,20,36,Romain Saïss,Selim Amallah,Injury,1,0,1,trailing
+WC2022,3869552,2022-12-14,Semi-finals,Morocco,France,2,45,0,Noussair Mazraoui,Yahia Attiyat allah,Tactical,2,0,1,trailing
+WC2022,3869552,2022-12-14,Semi-finals,France,Morocco,2,64,45,Olivier Giroud,Marcus Thuram,Tactical,1,1,0,leading
+WC2022,3869552,2022-12-14,Semi-finals,Morocco,France,2,65,43,Youssef En-Nesyri,Abderrazak Hamdallah,Tactical,3,0,1,trailing
+WC2022,3869552,2022-12-14,Semi-finals,Morocco,France,2,66,5,Sofiane Boufal,Zakaria Aboukhlal,Tactical,4,0,1,trailing
+WC2022,3869552,2022-12-14,Semi-finals,Morocco,France,2,77,31,Selim Amallah,Abdessamad Ezzalzouli,Tactical,5,0,1,trailing
+WC2022,3869552,2022-12-14,Semi-finals,France,Morocco,2,78,7,Ousmane Dembélé,Randal Kolo Muani,Tactical,2,1,0,leading
+WC2022,3869420,2022-12-09,Quarter-finals,Brazil,Croatia,2,55,11,Raphael Dias Belloli,Antony Matheus dos Santos,Tactical,1,0,0,level
+WC2022,3869420,2022-12-09,Quarter-finals,Brazil,Croatia,2,63,42,Vinícius José Paixão de Oliveira Júnior,Rodrygo Silva de Goes,Tactical,2,0,0,level
+WC2022,3869420,2022-12-09,Quarter-finals,Croatia,Brazil,2,71,50,Mario Pašalić,Nikola Vlašić,Tactical,1,0,0,level
+WC2022,3869420,2022-12-09,Quarter-finals,Croatia,Brazil,2,71,54,Andrej Kramarić,Bruno Petković,Tactical,2,0,0,level
+WC2022,3869420,2022-12-09,Quarter-finals,Brazil,Croatia,2,83,18,Richarlison de Andrade,Pedro Guilherme Abreu dos Santos,Tactical,3,0,0,level
+WC2022,3869420,2022-12-09,Quarter-finals,Croatia,Brazil,4,105,0,Mateo Kovačić,Lovro Majer,Tactical,3,0,0,level
+WC2022,3869420,2022-12-09,Quarter-finals,Brazil,Croatia,4,105,0,Lucas Tolentino Coelho de Lima,Frederico Rodrigues Santos,Tactical,4,0,0,level
+WC2022,3869420,2022-12-09,Quarter-finals,Brazil,Croatia,4,105,1,Éder Gabriel Militão,Alex Sandro Lobo Silva,Tactical,5,0,0,level
+WC2022,3869420,2022-12-09,Quarter-finals,Croatia,Brazil,4,109,25,Borna Sosa,Ante Budimir,Tactical,4,0,1,trailing
+WC2022,3869420,2022-12-09,Quarter-finals,Croatia,Brazil,4,113,6,Marcelo Brozović,Mislav Oršić,Tactical,5,0,1,trailing
+WC2022,3869220,2022-12-06,Round of 16,Spain,Morocco,2,62,33,Pablo Martín Páez Gavira,Carlos Soler Barragán,Tactical,1,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Spain,Morocco,2,62,34,Marco Asensio Willemsen,Álvaro Borja Morata Martín,Tactical,2,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Morocco,Spain,2,65,52,Sofiane Boufal,Abdessamad Ezzalzouli,Tactical,1,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Spain,Morocco,2,75,4,Ferrán Torres García,Nicholas Williams Arthuer,Tactical,3,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Morocco,Spain,2,81,35,Selim Amallah,Walid Cheddira,Tactical,2,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Morocco,Spain,2,81,37,Youssef En-Nesyri,Abdelhamid Sabiri,Tactical,3,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Morocco,Spain,2,82,50,Noussair Mazraoui,Yahia Attiyat allah,Tactical,4,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Morocco,Spain,2,84,0,Nayef Aguerd,Jawad El Yamiq,Injury,5,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Spain,Morocco,3,97,21,Daniel Olmo Carvajal,Anssumane Fati,Tactical,4,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Spain,Morocco,3,97,30,Jordi Alba Ramos,Alejandro Balde Martínez,Tactical,5,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Spain,Morocco,4,117,54,Nicholas Williams Arthuer,Pablo Sarabia García,Tactical,6,0,0,level
+WC2022,3869220,2022-12-06,Round of 16,Morocco,Spain,4,119,30,Azzedine Ounahi,Badr Banoun,Tactical,6,0,0,level
+WC2022,3869219,2022-12-05,Round of 16,Croatia,Japan,2,61,19,Bruno Petković,Ante Budimir,Tactical,1,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Japan,Croatia,2,63,17,Yuto Nagatomo,Kaoru Mitoma,Tactical,1,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Japan,Croatia,2,63,29,Daizen Maeda,Takuma Asano,Tactical,2,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Croatia,Japan,2,67,50,Andrej Kramarić,Mario Pašalić,Tactical,2,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Japan,Croatia,2,73,54,Daichi Kamada,Hiroki Sakai,Tactical,3,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Japan,Croatia,2,86,9,Ritsu Doan,Takumi Minamino,Tactical,4,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Croatia,Japan,3,98,21,Luka Modrić,Lovro Majer,Tactical,3,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Croatia,Japan,3,98,25,Mateo Kovačić,Nikola Vlašić,Tactical,4,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Japan,Croatia,4,105,0,Hidemasa Morita,Ao Tanaka,Tactical,5,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Croatia,Japan,4,105,0,Ivan Perišić,Mislav Oršić,Tactical,5,1,1,level
+WC2022,3869219,2022-12-05,Round of 16,Croatia,Japan,4,105,0,Ante Budimir,Marko Livaja,Tactical,6,1,1,level
+WC2022,3869253,2022-12-05,Round of 16,South Korea,Brazil,2,45,0,Jin-Su Kim,Chul Hong,Tactical,1,0,4,trailing
+WC2022,3869253,2022-12-05,Round of 16,South Korea,Brazil,2,45,0,Woo-Young Jung,Jun-Ho Son,Tactical,2,0,4,trailing
+WC2022,3869253,2022-12-05,Round of 16,Brazil,South Korea,2,62,33,Éder Gabriel Militão,Daniel Alves da Silva,Tactical,1,4,0,leading
+WC2022,3869253,2022-12-05,Round of 16,South Korea,Brazil,2,64,26,In-Beom Hwang,Seung-Ho Paik,Tactical,3,0,4,trailing
+WC2022,3869253,2022-12-05,Round of 16,Brazil,South Korea,2,71,44,Danilo Luiz da Silva,Gleison Bremer Silva Nascimento,Tactical,2,4,0,leading
+WC2022,3869253,2022-12-05,Round of 16,Brazil,South Korea,2,71,46,Vinícius José Paixão de Oliveira Júnior,Gabriel Teodoro Martinelli Silva,Tactical,3,4,0,leading
+WC2022,3869253,2022-12-05,Round of 16,South Korea,Brazil,2,73,28,Jae-Sung Lee,Kang-In Lee,Tactical,4,0,4,trailing
+WC2022,3869253,2022-12-05,Round of 16,South Korea,Brazil,2,79,31,Gue-Sung Cho,Ui-Jo Hwang,Tactical,5,1,4,trailing
+WC2022,3869253,2022-12-05,Round of 16,Brazil,South Korea,2,79,53,Alisson Ramsés Becker,Weverton Pereira da Silva,Tactical,4,4,1,leading
+WC2022,3869253,2022-12-05,Round of 16,Brazil,South Korea,2,80,17,Neymar da Silva Santos Junior,Rodrygo Silva de Goes,Tactical,5,4,1,leading
+WC2022,3869152,2022-12-04,Round of 16,Poland,France,2,63,47,Sebastian Szymański,Arkadiusz Milik,Tactical,1,0,1,trailing
+WC2022,3869152,2022-12-04,Round of 16,France,Poland,2,65,40,Aurélien Djani Tchouaméni,Youssouf Fofana,Tactical,1,1,0,leading
+WC2022,3869152,2022-12-04,Round of 16,Poland,France,2,70,17,Jakub Kamiński,Nicola Zalewski,Tactical,2,0,1,trailing
+WC2022,3869152,2022-12-04,Round of 16,Poland,France,2,70,28,Grzegorz Krychowiak,Krystian Bielik,Tactical,3,0,1,trailing
+WC2022,3869152,2022-12-04,Round of 16,France,Poland,2,75,40,Ousmane Dembélé,Kingsley Coman,Tactical,2,2,0,leading
+WC2022,3869152,2022-12-04,Round of 16,France,Poland,2,75,48,Olivier Giroud,Marcus Thuram,Tactical,3,2,0,leading
+WC2022,3869152,2022-12-04,Round of 16,Poland,France,2,86,13,Jakub Piotr Kiwior,Jan Bednarek,Tactical,4,0,2,trailing
+WC2022,3869152,2022-12-04,Round of 16,Poland,France,2,86,14,Przemysław Frankowski,Kamil Grosicki,Tactical,5,0,2,trailing
+WC2022,3869152,2022-12-04,Round of 16,France,Poland,2,91,35,Jules Koundé,Axel Disasi,Tactical,4,3,0,leading
+WC2022,3869117,2022-12-03,Round of 16,Netherlands,United States,2,45,0,Marten de Roon,Steven Bergwijn,Tactical,1,1,0,leading
+WC2022,3869117,2022-12-03,Round of 16,Netherlands,United States,2,45,0,Davy Klaassen,Teun Koopmeiners,Tactical,2,1,0,leading
+WC2022,3869117,2022-12-03,Round of 16,United States,Netherlands,2,45,0,Jesus Ferreira,Giovanni Reyna,Tactical,1,0,1,trailing
+WC2022,3869117,2022-12-03,Round of 16,United States,Netherlands,2,66,51,Timothy Weah,Brenden Aaronson,Tactical,2,0,2,trailing
+WC2022,3869117,2022-12-03,Round of 16,United States,Netherlands,2,66,51,Weston McKennie,Haji Wright,Tactical,3,0,2,trailing
+WC2022,3869117,2022-12-03,Round of 16,United States,Netherlands,2,74,57,Sergino Dest,DeAndre Yedlin,Tactical,4,0,2,trailing
+WC2022,3869117,2022-12-03,Round of 16,Netherlands,United States,2,82,1,Memphis Depay,Xavi Simons,Tactical,3,3,1,leading
+WC2022,3869117,2022-12-03,Round of 16,United States,Netherlands,2,91,14,Antonee Robinson,Jordan Morris,Tactical,5,1,3,trailing
+WC2022,3869117,2022-12-03,Round of 16,Netherlands,United States,2,92,55,Nathan Aké,Matthijs de Ligt,Tactical,4,3,1,leading
+WC2022,3869117,2022-12-03,Round of 16,Netherlands,United States,2,92,55,Cody Mathès Gakpo,Wout Weghorst,Tactical,5,3,1,leading
+WC2022,3857270,2022-11-28,Group Stage,Portugal,Uruguay,1,41,29,Nuno Mendes,Raphaël Adelino José Guerreiro,Injury,1,0,0,level
+WC2022,3857270,2022-11-28,Group Stage,Uruguay,Portugal,2,61,33,Matías Vecino Falero,Giorgian Daniel De Arrascaeta Benedetti,Tactical,1,0,1,trailing
+WC2022,3857270,2022-11-28,Group Stage,Uruguay,Portugal,2,61,43,Diego Roberto Godín Leal,Facundo Pellistri Rebollo,Tactical,2,0,1,trailing
+WC2022,3857270,2022-11-28,Group Stage,Portugal,Uruguay,2,68,54,Rúben Diogo Da Silva Neves,Rafael Alexandre Conceição Leão,Tactical,2,1,0,leading
+WC2022,3857270,2022-11-28,Group Stage,Uruguay,Portugal,2,71,45,Darwin Gabriel Núñez Ribeiro,Maximiliano Gómez González,Tactical,3,0,1,trailing
+WC2022,3857270,2022-11-28,Group Stage,Uruguay,Portugal,2,72,59,Edinson Roberto Cavani Gómez,Luis Alberto Suárez Díaz,Tactical,4,0,1,trailing
+WC2022,3857270,2022-11-28,Group Stage,Portugal,Uruguay,2,82,0,Cristiano Ronaldo dos Santos Aveiro,Gonçalo Matias Ramos,Tactical,3,1,0,leading
+WC2022,3857270,2022-11-28,Group Stage,Portugal,Uruguay,2,82,0,João Félix Sequeira,Matheus Luiz Nunes,Tactical,4,1,0,leading
+WC2022,3857270,2022-11-28,Group Stage,Portugal,Uruguay,2,82,2,William Silva de Carvalho,João Maria Lobo Alves Palhinha Gonçalves,Tactical,5,1,0,leading
+WC2022,3857270,2022-11-28,Group Stage,Uruguay,Portugal,2,85,11,Mathías Olivera Miramontes,Matías Nicolás Viña Susperreguy,Tactical,5,0,1,trailing
+WC2022,3857263,2022-11-27,Group Stage,Spain,Germany,2,53,25,Ferrán Torres García,Álvaro Borja Morata Martín,Tactical,1,0,0,level
+WC2022,3857263,2022-11-27,Group Stage,Spain,Germany,2,65,14,Marco Asensio Willemsen,Jorge Resurrección Merodio,Tactical,2,1,0,leading
+WC2022,3857263,2022-11-27,Group Stage,Spain,Germany,2,65,37,Pablo Martín Páez Gavira,Nicholas Williams Arthuer,Tactical,3,1,0,leading
+WC2022,3857263,2022-11-27,Group Stage,Germany,Spain,2,69,2,İlkay Gündoğan,Leroy Sané,Tactical,1,0,1,trailing
+WC2022,3857263,2022-11-27,Group Stage,Germany,Spain,2,69,15,Thomas Müller,Niclas Füllkrug,Tactical,2,0,1,trailing
+WC2022,3857263,2022-11-27,Group Stage,Germany,Spain,2,69,20,Thilo Kehrer,Lukas Klostermann,Tactical,3,0,1,trailing
+WC2022,3857263,2022-11-27,Group Stage,Spain,Germany,2,81,51,Jordi Alba Ramos,Alejandro Balde Martínez,Tactical,4,1,0,leading
+WC2022,3857263,2022-11-27,Group Stage,Germany,Spain,2,84,17,Serge Gnabry,Jonas Hofmann,Tactical,4,1,1,level
+WC2022,3857263,2022-11-27,Group Stage,Germany,Spain,2,86,17,David Raum,Nico Schlotterbeck,Tactical,5,1,1,level
+WC2022,3857259,2022-11-28,Group Stage,Cameroon,Serbia,2,54,39,Martin Hongla Yma II,Vincent Paté Aboubakar,Tactical,1,1,3,trailing
+WC2022,3857259,2022-11-28,Group Stage,Serbia,Cameroon,2,55,25,Strahinja Pavlović,Stefan Mitrović,Tactical,1,3,1,leading
+WC2022,3857259,2022-11-28,Group Stage,Cameroon,Serbia,2,66,59,Karl Brillant Toko Ekambi,Christian Mougang Bassogog,Tactical,2,3,3,level
+WC2022,3857259,2022-11-28,Group Stage,Cameroon,Serbia,2,67,1,Pierre Kunde Malong,Gaël Ondoua,Tactical,3,3,3,level
+WC2022,3857259,2022-11-28,Group Stage,Serbia,Cameroon,2,77,41,Andrija Živković,Nemanja Radonjić,Tactical,2,3,3,level
+WC2022,3857259,2022-11-28,Group Stage,Serbia,Cameroon,2,77,44,Milos Veljkovic,Srđan Babić,Tactical,3,3,3,level
+WC2022,3857259,2022-11-28,Group Stage,Serbia,Cameroon,2,78,25,Sergej Milinković-Savić,Marko Grujić,Tactical,4,3,3,level
+WC2022,3857259,2022-11-28,Group Stage,Cameroon,Serbia,2,80,19,André-Frank Zambo Anguissa,Samuel Yves Oum Gwet,Tactical,4,3,3,level
+WC2022,3857259,2022-11-28,Group Stage,Cameroon,Serbia,2,80,21,Bryan Mbeumo,Georges-Kévin Nkoudou Mbida,Tactical,5,3,3,level
+WC2022,3857259,2022-11-28,Group Stage,Serbia,Cameroon,2,90,53,Filip Kostić,Filip Đuričić,Tactical,5,3,3,level
+WC2022,3857283,2022-11-27,Group Stage,Belgium,Morocco,2,59,39,Eden Hazard,Dries Mertens,Tactical,1,0,0,level
+WC2022,3857283,2022-11-27,Group Stage,Belgium,Morocco,2,59,40,Amadou Onana,Youri Tielemans,Tactical,2,0,0,level
+WC2022,3857283,2022-11-27,Group Stage,Morocco,Belgium,2,66,36,Selim Amallah,Yahia Attiyat allah,Tactical,1,0,0,level
+WC2022,3857283,2022-11-27,Group Stage,Morocco,Belgium,2,66,38,Achraf Hakimi Mouh,Abdelhamid Sabiri,Tactical,2,0,0,level
+WC2022,3857283,2022-11-27,Group Stage,Morocco,Belgium,2,71,38,Sofiane Boufal,Zakaria Aboukhlal,Tactical,3,0,0,level
+WC2022,3857283,2022-11-27,Group Stage,Morocco,Belgium,2,71,40,Youssef En-Nesyri,Abderrazak Hamdallah,Tactical,4,0,0,level
+WC2022,3857283,2022-11-27,Group Stage,Belgium,Morocco,2,74,1,Michy Batshuayi Tunga,Charles De Ketelaere,Tactical,3,0,1,trailing
+WC2022,3857283,2022-11-27,Group Stage,Belgium,Morocco,2,74,3,Thorgan Hazard,Leandro Trossard,Tactical,4,0,1,trailing
+WC2022,3857283,2022-11-27,Group Stage,Morocco,Belgium,2,77,37,Azzedine Ounahi,Jawad El Yamiq,Tactical,5,1,0,leading
+WC2022,3857283,2022-11-27,Group Stage,Belgium,Morocco,2,80,42,Thomas Meunier,Romelu Lukaku Menama,Tactical,5,0,1,trailing
+WC2022,3857286,2022-11-20,Group Stage,Ecuador,Qatar,2,67,6,Romario Andrés Ibarra Mina,Jeremy Leonel Sarmiento Morante,Tactical,1,2,0,leading
+WC2022,3857286,2022-11-20,Group Stage,Qatar,Ecuador,2,71,1,Hassan Khalid Al Heidos,Mohammed Waed Abdulwahhab Al Bayati,Tactical,1,0,2,trailing
+WC2022,3857286,2022-11-20,Group Stage,Qatar,Ecuador,2,71,10,Almoez Ali Zainalabiddin Abdulla,Mohammed Muntari,Tactical,2,0,2,trailing
+WC2022,3857286,2022-11-20,Group Stage,Ecuador,Qatar,2,75,57,Enner Remberto Valencia Lastra,José Adoni Cifuentes Charcopa,Injury,2,2,0,leading
+WC2022,3857286,2022-11-20,Group Stage,Ecuador,Qatar,2,89,10,Michael Steveen Estrada Martínez,Kevin José Rodríguez Cortez,Tactical,3,2,0,leading
+WC2022,3857286,2022-11-20,Group Stage,Ecuador,Qatar,2,89,54,Moisés Isaac Caicedo Corozo,Alan Steven Franco Palma,Tactical,4,2,0,leading
+WC2022,3857300,2022-11-22,Group Stage,Saudi Arabia,Argentina,1,47,39,Salman Mohammed Al Faraj,Nawaf Shaker Al Abid,Injury,1,0,1,trailing
+WC2022,3857300,2022-11-22,Group Stage,Argentina,Saudi Arabia,2,58,14,Cristian Gabriel Romero,Lisandro Martínez,Tactical,1,1,2,trailing
+WC2022,3857300,2022-11-22,Group Stage,Argentina,Saudi Arabia,2,58,15,Alejandro Darío Gómez,Julián Álvarez,Tactical,2,1,2,trailing
+WC2022,3857300,2022-11-22,Group Stage,Argentina,Saudi Arabia,2,58,24,Leandro Daniel Paredes,Enzo Fernandez,Tactical,3,1,2,trailing
+WC2022,3857300,2022-11-22,Group Stage,Argentina,Saudi Arabia,2,70,1,Nicolás Alejandro Tagliafico,Marcos Javier Acuña,Tactical,4,1,2,trailing
+WC2022,3857300,2022-11-22,Group Stage,Saudi Arabia,Argentina,2,77,21,Saleh Khalid Al Shehri,Sultan Abdullah Salim Al Ghannam,Tactical,2,2,1,leading
+WC2022,3857300,2022-11-22,Group Stage,Saudi Arabia,Argentina,2,87,44,Nawaf Shaker Al Abid,Abdulelah Al Amri,Tactical,3,2,1,leading
+WC2022,3857300,2022-11-22,Group Stage,Saudi Arabia,Argentina,2,88,25,Firas Tariq Nasser Al Albirakan,Haitham Mohammed Asiri,Tactical,4,2,1,leading
+WC2022,3857300,2022-11-22,Group Stage,Saudi Arabia,Argentina,2,98,36,Yasir Gharsan Al Shahrani,Mohammed Al Burayk,Injury,5,2,1,leading
+WC2022,3857299,2022-11-28,Group Stage,South Korea,Ghana,2,45,0,Woo-Yeong Jeong,Sang-Ho Na,Tactical,1,0,2,trailing
+WC2022,3857299,2022-11-28,Group Stage,South Korea,Ghana,2,56,19,Chang-Hoon Kwon,Kang-In Lee,Tactical,2,0,2,trailing
+WC2022,3857299,2022-11-28,Group Stage,Ghana,South Korea,2,77,46,Tariq Lamptey,Denis Odoi,Tactical,1,3,2,leading
+WC2022,3857299,2022-11-28,Group Stage,Ghana,South Korea,2,77,47,André Ayew Pelé,Daniel-Kofi Kyereh,Tactical,2,3,2,leading
+WC2022,3857299,2022-11-28,Group Stage,Ghana,South Korea,2,77,48,Jordan Ayew,Kamaldeen Sulemana,Tactical,3,3,2,leading
+WC2022,3857299,2022-11-28,Group Stage,South Korea,Ghana,2,78,9,Woo-Young Jung,Ui-Jo Hwang,Tactical,3,2,3,trailing
+WC2022,3857299,2022-11-28,Group Stage,Ghana,South Korea,2,82,8,Mohammed Kudus,Alexander Djiku,Tactical,4,3,2,leading
+WC2022,3857299,2022-11-28,Group Stage,Ghana,South Korea,2,87,31,Gideon Mensah,Abdul Rahman Baba,Injury,5,3,2,leading
+WC2022,3857299,2022-11-28,Group Stage,South Korea,Ghana,2,91,42,Min Jae Kim,Kyung-Won Kwon,Tactical,4,2,3,trailing
+WC2022,3857293,2022-12-02,Group Stage,Uruguay,Ghana,1,33,45,Rodrigo Bentancur Colmán,Matías Vecino Falero,Injury,1,2,0,leading
+WC2022,3857293,2022-12-02,Group Stage,Ghana,Uruguay,2,45,0,André Ayew Pelé,Osman Bukari,Tactical,1,0,2,trailing
+WC2022,3857293,2022-12-02,Group Stage,Ghana,Uruguay,2,45,0,Jordan Ayew,Kamaldeen Sulemana,Tactical,2,0,2,trailing
+WC2022,3857293,2022-12-02,Group Stage,Uruguay,Ghana,2,65,13,Luis Alberto Suárez Díaz,Edinson Roberto Cavani Gómez,Tactical,2,2,0,leading
+WC2022,3857293,2022-12-02,Group Stage,Uruguay,Ghana,2,65,27,Facundo Pellistri Rebollo,Diego Nicolás De La Cruz Arcosa,Tactical,3,2,0,leading
+WC2022,3857293,2022-12-02,Group Stage,Ghana,Uruguay,2,71,45,Iñaki Williams Arthuer,Antoine Semenyo,Tactical,3,0,2,trailing
+WC2022,3857293,2022-12-02,Group Stage,Ghana,Uruguay,2,71,56,Salis Abdul Samed,Daniel-Kofi Kyereh,Tactical,4,0,2,trailing
+WC2022,3857293,2022-12-02,Group Stage,Uruguay,Ghana,2,79,31,Giorgian Daniel De Arrascaeta Benedetti,Agustín Canobbio Graviz,Tactical,4,2,0,leading
+WC2022,3857293,2022-12-02,Group Stage,Uruguay,Ghana,2,79,41,Darwin Gabriel Núñez Ribeiro,Maximiliano Gómez González,Tactical,5,2,0,leading
+WC2022,3857293,2022-12-02,Group Stage,Ghana,Uruguay,2,97,8,Mohammed Kudus,Abdul Fatawu Issahaku,Tactical,5,0,2,trailing
+WC2022,3857291,2022-11-23,Group Stage,Costa Rica,Spain,2,45,0,Carlos Manuel Martínez Castro,Kendall Jamaal Waston Manley,Tactical,1,0,3,trailing
+WC2022,3857291,2022-11-23,Group Stage,Spain,Costa Rica,2,56,24,Ferrán Torres García,Álvaro Borja Morata Martín,Tactical,1,4,0,leading
+WC2022,3857291,2022-11-23,Group Stage,Spain,Costa Rica,2,56,31,Pedro González López,Carlos Soler Barragán,Tactical,2,4,0,leading
+WC2022,3857291,2022-11-23,Group Stage,Costa Rica,Spain,2,60,47,Anthony Daniel Contreras Enríquez,Álvaro José Zamora Mata,Tactical,2,0,4,trailing
+WC2022,3857291,2022-11-23,Group Stage,Costa Rica,Spain,2,60,53,Jewison Bennette,Bryan Ruiz González,Tactical,3,0,4,trailing
+WC2022,3857291,2022-11-23,Group Stage,Spain,Costa Rica,2,63,18,Jordi Alba Ramos,Alejandro Balde Martínez,Tactical,3,4,0,leading
+WC2022,3857291,2022-11-23,Group Stage,Spain,Costa Rica,2,63,24,Sergio Busquets i Burgos,Jorge Resurrección Merodio,Tactical,4,4,0,leading
+WC2022,3857291,2022-11-23,Group Stage,Spain,Costa Rica,2,68,26,Marco Asensio Willemsen,Nicholas Williams Arthuer,Tactical,5,4,0,leading
+WC2022,3857291,2022-11-23,Group Stage,Costa Rica,Spain,2,71,12,Celso Borges Mora,Brandon Aguilera Zamora,Tactical,4,0,4,trailing
+WC2022,3857291,2022-11-23,Group Stage,Costa Rica,Spain,2,81,4,Bryan Oviedo,Ronald Alberto Matarrita Ulate,Tactical,5,0,5,trailing
+WC2022,3857281,2022-11-27,Group Stage,Canada,Croatia,2,45,0,Cyle Larin,Jonathan Osorio,Tactical,1,1,2,trailing
+WC2022,3857281,2022-11-27,Group Stage,Canada,Croatia,2,45,0,Stephen Antunes Eustáquio,Ismael Koné,Injury,2,1,2,trailing
+WC2022,3857281,2022-11-27,Group Stage,Croatia,Canada,2,59,58,Marko Livaja,Bruno Petković,Tactical,1,2,1,leading
+WC2022,3857281,2022-11-27,Group Stage,Canada,Croatia,2,61,25,Richie Laryea,David Junior Hoilett,Tactical,3,1,2,trailing
+WC2022,3857281,2022-11-27,Group Stage,Croatia,Canada,2,72,11,Andrej Kramarić,Nikola Vlašić,Tactical,2,3,1,leading
+WC2022,3857281,2022-11-27,Group Stage,Canada,Croatia,2,72,27,Jonathan David,Lucas Daniel Cavallini,Tactical,4,1,3,trailing
+WC2022,3857281,2022-11-27,Group Stage,Canada,Croatia,2,72,28,Atiba Hutchinson,Sam Adekugbe,Tactical,5,1,3,trailing
+WC2022,3857281,2022-11-27,Group Stage,Croatia,Canada,2,85,20,Ivan Perišić,Mislav Oršić,Tactical,3,3,1,leading
+WC2022,3857281,2022-11-27,Group Stage,Croatia,Canada,2,85,25,Luka Modrić,Mario Pašalić,Tactical,4,3,1,leading
+WC2022,3857281,2022-11-27,Group Stage,Croatia,Canada,2,85,42,Mateo Kovačić,Lovro Majer,Tactical,5,3,1,leading
+WC2022,3857280,2022-12-02,Group Stage,Brazil,Cameroon,2,54,9,Alex Nicolao Telles,Marcos Aoás Corrêa,Injury,1,0,0,level
+WC2022,3857280,2022-12-02,Group Stage,Brazil,Cameroon,2,54,25,Frederico Rodrigues Santos,Bruno Guimarães Rodriguez Moura,Tactical,2,0,0,level
+WC2022,3857280,2022-12-02,Group Stage,Brazil,Cameroon,2,54,25,Rodrygo Silva de Goes,Éverton Augusto de Barros Ribeiro,Tactical,3,0,0,level
+WC2022,3857280,2022-12-02,Group Stage,Cameroon,Brazil,2,63,9,Bryan Mbeumo,Karl Brillant Toko Ekambi,Tactical,1,0,0,level
+WC2022,3857280,2022-12-02,Group Stage,Brazil,Cameroon,2,63,33,Gabriel Fernando de Jesus,Pedro Guilherme Abreu dos Santos,Tactical,4,0,0,level
+WC2022,3857280,2022-12-02,Group Stage,Cameroon,Brazil,2,67,25,Pierre Kunde Malong,Jules Olivier Ntcham,Tactical,2,0,0,level
+WC2022,3857280,2022-12-02,Group Stage,Brazil,Cameroon,2,78,41,Antony Matheus dos Santos,Raphael Dias Belloli,Tactical,5,0,0,level
+WC2022,3857280,2022-12-02,Group Stage,Cameroon,Brazil,2,84,57,Nicolas Moumi Ngamaleu,Jerome Ngom Mbekeli,Tactical,3,0,0,level
+WC2022,3857279,2022-11-22,Group Stage,France,Australia,1,12,2,Lucas Hernández Pi,Theo Bernard François Hernández,Injury,1,0,1,trailing
+WC2022,3857279,2022-11-22,Group Stage,Australia,France,2,55,35,Mitchell Thomas Duke,Jason Cummings,Tactical,1,1,2,trailing
+WC2022,3857279,2022-11-22,Group Stage,Australia,France,2,72,25,Riley McGree,Awer Denis Bul Mabil,Tactical,2,1,4,trailing
+WC2022,3857279,2022-11-22,Group Stage,Australia,France,2,72,40,Craig Goodwin,Garang Kuol,Tactical,3,1,4,trailing
+WC2022,3857279,2022-11-22,Group Stage,France,Australia,2,76,9,Aurélien Djani Tchouaméni,Youssouf Fofana,Tactical,2,4,1,leading
+WC2022,3857279,2022-11-22,Group Stage,France,Australia,2,76,19,Ousmane Dembélé,Kingsley Coman,Tactical,3,4,1,leading
+WC2022,3857279,2022-11-22,Group Stage,Australia,France,2,84,3,Jackson Irvine,Keanu Baccus,Tactical,4,1,4,trailing
+WC2022,3857279,2022-11-22,Group Stage,Australia,France,2,84,7,Nathaniel Atkinson,Miloš Degenek,Tactical,5,1,4,trailing
+WC2022,3857279,2022-11-22,Group Stage,France,Australia,2,88,34,Benjamin Pavard,Jules Koundé,Tactical,4,4,1,leading
+WC2022,3857279,2022-11-22,Group Stage,France,Australia,2,88,35,Olivier Giroud,Marcus Thuram,Tactical,5,4,1,leading
+WC2022,3857262,2022-12-02,Group Stage,Portugal,South Korea,2,64,26,Matheus Luiz Nunes,João Maria Lobo Alves Palhinha Gonçalves,Tactical,1,1,1,level
+WC2022,3857262,2022-12-02,Group Stage,Portugal,South Korea,2,64,42,Rúben Diogo Da Silva Neves,Rafael Alexandre Conceição Leão,Tactical,2,1,1,level
+WC2022,3857262,2022-12-02,Group Stage,Portugal,South Korea,2,64,56,Cristiano Ronaldo dos Santos Aveiro,André Miguel Valente Silva,Tactical,3,1,1,level
+WC2022,3857262,2022-12-02,Group Stage,South Korea,Portugal,2,65,23,Jae-Sung Lee,Hee-Chan Hwang,Tactical,1,1,1,level
+WC2022,3857262,2022-12-02,Group Stage,South Korea,Portugal,2,80,31,Young-Gwon Kim,Jun-Ho Son,Injury,2,1,1,level
+WC2022,3857262,2022-12-02,Group Stage,South Korea,Portugal,2,81,13,Kang-In Lee,Ui-Jo Hwang,Tactical,3,1,1,level
+WC2022,3857262,2022-12-02,Group Stage,Portugal,South Korea,2,81,13,João Mário Naval da Costa Eduardo,William Silva de Carvalho,Tactical,4,1,1,level
+WC2022,3857262,2022-12-02,Group Stage,Portugal,South Korea,2,81,13,Vitor Machado Ferreira,Bernardo Mota Veiga de Carvalho e Silva,Tactical,5,1,1,level
+WC2022,3857262,2022-12-02,Group Stage,South Korea,Portugal,2,92,46,Gue-Sung Cho,Yu-Min Cho,Tactical,4,2,1,leading

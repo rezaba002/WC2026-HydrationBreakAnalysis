@@ -1,0 +1,394 @@
+tournament,match_id,stage,period,minute,second,team,kind
+WC2018,8650,Quarter-finals,1,12,49,Belgium,own_goal
+WC2018,8650,Quarter-finals,1,30,48,Belgium,goal
+WC2018,8650,Quarter-finals,2,75,20,Brazil,goal
+WC2018,7584,Round of 16,2,47,19,Japan,goal
+WC2018,7584,Round of 16,2,51,34,Japan,goal
+WC2018,7584,Round of 16,2,68,53,Belgium,goal
+WC2018,7584,Round of 16,2,73,23,Belgium,goal
+WC2018,7584,Round of 16,2,93,44,Belgium,goal
+WC2018,7554,Group Stage,1,7,48,England,goal
+WC2018,7554,Group Stage,1,21,35,England,goal
+WC2018,7554,Group Stage,1,35,9,England,goal
+WC2018,7554,Group Stage,1,39,14,England,goal
+WC2018,7554,Group Stage,1,45,16,England,goal
+WC2018,7554,Group Stage,2,61,5,England,goal
+WC2018,7554,Group Stage,2,77,16,Panama,goal
+WC2018,7539,Group Stage,1,36,57,Senegal,own_goal
+WC2018,7539,Group Stage,2,59,58,Senegal,goal
+WC2018,7539,Group Stage,2,85,41,Poland,goal
+WC2018,7550,Group Stage,1,4,48,Serbia,goal
+WC2018,7550,Group Stage,2,51,55,Switzerland,goal
+WC2018,7550,Group Stage,2,89,37,Switzerland,goal
+WC2018,7538,Group Stage,2,64,37,Sweden,goal
+WC2018,7534,Group Stage,1,34,32,Mexico,goal
+WC2018,7543,Group Stage,2,53,34,Spain,goal
+WC2018,7544,Group Stage,1,22,11,Uruguay,goal
+WC2018,7546,Group Stage,1,33,38,France,goal
+WC2018,7545,Group Stage,2,52,35,Croatia,goal
+WC2018,7545,Group Stage,2,79,54,Croatia,goal
+WC2018,7545,Group Stage,2,90,45,Croatia,goal
+WC2018,7585,Round of 16,2,56,54,England,goal
+WC2018,7585,Round of 16,2,92,32,Colombia,goal
+WC2018,7585,Round of 16,5,120,14,Colombia,goal
+WC2018,7585,Round of 16,5,121,0,England,goal
+WC2018,7585,Round of 16,5,121,46,Colombia,goal
+WC2018,7585,Round of 16,5,122,29,England,goal
+WC2018,7585,Round of 16,5,123,13,Colombia,goal
+WC2018,7585,Round of 16,5,125,37,England,goal
+WC2018,7585,Round of 16,5,127,14,England,goal
+WC2018,7569,Group Stage,1,32,39,Panama,own_goal
+WC2018,7569,Group Stage,2,50,16,Tunisia,goal
+WC2018,7569,Group Stage,2,65,21,Tunisia,goal
+WC2018,7572,Group Stage,2,58,55,Poland,goal
+WC2018,7561,Group Stage,2,52,32,Croatia,goal
+WC2018,7561,Group Stage,2,75,9,Iceland,goal
+WC2018,7561,Group Stage,2,89,43,Croatia,goal
+WC2018,7540,Group Stage,2,46,32,Russia,own_goal
+WC2018,7540,Group Stage,2,58,37,Russia,goal
+WC2018,7540,Group Stage,2,61,9,Russia,goal
+WC2018,7540,Group Stage,2,72,40,Egypt,goal
+WC2018,7531,Group Stage,1,18,36,Argentina,goal
+WC2018,7531,Group Stage,1,22,49,Iceland,goal
+WC2018,7570,Group Stage,2,50,3,Belgium,goal
+WC2018,7586,Round of 16,2,65,52,Sweden,goal
+WC2018,7557,Group Stage,1,44,19,Portugal,goal
+WC2018,7557,Group Stage,2,92,47,Iran,goal
+WC2018,7542,Group Stage,1,3,55,Portugal,goal
+WC2018,8656,Semi-finals,1,4,46,England,goal
+WC2018,8656,Semi-finals,2,67,44,Croatia,goal
+WC2018,8656,Semi-finals,4,108,3,Croatia,goal
+WC2018,7548,Group Stage,2,90,23,Brazil,goal
+WC2018,7548,Group Stage,2,96,45,Brazil,goal
+WC2018,7578,Group Stage,2,88,59,Uruguay,goal
+WC2018,7553,Group Stage,1,25,22,Mexico,goal
+WC2018,7553,Group Stage,2,65,24,Mexico,goal
+WC2018,7553,Group Stage,2,92,6,South Korea,goal
+WC2018,7536,Group Stage,2,46,40,Belgium,goal
+WC2018,7536,Group Stage,2,68,11,Belgium,goal
+WC2018,7536,Group Stage,2,74,40,Belgium,goal
+WC2018,7555,Group Stage,1,39,3,Colombia,goal
+WC2018,7555,Group Stage,2,69,2,Colombia,goal
+WC2018,7555,Group Stage,2,74,42,Colombia,goal
+WC2018,7576,Group Stage,1,3,28,Portugal,goal
+WC2018,7576,Group Stage,1,23,2,Spain,goal
+WC2018,7576,Group Stage,1,43,36,Portugal,goal
+WC2018,7576,Group Stage,2,54,2,Spain,goal
+WC2018,7576,Group Stage,2,57,21,Spain,goal
+WC2018,7576,Group Stage,2,87,2,Portugal,goal
+WC2018,7565,Group Stage,1,34,58,Brazil,goal
+WC2018,7565,Group Stage,2,67,18,Brazil,goal
+WC2018,7551,Group Stage,1,31,44,Sweden,goal
+WC2018,7551,Group Stage,2,47,28,Germany,goal
+WC2018,7551,Group Stage,2,94,42,Germany,goal
+WC2018,7537,Group Stage,1,10,37,England,goal
+WC2018,7537,Group Stage,1,34,50,Tunisia,goal
+WC2018,7537,Group Stage,2,90,31,England,goal
+WC2018,7580,Round of 16,1,12,42,France,goal
+WC2018,7580,Round of 16,1,40,43,Argentina,goal
+WC2018,7580,Round of 16,2,47,35,Argentina,goal
+WC2018,7580,Round of 16,2,56,48,France,goal
+WC2018,7580,Round of 16,2,63,8,France,goal
+WC2018,7580,Round of 16,2,67,49,France,goal
+WC2018,7580,Round of 16,2,92,2,Argentina,goal
+WC2018,7581,Round of 16,1,0,57,Denmark,goal
+WC2018,7581,Round of 16,1,3,39,Croatia,goal
+WC2018,7581,Round of 16,5,121,52,Denmark,goal
+WC2018,7581,Round of 16,5,122,36,Croatia,goal
+WC2018,7581,Round of 16,5,123,29,Denmark,goal
+WC2018,7581,Round of 16,5,124,16,Croatia,goal
+WC2018,7581,Round of 16,5,128,4,Croatia,goal
+WC2018,7549,Group Stage,2,48,24,Nigeria,goal
+WC2018,7549,Group Stage,2,74,17,Nigeria,goal
+WC2018,7529,Group Stage,1,31,52,Croatia,own_goal
+WC2018,7529,Group Stage,2,70,51,Croatia,goal
+WC2018,7562,Group Stage,1,17,14,Peru,goal
+WC2018,7562,Group Stage,2,49,9,Peru,goal
+WC2018,7571,Group Stage,2,73,29,Colombia,goal
+WC2018,7568,Group Stage,1,30,24,Switzerland,goal
+WC2018,7568,Group Stage,2,55,25,Costa Rica,goal
+WC2018,7568,Group Stage,2,87,0,Switzerland,goal
+WC2018,7568,Group Stage,2,92,54,Costa Rica,own_goal
+WC2018,7530,Group Stage,2,57,9,France,goal
+WC2018,7530,Group Stage,2,61,16,Australia,goal
+WC2018,7530,Group Stage,2,79,55,France,own_goal
+WC2018,7558,Group Stage,1,9,28,Uruguay,goal
+WC2018,7558,Group Stage,1,22,42,Uruguay,own_goal
+WC2018,7558,Group Stage,2,89,48,Uruguay,goal
+WC2018,7583,Round of 16,2,50,18,Brazil,goal
+WC2018,7583,Round of 16,2,87,55,Brazil,goal
+WC2018,7547,Group Stage,1,6,7,Denmark,goal
+WC2018,7547,Group Stage,1,37,56,Australia,goal
+WC2018,7535,Group Stage,2,55,59,Serbia,goal
+WC2018,8649,Quarter-finals,1,39,29,France,goal
+WC2018,8649,Quarter-finals,2,60,46,France,goal
+WC2018,8658,Final,1,17,56,France,own_goal
+WC2018,8658,Final,1,27,53,Croatia,goal
+WC2018,8658,Final,1,37,56,France,goal
+WC2018,8658,Final,2,58,33,France,goal
+WC2018,8658,Final,2,64,36,France,goal
+WC2018,8658,Final,2,68,8,Croatia,goal
+WC2018,7582,Round of 16,1,11,1,Spain,own_goal
+WC2018,7582,Round of 16,1,40,55,Russia,goal
+WC2018,7582,Round of 16,5,120,5,Spain,goal
+WC2018,7582,Round of 16,5,120,45,Russia,goal
+WC2018,7582,Round of 16,5,121,25,Spain,goal
+WC2018,7582,Round of 16,5,122,8,Russia,goal
+WC2018,7582,Round of 16,5,123,25,Russia,goal
+WC2018,7582,Round of 16,5,124,1,Spain,goal
+WC2018,7582,Round of 16,5,124,40,Russia,goal
+WC2018,7552,Group Stage,1,6,0,Belgium,goal
+WC2018,7552,Group Stage,1,15,19,Belgium,goal
+WC2018,7552,Group Stage,1,17,7,Tunisia,goal
+WC2018,7552,Group Stage,1,47,57,Belgium,goal
+WC2018,7552,Group Stage,2,50,36,Belgium,goal
+WC2018,7552,Group Stage,2,89,16,Belgium,goal
+WC2018,7552,Group Stage,2,92,24,Tunisia,goal
+WC2018,7532,Group Stage,2,58,32,Denmark,goal
+WC2018,7560,Group Stage,1,13,23,Morocco,goal
+WC2018,7560,Group Stage,1,18,50,Spain,goal
+WC2018,7560,Group Stage,2,80,34,Morocco,goal
+WC2018,7560,Group Stage,2,90,8,Spain,goal
+WC2018,7533,Group Stage,1,19,5,Brazil,goal
+WC2018,7533,Group Stage,2,49,29,Switzerland,goal
+WC2018,7564,Group Stage,1,13,52,Argentina,goal
+WC2018,7564,Group Stage,2,50,24,Nigeria,goal
+WC2018,7564,Group Stage,2,85,48,Argentina,goal
+WC2018,7579,Round of 16,1,6,39,Uruguay,goal
+WC2018,7579,Round of 16,2,54,13,Portugal,goal
+WC2018,7579,Round of 16,2,61,8,Uruguay,goal
+WC2018,7577,Group Stage,2,94,9,Iran,own_goal
+WC2018,7525,Group Stage,1,11,32,Russia,goal
+WC2018,7525,Group Stage,1,42,11,Russia,goal
+WC2018,7525,Group Stage,2,70,50,Russia,goal
+WC2018,7525,Group Stage,2,90,46,Russia,goal
+WC2018,7525,Group Stage,2,93,57,Russia,goal
+WC2018,7566,Group Stage,2,49,47,Sweden,goal
+WC2018,7566,Group Stage,2,61,34,Sweden,goal
+WC2018,7566,Group Stage,2,73,33,Sweden,own_goal
+WC2018,8651,Quarter-finals,1,29,47,England,goal
+WC2018,8651,Quarter-finals,2,58,0,England,goal
+WC2018,7567,Group Stage,2,91,9,South Korea,goal
+WC2018,7567,Group Stage,2,95,53,South Korea,goal
+WC2018,7541,Group Stage,1,5,15,Japan,goal
+WC2018,7541,Group Stage,1,38,10,Colombia,goal
+WC2018,7541,Group Stage,2,72,39,Japan,goal
+WC2018,8655,Semi-finals,2,50,35,France,goal
+WC2018,8657,3rd Place Final,1,3,37,Belgium,goal
+WC2018,8657,3rd Place Final,2,81,27,Belgium,goal
+WC2018,8652,Quarter-finals,1,30,48,Russia,goal
+WC2018,8652,Quarter-finals,1,38,58,Croatia,goal
+WC2018,8652,Quarter-finals,3,100,2,Croatia,goal
+WC2018,8652,Quarter-finals,4,114,11,Russia,goal
+WC2018,8652,Quarter-finals,5,121,57,Croatia,goal
+WC2018,8652,Quarter-finals,5,122,41,Russia,goal
+WC2018,8652,Quarter-finals,5,125,8,Croatia,goal
+WC2018,8652,Quarter-finals,5,125,51,Russia,goal
+WC2018,8652,Quarter-finals,5,126,31,Croatia,goal
+WC2018,8652,Quarter-finals,5,127,8,Russia,goal
+WC2018,8652,Quarter-finals,5,127,59,Croatia,goal
+WC2018,7556,Group Stage,1,10,55,Senegal,goal
+WC2018,7556,Group Stage,1,33,20,Japan,goal
+WC2018,7556,Group Stage,2,70,23,Senegal,goal
+WC2018,7556,Group Stage,2,77,30,Japan,goal
+WC2018,7559,Group Stage,1,21,25,Egypt,goal
+WC2018,7559,Group Stage,1,50,35,Saudi Arabia,goal
+WC2018,7559,Group Stage,2,94,5,Saudi Arabia,goal
+WC2022,3857276,Group Stage,1,3,29,Morocco,goal
+WC2022,3857276,Group Stage,1,22,36,Morocco,goal
+WC2022,3857276,Group Stage,1,39,50,Canada,own_goal
+WC2022,3857271,Group Stage,1,34,9,England,goal
+WC2022,3857271,Group Stage,1,42,46,England,goal
+WC2022,3857271,Group Stage,1,45,17,England,goal
+WC2022,3857271,Group Stage,2,61,26,England,goal
+WC2022,3857271,Group Stage,2,64,33,Iran,goal
+WC2022,3857271,Group Stage,2,70,51,England,goal
+WC2022,3857271,Group Stage,2,89,1,England,goal
+WC2022,3857271,Group Stage,2,102,30,Iran,goal
+WC2022,3857274,Group Stage,1,5,3,Netherlands,goal
+WC2022,3857274,Group Stage,2,48,44,Ecuador,goal
+WC2022,3857255,Group Stage,1,11,0,Spain,goal
+WC2022,3857255,Group Stage,2,47,48,Japan,goal
+WC2022,3857255,Group Stage,2,50,14,Japan,goal
+WC2022,3857278,Group Stage,1,37,49,United States,goal
+WC2022,3857273,Group Stage,2,97,56,Iran,goal
+WC2022,3857273,Group Stage,2,100,37,Iran,goal
+WC2022,3857275,Group Stage,2,57,20,Tunisia,goal
+WC2022,3857261,Group Stage,2,49,17,England,goal
+WC2022,3857261,Group Stage,2,50,53,England,goal
+WC2022,3857261,Group Stage,2,67,40,England,goal
+WC2022,3857290,Group Stage,2,47,33,Switzerland,goal
+WC2022,3857298,Group Stage,2,64,20,Portugal,goal
+WC2022,3857298,Group Stage,2,72,11,Ghana,goal
+WC2022,3857298,Group Stage,2,77,6,Portugal,goal
+WC2022,3857298,Group Stage,2,79,21,Portugal,goal
+WC2022,3857298,Group Stage,2,88,28,Ghana,goal
+WC2022,3857285,Group Stage,2,83,50,Netherlands,goal
+WC2022,3857285,Group Stage,2,98,18,Netherlands,goal
+WC2022,3857282,Group Stage,1,35,12,United States,goal
+WC2022,3857282,Group Stage,2,81,33,Wales,goal
+WC2022,3857297,Group Stage,1,38,57,Poland,goal
+WC2022,3857297,Group Stage,2,81,28,Poland,goal
+WC2022,3857294,Group Stage,1,25,55,Netherlands,goal
+WC2022,3857294,Group Stage,2,48,55,Netherlands,goal
+WC2022,3857266,Group Stage,2,60,25,France,goal
+WC2022,3857266,Group Stage,2,67,15,Denmark,goal
+WC2022,3857266,Group Stage,2,85,9,France,goal
+WC2022,3857284,Group Stage,1,32,35,Germany,goal
+WC2022,3857284,Group Stage,2,74,46,Japan,goal
+WC2022,3857284,Group Stage,2,82,42,Japan,goal
+WC2022,3857301,Group Stage,1,40,20,Senegal,goal
+WC2022,3857301,Group Stage,2,47,51,Senegal,goal
+WC2022,3857301,Group Stage,2,77,39,Qatar,goal
+WC2022,3857301,Group Stage,2,83,6,Senegal,goal
+WC2022,3857268,Group Stage,1,43,32,Belgium,goal
+WC2022,3857269,Group Stage,2,82,15,Brazil,goal
+WC2022,3869321,Quarter-finals,1,34,4,Argentina,goal
+WC2022,3869321,Quarter-finals,2,72,39,Argentina,goal
+WC2022,3869321,Quarter-finals,2,82,17,Netherlands,goal
+WC2022,3869321,Quarter-finals,2,100,32,Netherlands,goal
+WC2022,3869321,Quarter-finals,5,121,3,Argentina,goal
+WC2022,3869321,Quarter-finals,5,122,39,Argentina,goal
+WC2022,3869321,Quarter-finals,5,123,31,Netherlands,goal
+WC2022,3869321,Quarter-finals,5,124,15,Argentina,goal
+WC2022,3869321,Quarter-finals,5,124,59,Netherlands,goal
+WC2022,3869321,Quarter-finals,5,126,40,Netherlands,goal
+WC2022,3869321,Quarter-finals,5,127,42,Argentina,goal
+WC2022,3857292,Group Stage,1,9,31,Germany,goal
+WC2022,3857292,Group Stage,2,57,39,Costa Rica,goal
+WC2022,3857292,Group Stage,2,69,7,Costa Rica,own_goal
+WC2022,3857292,Group Stage,2,72,4,Germany,goal
+WC2022,3857292,Group Stage,2,84,2,Germany,goal
+WC2022,3857292,Group Stage,2,88,13,Germany,goal
+WC2022,3857295,Group Stage,2,80,8,Costa Rica,goal
+WC2022,3869685,Final,1,22,24,Argentina,goal
+WC2022,3869685,Final,1,35,22,Argentina,goal
+WC2022,3869685,Final,2,79,24,France,goal
+WC2022,3869685,Final,2,80,59,France,goal
+WC2022,3869685,Final,4,107,58,Argentina,goal
+WC2022,3869685,Final,4,117,5,France,goal
+WC2022,3869685,Final,5,120,13,France,goal
+WC2022,3869685,Final,5,121,2,Argentina,goal
+WC2022,3869685,Final,5,122,27,Argentina,goal
+WC2022,3869685,Final,5,124,16,Argentina,goal
+WC2022,3869685,Final,5,125,9,France,goal
+WC2022,3869685,Final,5,125,57,Argentina,goal
+WC2022,3869684,3rd Place Final,1,6,28,Croatia,goal
+WC2022,3869684,3rd Place Final,1,8,17,Morocco,goal
+WC2022,3869684,3rd Place Final,1,41,43,Croatia,goal
+WC2022,3857256,Group Stage,1,19,11,Switzerland,goal
+WC2022,3857256,Group Stage,1,25,56,Serbia,goal
+WC2022,3857256,Group Stage,1,34,28,Serbia,goal
+WC2022,3857256,Group Stage,1,43,41,Switzerland,goal
+WC2022,3857256,Group Stage,2,47,38,Switzerland,goal
+WC2022,3869151,Round of 16,1,34,35,Argentina,goal
+WC2022,3869151,Round of 16,2,56,41,Argentina,goal
+WC2022,3869151,Round of 16,2,76,11,Australia,own_goal
+WC2022,3857257,Group Stage,2,59,56,Australia,goal
+WC2022,3857258,Group Stage,2,61,58,Brazil,goal
+WC2022,3857258,Group Stage,2,72,54,Brazil,goal
+WC2022,3857288,Group Stage,1,22,50,Australia,goal
+WC2022,3857267,Group Stage,1,43,41,Senegal,goal
+WC2022,3857267,Group Stage,2,66,58,Ecuador,goal
+WC2022,3857267,Group Stage,2,69,30,Senegal,goal
+WC2022,3869486,Quarter-finals,1,41,36,Morocco,goal
+WC2022,3857260,Group Stage,2,46,52,Mexico,goal
+WC2022,3857260,Group Stage,2,51,56,Mexico,goal
+WC2022,3857260,Group Stage,2,94,40,Saudi Arabia,goal
+WC2022,3857264,Group Stage,2,45,53,Argentina,goal
+WC2022,3857264,Group Stage,2,66,57,Argentina,goal
+WC2022,3857289,Group Stage,2,63,32,Argentina,goal
+WC2022,3857289,Group Stage,2,86,39,Argentina,goal
+WC2022,3869254,Round of 16,1,16,43,Portugal,goal
+WC2022,3869254,Round of 16,1,32,35,Portugal,goal
+WC2022,3869254,Round of 16,2,50,5,Portugal,goal
+WC2022,3869254,Round of 16,2,54,55,Portugal,goal
+WC2022,3869254,Round of 16,2,57,5,Switzerland,goal
+WC2022,3869254,Round of 16,2,66,12,Portugal,goal
+WC2022,3869254,Round of 16,2,91,12,Portugal,goal
+WC2022,3869118,Round of 16,1,38,0,England,goal
+WC2022,3869118,Round of 16,1,47,17,England,goal
+WC2022,3869118,Round of 16,2,56,43,England,goal
+WC2022,3869519,Semi-finals,1,33,27,Argentina,goal
+WC2022,3869519,Semi-finals,1,38,26,Argentina,goal
+WC2022,3869519,Semi-finals,2,68,46,Argentina,goal
+WC2022,3869354,Quarter-finals,1,16,22,France,goal
+WC2022,3869354,Quarter-finals,2,53,27,England,goal
+WC2022,3869354,Quarter-finals,2,77,10,France,goal
+WC2022,3869552,Semi-finals,1,4,40,France,goal
+WC2022,3869552,Semi-finals,2,78,49,France,goal
+WC2022,3869420,Quarter-finals,3,105,35,Brazil,goal
+WC2022,3869420,Quarter-finals,4,116,2,Croatia,goal
+WC2022,3869420,Quarter-finals,5,120,3,Croatia,goal
+WC2022,3869420,Quarter-finals,5,121,38,Croatia,goal
+WC2022,3869420,Quarter-finals,5,122,17,Brazil,goal
+WC2022,3869420,Quarter-finals,5,123,6,Croatia,goal
+WC2022,3869420,Quarter-finals,5,123,49,Brazil,goal
+WC2022,3869420,Quarter-finals,5,124,34,Croatia,goal
+WC2022,3869220,Round of 16,5,120,7,Morocco,goal
+WC2022,3869220,Round of 16,5,121,51,Morocco,goal
+WC2022,3869220,Round of 16,5,125,36,Morocco,goal
+WC2022,3869219,Round of 16,1,42,54,Japan,goal
+WC2022,3869219,Round of 16,2,54,54,Croatia,goal
+WC2022,3869219,Round of 16,5,120,43,Croatia,goal
+WC2022,3869219,Round of 16,5,121,52,Croatia,goal
+WC2022,3869219,Round of 16,5,122,33,Japan,goal
+WC2022,3869219,Round of 16,5,124,28,Croatia,goal
+WC2022,3869253,Round of 16,1,6,41,Brazil,goal
+WC2022,3869253,Round of 16,1,12,18,Brazil,goal
+WC2022,3869253,Round of 16,1,28,13,Brazil,goal
+WC2022,3869253,Round of 16,1,35,45,Brazil,goal
+WC2022,3869253,Round of 16,2,75,47,South Korea,goal
+WC2022,3869152,Round of 16,1,43,28,France,goal
+WC2022,3869152,Round of 16,2,73,56,France,goal
+WC2022,3869152,Round of 16,2,90,5,France,goal
+WC2022,3869152,Round of 16,2,98,36,Poland,goal
+WC2022,3869117,Round of 16,1,9,31,Netherlands,goal
+WC2022,3869117,Round of 16,1,45,36,Netherlands,goal
+WC2022,3869117,Round of 16,2,75,20,United States,goal
+WC2022,3869117,Round of 16,2,80,28,Netherlands,goal
+WC2022,3857270,Group Stage,2,53,40,Portugal,goal
+WC2022,3857270,Group Stage,2,92,19,Portugal,goal
+WC2022,3857263,Group Stage,2,61,33,Spain,goal
+WC2022,3857263,Group Stage,2,82,25,Germany,goal
+WC2022,3857259,Group Stage,1,28,7,Cameroon,goal
+WC2022,3857259,Group Stage,1,45,22,Serbia,goal
+WC2022,3857259,Group Stage,1,47,52,Serbia,goal
+WC2022,3857259,Group Stage,2,52,26,Serbia,goal
+WC2022,3857259,Group Stage,2,62,52,Cameroon,goal
+WC2022,3857259,Group Stage,2,65,25,Cameroon,goal
+WC2022,3857283,Group Stage,2,72,37,Morocco,goal
+WC2022,3857283,Group Stage,2,91,51,Morocco,goal
+WC2022,3857286,Group Stage,1,15,49,Ecuador,goal
+WC2022,3857286,Group Stage,1,30,44,Ecuador,goal
+WC2022,3857300,Group Stage,1,9,15,Argentina,goal
+WC2022,3857300,Group Stage,2,47,40,Saudi Arabia,goal
+WC2022,3857300,Group Stage,2,52,44,Saudi Arabia,goal
+WC2022,3857299,Group Stage,1,23,43,Ghana,goal
+WC2022,3857299,Group Stage,1,33,49,Ghana,goal
+WC2022,3857299,Group Stage,2,57,19,South Korea,goal
+WC2022,3857299,Group Stage,2,60,7,South Korea,goal
+WC2022,3857299,Group Stage,2,67,52,Ghana,goal
+WC2022,3857293,Group Stage,1,25,30,Uruguay,goal
+WC2022,3857293,Group Stage,1,31,2,Uruguay,goal
+WC2022,3857291,Group Stage,1,10,52,Spain,goal
+WC2022,3857291,Group Stage,1,20,32,Spain,goal
+WC2022,3857291,Group Stage,1,30,9,Spain,goal
+WC2022,3857291,Group Stage,2,53,41,Spain,goal
+WC2022,3857291,Group Stage,2,73,59,Spain,goal
+WC2022,3857291,Group Stage,2,89,11,Spain,goal
+WC2022,3857291,Group Stage,2,91,57,Spain,goal
+WC2022,3857281,Group Stage,1,1,8,Canada,goal
+WC2022,3857281,Group Stage,1,35,53,Croatia,goal
+WC2022,3857281,Group Stage,1,43,32,Croatia,goal
+WC2022,3857281,Group Stage,2,69,36,Croatia,goal
+WC2022,3857281,Group Stage,2,93,26,Croatia,goal
+WC2022,3857280,Group Stage,2,91,48,Cameroon,goal
+WC2022,3857279,Group Stage,1,8,24,Australia,goal
+WC2022,3857279,Group Stage,1,26,2,France,goal
+WC2022,3857279,Group Stage,1,31,18,France,goal
+WC2022,3857279,Group Stage,2,67,3,France,goal
+WC2022,3857279,Group Stage,2,70,50,France,goal
+WC2022,3857262,Group Stage,1,4,53,Portugal,goal
+WC2022,3857262,Group Stage,1,26,43,South Korea,goal
+WC2022,3857262,Group Stage,2,90,28,South Korea,goal
