@@ -1,8 +1,9 @@
-"""Dual-clock timeline: match clock vs active-play clock.
+"""Dual-clock timeline: display clock vs break-adjusted clock.
 
-The hydration break sits INSIDE the running match clock (~3 min of dead time).
-The active-play clock removes that dead time so pre/post windows compare equal
-amounts of actual football (spec §12 — validate before any placebo work).
+The hydration break sits INSIDE the running display clock (~3 min of dead
+time). The break-adjusted clock removes that dead time — and only that
+(CHANGELOG A1): throw-ins, VAR and other stoppages remain. Windows on it hold
+equal displayed-football time excluding the hydration stoppage.
 
 Also adjudicates one break-band table (start + duration) per break:
   duration_source = manifest_ok        band shipped and plausible (1-6 min)

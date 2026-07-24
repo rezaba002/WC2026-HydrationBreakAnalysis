@@ -106,13 +106,65 @@ def fig_wbgt(breaks: pd.DataFrame):
     plt.close(fig)
 
 
+def fig_placebo():
+    """The central chart: real breaks vs 10,000 randomized pseudo-break draws."""
+    draws = pd.read_csv(PROCESSED / "placebo_null_draws.csv")
+
+    fig, axes = plt.subplots(1, 2, figsize=(11.5, 4.6))
+
+    # Left: primary metric — balance disruption, break-adjusted clock
+    d = draws[(draws["clock"] == "adjusted") & (draws["outcome"] == "balance_disruption")]
+    obs = d["observed_mean"].iloc[0]
+    ax = axes[0]
+    ax.hist(d["null_mean"], bins=40, color="#9ec5f4", edgecolor=SURFACE, linewidth=0.4)
+    ax.axvline(obs, color=BLUE, linewidth=2.2)
+    ax.text(obs - 0.008, ax.get_ylim()[1] * 0.97, "real breaks", color=BLUE,
+            fontsize=10, ha="right", va="top", fontweight="bold")
+    ax.set_title("Breaks did not scramble the game\nmore than ordinary minutes",
+                 color=INK, fontsize=12, fontweight="bold", loc="left")
+    ax.set_xlabel("mean |Δ shot balance|, 8-min windows")
+    ax.set_ylabel("pseudo-break draws")
+
+    # Right: the naive illusion — next-shot probability on both clocks
+    d2 = draws[(draws["clock"] == "display") & (draws["outcome"] == "next_shot_within_w")]
+    d2a = draws[(draws["clock"] == "adjusted") & (draws["outcome"] == "next_shot_within_w")]
+    ax = axes[1]
+    ax.hist(d2["null_mean"], bins=40, color="#9ec5f4", edgecolor=SURFACE, linewidth=0.4)
+    naive, corrected = d2["observed_mean"].iloc[0], d2a["observed_mean"].iloc[0]
+    ax.axvline(naive, color=CRITICAL, linewidth=2.2, linestyle=(0, (4, 2)))
+    ax.axvline(corrected, color=BLUE, linewidth=2.2)
+    ymax = ax.get_ylim()[1]
+    ax.text(naive - 0.004, ymax * 0.97, "naive clock:\n\"breaks kill momentum\"",
+            color=CRITICAL, fontsize=9.5, ha="right", va="top")
+    ax.text(corrected + 0.004, ymax * 0.63, "dead time removed:\nback inside the null",
+            color=BLUE, fontsize=9.5, ha="left", va="top", fontweight="bold")
+    ax.set_title("The \"momentum kill\" is three minutes\nof stopped clock",
+                 color=INK, fontsize=12, fontweight="bold", loc="left")
+    ax.set_xlabel("P(any shot within 8 min after restart)")
+
+    for ax in axes:
+        ax.grid(axis="x", visible=False)
+        ax.tick_params(length=0)
+    fig.suptitle("Real hydration breaks vs 10,000 moments where nobody stopped the game",
+                 x=0.055, y=1.0, ha="left", fontsize=14, fontweight="bold", color=INK)
+    fig.text(0.055, 0.925,
+             "196 breaks, pseudo-breaks matched on half, score state and stage; "
+             "windows exclude the hydration stoppage (break-adjusted clock).",
+             fontsize=10, color=INK2)
+    fig.tight_layout(rect=(0, 0, 1, 0.87))
+    fig.savefig(FIGURES / "fig_placebo.png", dpi=200)
+    plt.close(fig)
+
+
 def main():
     FIGURES.mkdir(parents=True, exist_ok=True)
     breaks = pd.read_csv(PROCESSED / "breaks.csv")
     fig_break_timing(breaks)
     fig_wbgt(breaks)
+    fig_placebo()
     print(f"wrote {FIGURES / 'fig_break_timing.png'}")
     print(f"wrote {FIGURES / 'fig_wbgt.png'}")
+    print(f"wrote {FIGURES / 'fig_placebo.png'}")
 
 
 if __name__ == "__main__":

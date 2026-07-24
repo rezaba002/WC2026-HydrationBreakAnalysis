@@ -54,7 +54,8 @@ pending_inputs:
   narration_pdf:
     expected_path: external/narration/WC2026_104_games_narration.pdf
     role: video narrative support only — never an analytical event source
-    status: MISSING (not found in Downloads on 2026-07-24)
+    status: present (provided by user 2026-07-24; 17 KB — verify completeness
+      at video-writing stage)
   fbref_match_reports:
     source: fbref.com
     role: per-shot xG for 2026 (the FIFA PDFs lack it) + validation

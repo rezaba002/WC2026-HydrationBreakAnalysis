@@ -25,7 +25,8 @@ Frozen thesis: hydration breaks had little detectable average effect on attackin
 |---|---|
 | M1 — source audit, master tables, provisional null, 2 charts, perception preregistration, tests | ✅ complete (commit `de41875`), see `MILESTONE_1_REPORT.md` |
 | M2 data layer — StatsBomb 2018/22, FIFA PDFs fetched+parsed, dual clocks | ✅ complete (commit `3dce7c3`) |
-| M2/M3 analysis — placebo, subs curve, added time, perception collection | ⏳ NOT started |
+| M3 placebo (Core Output 3) — confirmatory Test A run, results + central chart | ✅ complete (see `reports/tables/placebo_results.md`, CHANGELOG A1–A4) |
+| M3 remaining — subs curve, fresh-legs physical, perception pilot, added time | ⏳ NOT started |
 | Case studies, report, video script, article/LinkedIn | ⏳ not started |
 
 ## 3. Data assets (`data/processed/`)
@@ -99,7 +100,14 @@ python -m pytest tests -q                # 25 tests
 
 ## 7. Exact next actions (in order)
 
-1. **Randomized placebo analysis** (Core Output 3, the video's central chart): eligible pseudo-break minutes per match/half from `shots_2026` + goal/card/VAR exclusions; match on half/score state/stage/clock region; pre-window shots as covariate ONLY; ≥10,000 draws; dual clocks via `src/clocks.py`; match-cluster bootstrap (seed 20260724); outcomes = shot diff, SOT diff, P(next shot), P(next goal). Windows 5/8/10 active minutes, primary 8.
+1. ~~Randomized placebo analysis~~ ✅ DONE (`src/placebo.py`, seed 20260724, 196/203
+   breaks, median 13 candidates). Headline: balance disruption 1.556 observed vs
+   1.641 null (below-typical); naive display clock shows P(next shot) 0.658 vs
+   0.797 null — the dead-time illusion, erased on the break-adjusted clock (0.806
+   vs 0.822). Chart: `reports/figures/fig_placebo.png`. Signed home-shift result
+   flagged: do NOT interpret before the robustness pass adds placement-minute
+   adjustment (see caveats in `placebo_results.md`). Robustness pass still to do:
+   H1/H2 and stage cuts, exclusion sensitivities, next-goal, hierarchical model.
 2. **Substitution difference curve** (Core Output 4): 2026 density minus 2018/2022 expected at same minutes; weight for the 3-sub→5-sub era change; ±3' of second break; score-state cuts. This is the user's coach-impact centerpiece.
 3. **Added time 2026** (Core Output 6): KO manifest `injury`/`periods` + decide group-stage source; compare vs `historical_match_times.csv`.
 4. **Physical/fresh-legs analysis** (user emphasis, match-level only): sprint/high-speed profiles of players subbed on around break 2 vs replaced players, from `physical_2026.csv`.

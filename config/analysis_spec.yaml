@@ -5,24 +5,25 @@
 
 frozen_at: "2026-07-24"
 
+# Amended 2026-07-24 pre-analysis — see CHANGELOG.md A1-A3
 primary_outcomes:
-  - net_xg
   - shot_difference
+  - shots_on_target_difference
+  - balance_disruption_abs   # |Δ(shots_home − shots_away)|, always defined
   - next_shot_probability
-  - next_goal_probability
+  - next_goal_probability    # labelled sparse
 
 secondary_outcomes:
-  - shots_on_target_difference
-  - box_entries          # where available
-  - possession_territory # where available
-  - momentum_change      # SofaScore proprietary index — secondary only
+  - shot_share_change        # only where both windows have ≥1 shot; report coverage
+  - match_level_xg_fifa      # validates match totals only, not windows
+  - momentum_change          # SofaScore proprietary index — secondary only
 
-window_lengths_active_minutes: [5, 8, 10]
-primary_window_active_minutes: 8
+window_lengths_break_adjusted_minutes: [5, 8, 10]
+primary_window_break_adjusted_minutes: 8
 
 clocks:
-  - match_clock
-  - active_play_clock
+  - display_clock
+  - break_adjusted_clock     # removes hydration dead time ONLY (CHANGELOG A1)
 
 historical_tournaments:
   - "World Cup 2018"

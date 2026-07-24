@@ -51,14 +51,18 @@ Event/minute-level timeline per match with both clocks (see §4).
 
 | Tier | Outcomes |
 |---|---|
-| **Primary** | net xG; shot difference; P(next shot); P(next goal) |
-| **Secondary** | shots on target; box entries (where available); possession/territory; SofaScore Attack Momentum — explicitly labelled secondary AND proprietary |
+| **Primary** *(amended 2026-07-24, CHANGELOG A2/A3)* | shot difference; shots-on-target difference; balance disruption \|Δ(shots_home − shots_away)\|; P(next shot); P(next goal, sparse) |
+| **Secondary** | shot-share change (only where both windows have ≥1 shot, coverage reported); FIFA match-level xG (match totals only); SofaScore Attack Momentum — explicitly labelled secondary AND proprietary |
+
+Per-shot xG is unavailable from the independently auditable layer (FIFA PMSRs
+carry team xG totals only); see CHANGELOG A2.
 
 No single black-box momentum index carries the story. Sparse xG does not fully capture
 pressure either (most 5-minute windows contain no shots) — the full outcome ladder is
 reported.
 
-**Windows:** 5, 8 and 10 active-play minutes; primary window = **8 active minutes**.
+**Windows:** 5, 8 and 10 break-adjusted minutes; primary window = **8 break-adjusted
+minutes** (CHANGELOG A1).
 
 ---
 
@@ -66,12 +70,12 @@ reported.
 
 | Clock | Definition |
 |---|---|
-| **Match clock** | Displayed football minute. The break occupies ~23'–26' of it; clock runs during the break. |
-| **Active-play clock** | Break dead time removed; equal amounts of actual football before and after the break. |
+| **Display clock** | Displayed football minute. The break occupies ~23'–26' of it; clock runs during the break. |
+| **Break-adjusted clock** *(renamed 2026-07-24, CHANGELOG A1)* | Hydration-break dead time removed — and ONLY that; throw-ins, VAR, injuries remain. Report as "N displayed minutes excluding the hydration stoppage", never "N minutes of active play". |
 
 A naive 10-before vs 10-after comparison on the match clock gives the "after" side only
 ~7 minutes of real football. Every headline number is reported under both alignments.
-The active-play timeline is a core engineering dependency and must be validated before
+The break-adjusted timeline is a core engineering dependency and must be validated before
 the final placebo test.
 
 ---
@@ -199,7 +203,7 @@ are not guaranteed selections. Null cases are mandatory.
 - Spec frozen before independent outcome collection.
 - Effect sizes + compatibility intervals; no p-value dichotomies.
 - Match-level resampling or explicitly nested models.
-- Multiple active-play windows (5/8/10).
+- Multiple break-adjusted windows (5/8/10).
 - Randomized placebo inference; fixed-minute placebos for visuals only.
 - Confirmatory and exploratory analyses separated; interactions exploratory unless
   preregistered. The `leadside` breakdown is exploratory: naive cuts largely reproduce
