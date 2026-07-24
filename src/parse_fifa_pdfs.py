@@ -75,21 +75,16 @@ def parse_shot_pages(doc, home: str, away: str) -> list[dict]:
 
 
 def assign_periods(shots: list[dict]) -> None:
-    """Infer H1/H2 from the per-team sequence: the log lists H1 (incl. 45+X
-    recorded as 46-48) then H2 restarting around 45. A drop in minute marks
-    the H2 start."""
-    by_team: dict[str, list[dict]] = defaultdict(list)
+    """Assign H1/H2 from the (reliable) cumulative match minute.
+
+    The shot log's `seq` order is NOT chronological in many PMSRs, so any
+    sequence-based inference misfires; `minute` is the true match minute, so a
+    minute cut is the robust rule. Caveat: a first-half stoppage shot notated
+    45+X is stored with a base minute up to 48 and is therefore assigned to H2.
+    Such shots are few, and nothing downstream keys off `period` (windows and
+    buckets use `minute` directly) — this column is for reference only."""
     for s in shots:
-        by_team[s["team"]].append(s)
-    for rows in by_team.values():
-        rows.sort(key=lambda r: r["seq"])
-        period = 1
-        prev = 0
-        for r in rows:
-            if period == 1 and r["minute"] < prev - 1:
-                period = 2
-            r["period"] = period if r["minute"] != 45 or period == 2 else 1
-            prev = r["minute"]
+        s["period"] = 1 if s["minute"] <= 45 else 2
 
 
 # ── lineups & substitutions ──────────────────────────────────────────────────
