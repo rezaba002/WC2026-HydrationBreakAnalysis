@@ -1,0 +1,76 @@
+# Frozen analysis specification — machine-readable values.
+# Human-readable version: ../spec.md  (if they disagree, this file is wrong).
+# Frozen 2026-07-24. Changes only via CHANGELOG.md entry, and only before
+# viewing independent post-break outcomes.
+
+frozen_at: "2026-07-24"
+
+primary_outcomes:
+  - net_xg
+  - shot_difference
+  - next_shot_probability
+  - next_goal_probability
+
+secondary_outcomes:
+  - shots_on_target_difference
+  - box_entries          # where available
+  - possession_territory # where available
+  - momentum_change      # SofaScore proprietary index — secondary only
+
+window_lengths_active_minutes: [5, 8, 10]
+primary_window_active_minutes: 8
+
+clocks:
+  - match_clock
+  - active_play_clock
+
+historical_tournaments:
+  - "World Cup 2018"
+  - "World Cup 2022"
+historical_sensitivity:
+  - "Euro 2024"
+  - "Copa America 2024"
+
+placebo:
+  iterations: 10000
+  match_on:            # Test A — causal
+    - half
+    - score_state
+    - stage
+    - eligible_clock_region
+  adjust_for:          # covariates, NEVER matching keys
+    - pre_window_xg
+    - pre_window_shots
+    - elo_difference
+  exclude_candidates_near:
+    - goals
+    - penalties
+    - red_cards
+    - major_var_interruptions
+    - halftime_fulltime
+    - actual_hydration_breaks
+  test_b_state_matched: true   # descriptive; matches on pre-window dominance
+  fixed_visual_minutes: [14, 34, 59, 79]  # visualization ONLY, never inference
+
+uncertainty:
+  primary: match_cluster_bootstrap
+  bootstrap_iterations: 5000
+  bootstrap_seed: 20260724
+  robustness: hierarchical_nested_model
+  report: effect_sizes_and_compatibility_intervals  # no p-value dichotomies
+
+exclusions:
+  - red_card_in_window
+  - penalty_in_window
+  - unresolved_break_time
+  - corrupted_event_timeline
+
+coverage:
+  target_matches: 102
+  target_breaks: 203
+  chase_missing_matches: false
+
+reporting:
+  sample_size_units: "breaks and matches, never team-rows"
+  leadside_breakdown: exploratory
+  momentum_index_label: "secondary and proprietary"

@@ -1,0 +1,4 @@
+entity,match_id,sofascore_id,home,away,stage,reason,evidence,status
+match,44,,Jordan,Algeria,Group Stage,"absent from hydration repo entirely (no manifest entry, no treated rows)",no sofascore manifest id matches this fixture,excluded from treated sample; pipeline can add later
+match,1,15186710.0,Mexico,South Africa,Group Stage,manifest entry exists (with break bands) but no treated covariate rows shipped,"manifest breaks: [{'start': 25, 'end': 27}, {'start': 68, 'end': 70}]",excluded from treated sample; cause unknown (likely missing momentum arrays)
+half,41,15186769.0,France,Iraq,Group Stage,no H2 hydration break recorded in any shipped source,"treated halves: ['H1']; manifest breaks: [{'start': 23, 'end': 25}]",consistent across shipped sources; REQUIRES independent external verification

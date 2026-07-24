@@ -1,0 +1,55 @@
+# Provenance of external inputs. Retrieval performed on the user's machine.
+retrieved_at: "2026-07-24"
+
+repositories:
+  wc2026-hydration-momentum:
+    url: https://github.com/Ddey07/wc2026-hydration-momentum
+    commit: 03a88987adb8fe629b4e72f7f863a16dfe159291
+    clone_depth: 1
+    role: core specialist dataset (treated breaks, controls, break timings, manifest)
+    caveats: >
+      README is unreliable — SofaScore-derived raw arrays (wc2026_group_momentum.json,
+      wc2026_knockout_raw.json, xg_2026.json, wc_control_*.json) are NOT shipped as
+      standalone files; manifest.json carries fixture/goal/break summaries keyed by
+      those filenames. Verify every README claim against files or independent sources.
+
+  FIFA-World-Cup-2026-Dataset:
+    url: https://github.com/mominullptr/FIFA-World-Cup-2026-Dataset
+    commit: 8fcb734c8d8e14622659a52ca3ab5e0973376096
+    clone_depth: 1
+    role: metadata backbone (104 matches, match-level xG, venues with geo, lineups)
+    caveats: >
+      match_events.csv has only goals/cards/assists/VAR/shootouts — zero substitution
+      events and no shot-level data. Not an event source for Outputs 2 or 4.
+
+  wc26-analytics:
+    url: https://github.com/anup4khandelwal/wc26-analytics
+    commit: 7e7b84a91f4edee24ba9e7c53717bb72fc193a08
+    clone_depth: 1
+    role: parser code only (wc26/fifa_pdf.py for FIFA post-match PDFs; statsbomb.py)
+    caveats: >
+      output/ folders contain only PNGs and tweet markdown; numbers are internally
+      inconsistent (e.g. Netherlands-Sweden xG). Never trust this repo's numbers;
+      re-derive from original PDFs.
+
+pending_inputs:
+  statsbomb-open-data:
+    url: https://github.com/statsbomb/open-data
+    role: WC 2018 + 2022 events (substitutions, goals, timing) for Outputs 4 and 6
+    status: not yet cloned (Milestone 2; large repo)
+  narration_pdf:
+    expected_path: external/narration/WC2026_104_games_narration.pdf
+    role: video narrative support only — never an analytical event source
+    status: MISSING (not found in Downloads on 2026-07-24)
+  fifa_post_match_pdfs:
+    source: fifatrainingcentre.com
+    role: independent shot/xG layer (Output 2)
+    status: not yet fetched (Milestone 2)
+  fbref_match_reports:
+    source: fbref.com
+    role: substitution minutes 2026 (Output 4) + validation
+    status: not yet fetched (Milestone 2; check terms, rate-limit ~3s, cache locally)
+  open_meteo_weather:
+    source: open-meteo.com historical API
+    role: kickoff/break weather join on venues lat/lon
+    status: not yet fetched (deferred)

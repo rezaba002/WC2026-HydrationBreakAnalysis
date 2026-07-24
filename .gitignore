@@ -1,0 +1,8 @@
+# external inputs are provenance-tracked in config/sources.yaml, not committed
+external/
+data/raw/
+data/interim/
+logs/
+__pycache__/
+*.pyc
+.pytest_cache/

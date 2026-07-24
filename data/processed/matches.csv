@@ -1,0 +1,105 @@
+match_id,sofascore_id,date,kickoff_time_utc,stage_name,home,away,home_score,away_score,result_type,home_penalty_score,away_penalty_score,home_xg,away_xg,venue_id,stadium_name,city,country,latitude,longitude,elevation_meters,referee_id,in_treated,n_treated_breaks,kickoff_gap_hours
+1,15186710.0,2026-06-11,19:00,Group Stage,Mexico,South Africa,2,0,Regular,,,1.84,0.52,1,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,19.3031,-99.1506,2200,1,False,0,0.0
+2,15186720.0,2026-06-11,23:00,Group Stage,South Korea,Czechia,2,1,Regular,,,1.45,1.12,7,Guadalajara Stadium (Estadio Akron),Zapopan,MEX,20.6811,-103.4628,1566,2,True,2,3.0
+3,15186836.0,2026-06-12,19:00,Group Stage,Canada,Bosnia and Herzegovina,1,1,Regular,,,1.35,0.98,6,Toronto Stadium (BMO Field),Toronto,CAN,43.6328,-79.4186,76,3,True,2,0.0
+4,15186873.0,2026-06-12,23:00,Group Stage,USA,Paraguay,4,1,Regular,,,2.76,0.88,3,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,33.9535,-118.339,30,4,True,2,2.0
+5,15186526.0,2026-06-13,15:00,Group Stage,Qatar,Switzerland,1,1,Regular,,,0.78,1.54,10,Boston Stadium (Gillette Stadium),Foxborough,USA,42.0909,-71.2643,87,5,True,2,4.0
+6,15186850.0,2026-06-13,18:00,Group Stage,Brazil,Morocco,1,1,Regular,,,1.62,1.1,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,6,True,2,4.0
+7,15186853.0,2026-06-13,21:00,Group Stage,Haiti,Scotland,0,1,Regular,,,1.25,0.65,14,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,39.9008,-75.1675,3,7,True,2,4.0
+8,15186874.0,2026-06-13,23:59,Group Stage,Australia,Türkiye,2,0,Regular,,,1.48,0.72,16,Seattle Stadium (Lumen Field),Seattle,USA,47.5952,-122.3316,3,8,True,2,4.02
+9,15186899.0,2026-06-14,15:00,Group Stage,Germany,Curaçao,7,1,Regular,,,4.82,0.44,9,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,33.7553,-84.4017,318,9,True,2,2.0
+10,15186945.0,2026-06-14,18:00,Group Stage,Netherlands,Japan,2,2,Regular,,,1.95,1.82,15,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,37.4033,-121.9698,8,10,True,2,2.0
+11,15186904.0,2026-06-14,21:00,Group Stage,Côte d'Ivoire,Ecuador,1,0,Regular,,,1.1,0.95,11,Houston Stadium (NRG Stadium),Houston,USA,29.6847,-95.4082,14,11,True,2,2.0
+12,15186951.0,2026-06-14,23:59,Group Stage,Sweden,Tunisia,5,1,Regular,,,3.12,0.78,12,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,39.0489,-94.4839,264,12,True,2,2.02
+13,15186783.0,2026-06-15,15:00,Group Stage,Spain,Cabo Verde,0,0,Regular,,,2.15,0.35,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,13,True,2,1.0
+14,15186837.0,2026-06-15,18:00,Group Stage,Belgium,Egypt,1,1,Regular,,,1.58,1.12,4,Dallas Stadium (AT&T Stadium),Arlington,USA,32.7473,-97.0928,184,14,True,2,1.0
+15,15186811.0,2026-06-15,21:00,Group Stage,Saudi Arabia,Uruguay,1,1,Regular,,,0.85,1.76,8,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,25.669,-100.2444,538,15,True,2,1.0
+16,15186832.0,2026-06-15,23:59,Group Stage,IR Iran,New Zealand,2,2,Regular,,,1.88,1.2,5,Vancouver Stadium (BC Place),Vancouver,CAN,49.2768,-123.112,9,16,True,2,1.02
+17,15186501.0,2026-06-16,15:00,Group Stage,France,Senegal,3,1,Regular,,,2.44,1.05,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,1,True,2,4.0
+18,15186773.0,2026-06-16,18:00,Group Stage,Iraq,Norway,1,4,Regular,,,0.68,2.85,10,Boston Stadium (Gillette Stadium),Foxborough,USA,42.0909,-71.2643,87,2,True,2,4.0
+19,15186854.0,2026-06-16,21:00,Group Stage,Argentina,Algeria,3,0,Regular,,,2.65,0.42,3,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,33.9535,-118.339,30,3,True,2,4.0
+20,15186751.0,2026-06-16,23:59,Group Stage,Austria,Jordan,3,1,Regular,,,1.98,0.88,15,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,37.4033,-121.9698,8,4,True,2,4.02
+21,15186709.0,2026-06-17,15:00,Group Stage,Portugal,Congo DR,1,1,Regular,,,1.78,1.15,9,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,33.7553,-84.4017,318,5,True,2,2.0
+22,15186504.0,2026-06-17,18:00,Group Stage,England,Croatia,4,2,Regular,,,2.92,1.64,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,6,True,2,2.0
+23,15186687.0,2026-06-17,21:00,Group Stage,Ghana,Panama,1,0,Regular,,,1.3,0.75,11,Houston Stadium (NRG Stadium),Houston,USA,29.6847,-95.4082,14,7,True,2,2.0
+24,15186722.0,2026-06-17,23:59,Group Stage,Uzbekistan,Colombia,1,3,Regular,,,0.95,2.1,16,Seattle Stadium (Lumen Field),Seattle,USA,47.5952,-122.3316,3,8,True,2,2.02
+25,15186490.0,2026-06-18,15:00,Group Stage,Mexico,South Korea,1,0,Regular,,,1.62,0.58,9,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,33.7553,-84.4017,318,9,True,2,10.0
+26,15186731.0,2026-06-18,18:00,Group Stage,Czechia,South Africa,1,1,Regular,,,1.35,1.15,3,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,33.9535,-118.339,30,10,True,2,2.0
+27,15186798.0,2026-06-18,21:00,Group Stage,Canada,Qatar,6,0,Regular,,,3.82,0.22,5,Vancouver Stadium (BC Place),Vancouver,CAN,49.2768,-123.112,9,11,True,2,1.0
+28,15186806.0,2026-06-18,23:59,Group Stage,Switzerland,Bosnia and Herzegovina,4,1,Regular,,,2.45,0.88,1,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,19.3031,-99.1506,2200,12,True,2,4.98
+29,15186856.0,2026-06-19,15:00,Group Stage,Brazil,Haiti,3,0,Regular,,,1.16,0.9,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,13,True,2,9.5
+30,15186859.0,2026-06-19,18:00,Group Stage,Scotland,Morocco,0,1,Regular,,,0.97,0.54,4,Dallas Stadium (AT&T Stadium),Arlington,USA,32.7473,-97.0928,184,14,True,2,4.0
+31,15186878.0,2026-06-19,21:00,Group Stage,USA,Australia,2,0,Regular,,,1.21,0.32,6,Toronto Stadium (BMO Field),Toronto,CAN,43.6328,-79.4186,76,15,True,2,2.0
+32,15186879.0,2026-06-19,23:59,Group Stage,Türkiye,Paraguay,0,1,Regular,,,0.4,0.3,8,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,25.669,-100.2444,538,16,True,2,3.02
+33,15186905.0,2026-06-20,15:00,Group Stage,Germany,Côte d'Ivoire,2,1,Regular,,,1.85,0.72,10,Boston Stadium (Gillette Stadium),Foxborough,USA,42.0909,-71.2643,87,1,True,2,5.0
+34,15186906.0,2026-06-20,18:00,Group Stage,Ecuador,Curaçao,0,0,Regular,,,1.92,0.08,12,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,39.0489,-94.4839,264,2,True,2,6.0
+35,15186957.0,2026-06-20,21:00,Group Stage,Netherlands,Sweden,5,1,Regular,,,3.45,0.88,14,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,39.9008,-75.1675,3,3,True,2,4.0
+36,15186963.0,2026-06-20,23:59,Group Stage,Tunisia,Japan,0,4,Regular,,,0.35,3.12,16,Seattle Stadium (Lumen Field),Seattle,USA,47.5952,-122.3316,3,4,True,2,4.02
+37,15186499.0,2026-06-21,15:00,Group Stage,Belgium,IR Iran,0,0,Regular,,,1.45,0.62,11,Houston Stadium (NRG Stadium),Houston,USA,29.6847,-95.4082,14,5,True,2,4.0
+38,15186827.0,2026-06-21,18:00,Group Stage,New Zealand,Egypt,1,3,Regular,,,0.55,2.15,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,6,True,2,7.0
+39,15186840.0,2026-06-21,21:00,Group Stage,Spain,Saudi Arabia,4,0,Regular,,,3.28,0.25,15,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,37.4033,-121.9698,8,7,True,2,5.0
+40,15186800.0,2026-06-21,23:59,Group Stage,Uruguay,Cabo Verde,2,2,Regular,,,1.65,1.1,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,8,True,2,1.98
+41,15186769.0,2026-06-22,15:00,Group Stage,France,Iraq,3,0,Regular,,,2.21,0.45,4,Dallas Stadium (AT&T Stadium),Arlington,USA,32.7473,-97.0928,184,9,True,1,6.0
+42,15186770.0,2026-06-22,18:00,Group Stage,Norway,Senegal,3,2,Regular,,,1.95,1.48,6,Toronto Stadium (BMO Field),Toronto,CAN,43.6328,-79.4186,76,10,True,2,6.0
+43,15186502.0,2026-06-22,21:00,Group Stage,Argentina,Austria,2,0,Regular,,,1.78,0.55,8,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,25.669,-100.2444,538,11,True,2,4.0
+44,,2026-06-22,23:59,Group Stage,Jordan,Algeria,1,2,Regular,,,0.88,1.92,10,Boston Stadium (Gillette Stadium),Foxborough,USA,42.0909,-71.2643,87,12,False,0,
+45,15186858.0,2026-06-23,15:00,Group Stage,Portugal,Uzbekistan,5,0,Regular,,,3.54,0.42,12,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,39.0489,-94.4839,264,13,True,2,2.0
+46,15186713.0,2026-06-23,18:00,Group Stage,Colombia,Congo DR,1,0,Regular,,,1.62,0.58,14,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,39.9008,-75.1675,3,14,True,2,8.0
+47,15186672.0,2026-06-23,21:00,Group Stage,England,Ghana,0,0,Regular,,,1.12,0.89,16,Seattle Stadium (Lumen Field),Seattle,USA,47.5952,-122.3316,3,15,True,2,1.0
+48,15186520.0,2026-06-23,23:59,Group Stage,Panama,Croatia,0,1,Regular,,,0.42,1.48,1,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,19.3031,-99.1506,2200,16,True,2,0.98
+49,15186732.0,2026-06-24,18:00,Group Stage,Czechia,Mexico,0,3,Regular,,,1.1,1.27,1,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,19.3031,-99.1506,2200,1,True,2,7.0
+50,15186744.0,2026-06-24,18:00,Group Stage,South Africa,South Korea,1,0,Regular,,,1.26,1.39,7,Guadalajara Stadium (Estadio Akron),Zapopan,MEX,20.6811,-103.4628,1566,2,True,2,7.0
+51,15186821.0,2026-06-24,22:00,Group Stage,Switzerland,Canada,2,1,Regular,,,0.71,1.35,5,Vancouver Stadium (BC Place),Vancouver,CAN,49.2768,-123.112,9,3,True,2,3.0
+52,15186829.0,2026-06-24,22:00,Group Stage,Bosnia and Herzegovina,Qatar,3,1,Regular,,,1.48,0.95,6,Toronto Stadium (BMO Field),Toronto,CAN,43.6328,-79.4186,76,4,True,2,3.0
+53,15186861.0,2026-06-25,18:00,Group Stage,Scotland,Brazil,0,3,Regular,,,0.45,2.18,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,5,True,2,20.0
+54,15186864.0,2026-06-25,18:00,Group Stage,Morocco,Haiti,4,2,Regular,,,2.35,1.12,10,Boston Stadium (Gillette Stadium),Foxborough,USA,42.0909,-71.2643,87,6,True,2,20.0
+55,15186887.0,2026-06-25,22:00,Group Stage,Türkiye,USA,3,2,Regular,,,1.62,1.45,3,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,33.9535,-118.339,30,7,True,2,4.0
+56,15186891.0,2026-06-25,22:00,Group Stage,Paraguay,Australia,0,0,Regular,,,0.55,0.48,15,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,37.4033,-121.9698,8,8,True,2,4.0
+57,15186907.0,2026-06-26,18:00,Group Stage,Ecuador,Germany,2,1,Regular,,,1.28,1.55,9,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,33.7553,-84.4017,318,9,True,2,22.0
+58,15186908.0,2026-06-26,18:00,Group Stage,Curaçao,Côte d'Ivoire,0,2,Regular,,,0.32,1.68,11,Houston Stadium (NRG Stadium),Houston,USA,29.6847,-95.4082,14,10,True,2,22.0
+59,15186973.0,2026-06-26,22:00,Group Stage,Tunisia,Netherlands,1,3,Regular,,,0.62,2.15,12,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,39.0489,-94.4839,264,11,True,2,23.0
+60,15186972.0,2026-06-26,22:00,Group Stage,Japan,Sweden,1,1,Regular,,,1.12,0.95,16,Seattle Stadium (Lumen Field),Seattle,USA,47.5952,-122.3316,3,12,True,2,23.0
+61,15186822.0,2026-06-27,18:00,Group Stage,New Zealand,Belgium,1,5,Regular,,,0.48,3.25,4,Dallas Stadium (AT&T Stadium),Arlington,USA,32.7473,-97.0928,184,13,True,2,15.0
+62,15186828.0,2026-06-27,18:00,Group Stage,Egypt,IR Iran,1,1,Regular,,,0.85,0.92,8,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,25.669,-100.2444,538,14,True,2,15.0
+63,15186841.0,2026-06-27,22:00,Group Stage,Uruguay,Spain,0,1,Regular,,,0.78,1.35,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,15,True,2,22.0
+64,15186803.0,2026-06-27,22:00,Group Stage,Cabo Verde,Saudi Arabia,0,0,Regular,,,0.42,0.38,14,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,39.9008,-75.1675,3,16,True,2,22.0
+65,15186537.0,2026-06-26,18:00,Group Stage,Norway,France,1,4,Regular,,,1.3,0.96,10,Boston Stadium (Gillette Stadium),Foxborough,USA,42.0909,-71.2643,87,1,True,2,1.0
+66,15186771.0,2026-06-26,18:00,Group Stage,Senegal,Iraq,5,0,Regular,,,3.01,0.14,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,2,True,2,1.0
+67,15186734.0,2026-06-27,22:00,Group Stage,Jordan,Argentina,1,3,Regular,,,0.76,2.13,15,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,37.4033,-121.9698,8,3,True,2,4.0
+68,15186747.0,2026-06-27,22:00,Group Stage,Algeria,Austria,3,3,Regular,,,1.62,1.44,3,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,33.9535,-118.339,30,4,True,2,4.0
+69,15186696.0,2026-06-28,18:00,Group Stage,Colombia,Portugal,0,0,Regular,,,1.62,0.73,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,5,True,2,18.5
+70,15186717.0,2026-06-28,18:00,Group Stage,Congo DR,Uzbekistan,3,1,Regular,,,2.35,0.2,9,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,33.7553,-84.4017,318,6,True,2,18.5
+71,15186676.0,2026-06-28,22:00,Group Stage,Panama,England,0,2,Regular,,,0.69,1.39,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,7,True,2,25.0
+72,15186624.0,2026-06-28,22:00,Group Stage,Croatia,Ghana,2,1,Regular,,,0.42,0.74,14,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,39.9008,-75.1675,3,8,True,2,25.0
+73,12813000.0,2026-06-29,12:00,Round of 32,South Africa,Canada,0,1,Regular,,,0.13,1.32,3,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,33.9535,-118.339,30,17,True,2,17.0
+74,12813012.0,2026-06-29,23:00,Round of 32,Brazil,Japan,2,1,Regular,,,1.69,0.23,11,Houston Stadium (NRG Stadium),Houston,USA,29.6847,-95.4082,14,18,True,2,6.0
+75,12813014.0,2026-06-30,02:30,Round of 32,Germany,Paraguay,1,1,Penalties,3.0,4.0,0.72,0.42,10,Boston Stadium (Gillette Stadium),Foxborough,USA,42.0909,-71.2643,87,19,True,2,6.0
+76,12812998.0,2026-06-30,07:00,Round of 32,Netherlands,Morocco,1,1,Penalties,2.0,3.0,0.23,1.4,8,Monterrey Stadium (Estadio BBVA),Guadalupe,MEX,25.669,-100.2444,538,8,True,2,6.0
+77,12812989.0,2026-06-30,23:00,Round of 32,Côte d'Ivoire,Norway,1,2,Regular,,,1.15,2.02,4,Dallas Stadium (AT&T Stadium),Arlington,USA,32.7473,-97.0928,184,7,True,2,6.0
+78,12812995.0,2026-07-01,03:00,Round of 32,France,Sweden,3,0,Regular,,,3.17,0.67,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,6,True,2,6.0
+79,12813001.0,2026-07-01,07:00,Round of 32,Mexico,Ecuador,2,0,Regular,,,1.02,0.73,1,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,19.3031,-99.1506,2200,20,True,2,5.0
+80,12813020.0,2026-07-01,22:00,Round of 32,England,Congo DR,2,1,Regular,,,2.04,0.76,9,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,33.7553,-84.4017,318,21,True,2,6.0
+81,12813013.0,2026-07-02,02:00,Round of 32,Belgium,Senegal,3,2,AET,,,1.74,3.58,16,Seattle Stadium (Lumen Field),Seattle,USA,47.5952,-122.3316,3,22,True,2,6.0
+82,12812992.0,2026-07-02,06:00,Round of 32,USA,Bosnia and Herzegovina,2,0,Regular,,,0.92,0.25,15,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,37.4033,-121.9698,8,23,True,2,6.0
+83,12813004.0,2026-07-03,01:00,Round of 32,Spain,Austria,3,0,Regular,,,2.84,0.32,3,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,33.9535,-118.339,30,24,True,2,6.0
+84,12812997.0,2026-07-03,05:00,Round of 32,Portugal,Croatia,2,1,Regular,,,2.18,1.34,6,Toronto Stadium (BMO Field),Toronto,CAN,43.6328,-79.4186,76,25,True,2,6.0
+85,12813019.0,2026-07-03,09:00,Round of 32,Switzerland,Algeria,2,0,Regular,,,2.52,0.73,5,Vancouver Stadium (BC Place),Vancouver,CAN,49.2768,-123.112,9,26,True,2,6.0
+86,12813018.0,2026-07-04,00:00,Round of 32,Australia,Egypt,1,1,Penalties,2.0,4.0,0.87,1.36,4,Dallas Stadium (AT&T Stadium),Arlington,USA,32.7473,-97.0928,184,27,True,2,6.0
+87,12812999.0,2026-07-04,04:00,Round of 32,Argentina,Cabo Verde,3,2,AET,,,2.16,0.46,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,28,True,2,6.0
+88,12813011.0,2026-07-04,07:30,Round of 32,Colombia,Ghana,1,0,Regular,,,2.19,0.26,12,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,39.0489,-94.4839,264,5,True,2,6.0
+89,12813010.0,2026-07-04,21:00,Round of 16,Paraguay,France,0,1,Regular,,,0.3,1.8,14,Philadelphia Stadium (Lincoln Financial Field),Philadelphia,USA,39.9008,-75.1675,3,13,True,2,0.0
+90,12813009.0,2026-07-04,23:00,Round of 16,Canada,Morocco,0,3,Regular,,,0.8,1.2,11,Houston Stadium (NRG Stadium),Houston,USA,29.6847,-95.4082,14,3,True,2,6.0
+91,12813006.0,2026-07-05,20:00,Round of 16,Brazil,Norway,1,2,Regular,,,2.61,1.05,4,Dallas Stadium (AT&T Stadium),Arlington,USA,32.7473,-97.0928,184,14,True,2,0.0
+92,12813007.0,2026-07-06,01:00,Round of 16,Mexico,England,2,3,Regular,,,1.88,1.61,1,Mexico City Stadium (Estadio Azteca),Mexico City,MEX,19.3031,-99.1506,2200,14,True,2,0.0
+93,12812990.0,2026-07-06,19:00,Round of 16,Portugal,Spain,0,1,Regular,,,0.63,1.69,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,4,True,2,0.0
+94,12813002.0,2026-07-07,00:00,Round of 16,USA,Belgium,1,4,Regular,,,0.67,2.15,15,San Francisco Bay Area Stadium (Levi's Stadium),Santa Clara,USA,37.4033,-121.9698,8,9,True,2,0.0
+95,12812993.0,2026-07-07,16:00,Round of 16,Argentina,Egypt,3,2,Regular,,,2.12,1.54,12,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,39.0489,-94.4839,264,1,True,2,0.0
+96,12812991.0,2026-07-07,20:00,Round of 16,Switzerland,Colombia,0,0,Penalties,4.0,3.0,1.15,1.46,16,Seattle Stadium (Lumen Field),Seattle,USA,47.5952,-122.3316,3,10,True,2,0.0
+97,12813016.0,2026-07-09,20:00,Quarter-finals,France,Morocco,2,0,Regular,,,3.1,0.13,10,Boston Stadium (Gillette Stadium),Foxborough,USA,42.0909,-71.2643,87,16,True,2,0.0
+98,12812994.0,2026-07-10,19:00,Quarter-finals,Spain,Belgium,2,1,Regular,,,2.08,0.37,3,Los Angeles Stadium (SoFi Stadium),Inglewood,USA,33.9535,-118.339,30,3,True,2,0.0
+99,12813017.0,2026-07-11,21:00,Quarter-finals,Norway,England,1,2,AET,,,0.77,0.96,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,5,True,2,0.0
+100,12813015.0,2026-07-12,01:00,Quarter-finals,Argentina,Switzerland,3,1,AET,,,2.0,0.53,12,Kansas City Stadium (Arrowhead Stadium),Kansas City,USA,39.0489,-94.4839,264,17,True,2,0.0
+101,12813008.0,2026-07-14,20:00,Semi-finals,France,Spain,0,2,Regular,,,0.3,1.63,4,Dallas Stadium (AT&T Stadium),Arlington,USA,32.7473,-97.0928,184,10,True,2,1.0
+102,12812996.0,2026-07-15,20:00,Semi-finals,England,Argentina,1,2,Regular,,,0.54,1.8,9,Atlanta Stadium (Mercedes-Benz Stadium),Atlanta,USA,33.7553,-84.4017,318,6,True,2,1.0
+103,12813003.0,2026-07-18,22:00,Third-place match,France,England,4,6,Regular,,,2.88,2.88,13,Miami Stadium (Hard Rock Stadium),Miami Gardens,USA,25.9581,-80.2389,2,7,True,2,1.0
+104,12813005.0,2026-07-19,20:00,Final,Spain,Argentina,1,0,AET,,,0.52,0.09,2,New York New Jersey Stadium (MetLife Stadium),East Rutherford,USA,40.8136,-74.0744,7,20,True,2,1.0
