@@ -266,9 +266,25 @@ def parse_physical(doc) -> list[dict]:
                     re.fullmatch(r"[\d.]+|[-–]", n) for n in nums
                 ):
                     vals = [float(n) if n not in "-–" else float("nan") for n in nums]
+                    # PyMuPDF sometimes emits the last two columns (sprints,
+                    # top_speed_kmh) out of reading order when sprints is a
+                    # small right-aligned integer (typically goalkeepers).
+                    # Two signals that the pair is swapped, both robust because
+                    # sprints is an integer count and top speed a km/h value
+                    # that must exceed ~18 for anyone who ran:
+                    #   (a) parsed "sprints" has a fractional part, or
+                    #   (b) parsed "top speed" < 18 while "sprints" >= 18.
+                    sp, ts = vals[7], vals[8]
+                    swapped = False
+                    if sp == sp and ts == ts:  # both present
+                        if (sp % 1 != 0) or (ts < 18 and sp >= 18):
+                            swapped = True
+                    if swapped:
+                        vals[7], vals[8] = ts, sp
                     rows.append(
                         {"team": team, "jersey": int(lines[i]), "player": lines[i + 1],
-                         **dict(zip(PHYS_COLS, vals))}
+                         **dict(zip(PHYS_COLS, vals)),
+                         "phys_col_swap_fixed": swapped}
                     )
                     i += 11
                     continue
