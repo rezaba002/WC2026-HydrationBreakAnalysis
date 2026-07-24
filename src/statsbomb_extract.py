@@ -41,10 +41,25 @@ def load_matches() -> pd.DataFrame:
 
 
 def extract(matches: pd.DataFrame):
-    subs, times, goals = [], [], []
+    subs, times, goals, shots = [], [], [], []
     for _, m in matches.iterrows():
         with open(SB / "events" / f"{m.match_id}.json", encoding="utf-8") as f:
             events = json.load(f)
+
+        for e in events:
+            if e["type"]["name"] != "Shot":
+                continue
+            sh = e.get("shot", {})
+            shots.append(
+                {
+                    "tournament": m.tournament, "match_id": m.match_id, "stage": m.stage,
+                    "period": e["period"], "minute": e["minute"], "second": e["second"],
+                    "team": e["team"]["name"],
+                    "xg": sh.get("statsbomb_xg"),
+                    "is_goal": sh.get("outcome", {}).get("name") == "Goal",
+                    "on_target": sh.get("outcome", {}).get("name") in ("Goal", "Saved"),
+                }
+            )
 
         goal_events = []
         for e in events:
@@ -113,19 +128,22 @@ def extract(matches: pd.DataFrame):
                 "et2_end_minute": period_end.get(4, (None,))[0],
             }
         )
-    return pd.DataFrame(subs), pd.DataFrame(times), pd.DataFrame(goals)
+    return (pd.DataFrame(subs), pd.DataFrame(times), pd.DataFrame(goals),
+            pd.DataFrame(shots))
 
 
 def main():
     matches = load_matches()
-    subs, times, goals = extract(matches)
+    subs, times, goals, shots = extract(matches)
     subs.to_csv(PROCESSED / "historical_subs.csv", index=False)
     times.to_csv(PROCESSED / "historical_match_times.csv", index=False)
     goals.to_csv(PROCESSED / "historical_goals.csv", index=False)
+    shots.to_csv(PROCESSED / "historical_shots.csv", index=False)
 
     print(f"matches: {len(matches)} ({matches.groupby('tournament').size().to_dict()})")
     print(f"subs: {len(subs)} ({subs.groupby('tournament').size().to_dict()})")
     print(f"goals: {len(goals)} ({goals.groupby('tournament').size().to_dict()})")
+    print(f"shots: {len(shots)} ({shots.groupby('tournament').size().to_dict()})")
     print("\nmean added time (displayed end minute):")
     reg = times
     print(reg.groupby("tournament")[["h1_end_minute", "h2_end_minute"]].mean().round(2).to_string())
