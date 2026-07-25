@@ -238,21 +238,31 @@ The sweep is what makes the denominator credible. Searching only the matches *li
 have claims would have rebuilt the exact bias under measurement, so the sample was fixed
 before any searching and every drawn match was searched whatever the result.
 
-That yielded **22 usable claims and 24 logged rejections**. Each claim was evaluated
-**blind to its text**: only the match, the break and the team said to benefit were read,
-and the swing was scored against that same match-half's own pseudo-break null.
+That yielded **22 usable claims and 24 logged rejections**. Every claim was then re-read
+against its source URL. Nineteen were confirmed at source; **three were not** and are
+excluded from all figures — one podcast that could never be located, one page that blocks
+automated access, and one quote absent from the page it was cited to. Two surviving claims
+needed correction: a break number (the source specified the second-half break, not the
+first) and a claim text (the source does not say the goal came a minute after the break;
+our own timeline puts them thirteen minutes apart). Both failures and both corrections
+originated in search-engine summaries that did not survive contact with the actual page —
+which is why the verification pass exists.
 
-**Ten of twenty testable claims were supported.** The people making these claims were
-right about as often as not — and when right, often dramatically so.
+Each verified claim was then evaluated **blind to its text**: only the match, the break
+and the team said to benefit were read, and the swing was scored against that same
+match-half's own pseudo-break null.
+
+**Eight of seventeen verified testable claims were supported (47%).** The people making
+these claims were right about as often as not — and when right, often dramatically so.
 
 The bias is not in the claims. It is in the **denominator**, and the random sweep
 measures it directly:
 
 > Public claims attached to just **4 of 48 randomly sampled breaks — 8.3%** (95% CI
 > 3.3–19.6%), extrapolating to roughly **17 of 203 breaks** tournament-wide. Within that
-> small, self-selected set the claims are frequently accurate. Pundits were describing
-> real swings. They were describing them from the tail of a distribution, and the
-> tournament-wide story was then written from that tail.
+> small, self-selected set the claims are right roughly half the time. Pundits were
+> describing real swings. They were describing them from the tail of a distribution, and
+> the tournament-wide story was then written from that tail.
 
 The case-study matrix makes the asymmetry concrete. Scoring every break on swing size and
 crossing it with whether any claim was located:
@@ -335,10 +345,10 @@ Stated plainly, because they bound every claim above.
 4. **Physiology is out of scope.** No claim here concerns player hydration, core
    temperature, or injury. Public event data cannot support them.
 5. **Perception collection covers 24 of 104 matches** by random sweep (plus a topical
-   pass): 22 claims. All quotes are automated extractions and require **manual verbatim
-   confirmation before publication** — they are attributed to real, named people. One
-   attribution is actively disputed in the data (PC-005 vs PC-022, an Ancelotti remark
-   tied to two different Brazil matches by different outlets) and is flagged unresolved.
+   pass): 22 claims, of which 19 were confirmed at source and 3 could not be. Only
+   confirmed claims are used in any figure. One source (ESPN) blocks automated access and
+   its claim awaits a manual browser check; two others should be treated as withdrawn
+   unless a primary source is produced.
 6. **Coverage is 102 of 104 matches, 203 of a possible 204 breaks.** Every exclusion is
    listed with a reason in `data/processed/exclusions.csv`.
 7. **Substitution minutes in the 85–90' tail are not comparable across sources** — a

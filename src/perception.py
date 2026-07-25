@@ -97,24 +97,40 @@ def main():
             rec["note"] = "swing ran against the claimed team; no null needed to refute"
 
     ev = pd.DataFrame(rows)
+    verified_ids = set(claims.loc[
+        claims["verification_status"].str.startswith("verbatim_confirmed"), "claim_id"])
+    ev["verified"] = ev["claim_id"].isin(verified_ids)
     ev.to_csv(PROCESSED / "perception_evaluated.csv", index=False)
 
     testable = ev[ev["status"] != "indeterminate"]
     n_sup = (testable["status"] == "supported").sum()
+    vt = testable[testable["verified"]]
+    n_vsup = (vt["status"] == "supported").sum()
+    n_unverified = int((~ev["verified"]).sum())
 
     lines = [
-        "# Perception claims vs objective evidence — Core Output 5 (PILOT)",
+        "# Perception claims vs objective evidence — Core Output 5",
         "",
-        f"Claims collected: {len(claims)} · testable: {len(testable)} · "
-        f"indeterminate: {len(ev) - len(testable)}",
-        f"**Supported: {n_sup}/{len(testable)} ({n_sup/len(testable):.0%})** "
-        f"— claim direction correct AND swing ≥{SUPPORT_PCT:.0f}th percentile of the "
-        "same match/half's pseudo-break minutes.",
+        f"Claims collected: {len(claims)} · source-verified: {len(verified_ids)} · "
+        f"unverified: {n_unverified}",
+        "",
+        f"**HEADLINE (verified claims only): {n_vsup}/{len(vt)} "
+        f"({n_vsup/len(vt):.0%}) supported** — claim direction correct AND swing "
+        f"≥{SUPPORT_PCT:.0f}th percentile of the same match/half's pseudo-break minutes.",
+        "",
+        f"(All claims incl. unverified: {n_sup}/{len(testable)} "
+        f"({n_sup/len(testable):.0%}) — shown for completeness, not for citation.)",
+        "",
+        "Every claim was re-read against its source URL on 2026-07-25. Quotes that could",
+        "not be located at their cited source are marked UNVERIFIED and excluded from the",
+        "headline: PC-020 (podcast never located), PC-021 (ESPN 403), PC-022 (cited page",
+        "contains no such quote). Two corrections were applied: PC-006's break number",
+        "(1→2) and PC-014's claim text. See `data/manual/perception_claims.csv`.",
         "",
         "Evaluation was blinded to claim text: only (match, break, team-helped) was read.",
         "",
-        "| claim | match | brk | team claimed helped | Δ shot diff | null median | pctile | verdict |",
-        "|---|---|---|---|---|---|---|---|",
+        "| claim | ok | match | brk | team claimed helped | Δ shot diff | null median | pctile | verdict |",
+        "|---|---|---|---|---|---|---|---|---|",
     ]
     mm = matches
     for _, r in ev.iterrows():
@@ -123,7 +139,8 @@ def main():
         obs = "" if pd.isna(r.get("observed_change")) else f"{r['observed_change']:+.0f}"
         nul = "" if pd.isna(r.get("null_median")) else f"{r['null_median']:+.1f}"
         pct = "" if pd.isna(r.get("percentile")) else f"{r['percentile']:.0f}"
-        lines.append(f"| {r['claim_id']} | {fx} | {r['break_number']} | "
+        lines.append(f"| {r['claim_id']} | {'✓' if r['verified'] else '—'} | {fx} | "
+                     f"{r['break_number']} | "
                      f"{r['claimed_team_helped']} | {obs} | {nul} | {pct} | {r['status']} |")
 
     n_breaks_claimed = claims.groupby(["match_id", "break_number"]).ngroups

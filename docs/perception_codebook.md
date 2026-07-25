@@ -113,3 +113,37 @@ alter the inclusion rule or the coding rule; both were frozen before collection.
 found for 11 of 203 breaks (5%). The low denominator — not the within-claim hit
 rate — is the availability-bias finding. Full collection should therefore keep
 recording rejections and coverage, so the denominator stays visible.
+
+---
+
+**2026-07-25 — systematic sweep + source-verification pass.**
+
+*Sampling.* A full 104-match sweep was not completed. Instead a PRE-SPECIFIED
+stratified random sample of 24 matches / 48 breaks was drawn (`src/perception_sample.py`,
+seed 20260724) and each drawn match searched with an identical query template,
+logged in `perception_sweep_log.csv` including every null result. Rationale: a
+purposive search of "matches likely to have claims" would rebuild the selection
+bias under measurement; a random sample yields an unbiased rate. Result:
+**4 of 48 breaks (8.3%, 95% Wilson CI 3.3–19.6%)**. Raising SAMPLE_SIZE and
+re-running yields a superset, since the draw is seeded.
+
+*Verification.* Every collected claim was re-read against its source URL.
+Outcomes and the resulting status values:
+
+| status | meaning | n |
+|---|---|---|
+| `verbatim_confirmed` | wording located at the cited source | 18 |
+| `verbatim_confirmed_text_corrected` | claim located but recorded text was wrong; corrected | 1 |
+| `UNVERIFIED_SOURCE_NOT_FOUND` | quote absent from the cited page | 2 |
+| `UNVERIFIED_SOURCE_INACCESSIBLE` | source returned HTTP 403 | 1 |
+
+**Only `verbatim_confirmed*` rows count toward the headline statistic.**
+Corrections made: PC-006's break number (1→2, the source specifies the
+second-half break) and PC-014's claim text (the source does not say the goal
+came a minute after the break; our own data puts them 13 minutes apart).
+Withdrawn from the headline: PC-020, PC-021, PC-022.
+
+*Standing rule going forward:* a claim may not enter a published figure until its
+`verification_status` begins with `verbatim_confirmed`. Search-engine summaries
+are a discovery tool only, never a citable source — two of the three failures
+above originated as summary text that did not survive contact with the page.
