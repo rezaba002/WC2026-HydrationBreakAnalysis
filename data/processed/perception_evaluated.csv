@@ -12,3 +12,12 @@ PC-010,44,2,Algeria,,,,,indeterminate,no break record for this match/half (docum
 PC-011,6,1,Brazil,-4.0,,,,not_supported,swing ran against the claimed team; no null needed to refute
 PC-012,80,1,England,0.0,16.0,1.0,37.5,not_supported,
 PC-013,80,2,England,4.0,11.0,-3.0,100.0,supported,
+PC-014,99,1,Norway,-1.0,14.0,0.0,14.3,not_supported,
+PC-015,80,1,England,0.0,16.0,1.0,37.5,not_supported,
+PC-016,80,1,England,0.0,16.0,1.0,37.5,not_supported,
+PC-017,22,1,Croatia,1.0,8.0,2.0,50.0,not_supported,
+PC-018,71,1,Panama,2.0,18.0,0.5,100.0,supported,
+PC-019,71,2,Panama,8.0,6.0,-6.5,100.0,supported,
+PC-020,9,1,Germany,5.0,6.0,-2.0,100.0,supported,
+PC-021,28,2,Switzerland,1.0,12.0,-2.0,100.0,supported,
+PC-022,6,1,Brazil,-4.0,,,,not_supported,swing ran against the claimed team; no null needed to refute

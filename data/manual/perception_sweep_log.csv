@@ -1,0 +1,25 @@
+match_id,fixture,stage,searched,breaks_in_match,claimed_breaks,outcome,notes
+2,South Korea v Czechia,Group Stage,yes,2,0,no_claim,generic break commentary only (Deschamps 'four quarters' is tournament-wide)
+5,Qatar v Switzerland,Group Stage,yes,2,0,no_claim,late Qatar equaliser reported but not attributed to a break
+8,Australia v Türkiye,Group Stage,yes,2,0,no_claim,ESPN notes goal came <1 min after break but attributes no causal change
+10,Netherlands v Japan,Group Stage,yes,2,0,no_claim,van Dijk criticism is generic (inconsistency + ad inventory)
+15,Saudi Arabia v Uruguay,Group Stage,yes,2,1,claim_found,The Times: largest momentum swing of the group stage (2nd break)
+19,Argentina v Algeria,Group Stage,yes,2,0,no_claim,Scaloni quote is tournament-wide not match-specific
+25,Mexico v South Korea,Group Stage,yes,2,0,no_claim,South Korea discussed tactics at a break; no change attributed
+34,Ecuador v Curaçao,Group Stage,yes,2,0,no_claim,Curaçao break claims found relate to the Germany fixture not this one
+45,Portugal v Uzbekistan,Group Stage,yes,2,0,no_claim,no match-specific claim located
+50,South Africa v South Korea,Group Stage,yes,2,0,no_claim,no match-specific claim located
+52,Bosnia and Herzegovina v Qatar,Group Stage,yes,2,0,no_claim,Bosnia break claims found relate to the Switzerland fixture not this one
+53,Scotland v Brazil,Group Stage,yes,2,0,no_claim,search explicitly returned nothing specific to this fixture
+58,Curaçao v Côte d'Ivoire,Group Stage,yes,2,0,no_claim,beIN live blog attributes the momentum shift to Pépé's goal not the break
+68,Algeria v Austria,Group Stage,yes,2,0,no_claim,MEE passage refers to Jordan's fixtures (m20/m44) not this one
+76,Netherlands v Morocco,Round of 32,yes,2,0,no_claim,Morocco/Netherlands claims found relate to m6 and m35 not this fixture
+78,France v Sweden,Round of 32,yes,2,0,no_claim,Sweden claims found relate to m35 not this fixture
+80,England v Congo DR,Round of 32,yes,2,2,claim_found,MEE + TNT Sports data piece + Tuchel and Kane quotes; both breaks
+81,Belgium v Senegal,Round of 32,yes,2,0,no_claim,Tielemans/Lukaku argument during a break is colour not a change claim
+91,Brazil v Norway,Round of 16,yes,2,0,no_claim,no match-specific claim located
+94,USA v Belgium,Round of 16,yes,2,0,no_claim,Tillman yellow card before a break; no change attributed
+99,Norway v England,Quarter-finals,yes,2,1,claim_found,England Football match centre: Norway scored a minute after the 1st break
+101,France v Spain,Semi-finals,yes,2,0,no_claim,search returned no hydration-break claim for this match
+103,France v England,Third-place match,yes,2,0,no_claim,second-half comeback attributed to half-time not a hydration break
+104,Spain v Argentina,Final,yes,2,0,no_claim,non-directional loss-of-intensity claim confounded with a 27-min half-time show

@@ -1,0 +1,25 @@
+match_id,stage_name,home,away,home_score,away_score,in_treated,n_treated_breaks,query
+2,Group Stage,South Korea,Czechia,2,1,True,2,World Cup 2026 South Korea Czechia hydration break momentum
+5,Group Stage,Qatar,Switzerland,1,1,True,2,World Cup 2026 Qatar Switzerland hydration break momentum
+8,Group Stage,Australia,Türkiye,2,0,True,2,World Cup 2026 Australia Türkiye hydration break momentum
+10,Group Stage,Netherlands,Japan,2,2,True,2,World Cup 2026 Netherlands Japan hydration break momentum
+15,Group Stage,Saudi Arabia,Uruguay,1,1,True,2,World Cup 2026 Saudi Arabia Uruguay hydration break momentum
+19,Group Stage,Argentina,Algeria,3,0,True,2,World Cup 2026 Argentina Algeria hydration break momentum
+25,Group Stage,Mexico,South Korea,1,0,True,2,World Cup 2026 Mexico South Korea hydration break momentum
+34,Group Stage,Ecuador,Curaçao,0,0,True,2,World Cup 2026 Ecuador Curaçao hydration break momentum
+45,Group Stage,Portugal,Uzbekistan,5,0,True,2,World Cup 2026 Portugal Uzbekistan hydration break momentum
+50,Group Stage,South Africa,South Korea,1,0,True,2,World Cup 2026 South Africa South Korea hydration break momentum
+52,Group Stage,Bosnia and Herzegovina,Qatar,3,1,True,2,World Cup 2026 Bosnia and Herzegovina Qatar hydration break momentum
+53,Group Stage,Scotland,Brazil,0,3,True,2,World Cup 2026 Scotland Brazil hydration break momentum
+58,Group Stage,Curaçao,Côte d'Ivoire,0,2,True,2,World Cup 2026 Curaçao Côte d'Ivoire hydration break momentum
+68,Group Stage,Algeria,Austria,3,3,True,2,World Cup 2026 Algeria Austria hydration break momentum
+76,Round of 32,Netherlands,Morocco,1,1,True,2,World Cup 2026 Netherlands Morocco hydration break momentum
+78,Round of 32,France,Sweden,3,0,True,2,World Cup 2026 France Sweden hydration break momentum
+80,Round of 32,England,Congo DR,2,1,True,2,World Cup 2026 England Congo DR hydration break momentum
+81,Round of 32,Belgium,Senegal,3,2,True,2,World Cup 2026 Belgium Senegal hydration break momentum
+91,Round of 16,Brazil,Norway,1,2,True,2,World Cup 2026 Brazil Norway hydration break momentum
+94,Round of 16,USA,Belgium,1,4,True,2,World Cup 2026 USA Belgium hydration break momentum
+99,Quarter-finals,Norway,England,1,2,True,2,World Cup 2026 Norway England hydration break momentum
+101,Semi-finals,France,Spain,0,2,True,2,World Cup 2026 France Spain hydration break momentum
+103,Third-place match,France,England,4,6,True,2,World Cup 2026 France England hydration break momentum
+104,Final,Spain,Argentina,1,0,True,2,World Cup 2026 Spain Argentina hydration break momentum

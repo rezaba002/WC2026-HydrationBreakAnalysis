@@ -134,8 +134,8 @@ match_id,break_number,half,fixture,home,away,start_minute,disruption,percentile,
 69,2,H2,Colombia v Portugal,Colombia,Portugal,68,4,77.77777777777779,18,False,Group Stage,mid
 70,1,H1,Congo DR v Uzbekistan,Congo DR,Uzbekistan,23,1,100.0,13,False,Group Stage,hidden_effect
 70,2,H2,Congo DR v Uzbekistan,Congo DR,Uzbekistan,70,2,,0,False,Group Stage,unscored
-71,1,H1,Panama v England,Panama,England,23,2,77.77777777777779,18,False,Group Stage,mid
-71,2,H2,Panama v England,Panama,England,69,8,100.0,6,False,Group Stage,hidden_effect
+71,1,H1,Panama v England,Panama,England,23,2,77.77777777777779,18,True,Group Stage,mid
+71,2,H2,Panama v England,Panama,England,69,8,100.0,6,True,Group Stage,confirmed_feeling
 72,1,H1,Croatia v Ghana,Croatia,Ghana,25,1,61.53846153846154,13,False,Group Stage,mid
 72,2,H2,Croatia v Ghana,Croatia,Ghana,69,1,100.0,12,False,Group Stage,hidden_effect
 73,1,H1,South Africa v Canada,South Africa,Canada,23,1,94.44444444444444,18,False,Round of 32,hidden_effect
@@ -190,7 +190,7 @@ match_id,break_number,half,fixture,home,away,start_minute,disruption,percentile,
 97,2,H2,France v Morocco,France,Morocco,67,2,100.0,8,False,Quarter-finals,hidden_effect
 98,1,H1,Spain v Belgium,Spain,Belgium,23,1,72.72727272727273,11,False,Quarter-finals,mid
 98,2,H2,Spain v Belgium,Spain,Belgium,67,0,55.55555555555556,18,False,Quarter-finals,mid
-99,1,H1,Norway v England,Norway,England,23,1,78.57142857142857,14,False,Quarter-finals,mid
+99,1,H1,Norway v England,Norway,England,23,1,78.57142857142857,14,True,Quarter-finals,mid
 99,2,H2,Norway v England,Norway,England,68,2,94.44444444444444,18,False,Quarter-finals,hidden_effect
 100,1,H1,Argentina v Switzerland,Argentina,Switzerland,23,1,69.23076923076923,13,False,Quarter-finals,mid
 100,2,H2,Argentina v Switzerland,Argentina,Switzerland,75,0,,0,False,Quarter-finals,unscored

@@ -226,30 +226,41 @@ departs from prior work.
 
 We preregistered an inclusion rule — a claim counts only when a commentator, manager,
 player or major outlet attributes a change in a **specific match** to a **specific
-break** — then collected. The pilot found **13 usable claims covering 11 breaks**, from
-Opta Analyst, Goal.com, Middle East Eye and The Times, with 12 candidates rejected and
-logged. Each was then evaluated **blind to the claim text**: only the match, the break and
-the team said to benefit were read, and the swing was scored against that same match-half's
-own pseudo-break null.
+break** — then collected in two passes:
 
-**Six of eleven testable claims were supported.** The people making these claims were
-largely right.
+1. a **topical pass** across outlets writing about the breaks (Opta Analyst, Goal.com,
+   Middle East Eye, The Times, TNT Sports, ESPN, England Football);
+2. a **pre-specified stratified random sweep** of 24 matches / 48 breaks, each searched
+   with an identical query template, logged in `data/manual/perception_sweep_log.csv`
+   including every match where nothing was found.
 
-That is the finding, and it is not the one we expected. The bias is not in the claims. It
-is in the **denominator**:
+The sweep is what makes the denominator credible. Searching only the matches *likely* to
+have claims would have rebuilt the exact bias under measurement, so the sample was fixed
+before any searching and every drawn match was searched whatever the result.
 
-> Claims were made about **11 of 203 breaks — about 5%**. Within that tiny, self-selected
-> set, the claims are usually accurate. Pundits were describing real swings. They were
-> simply describing them from the tail of a distribution, and the tournament-wide story
-> was then written from that tail.
+That yielded **22 usable claims and 24 logged rejections**. Each claim was evaluated
+**blind to its text**: only the match, the break and the team said to benefit were read,
+and the swing was scored against that same match-half's own pseudo-break null.
+
+**Ten of twenty testable claims were supported.** The people making these claims were
+right about as often as not — and when right, often dramatically so.
+
+The bias is not in the claims. It is in the **denominator**, and the random sweep
+measures it directly:
+
+> Public claims attached to just **4 of 48 randomly sampled breaks — 8.3%** (95% CI
+> 3.3–19.6%), extrapolating to roughly **17 of 203 breaks** tournament-wide. Within that
+> small, self-selected set the claims are frequently accurate. Pundits were describing
+> real swings. They were describing them from the tail of a distribution, and the
+> tournament-wide story was then written from that tail.
 
 The case-study matrix makes the asymmetry concrete. Scoring every break on swing size and
-crossing it with whether anyone discussed it:
+crossing it with whether any claim was located:
 
 | | large swing | small swing |
 |---|---|---|
-| **publicly claimed** | 2 | 4 |
-| **no claim in pilot** | 65 | 73 |
+| **publicly claimed** | 3 | 4 |
+| **no claim located** | 64 | 73 |
 
 ![Case studies](../figures/fig_case_studies.png)
 
@@ -257,18 +268,25 @@ Cases were selected by this matrix, not by fame. Germany–Curaçao and Netherla
 qualified on merit at the 100th percentile; Switzerland–Bosnia, a planning-stage
 favourite, did not.
 
-The decisive case is **Panama–England, second break**. Before it, Panama had 1 shot to
-England's 3. After it: Panama 6, England 0 — the largest pressure inversion in the
-tournament. Nobody wrote about it, because Panama still lost 0–2. Meanwhile Austria–Jordan,
-which *did* generate public claims, sits at the **7th percentile** — the swing people
-remembered was smaller than a typical quiet passage of that same half.
+**One case changed cells when the sweep ran, and it is worth reporting as such.**
+Panama–England's second break is the tournament's largest pressure inversion: Panama went
+from 1 shot to England's 3 before it, to 6 against England's 0 after it — and still lost
+0–2. The earlier topical pass found no commentary, so it was classified as a "hidden
+effect" and flagged *provisionally*, on the explicit ground that "no claim found" is not
+"no claim exists". The systematic sweep then located a TNT Sports data piece reporting
+precisely that dip. It is now a confirmed-feeling case. The caveat did its job, and the
+correction is left visible rather than quietly absorbed.
+
+Meanwhile Austria–Jordan, which *did* generate public claims, sits at the **7th
+percentile** — the swing people remembered was smaller than a typical quiet passage of
+that same half.
 
 Large post-break swings were common. Commentary about them was not. What determined
-whether a swing became a story was whether the scoreboard followed.
+whether a swing became a story was largely whether the scoreboard followed.
 
-*Caveat: the pilot was a topical search across four outlets, not the per-match sweep the
-codebook requires for full collection. "No claim" means "none surfaced in the pilot". The
-direction of the asymmetry is solid; its exact size will move.*
+*Coverage caveat: the sweep covers 24 of 104 matches. Its 8.3% rate is an unbiased
+estimate with a wide interval; `has_claim = False` for unswept matches means "no claim
+located", not "none exists".*
 
 ---
 
@@ -316,9 +334,11 @@ Stated plainly, because they bound every claim above.
 3. **2026 added time is unmeasurable** at board level; a lower bound is reported instead.
 4. **Physiology is out of scope.** No claim here concerns player hydration, core
    temperature, or injury. Public event data cannot support them.
-5. **Perception collection is a pilot** (13 claims). The per-match sweep to ~40 is
-   outstanding, and all quotes are automated extractions requiring manual verbatim
-   confirmation before any publication.
+5. **Perception collection covers 24 of 104 matches** by random sweep (plus a topical
+   pass): 22 claims. All quotes are automated extractions and require **manual verbatim
+   confirmation before publication** — they are attributed to real, named people. One
+   attribution is actively disputed in the data (PC-005 vs PC-022, an Ancelotti remark
+   tied to two different Brazil matches by different outlets) and is flagged unresolved.
 6. **Coverage is 102 of 104 matches, 203 of a possible 204 breaks.** Every exclusion is
    listed with a reason in `data/processed/exclusions.csv`.
 7. **Substitution minutes in the 85–90' tail are not comparable across sources** — a

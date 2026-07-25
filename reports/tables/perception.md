@@ -1,7 +1,7 @@
 # Perception claims vs objective evidence — Core Output 5 (PILOT)
 
-Claims collected: 13 · testable: 11 · indeterminate: 2
-**Supported: 6/11 (55%)** — claim direction correct AND swing ≥80th percentile of the same match/half's pseudo-break minutes.
+Claims collected: 22 · testable: 20 · indeterminate: 2
+**Supported: 10/20 (50%)** — claim direction correct AND swing ≥80th percentile of the same match/half's pseudo-break minutes.
 
 Evaluation was blinded to claim text: only (match, break, team-helped) was read.
 
@@ -20,14 +20,23 @@ Evaluation was blinded to claim text: only (match, break, team-helped) was read.
 | PC-011 | Brazil v Morocco | 1 | Brazil | -4 |  |  | not_supported |
 | PC-012 | England v Congo DR | 1 | England | +0 | +1.0 | 38 | not_supported |
 | PC-013 | England v Congo DR | 2 | England | +4 | -3.0 | 100 | supported |
+| PC-014 | Norway v England | 1 | Norway | -1 | +0.0 | 14 | not_supported |
+| PC-015 | England v Congo DR | 1 | England | +0 | +1.0 | 38 | not_supported |
+| PC-016 | England v Congo DR | 1 | England | +0 | +1.0 | 38 | not_supported |
+| PC-017 | England v Croatia | 1 | Croatia | +1 | +2.0 | 50 | not_supported |
+| PC-018 | Panama v England | 1 | Panama | +2 | +0.5 | 100 | supported |
+| PC-019 | Panama v England | 2 | Panama | +8 | -6.5 | 100 | supported |
+| PC-020 | Germany v Curaçao | 1 | Germany | +5 | -2.0 | 100 | supported |
+| PC-021 | Switzerland v Bosnia and Herzegovina | 2 | Switzerland | +1 | -2.0 | 100 | supported |
+| PC-022 | Brazil v Morocco | 1 | Brazil | -4 |  |  | not_supported |
 
 ## Pilot findings
 
-- Claim supply is NOT the bottleneck the handoff feared: 13 usable
+- Claim supply is NOT the bottleneck the handoff feared: 22 usable
   claims came from four outlets in one collection pass, with 12 rejections
   logged. Reaching ~40 is realistic.
 
-- **The headline is the denominator, not the hit rate.** Claims were made about only **11 of 203 breaks (5%)**. Within that tiny, self-selected set the claims are often right (6/11 supported) — which is exactly the mechanism: pundits are not fabricating, they are describing real swings drawn from the tail of a distribution, then the tournament-wide story is written from that tail. The other ~95% of breaks, where nothing happened, generated no commentary and no memory.
+- **The headline is the denominator, not the hit rate.** Claims were made about only **14 of 203 breaks (7%)**. Within that tiny, self-selected set the claims are often right (10/20 supported) — which is exactly the mechanism: pundits are not fabricating, they are describing real swings drawn from the tail of a distribution, then the tournament-wide story is written from that tail. The other ~95% of breaks, where nothing happened, generated no commentary and no memory.
 
 - Claims cluster on a single narrative: the break rescued the favourite from
   an underdog's spell (Germany-Curacao, Brazil-Morocco, Austria-Jordan,
