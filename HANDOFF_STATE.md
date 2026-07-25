@@ -25,8 +25,14 @@ Frozen thesis: hydration breaks had little detectable average effect on attackin
 |---|---|
 | M1 — source audit, master tables, provisional null, 2 charts, perception preregistration, tests | ✅ complete (commit `de41875`), see `MILESTONE_1_REPORT.md` |
 | M2 data layer — StatsBomb 2018/22, FIFA PDFs fetched+parsed, dual clocks | ✅ complete (commit `3dce7c3`) |
-| M3 placebo (Core Output 3) — confirmatory Test A run, results + central chart | ✅ complete (see `reports/tables/placebo_results.md`, CHANGELOG A1–A4) |
-| M3 remaining — subs curve, fresh-legs physical, perception pilot, added time | ⏳ NOT started |
+| M3 placebo (Core Output 3) — confirmatory Test A run, results + central chart | ✅ complete (`reports/tables/placebo_results.md`, CHANGELOG A1–A4) |
+| M3 substitution timing (Core Output 4) | ✅ complete (`subs_timing.md`, `fig_subs_curve.png`) |
+| M3 fresh-legs physical (user emphasis) | ✅ complete (`physical_freshlegs.md`, `fig_freshlegs.png`) |
+| M3 late-game proxy (physical-sustain question) | ✅ complete (`late_game.md`, `fig_late_game.png`) |
+| M3 added time (Core Output 6) | ✅ complete (`added_time.md`, `fig_added_time.png`) |
+| M3 perception pilot (Core Output 5) | ✅ pilot complete, 13 claims (`perception.md`); full ~40 sweep outstanding |
+| M3 case studies (Core Output 7) | ✅ selection + graphics (`case_studies.md`, `fig_case_studies.png`); manual tactical review outstanding |
+| **All 7 core outputs have results.** Remaining: report, video script, article/LinkedIn | ⏳ not started |
 | Case studies, report, video script, article/LinkedIn | ⏳ not started |
 
 ## 3. Data assets (`data/processed/`)
@@ -108,11 +114,30 @@ python -m pytest tests -q                # 25 tests
    flagged: do NOT interpret before the robustness pass adds placement-minute
    adjustment (see caveats in `placebo_results.md`). Robustness pass still to do:
    H1/H2 and stage cuts, exclusion sensitivities, next-goal, hierarchical model.
-2. **Substitution difference curve** (Core Output 4): 2026 density minus 2018/2022 expected at same minutes; weight for the 3-sub→5-sub era change; ±3' of second break; score-state cuts. This is the user's coach-impact centerpiece.
-3. **Added time 2026** (Core Output 6): KO manifest `injury`/`periods` + decide group-stage source; compare vs `historical_match_times.csv`.
-4. **Physical/fresh-legs analysis** (user emphasis, match-level only): sprint/high-speed profiles of players subbed on around break 2 vs replaced players, from `physical_2026.csv`.
-5. **Perception collection** (Core Output 5): manual, ~40 claims, codebook already frozen — can run parallel to any of the above.
-6. Then: case-study 2×2 selection, report, video script, article/LinkedIn drafts.
+2. ~~Substitution difference curve~~ ✅ DONE. Subs did NOT multiply at the break —
+   they **moved to the restart**: deficit in the 3' before the stoppage, surplus in
+   the 3' after (15.0% vs 12.6%/14.6% historical). ±3' share 18.7% is at/below the
+   minute-matched historical expectation, i.e. displacement not creation.
+3. ~~Added time~~ ✅ DONE (Core Output 6). 2018 +4.7' vs 2022 +7.1' exact; 2026 board
+   minutes unobtainable — reported as last-shot floor only. No late-scoring trend.
+4. ~~Fresh-legs physical~~ ✅ DONE. Subs run far hotter than the starters they replace
+   (66 vs 46 sprints/90); entry timing barely matters. Deployment story, not physiology.
+   Also: `late_game.py` answers the sustain question via a behavioral proxy — final-15'
+   shot share is flat across all three cups (17.0/16.8/17.1%).
+5. ~~Perception pilot~~ ✅ DONE, 13 claims / 11 breaks; 6 of 11 testable supported.
+   **Outstanding: the systematic per-match sweep** (codebook §4 requires iterating all
+   104 matches; the pilot was topical). Also outstanding: manual verbatim confirmation
+   of all 13 quotes against source URLs — currently `fetch_extracted`, NOT publishable.
+6. ~~Case-study 2×2~~ ✅ DONE. Selected: Germany-Curaçao b1 + Netherlands-Sweden b1
+   (confirmed feeling), **Panama-England b2 (hidden effect — Panama 1→6 shots, England
+   3→0, still lost 0-2)**, Austria-Jordan b2 + England-Congo b1 (perception illusion),
+   South Korea-Czechia b2 (true null). Manual tactical review of each still to do.
+
+### Now next
+7. **Robustness pass on the placebo** (deferred from step 1): placement-minute
+   adjustment before ANY signed/directional result is reported; H1-vs-H2, group-vs-KO,
+   drop red-card/penalty windows, leave-one-match-out, next-goal outcome.
+8. **Report → video script → article/LinkedIn**, in that order.
 
 ## 8. Open decisions for the user
 
