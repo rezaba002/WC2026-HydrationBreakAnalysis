@@ -288,9 +288,11 @@ crossing it with whether any claim was located:
 
 ![Case studies](../figures/fig_case_studies.png)
 
-Cases were selected by this matrix, not by fame. Germany–Curaçao and Netherlands–Sweden
-qualified on merit at the 100th percentile; Switzerland–Bosnia, a planning-stage
-favourite, did not.
+Cases were selected by this matrix, not by fame. Germany–Curaçao qualified on merit at the
+100th percentile. Netherlands–Sweden also scored at the 100th percentile but was displaced
+from the final six by Panama–England's larger swing; Switzerland–Bosnia, the third
+planning-stage favourite, never qualified at all. The hidden-effect slot went to
+Morocco–Haiti's second break — a 100th-percentile swing with no located commentary.
 
 **One case changed cells when the sweep ran, and it is worth reporting as such.**
 Panama–England's second break is the tournament's largest pressure inversion: Panama went
