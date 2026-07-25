@@ -97,13 +97,43 @@ def main():
         f"max {wbgt.max():.1f} (reference: 17.8 / 26.1 / 37.2)",
         f"- Breaks above 28°C FIFPRO threshold: {n_above} of {len(treated)} (reference: 87)",
         "",
+        "## Why this is the weakest design in the project",
+        "",
+        "The on-screen momentum index is what most viewers actually watched, so it "
+        "deserves a direct answer. But it can only carry a WEAKER design than the "
+        "shot-based results, for reasons that are properties of the data rather than "
+        "choices:",
+        "",
+        "1. **No 2026 control minutes exist.** All 8,946 controls come from "
+        f"{controls['comp'].nunique()} OTHER competitions (2018-2025). The randomized "
+        "within-match pseudo-break design used for shots (Test A) therefore CANNOT be "
+        "built for momentum — there is nothing within 2026 to draw controls from. This "
+        "is an external-control comparison across different tournaments, squads and "
+        "rules eras.",
+        "2. **No minute-level momentum series is shipped.** Only pre-level, pre-slope and "
+        "post-level at each break survive; the underlying curves were stripped from the "
+        "source repository to avoid redistributing a proprietary index. Rebuilding them "
+        "would mean re-fetching from the provider.",
+        "3. **The index is a proprietary black box.** Its construction is unpublished, so "
+        "it cannot be audited, and the spec keeps it strictly secondary (CHANGELOG A2).",
+        "",
+        "## What it nevertheless shows: triangulation",
+        "",
+        "Despite the weaker design and a completely different data provider, the momentum "
+        f"index points the same way as the shot analysis: **{diff:+.2f}** with a 95% "
+        f"match-clustered interval of **[{lo:+.2f}, {hi:+.2f}]**, straddling zero. "
+        "Momentum collapses after breaks — and collapses almost as hard after ordinary "
+        "comparable minutes.",
+        "",
+        "Two independent measurement systems, two different control strategies, the same "
+        "null. That agreement is worth more than either result alone, and it is why this "
+        "weak-design comparison is reported at all.",
+        "",
         "## Caveats",
         "",
-        "- Proprietary black-box index; primary outcomes for the project are "
-        "xG/shots from the independent event layer (Milestone 2).",
-        "- Control minutes come from 11 historical competitions, not from WC2026 "
-        "itself; the frozen design's randomized within-match pseudo-breaks "
-        "(Test A) supersede this comparison.",
+        "- Proprietary black-box index; the project's primary outcomes are shot-based, "
+        "from the independently auditable FIFA layer.",
+        "- External controls (see above) — corroboration, never the headline.",
         "- The `leadside` breakdown is exploratory and largely reflects regression "
         "to the mean; it is intentionally not reported here.",
     ]

@@ -144,9 +144,30 @@ The estimate is stable when weakly-matched breaks are dropped (≥3, ≥5, ≥10
 per break), so thin matching is not driving it.
 
 **The average competitive effect is null.** This replicates the existing preprint
-(arXiv 2607.19783) by an independent route, and the older momentum-index audit agrees:
-treated breaks showed a mean momentum drop of 7.91 versus 7.11 at historical control
-minutes — a difference of +0.80 with a 95% interval of [−2.11, +3.85], straddling zero.
+(arXiv 2607.19783) by an independent route.
+
+### What about the momentum graphic on screen?
+
+Broadcasts showed a live momentum index all tournament, and it is what most viewers
+actually watched — so it deserves a direct answer rather than dismissal. Analysed with
+match-clustered uncertainty, treated breaks show a mean momentum drop of **7.91** against
+**7.11** at control minutes: a difference of **+0.80, 95% CI [−2.11, +3.85]**, straddling
+zero. Momentum does collapse after breaks — and collapses almost as hard after comparable
+ordinary minutes.
+
+That comparison carries a **weaker design than anything else in this report**, for reasons
+that are properties of the data rather than choices. **No 2026 control minutes exist:** all
+8,946 controls come from eleven other competitions (2018–2025), so the within-match
+pseudo-break design used for shots cannot be built for momentum at all. No minute-level
+momentum series is available either — only the pre/post values at each break survive, the
+curves having been stripped to avoid redistributing a proprietary index. And the index
+itself is an unpublished black box, which is why the specification keeps it strictly
+secondary.
+
+Its value is triangulation. Two independent measurement systems, two different providers,
+two different control strategies — the same null. That agreement is worth more than either
+result alone. Full working and caveats:
+[`reports/tables/provisional_null.md`](../tables/provisional_null.md).
 
 ### A result we deleted
 
@@ -379,10 +400,38 @@ That is the honest shape of it:
 > handed audiences a vivid, memorable, and deeply unrepresentative sample of evidence
 > about themselves.
 
-On the commercial question, the defensible line: **FIFA presented the breaks as a
-player-welfare measure; broadcasters discovered substantial new advertising inventory.**
-Both are documented. Inferring the second as the motive for the first is not supported by
-anything measured here, and this report does not claim it.
+### And the money
+
+The loudest public charge was that FIFA interrupted football to sell advertising. Our data
+can measure the inventory, and cannot measure intent — so it does both, separately.
+
+**The inventory is real and quantifiable.** The 203 recorded breaks account for **580
+minutes — about 9.7 hours** of in-match stoppage, roughly 5.7 minutes per match; the policy
+guarantees **208 slots across all 104 matches**, around 10.4 hours. Three properties make
+that commercially distinctive, and all three follow from the policy plus our own timing
+data: it is **guaranteed** (every match, both halves, irrespective of weather [1]),
+**predictable** (clustered at 23' and 68', so it can be sold in advance rather than filled
+reactively), and **inside the match** (the clock runs and the time is added back as
+stoppage time [1], so the audience does not disperse as it does at half-time).
+
+**Intent is not measurable here, and we do not claim it.** No dataset in this project
+speaks to why the policy was adopted. FIFA presented it as player welfare [1], and its
+president publicly denied any revenue motive. Establishing motive would require internal
+deliberations or rights-negotiation records that we do not have; anyone asserting it — in
+either direction — is going beyond the public evidence.
+
+What the data does add to the debate is this: the welfare rationale is weakest exactly
+where the commercial question is strongest. **Only 19% of breaks occurred at or above the
+threshold that made cooling breaks mandatory under FIFA's own previous protocol** (§2).
+Four in five happened in conditions the old rules did not consider to require one. That
+does not demonstrate a commercial motive — FIFPRO's position is that the old threshold was
+simply too high [4] — but it is what makes the question legitimate rather than cynical.
+
+> FIFA called the breaks a player-welfare measure. The policy also created roughly ten
+> hours of guaranteed, predictable, mid-match commercial inventory that did not previously
+> exist. Both statements are true; neither establishes the other.
+
+Full working: [`reports/tables/commercial.md`](../tables/commercial.md).
 
 ---
 
