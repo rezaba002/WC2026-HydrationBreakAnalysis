@@ -82,25 +82,36 @@ def fig_break_timing(breaks: pd.DataFrame):
 
 
 def fig_wbgt(breaks: pd.DataFrame):
+    """Two reference lines: FIFA's former MANDATORY trigger (>=32C) and
+    FIFPRO's guidance level (>=28C). They are different policies and the
+    report must not conflate them."""
     wbgt = breaks["wbgt"].dropna()
-    n_above = int((wbgt > 28).sum())
-    fig, ax = plt.subplots(figsize=(9, 4.2))
+    n32 = int((wbgt >= 32).sum())
+    n28 = int((wbgt >= 28).sum())
+    fig, ax = plt.subplots(figsize=(9.5, 4.4))
     bins = [b / 2 for b in range(34, 78)]  # 17.0 .. 38.5 in 0.5 steps
     counts, _, _ = ax.hist(wbgt, bins=bins, color=BLUE, edgecolor=SURFACE, linewidth=0.8)
-    ax.set_ylim(0, counts.max() * 1.32)
-    ax.axvline(28, color=CRITICAL, linewidth=1.6)
-    ax.text(28.2, counts.max() * 1.27,
-            f"FIFPRO 28°C threshold — {n_above} of {len(wbgt)} breaks above",
-            color=CRITICAL, fontsize=9.5, va="top")
+    top = counts.max()
+    ax.set_ylim(0, top * 1.42)
+
+    ax.axvline(28, color=MUTED, linewidth=1.4, linestyle=(0, (4, 3)))
+    ax.text(27.7, top * 1.36, f"FIFPRO guidance 28°C\n{n28} of {len(wbgt)} breaks at/above",
+            color=INK2, fontsize=9, va="top", ha="right")
+
+    ax.axvline(32, color=CRITICAL, linewidth=1.8)
+    ax.text(32.3, top * 1.36,
+            f"FIFA's former MANDATORY trigger 32°C\nonly {n32} of {len(wbgt)} breaks at/above",
+            color=CRITICAL, fontsize=9, va="top")
+
     ax.set_xlabel("estimated WBGT at break (°C)")
     ax.set_ylabel("breaks")
     ax.grid(axis="x", visible=False)
     ax.tick_params(length=0)
-    ax.set_title("Under the old heat-triggered rule, most 2026 breaks would not have happened",
+    ax.set_title("Four in five breaks happened below FIFA's own former mandatory threshold",
                  color=INK, fontsize=13, fontweight="bold", loc="left", pad=24)
     ax.text(0, 1.045, "Estimated wet-bulb globe temperature at each of the 203 breaks. "
-            f"Median {wbgt.median():.1f}°C.",
-            transform=ax.transAxes, fontsize=10, color=INK2)
+            f"Median {wbgt.median():.1f}°C. FIFA and FIFPRO thresholds differ — see report §2.",
+            transform=ax.transAxes, fontsize=9.5, color=INK2)
     fig.tight_layout()
     fig.savefig(FIGURES / "fig_wbgt.png", dpi=200)
     plt.close(fig)

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "Did hydration breaks change the 2026 World Cup? A reproducible analysis of 203 mandatory breaks"
+message: "If you use this analysis, its data tables or its figures, please cite it."
+type: dataset
+authors:
+  - family-names: Baghestani
+    given-names: Reza
+    alias: rezaba002
+repository-code: "https://github.com/rezaba002/WC2026-HydrationBreakAnalysis"
+abstract: >-
+  An independent, preregistered analysis of the 203 mandatory hydration breaks
+  at the 2026 FIFA World Cup. Using a randomized pseudo-break design on a
+  break-adjusted clock, the study finds no unusually large average change in
+  shot balance after breaks: the apparent post-break shot drought is largely an
+  artifact of counting stopped time as football. Structural changes were
+  measurable instead — substitutions displaced to the restart, a fresh-legs
+  deployment window, and longer matches. A preregistered perception dataset,
+  collected via a stratified random sweep and verified against source, finds
+  public claims attached to only about 8% of breaks while being supported
+  roughly half the time, indicating an availability-sampling effect rather than
+  mistaken observers.
+keywords:
+  - football
+  - soccer
+  - FIFA World Cup 2026
+  - hydration breaks
+  - causal inference
+  - placebo design
+  - sports analytics
+  - reproducible research
+license: MIT
+version: 1.0.0
+date-released: "2026-07-25"

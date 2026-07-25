@@ -49,11 +49,23 @@ All results here use each match's **actual** break minute.
 ![WBGT](../figures/fig_wbgt.png)
 
 The heat context explains why the policy was contested. Estimated wet-bulb globe
-temperature at the breaks ranged from 17.8 °C to 37.2 °C, median 26.1 °C. **Only 87 of
-203 breaks (43%) occurred above the 28 °C FIFPRO threshold** that would have triggered a
-cooling break under the old rules. The majority of 2026's breaks would simply not have
-happened before. This is a policy change, not a weather event — which is precisely why
-its effects are worth measuring.
+temperature at the breaks ranged from 17.8 °C to 37.2 °C, median 26.1 °C.
+
+Two different thresholds matter here, and they belong to two different bodies [3][4].
+FIFA's own protocol made cooling breaks **mandatory at WBGT ≥ 32 °C**, and merely
+requestable between roughly 27 °C and 32 °C. FIFPRO, the players' union, recommends
+breaks from about 26 °C and argues for delaying matches above 28 °C. Against those
+benchmarks:
+
+| threshold | breaks at or above | share |
+|---|---|---|
+| FIFPRO break guidance, 26 °C | 103 | 51% |
+| FIFPRO delay guidance, 28 °C | 87 | 43% |
+| **FIFA former mandatory trigger, 32 °C** | **38** | **19%** |
+
+So **four out of five 2026 breaks happened in conditions where FIFA's own previous rules
+would not have required one at all.** This is a policy change, not a weather event —
+which is precisely why its effects are worth measuring.
 
 ---
 
@@ -99,7 +111,9 @@ breaks kill momentum.
 
 **Remove the three dead minutes and it vanishes.** On the break-adjusted clock the same
 probability is **0.806** against a null of **0.822** — squarely inside the null
-distribution. The entire "momentum kill" was the stopped clock being counted as football.
+distribution. The apparent post-break shot drought was largely the stopped clock being
+counted as football. ("Momentum" in the broader sense — possession, territory, tactical
+control, psychology — is not what this measures; shots are.)
 
 The primary metric agrees. Balance disruption after real breaks was **1.556**, against a
 matched-minute null of **1.641** — real breaks scrambled the game *slightly less* than
@@ -302,7 +316,9 @@ located", not "none exists".*
 
 ## 7. Conclusion
 
-**Hydration breaks did not, on average, change who created the next chance.** Measured
+**Hydration breaks did not, on average, produce unusually large changes in shot balance.**
+Once the stoppage itself was removed from the clock, post-break shooting activity looked
+ordinary. Measured
 against thousands of statistically comparable moments where nobody stopped the game, the
 football after a break looks like ordinary football. The effect that seems obvious on a
 television clock is an artifact of counting three stopped minutes as play. This holds
@@ -314,15 +330,18 @@ coordinated rather than multiplied. Matches carry roughly six mandated extra min
 top of an already-stretched stoppage environment. And breaks became a scheduled window for
 injecting players who run half again as hard as the ones they replace.
 
-**And the perception was not a delusion — it was a sampling problem.** When people said a
-break changed a match, they were usually right about that match. What they could not see
-was the 95% of breaks that changed nothing, generated no commentary, and left no memory.
-A rule applied 203 times was judged on the handful of occasions when the scoreboard
-happened to move immediately afterward.
+**And the perception was not a delusion — it was a sampling problem.** When people made a
+specific, testable claim, the measured swing supported them roughly half the time, and
+sometimes very strongly. What never entered the conversation was the large majority of
+breaks that generated no public narrative at all — whether or not ordinary football
+volatility produced a swing afterwards. Our own case matrix contains dozens of breaks with
+swings as large as the famous ones and no located commentary. A rule applied 203 times was
+judged on the handful of occasions when the scoreboard happened to move immediately
+afterwards.
 
 That is the honest shape of it:
 
-> The breaks did not consistently decide who created the next chance. They changed how
+> The breaks did not consistently produce unusual swings in shot balance. They changed how
 > coaches managed games, how long matches ran, how broadcasters packaged them — and they
 > handed audiences a vivid, memorable, and deeply unrepresentative sample of evidence
 > about themselves.
@@ -377,3 +396,68 @@ python -m pytest tests -q      # 29 tests
 Sources, commits and SHA-256 hashes: `config/sources.yaml`,
 `data/processed/source_inventory.csv`. Frozen specification: `spec.md`. All amendments:
 `CHANGELOG.md`.
+
+---
+
+## 10. References
+
+**Policy and rules**
+
+[1] FIFA. Hydration-break policy for the 2026 World Cup — three-minute breaks in every
+match, both halves, irrespective of weather. Reported at
+<https://www.espn.com/soccer/story/_/id/48945011/why-there-drinks-breaks-2026-world-cup-fifa-criticised>
+
+[2] IFAB, *Laws of the Game*, Law 7 (The Duration of the Match). Distinguishes a **drinks
+break** (≤ 1 minute) from a **cooling break** (90 seconds to 3 minutes), and requires
+allowance for time lost. <https://www.theifab.com/laws/latest/the-duration-of-the-match/>
+
+[3] FIFA heat protocol: cooling breaks mandatory at WBGT ≥ 32 °C; requestable roughly
+27–32 °C.
+
+[4] FIFPRO heat-stress guidance: breaks recommended from ~26 °C WBGT; match delay advised
+above 28 °C. <https://fifpro.org/en/supporting-players/health-and-performance/extreme-weather-and-climate-change/>
+FIFA–FIFPRO threshold disagreement reported at
+<https://www.espn.com/soccer/story/_/id/49343877/fifa-world-cup-fifpro-temperature-heat-protocol-talks-sources>
+
+**Prior work**
+
+[5] *Do In-Match Hydration Breaks Alter Match Momentum? A Within-Match Case-Crossover
+Analysis of the 2026 FIFA World Cup.* arXiv:2607.19783. <https://arxiv.org/html/2607.19783>
+
+[6] Opta Analyst, *Are World Cup Hydration Breaks Really Killing Momentum?*
+<https://theanalyst.com/articles/world-cup-2026-hydration-breaks-momentum-stats>
+
+**Data sources**
+
+[7] FIFA Post Match Summary Reports (PMSR), fifatrainingcentre.com — shot logs,
+substitutions, per-player physical data, team statistics. Retrieved 2026-07-24; per-file
+hashes in `data/processed/source_inventory.csv`.
+
+[8] StatsBomb Open Data — World Cup 2018 and 2022 events (substitutions, shots, goals,
+period ends). <https://github.com/statsbomb/open-data>
+
+[9] Ddey07/wc2026-hydration-momentum — break timings, treated/control covariates,
+SofaScore-derived momentum summaries. <https://github.com/Ddey07/wc2026-hydration-momentum>
+
+[10] mominullptr/FIFA-World-Cup-2026-Dataset — tournament metadata, venues with
+coordinates, lineups. <https://github.com/mominullptr/FIFA-World-Cup-2026-Dataset>
+
+[11] anup4khandelwal/wc26-analytics — PMSR parser approach (code reference only; no
+numbers used). <https://github.com/anup4khandelwal/wc26-analytics>
+
+**Perception sources**
+
+Full per-claim source URLs, verification status and rejection reasons:
+`data/manual/perception_claims.csv`, `perception_rejections.csv`,
+`perception_sweep_log.csv`. Outlets cited: Opta Analyst, Goal.com, Middle East Eye,
+The Times (secondhand), TNT Sports, England Football.
+
+**Commercial context**
+
+[12] Reporting on hydration-break advertising inventory and World Cup broadcast revenue,
+e.g. <https://fortune.com/2026/03/09/world-cup-hydration-breaks-tv-ads-revenue-fifa-global-viewership/>
+and <https://www.espn.com/soccer/story/_/id/49326566/hydration-breaks-world-cup-soccer-broadcast-rights>
+
+*Note on provider data:* raw provider files (FIFA PMSR PDFs, SofaScore-derived arrays) are
+**not redistributed** in this repository. Only project-generated analytical tables are
+committed. See `LICENSE` and the data-availability note in `README.md`.
