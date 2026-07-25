@@ -18,7 +18,8 @@ artifact.** Measured on the display clock, where the 8-minute post-break window 
 the break and includes the stoppage*, the probability of a shot collapses to 0.658 against
 a ~0.80 baseline. Remove the three dead minutes and it is 0.806 against a null of 0.822:
 ordinary. The apparent post-break shot drought was largely stopped time counted as
-football.
+football. On the primary metric the paired effect is **−0.085 shots, 95% match-clustered
+CI [−0.238, +0.074]** — no detectable difference from comparable ordinary minutes.
 
 **2. Substitutions moved rather than multiplied.** Only 18.7% of second-half substitutions
 fell within ±3 minutes of their own match's break — *below* the minute-matched historical
@@ -27,8 +28,9 @@ minutes after the restart. Coaches waited for the break, then acted.
 
 **3. Public claims were right about half the time — but attached to almost nothing.** A
 stratified random sweep found claims on just **4 of 48 sampled breaks (8.3%, 95% CI
-3.3–19.6%)**. Within verified, testable claims, 8 of 17 were supported. Observers were not
-inventing swings; they were describing a tiny, memorable, unrepresentative slice of them.
+3.3–19.6%)**. Among verified claims, **7 of 13 unique claimed breaks** were supported
+(8 of 17 at claim level). Observers were not inventing swings; they were describing a tiny,
+memorable, unrepresentative slice of them.
 
 ![Real breaks vs 10,000 comparable moments](reports/figures/fig_placebo.png)
 

@@ -108,15 +108,34 @@ def main():
     n_vsup = (vt["status"] == "supported").sum()
     n_unverified = int((~ev["verified"]).sum())
 
+    # Break-level rate: several claims can describe the SAME break (e.g. three
+    # separate outlets on England-DR Congo break 1), which would let heavily
+    # discussed incidents dominate a claim-level rate. Deduplicate to unique
+    # (match, break, claimed beneficiary) — the objective verdict is a property
+    # of the break and direction, not of how many outlets wrote it up.
+    uniq = (vt.groupby(["match_id", "break_number", "claimed_team_helped"])["status"]
+            .agg(lambda s: "supported" if (s == "supported").any() else "not_supported")
+            .reset_index())
+    n_ubreaks = len(uniq)
+    n_usup = int((uniq["status"] == "supported").sum())
+
     lines = [
         "# Perception claims vs objective evidence — Core Output 5",
         "",
         f"Claims collected: {len(claims)} · source-verified: {len(verified_ids)} · "
         f"unverified: {n_unverified}",
         "",
-        f"**HEADLINE (verified claims only): {n_vsup}/{len(vt)} "
-        f"({n_vsup/len(vt):.0%}) supported** — claim direction correct AND swing "
-        f"≥{SUPPORT_PCT:.0f}th percentile of the same match/half's pseudo-break minutes.",
+        f"**HEADLINE — unique claimed breaks (verified): {n_usup}/{n_ubreaks} "
+        f"({n_usup/n_ubreaks:.0%}) supported.** This is the statistically independent "
+        "measure: repeated coverage of one incident counts once.",
+        "",
+        f"Claim-level, for comparison: {n_vsup}/{len(vt)} ({n_vsup/len(vt):.0%}). The two "
+        "differ because heavily covered incidents contribute several rows, which can pull "
+        "the claim-level rate either way — here it pulls it DOWN, since the most-covered "
+        "break (England–DR Congo break 1, three separate claims) is not supported.",
+        "",
+        f"Support = claim direction correct AND swing ≥{SUPPORT_PCT:.0f}th percentile of "
+        "the same match/half's pseudo-break minutes.",
         "",
         f"(All claims incl. unverified: {n_sup}/{len(testable)} "
         f"({n_sup/len(testable):.0%}) — shown for completeness, not for citation.)",
@@ -152,13 +171,14 @@ def main():
         "  claims came from four outlets in one collection pass, with 12 rejections",
         "  logged. Reaching ~40 is realistic.",
         "",
-        "- **The headline is the denominator, not the hit rate.** Claims were made about "
-        f"only **{n_breaks_claimed} of 203 breaks ({n_breaks_claimed/203:.0%})**. Within that "
-        f"tiny, self-selected set the claims are often right ({n_sup}/{len(testable)} "
-        "supported) — which is exactly the mechanism: pundits are not fabricating, they "
-        "are describing real swings drawn from the tail of a distribution, then the "
-        "tournament-wide story is written from that tail. The other ~95% of breaks, "
-        "where nothing happened, generated no commentary and no memory.",
+        "- **The headline is the denominator, not the hit rate.** The stratified random "
+        "sweep put public claims on **4 of 48 sampled breaks (8.3%, 95% CI 3.3-19.6%)**; "
+        f"across all collection this file holds claims on {n_breaks_claimed} of 203 "
+        "breaks. Within that small, self-selected set the claims are supported about half "
+        "the time — pundits are not fabricating, they are describing real swings drawn "
+        "from the tail of a distribution, and the tournament-wide story is then written "
+        "from that tail. The large majority of breaks generated no public narrative at "
+        "all, whether or not ordinary volatility produced a swing afterwards.",
         "",
         "- Claims cluster on a single narrative: the break rescued the favourite from",
         "  an underdog's spell (Germany-Curacao, Brazil-Morocco, Austria-Jordan,",
@@ -166,16 +186,17 @@ def main():
         "  in nearly every case.",
         "- One claim (PC-010) concerns match 44, our documented exclusion — a public",
         "  claim exists about a match no dataset we hold can adjudicate.",
-        "- Verification status is `fetch_extracted` for every row: quotes were pulled",
-        "  by automated page-fetch, NOT read manually. **Manual verbatim confirmation",
-        "  against each source URL is required before publication.**",
+        f"- Verification: all {len(claims)} claims were re-read against their source URLs",
+        f"  on 2026-07-25. {len(verified_ids)} were confirmed; {n_unverified} could not be",
+        "  and are excluded from every figure above (PC-020, PC-021, PC-022).",
         "",
         "## Caveats",
-        "- Pilot n is small; percentages are indicative, not final.",
+        "- n is small; percentages are indicative, not final.",
         "- The support rule uses shot differential (per CHANGELOG A2, no per-shot xG).",
         "  Several claims cite xG or touches; those are not the coded outcome.",
-        "- Two matches carry claims from two independent outlets (PC-002/PC-007,",
-        "  PC-004/PC-009). Kept separate deliberately: the unit is the claim.",
+        "- Several breaks carry claims from multiple independent outlets. Rows are kept",
+        "  separate (the collection unit is the claim), which is exactly why the headline",
+        "  above is the deduplicated BREAK-level rate.",
     ]
     (TABLES / "perception.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines))

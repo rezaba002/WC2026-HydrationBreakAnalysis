@@ -122,10 +122,26 @@ distribution. The apparent post-break shot drought was largely the stopped clock
 counted as football. ("Momentum" in the broader sense — possession, territory, tactical
 control, psychology — is not what this measures; shots are.)
 
-The primary metric agrees. Balance disruption after real breaks was **1.556**, against a
-matched-minute null of **1.641** — real breaks scrambled the game *slightly less* than
-ordinary moments did. Under placement matching (controls restricted to ±5 minutes of each
-break's own minute) the gap widens in the same direction: **1.456 versus 1.649**.
+The primary metric agrees. The cleanest way to state it is the **paired effect**: for each
+break, its observed disruption minus the mean disruption across that break's *own* matched
+control minutes, averaged and bootstrapped by match.
+
+> **Effect: −0.085 shots, 95% match-clustered CI [−0.238, +0.074]** (196 breaks,
+> 102 matches).
+
+**That interval includes zero.** The point estimate is negative — real breaks were followed
+by marginally less disruption than comparable ordinary minutes — but the difference is not
+distinguishable from no difference once uncertainty is placed around the contrast itself
+and clustered by match. This is deliberately more conservative than the randomization
+percentile, which reflects only the variability of the controls, not the match-to-match
+variability of the real breaks.
+
+Note what the interval still excludes: even its break-unfavourable end is **+0.07 shots**
+of extra disruption — orders of magnitude smaller than the decisive swings described
+publicly. The finding is *no detectable difference*, not *breaks calmed the game*.
+
+The estimate is stable when weakly-matched breaks are dropped (≥3, ≥5, ≥10 control minutes
+per break), so thin matching is not driving it.
 
 **The average competitive effect is null.** This replicates the existing preprint
 (arXiv 2607.19783) by an independent route, and the older momentum-index audit agrees:
@@ -155,6 +171,7 @@ CHANGELOG A5.
 
 | check | result |
 |---|---|
+| Paired effect, ≥3 / ≥5 / ≥10 control minutes | −0.081 / −0.071 / −0.170 — estimate and interval stable |
 | Leave-one-match-out (102 refits) | gap stable in [−0.224, −0.158]; no single match drives it |
 | Drop windows containing a red card | 1.456 vs 1.649 — unchanged |
 | Drop breaks with a goal in the prior 3' | 1.442 vs 1.664 — unchanged |
@@ -273,8 +290,15 @@ Each verified claim was then evaluated **blind to its text**: only the match, th
 and the team said to benefit were read, and the swing was scored against that same
 match-half's own pseudo-break null.
 
-**Eight of seventeen verified testable claims were supported (47%).** The people making
-these claims were right about as often as not — and when right, often dramatically so.
+Several breaks drew claims from more than one outlet, so the statistically independent
+measure deduplicates to unique claimed breaks:
+
+**Seven of thirteen unique claimed breaks were supported (54%)** — claim-level, for
+comparison, is 8 of 17 (47%). The two differ because heavily covered incidents contribute
+several rows; here that pulls the claim-level rate *down*, since the most-covered break
+(England–DR Congo's first, three separate claims) is not supported. Either way: the people
+making these claims were right about as often as not — and when right, often dramatically
+so.
 
 The bias is not in the claims. It is in the **denominator**, and the random sweep
 measures it directly:

@@ -29,6 +29,31 @@ construction. Here the SAME screen is applied to real breaks.
 | signed shot diff — symmetric screen + placement matched | 155 | +0.290 | -0.158 | [-0.252, -0.065] | 0.000 |
 | balance disruption — symmetric screen + placement matched | 155 | +1.439 | +1.649 | [+1.568, +1.729] | 1.000 |
 
+## 1c. THE HEADLINE EFFECT, with a match-clustered interval
+
+Per break: (observed outcome − mean outcome across that break's OWN matched
+control minutes). Those differences are averaged and bootstrapped by match, so
+the interval sits around the effect itself rather than around two separate
+means. Primary metric (balance disruption). The preregistered Test A row is the
+headline; the indented rows raise the minimum control count; the last row is the
+placement-matched bias check.
+
+| variant | breaks | matches | median controls | paired effect | 95% CI (match-clustered) |
+|---|---|---|---|---|---|
+| preregistered Test A | 196 | 102 | 13 | -0.085 | [-0.238, +0.074] |
+|   └ min 3 controls | 193 | 102 | 13 | -0.081 | [-0.237, +0.082] |
+|   └ min 5 controls | 185 | 101 | 14 | -0.071 | [-0.230, +0.087] |
+|   └ min 10 controls | 143 | 91 | 17 | -0.170 | [-0.368, +0.035] |
+| placement matched ±5' | 158 | 99 | 2 | -0.193 | [-0.452, +0.056] |
+
+**Headline effect: -0.085, 95% match-clustered CI [-0.238, +0.074].**
+
+**This interval includes zero.** The point estimate is negative — real breaks were followed by slightly *less* disruption than their own matched control minutes — but once the uncertainty is placed around the CONTRAST and clustered by match, the difference is not distinguishable from no difference. The randomization percentile reported in §1 is more confident than this because it reflects only the draw-to-draw variability of the controls, not the match-to-match variability of the real breaks. **The clustered interval is the honest one, and the report leads with it.** Note what it still rules out: the break-unfavourable end of the interval is only +0.07 shots of extra disruption — orders of magnitude smaller than the decisive swings described publicly. The finding is 'no detectable difference', not 'breaks calmed the game'.
+
+**Support sensitivity.** A break with only one eligible control minute supplies the same control in every draw. Requiring ≥3, ≥5 and ≥10 controls drops the weakly-supported breaks; the estimate and interval are stable across all thresholds, so thin matching is not driving the result.
+
+**Note on the placement-matched variant.** Restricting controls to ±5' of each break's own minute leaves a median of 2 candidates (max 2), because the eligible window is already narrowed by score state and event exclusions. It is retained as a bias check (§1) but is too thinly supported to carry the headline, and a support sensitivity cannot be run on it at all.
+
 ## 2. Subgroups (primary metric: balance disruption, placement matched)
 
 | subgroup | n | observed | null | null 95% | pct |

@@ -2,7 +2,11 @@
 
 Claims collected: 22 · source-verified: 19 · unverified: 3
 
-**HEADLINE (verified claims only): 8/17 (47%) supported** — claim direction correct AND swing ≥80th percentile of the same match/half's pseudo-break minutes.
+**HEADLINE — unique claimed breaks (verified): 7/13 (54%) supported.** This is the statistically independent measure: repeated coverage of one incident counts once.
+
+Claim-level, for comparison: 8/17 (47%). The two differ because heavily covered incidents contribute several rows, which can pull the claim-level rate either way — here it pulls it DOWN, since the most-covered break (England–DR Congo break 1, three separate claims) is not supported.
+
+Support = claim direction correct AND swing ≥80th percentile of the same match/half's pseudo-break minutes.
 
 (All claims incl. unverified: 10/20 (50%) — shown for completeness, not for citation.)
 
@@ -45,7 +49,7 @@ Evaluation was blinded to claim text: only (match, break, team-helped) was read.
   claims came from four outlets in one collection pass, with 12 rejections
   logged. Reaching ~40 is realistic.
 
-- **The headline is the denominator, not the hit rate.** Claims were made about only **15 of 203 breaks (7%)**. Within that tiny, self-selected set the claims are often right (10/20 supported) — which is exactly the mechanism: pundits are not fabricating, they are describing real swings drawn from the tail of a distribution, then the tournament-wide story is written from that tail. The other ~95% of breaks, where nothing happened, generated no commentary and no memory.
+- **The headline is the denominator, not the hit rate.** The stratified random sweep put public claims on **4 of 48 sampled breaks (8.3%, 95% CI 3.3-19.6%)**; across all collection this file holds claims on 15 of 203 breaks. Within that small, self-selected set the claims are supported about half the time — pundits are not fabricating, they are describing real swings drawn from the tail of a distribution, and the tournament-wide story is then written from that tail. The large majority of breaks generated no public narrative at all, whether or not ordinary volatility produced a swing afterwards.
 
 - Claims cluster on a single narrative: the break rescued the favourite from
   an underdog's spell (Germany-Curacao, Brazil-Morocco, Austria-Jordan,
@@ -53,13 +57,14 @@ Evaluation was blinded to claim text: only (match, break, team-helped) was read.
   in nearly every case.
 - One claim (PC-010) concerns match 44, our documented exclusion — a public
   claim exists about a match no dataset we hold can adjudicate.
-- Verification status is `fetch_extracted` for every row: quotes were pulled
-  by automated page-fetch, NOT read manually. **Manual verbatim confirmation
-  against each source URL is required before publication.**
+- Verification: all 22 claims were re-read against their source URLs
+  on 2026-07-25. 19 were confirmed; 3 could not be
+  and are excluded from every figure above (PC-020, PC-021, PC-022).
 
 ## Caveats
-- Pilot n is small; percentages are indicative, not final.
+- n is small; percentages are indicative, not final.
 - The support rule uses shot differential (per CHANGELOG A2, no per-shot xG).
   Several claims cite xG or touches; those are not the coded outcome.
-- Two matches carry claims from two independent outlets (PC-002/PC-007,
-  PC-004/PC-009). Kept separate deliberately: the unit is the claim.
+- Several breaks carry claims from multiple independent outlets. Rows are kept
+  separate (the collection unit is the claim), which is exactly why the headline
+  above is the deduplicated BREAK-level rate.
