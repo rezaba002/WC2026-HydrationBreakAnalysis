@@ -25,6 +25,22 @@ versions (`|Δ shot share|`) are secondary, computed only where both windows
 contain ≥1 shot, with coverage reported. Rationale: share is 0/0-undefined in
 quiet windows; dropping them would rebuild selection-on-activity.
 
+**A5 — Signed/directional placebo outcomes ruled NOT REPORTABLE (2026-07-25,
+after the robustness pass; a limitation, not a spec change).**
+The control pool built by preregistered Test A rules is biased for SIGNED,
+team-oriented contrasts: its unconditional signed mean is −0.13 where an unbiased
+control must sit at ~0 (all unfiltered eligible minutes give +0.04), and it is
+negative in all three score-state buckets, which is impossible if it merely
+tracked game state. Cause: the preregistered goal-proximity screen strips
+disproportionately many home-pressure phases from the CONTROL pool, while real
+breaks sample them at the natural rate. The apparent home-team gain therefore
+does not survive scrutiny despite passing placement matching and symmetric
+screening, and is excluded from the report, video and article. The preregistered
+PRIMARY outcome is absolute (balance disruption) and is unaffected in direction;
+there the bias is conservative. Reviving any directional claim requires first
+rebuilding the control pool to an unconditional signed mean of ~0.
+Full evidence: `reports/tables/robustness.md` §1b and Verdict.
+
 **A4 — Perception collection staged.**
 Pilot of 15–20 claims to assess source availability and coding consistency,
 then continue toward ~40. The frozen inclusion rule and codebook are unchanged.
