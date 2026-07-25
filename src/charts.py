@@ -145,24 +145,27 @@ def fig_placebo():
     ax.axvline(naive, color=CRITICAL, linewidth=2.2, linestyle=(0, (4, 2)))
     ax.axvline(corrected, color=BLUE, linewidth=2.2)
     ymax = ax.get_ylim()[1]
-    ax.text(naive - 0.004, ymax * 0.97, "naive clock:\n\"breaks kill momentum\"",
-            color=CRITICAL, fontsize=9.5, ha="right", va="top")
-    ax.text(corrected + 0.004, ymax * 0.63, "dead time removed:\nback inside the null",
-            color=BLUE, fontsize=9.5, ha="left", va="top", fontweight="bold")
-    ax.set_title("The \"momentum kill\" is three minutes\nof stopped clock",
+    ax.text(naive - 0.004, ymax * 0.97,
+            "display clock:\nwindow starts at the break\nand includes the stoppage",
+            color=CRITICAL, fontsize=9, ha="right", va="top")
+    ax.text(corrected + 0.004, ymax * 0.63,
+            "break-adjusted clock:\ndead time removed —\nback inside the null",
+            color=BLUE, fontsize=9, ha="left", va="top", fontweight="bold")
+    ax.set_title("The apparent shot drought is mostly\nthree minutes of stopped clock",
                  color=INK, fontsize=12, fontweight="bold", loc="left")
-    ax.set_xlabel("P(any shot within 8 min after restart)")
+    ax.set_xlabel("P(any shot in the 8-minute post-break window)")
 
     for ax in axes:
         ax.grid(axis="x", visible=False)
         ax.tick_params(length=0)
     fig.suptitle("Real hydration breaks vs 10,000 moments where nobody stopped the game",
                  x=0.055, y=1.0, ha="left", fontsize=14, fontweight="bold", color=INK)
-    fig.text(0.055, 0.925,
-             "196 breaks, pseudo-breaks matched on half, score state and stage; "
-             "windows exclude the hydration stoppage (break-adjusted clock).",
-             fontsize=10, color=INK2)
-    fig.tight_layout(rect=(0, 0, 1, 0.87))
+    fig.text(0.055, 0.945,
+             "196 breaks; pseudo-breaks matched on half, score state and stage.\n"
+             "Post-break window measured two ways — display clock (starts at the break, "
+             "includes the ~3-min stoppage) vs break-adjusted clock (dead time removed).",
+             fontsize=9.5, color=INK2, va="top", linespacing=1.5)
+    fig.tight_layout(rect=(0, 0, 1, 0.84))
     fig.savefig(FIGURES / "fig_placebo.png", dpi=200)
     plt.close(fig)
 

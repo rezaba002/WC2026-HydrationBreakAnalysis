@@ -104,10 +104,17 @@ because two breaks per match are not two independent observations.
 
 ![Placebo](../figures/fig_placebo.png)
 
-**On the display clock, the breaks look devastating.** The probability of any shot in the
-8 minutes after a restart falls to **0.658**, against a null of ~0.80 — far outside the
-range of ordinary matched minutes. If you stop there, you have a headline: hydration
-breaks kill momentum.
+The outcome is the probability of any shot in the **8-minute post-break window** — and the
+two clocks define that window differently, which is the whole point:
+
+- **Display clock:** the window begins when the break is called, so it *contains* the
+  ~3-minute stoppage. This is what a viewer or an event feed sees.
+- **Break-adjusted clock:** the hydration dead time is removed, so the window holds
+  8 minutes of displayed football.
+
+**On the display clock, the breaks look devastating.** The probability of a shot in that
+window falls to **0.658**, against a null of ~0.80 — far outside the range of ordinary
+matched minutes. If you stop there, you have a headline: hydration breaks kill momentum.
 
 **Remove the three dead minutes and it vanishes.** On the break-adjusted clock the same
 probability is **0.806** against a null of **0.822** — squarely inside the null
@@ -405,16 +412,26 @@ Sources, commits and SHA-256 hashes: `config/sources.yaml`,
 
 **Policy and rules**
 
-[1] FIFA. Hydration-break policy for the 2026 World Cup — three-minute breaks in every
-match, both halves, irrespective of weather. Reported at
+[1] FIFA (primary source). *Players to benefit from hydration breaks at FIFA World Cup
+2026.* States that the referee stops play 22 minutes into each half, that each break lasts
+up to three minutes, that the time is **added back as stoppage time**, and that the breaks
+apply in all matches with no weather or temperature condition attached.
+<https://inside.fifa.com/organisation/news/hydration-breaks-world-cup-2026-player-welfare>
+Contemporary reporting and criticism:
 <https://www.espn.com/soccer/story/_/id/48945011/why-there-drinks-breaks-2026-world-cup-fifa-criticised>
 
 [2] IFAB, *Laws of the Game*, Law 7 (The Duration of the Match). Distinguishes a **drinks
 break** (≤ 1 minute) from a **cooling break** (90 seconds to 3 minutes), and requires
 allowance for time lost. <https://www.theifab.com/laws/latest/the-duration-of-the-match/>
 
-[3] FIFA heat protocol: cooling breaks mandatory at WBGT ≥ 32 °C; requestable roughly
-27–32 °C.
+[3] FIFA heat protocol (pre-2026): cooling breaks mandatory at WBGT ≥ 32 °C, requestable
+roughly 27–32 °C. This project did not obtain FIFA's protocol document directly; the
+threshold is taken from secondary reporting and should be treated as such —
+<https://kestrelinstruments.com/blog/fifas-hydration-break-rule-explained-what-it-means-for-the-2026-world-cup>
+and the FIFA–FIFPRO threshold dispute reported at
+<https://www.espn.com/soccer/story/_/id/49343877/fifa-world-cup-fifpro-temperature-heat-protocol-talks-sources>.
+Anyone citing the 32 °C figure in a publication should verify it against FIFA's own
+medical/competition regulations.
 
 [4] FIFPRO heat-stress guidance: breaks recommended from ~26 °C WBGT; match delay advised
 above 28 °C. <https://fifpro.org/en/supporting-players/health-and-performance/extreme-weather-and-climate-change/>

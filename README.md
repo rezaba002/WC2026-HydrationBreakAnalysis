@@ -1,8 +1,9 @@
 # Did hydration breaks change the 2026 World Cup?
 
-An independent, preregistered analysis of all **203 mandatory hydration breaks** across
-**102 matches** of the 2026 FIFA World Cup — the first tournament to stop every match
-twice regardless of weather.
+An independent, preregistered analysis of **203 recorded mandatory hydration breaks across
+102 matches** of the 2026 FIFA World Cup — the first tournament to stop every match twice
+regardless of weather. (Coverage is 203 of a possible 204 breaks in 102 of 104 matches;
+every exclusion is documented.)
 
 📄 **[Read the report (PDF)](reports/final/WC2026_Hydration_Break_Report.pdf)** ·
 [Markdown version](reports/final/REPORT.md) ·
@@ -13,10 +14,11 @@ twice regardless of weather.
 ## Three findings
 
 **1. The average competitive effect is null — and the obvious counter-evidence is a clock
-artifact.** On the display clock, the probability of a shot in the 8 minutes after a
-restart collapses to 0.658 against a ~0.80 baseline. Remove the three stopped minutes and
-it is 0.806 against a null of 0.822: ordinary. The apparent post-break shot drought was
-largely stopped time being counted as football.
+artifact.** Measured on the display clock, where the 8-minute post-break window *starts at
+the break and includes the stoppage*, the probability of a shot collapses to 0.658 against
+a ~0.80 baseline. Remove the three dead minutes and it is 0.806 against a null of 0.822:
+ordinary. The apparent post-break shot drought was largely stopped time counted as
+football.
 
 **2. Substitutions moved rather than multiplied.** Only 18.7% of second-half substitutions
 fell within ±3 minutes of their own match's break — *below* the minute-matched historical

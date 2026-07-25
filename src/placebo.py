@@ -11,7 +11,12 @@ Outcomes (CHANGELOG A2/A3), each computed on both clocks:
   shot_diff_change        Δ(home−away) shots, signed
   balance_disruption      |Δ(home−away)| — primary, always defined
   sot_diff_change         Δ(home−away) shots on target
-  next_shot_within_W      any shot within W break-adjusted minutes after restart
+  next_shot_within_W      any shot in the W-minute post-break window. NOTE the two
+                          clocks define that window differently: on the DISPLAY clock it
+                          starts at the break call and therefore CONTAINS the ~3-minute
+                          stoppage; on the break-adjusted clock the dead time is removed,
+                          so it starts at the restart. Never describe the display-clock
+                          figure as "after the restart".
 
 Windows 5/8/10 break-adjusted minutes; primary 8. Seed 20260724.
 Uncertainty: match-cluster bootstrap of the observed means.
