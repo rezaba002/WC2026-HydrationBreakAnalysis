@@ -1,0 +1,14 @@
+claim_id,match_id,break_number,claimed_team_helped,observed_change,n_candidates,null_median,percentile,status,note
+PC-001,35,1,Sweden,4.0,7.0,-1.0,100.0,supported,
+PC-002,9,1,Germany,5.0,6.0,-2.0,100.0,supported,
+PC-003,28,2,Switzerland,1.0,12.0,-2.0,100.0,supported,
+PC-004,20,2,Austria,0.0,15.0,1.0,46.7,not_supported,
+PC-005,29,1,Brazil,0.0,,,,indeterminate,no eligible pseudo-break minutes for this match/half
+PC-006,22,1,Croatia,1.0,8.0,2.0,50.0,not_supported,
+PC-007,9,1,Germany,5.0,6.0,-2.0,100.0,supported,
+PC-008,15,2,Uruguay,1.0,13.0,0.0,92.3,supported,
+PC-009,20,2,Austria,0.0,15.0,1.0,46.7,not_supported,
+PC-010,44,2,Algeria,,,,,indeterminate,no break record for this match/half (documented exclusion)
+PC-011,6,1,Brazil,-4.0,,,,not_supported,swing ran against the claimed team; no null needed to refute
+PC-012,80,1,England,0.0,16.0,1.0,37.5,not_supported,
+PC-013,80,2,England,4.0,11.0,-3.0,100.0,supported,

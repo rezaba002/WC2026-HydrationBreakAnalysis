@@ -93,4 +93,23 @@ cases are remembered and the dozens of uneventful breaks are not.
 
 ## 7. Dated clarifications (append-only)
 
-*(none yet)*
+**2026-07-25 — pilot run (13 claims). Three schema/process clarifications. None
+alter the inclusion rule or the coding rule; both were frozen before collection.**
+
+1. **`source_tier` column added** to both CSVs, recording the §2 tier (A–D)
+   explicitly rather than leaving it implicit in `source_name`. Auditability only.
+2. **New `verification_status` value: `fetch_extracted`.** Pilot quotes were
+   pulled by automated page-fetch, not read manually by a human. This is weaker
+   than `verbatim_confirmed` and is tracked as such. **Every pilot row must be
+   manually confirmed against its source URL before any publication.**
+3. **Direction alone may refute.** §5's rule has two conditions (correct
+   direction AND ≥80th percentile). Where the observed swing runs *against* the
+   claimed beneficiary, condition (a) fails, so the claim is `not_supported`
+   even if no pseudo-break null could be built for that match/half. Only a
+   missing or untestable *observation* yields `indeterminate`. This is a
+   clarification of the existing rule, not a change to it.
+
+**Pilot outcome note (for method transparency, not a rule change):** claims were
+found for 11 of 203 breaks (5%). The low denominator — not the within-claim hit
+rate — is the availability-bias finding. Full collection should therefore keep
+recording rejections and coverage, so the denominator stays visible.
