@@ -6,3 +6,6 @@ logs/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# PDF build intermediate (figures base64-inlined); the PDF itself is committed
+reports/final/REPORT.html
