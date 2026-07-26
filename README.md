@@ -21,6 +21,12 @@ ordinary. The apparent post-break shot drought was largely stopped time counted 
 football. On the primary metric the paired effect is **−0.085 shots, 95% match-clustered
 CI [−0.238, +0.074]** — no detectable difference from comparable ordinary minutes.
 
+And the directional version, which is what people actually claim: a team that had been
+dominating gives back **~1 shot of advantage** after a break — and gives back the same
+after uninterrupted spells of identical dominance (difference −0.01 to −0.10, all
+intervals spanning zero). The collapse fans remember is real; it is what dominance
+normally does.
+
 **2. Substitutions moved rather than multiplied.** Only 18.7% of second-half substitutions
 fell within ±3 minutes of their own match's break — *below* the minute-matched historical
 rate. But there is a deficit in the 3 minutes before the stoppage and a surplus in the 3
@@ -42,14 +48,15 @@ memorable, unrepresentative slice of them.
 |---|---|---|---|
 | 1 | Source audit & master tables | ✅ | [source_inventory.csv](data/processed/source_inventory.csv), [audit_claims.md](reports/tables/audit_claims.md) |
 | 2 | Independent shot/xG layer | ✅ | 2,554 shots, 1,914 subs, 3,073 physical rows from FIFA PMSRs |
-| 3 | Dual-clock randomized placebo | ✅ | [placebo_results.md](reports/tables/placebo_results.md) · [robustness.md](reports/tables/robustness.md) |
+| 3 | Dual-clock randomized placebo (Test A) | ✅ | [placebo_results.md](reports/tables/placebo_results.md) · [robustness.md](reports/tables/robustness.md) |
+| 3b | State-matched directional test (Test B) | ✅ | [test_b.md](reports/tables/test_b.md) |
 | 4 | Substitution timing vs 2018/2022 | ✅ | [subs_timing.md](reports/tables/subs_timing.md) |
 | 5 | Preregistered perception dataset | ✅ | [perception.md](reports/tables/perception.md) · [codebook](docs/perception_codebook.md) |
 | 6 | Added time & duration | ✅ | [added_time.md](reports/tables/added_time.md) |
 | 7 | Case studies (2×2 selection) | ✅ | [case_studies.md](reports/tables/case_studies.md) |
 | + | Fresh-legs deployment · late-game proxy | ✅ | [physical_freshlegs.md](reports/tables/physical_freshlegs.md) · [late_game.md](reports/tables/late_game.md) |
 
-Eight figures in [reports/figures/](reports/figures/).
+Twelve figures in [reports/figures/](reports/figures/).
 
 ## Why you might trust it
 
@@ -57,7 +64,7 @@ Eight figures in [reports/figures/](reports/figures/).
 - A strong, robustness-passing directional result was **found and then deleted** once its control pool proved biased (CHANGELOG A5).
 - The perception sample was drawn **at random and pre-specified**, not chosen from famous matches — and null results are logged.
 - Every quote was **re-read against its source**; three failed and are excluded from all figures.
-- 29 tests validate IDs, break uniqueness, clock arithmetic and table consistency.
+- 38 tests validate IDs, break uniqueness, clock arithmetic, control-pool integrity and table consistency.
 
 ## Reproduce
 
@@ -81,6 +88,8 @@ python -m src.subs              # Core Output 4
 python -m src.perception        # Core Output 5
 python -m src.added_time        # Core Output 6
 python -m src.case_studies      # Core Output 7
+python -m src.test_b            # Test B: state-matched directional (spec 5)
+python -m src.break_window      # clock-artefact analysis (exploratory, E1)
 python -m src.break_window      # clock-artefact analysis (exploratory, E1)
 python -m src.physical          # fresh-legs deployment
 python -m src.late_game         # late-game proxy
@@ -104,9 +113,11 @@ full scope note.
 ## Limitations
 
 Per-shot xG does not exist in any independently auditable source, so outcomes are
-shot-based. Directional (team-oriented) results are **not reportable** — the control pool
-is biased for signed contrasts. Exact 2026 added time is unavailable, so only a lower bound
-is given. No physiological claim is made anywhere: public event data cannot support one.
+shot-based. **Home/away-oriented** results are not reportable — the control pool is biased
+for that particular signed contrast (CHANGELOG A5); the directional Test B avoids it by
+orienting on pre-window dominance instead, symmetrically in both arms, with the control
+composition standardised. Test B is descriptive by design, not causal. Exact 2026 added
+time is unavailable, so only a lower bound is given. No physiological claim is made anywhere: public event data cannot support one.
 Perception collection covers 24 of 104 matches by random sweep plus a topical pass. Full
 list in [report §8](reports/final/REPORT.md).
 

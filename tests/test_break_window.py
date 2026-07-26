@@ -1,4 +1,4 @@
-﻿"""Regression tests for the exploratory clock-artefact analysis (CHANGELOG E1).
+"""Regression tests for the exploratory clock-artefact analysis (CHANGELOG E1).
 
 The positional-indexing defect that mapped control pools to breaks by a modulo
 expression was correct only by accident (it relied on len(pools) == len(df)).

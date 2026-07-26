@@ -169,6 +169,43 @@ two different control strategies — the same null. That agreement is worth more
 result alone. Full working and caveats:
 [`reports/tables/provisional_null.md`](../tables/provisional_null.md).
 
+### But that measures the match calming down — not momentum changing hands
+
+Everything above measures **total** activity. Total activity can stay flat while
+momentum switches sides completely: if a team creating five shots to nil before the
+break creates one to four after it, the total is unchanged and the advantage has been
+wiped out. The public claim — *"we were all over them and the break killed it"* — is
+directional, so it needs a directional test. The frozen specification reserved one
+(Test B, spec §5): match on **pre-break dominance** and ask what normally happens after
+a comparable spell.
+
+For each break we fix the attacking side from the pre-window alone (shots on target,
+ties on total shots), freeze that identity, and measure how much of its advantage
+survives. Controls are ordinary minutes in the same match and half, same score state,
+whose **own pre-window advantage equals the break's**. That matching is essential:
+teams that have just been dominating regress to the mean whether or not anyone stops
+the game, so an unmatched comparison would manufacture an effect from nothing.
+
+| window | attacking side's swing, real breaks | swing after comparable uninterrupted spells | **difference** | 95% CI |
+|---|---|---|---|---|
+| 5 min | −1.04 | −1.03 | **−0.01** | [−0.41, +0.37] |
+| 8 min | −1.17 | −1.06 | **−0.10** | [−0.58, +0.30] |
+| 10 min | −1.31 | −1.28 | **−0.04** | [−0.57, +0.36] |
+
+**The phenomenon people describe is real — it just isn't caused by the break.** A team
+that has been dominating gives back roughly a full shot of advantage within minutes.
+That happens after hydration breaks, and it happens just as much after uninterrupted
+spells of identical dominance. The break contributes essentially nothing.
+
+Momentum changed hands (the attacking side ended up behind on shots) after **23–30%**
+of breaks, against **31–36%** of comparable ordinary spells — if anything slightly less
+often, though every interval spans zero. Shots-on-target swings show the same null.
+
+This is the answer to the strongest version of the criticism, and it is more
+interesting than the flat-total result: the collapse fans remember genuinely occurs,
+and it is what dominance normally does. Full working, exclusions and the
+orientation-bias diagnostic: [`reports/tables/test_b.md`](../tables/test_b.md).
+
 ### A result we deleted
 
 The analysis initially produced a strong directional finding: home teams gained shot
