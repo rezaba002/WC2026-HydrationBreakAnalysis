@@ -9,6 +9,16 @@ import pandas as pd
 import pytest
 
 from src import break_window as bw
+from src.util import FIFA
+
+# These tests need the tournament metadata (match_events.csv, teams.csv), which
+# lives in external/ and is deliberately NOT committed (see LICENSE). CI fetches
+# it; anywhere it is absent the module skips instead of erroring.
+pytestmark = pytest.mark.skipif(
+    not (FIFA / "match_events.csv").exists(),
+    reason="requires external/FIFA-World-Cup-2026-Dataset (not redistributed; "
+           "run scripts/fetch_external.sh or see config/sources.yaml)",
+)
 
 
 @pytest.fixture(scope="module")

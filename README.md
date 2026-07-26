@@ -64,6 +64,11 @@ Eight figures in [reports/figures/](reports/figures/).
 ```bash
 pip install -r requirements.txt
 
+# Fetch the inputs this repo reads but does not redistribute (see LICENSE).
+# --metadata-only is enough to run the full test suite; omit it to regenerate
+# the analysis end to end.
+bash scripts/fetch_external.sh
+
 python -m src.audit             # source inventory + hashes
 python -m src.build_tables      # matches / breaks / venues / exclusions / coverage
 python -m src.clocks            # break-adjusted clock bands
@@ -76,6 +81,7 @@ python -m src.subs              # Core Output 4
 python -m src.perception        # Core Output 5
 python -m src.added_time        # Core Output 6
 python -m src.case_studies      # Core Output 7
+python -m src.break_window      # clock-artefact analysis (exploratory, E1)
 python -m src.physical          # fresh-legs deployment
 python -m src.late_game         # late-game proxy
 python -m src.charts            # figures

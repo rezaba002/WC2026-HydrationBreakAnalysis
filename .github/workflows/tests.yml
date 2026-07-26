@@ -22,7 +22,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # The suite validates the committed analytical tables in data/processed/,
-      # so it runs without any external data download.
+      # Most tests validate the committed tables in data/processed/ and need
+      # nothing external. The clock-artefact regression tests additionally need
+      # tournament metadata (match_events.csv, teams.csv), which is NOT
+      # committed — provider data is not redistributed from this repository.
+      # Fetch just those two CSVs from the public upstream dataset so those
+      # tests actually run in CI. If this step fails the suite still passes;
+      # the affected module skips itself rather than erroring.
+      - name: Fetch external tournament metadata (public, not redistributed here)
+        continue-on-error: true
+        run: bash scripts/fetch_external.sh --metadata-only
+
+      - name: Report which optional data is present
+        run: |
+          test -f external/FIFA-World-Cup-2026-Dataset/match_events.csv \
+            && echo "external metadata present - clock-artefact tests will run" \
+            || echo "external metadata absent - those tests will skip"
+
       - name: Run tests
-        run: python -m pytest tests -q
+        run: python -m pytest tests -q -rs
