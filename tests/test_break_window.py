@@ -32,20 +32,40 @@ def support(built):
     return bw.common_support(built[0], built[1])
 
 
-def test_common_support_requires_window_validity_AND_a_real_control(built, support):
-    """The 7 breaks with no eligible control must be excluded, not given a
-    fabricated zero-valued one. This is why the sample is 196, matching the
-    preregistered placebo, rather than 203."""
+def test_no_control_window_overlaps_a_real_break(built):
+    """The contamination guard. Anchor-only exclusion let 47% of controls at the
+    primary window contain the actual hydration break, biasing every contrast
+    toward the null. Controls must have their WHOLE span clear of the band."""
     bands, cache, _ = built
-    assert len(support) == 196
+    for w in bw.WINDOWS:
+        for _, b in bands.iterrows():
+            m = cache[int(b["match_id"])]
+            bs = b["start_minute"]
+            be = bs + b["duration_min"]
+            for c in m.eligible_minutes(b["half"], m.margin_bucket(bs), window=w):
+                assert not (c - w < be and c + w > bs), (
+                    f"control window [{c - w},{c + w}) overlaps break [{bs},{be})")
+
+
+def test_common_support_requires_window_validity_AND_a_real_control(built, support):
+    """Breaks with no eligible control must be EXCLUDED, never handed a
+    fabricated zero-valued one. The expectation is derived from the same rule
+    rather than hardcoded: the contamination fix legitimately changed the count,
+    and a hardcoded number would have masked that instead of surfacing it."""
+    bands, cache, _ = built
+    wmax = max(bw.WINDOWS)
+    expected = set()
     for _, b in bands.iterrows():
         lo, hi = bw.HALF[b["half"]]
-        key = (int(b["match_id"]), int(b["break_number"]))
         m = cache[int(b["match_id"])]
-        has_ctrl = bool(m.eligible_minutes(b["half"], m.margin_bucket(b["start_minute"])))
-        window_ok = (b["start_minute"] - max(bw.WINDOWS) >= lo - 1
-                     and b["start_minute"] + b["duration_min"] + max(bw.WINDOWS) <= hi)
-        assert (key in support) == (window_ok and has_ctrl)
+        window_ok = (b["start_minute"] - wmax >= lo - 1
+                     and b["start_minute"] + b["duration_min"] + wmax <= hi)
+        has_ctrl = bool(m.eligible_minutes(
+            b["half"], m.margin_bucket(b["start_minute"]), window=wmax))
+        if window_ok and has_ctrl:
+            expected.add((int(b["match_id"]), int(b["break_number"])))
+    assert support == expected
+    assert 0 < len(support) <= len(bands)
 
 
 def test_results_reproducible_with_frozen_seed(built, support):

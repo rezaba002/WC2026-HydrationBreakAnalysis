@@ -10,9 +10,11 @@ The attacking side is fixed from the PRE-window only (shots on target, ties on t
 
 | w | breaks | matches | mean pre-break advantage | swing (real) | swing (matched spells) | **D** | 95% CI |
 |---|---|---|---|---|---|---|---|
-| 5 | 94 | 70 | +1.26 | -1.043 | -1.023 | **-0.020** | [-0.372, +0.327] |
-| 8 | 91 | 76 | +1.37 | -1.165 | -1.028 | **-0.136** | [-0.538, +0.263] |
-| 10 | 90 | 72 | +1.66 | -1.311 | -1.214 | **-0.097** | [-0.550, +0.333] |
+| 5 | 88 | 67 | +1.25 | -1.091 | -0.955 | **-0.136** | [-0.501, +0.247] |
+| 8 | 63 | 55 | +1.30 | -1.032 | -0.781 | **-0.251** | [-0.775, +0.235] |
+| 10 | 33 | 30 | +1.70 | -1.121 | -1.379 | **+0.258** | [-0.558, +1.034] |
+
+**Coverage warning.** Requiring controls whose whole window clears the real break (the contamination fix) cut this sample hard: 88 / 63 / 33 breaks at 5 / 8 / 10 minutes, against 94 / 91 / 90 before. At w=10 only ~30 matches remain and the interval is correspondingly wide — that row should be read as underpowered rather than as an independent confirmation.
 
 Note how large the *unadjusted* swings are in BOTH columns: teams that have just been dominating give most of that edge back within minutes, break or no break. That is regression to the mean, and it is exactly what an unmatched analysis would have mistaken for a break effect.
 
@@ -22,9 +24,9 @@ Note how large the *unadjusted* swings are in BOTH columns: teams that have just
 
 | w | SOT swing D | 95% CI | reversal rate (real) | reversal (matched) | **D** | 95% CI |
 |---|---|---|---|---|---|---|
-| 5 | +0.041 | [-0.157, +0.234] | 23.4% | 29.2% | **-5.8%** | [-15.9%, +4.9%] |
-| 8 | +0.054 | [-0.209, +0.312] | 29.7% | 28.8% | **+0.9%** | [-11.0%, +12.7%] |
-| 10 | -0.100 | [-0.344, +0.148] | 30.0% | 31.5% | **-1.5%** | [-14.3%, +10.7%] |
+| 5 | -0.040 | [-0.252, +0.184] | 23.9% | 27.9% | **-4.1%** | [-15.0%, +7.0%] |
+| 8 | +0.054 | [-0.280, +0.361] | 27.0% | 26.5% | **+0.5%** | [-13.4%, +14.9%] |
+| 10 | -0.081 | [-0.561, +0.387] | 18.2% | 35.9% | **-17.7%** | [-38.2%, +3.8%] |
 
 `reversal` = the previously attacking team is behind on shots in the post window — momentum has changed hands.
 
@@ -32,9 +34,9 @@ Note how large the *unadjusted* swings are in BOTH columns: teams that have just
 
 | w | analysed | directionally ambiguous | no state-matched control | median controls |
 |---|---|---|---|---|
-| 5 | 94 | 76 | 33 | 4 |
-| 8 | 91 | 69 | 43 | 4 |
-| 10 | 90 | 71 | 42 | 3 |
+| 5 | 88 | 76 | 39 | 4 |
+| 8 | 63 | 69 | 71 | 3 |
+| 10 | 33 | 71 | 99 | 2 |
 
 Ambiguous = neither side led the pre-window on shots on target or total shots (including genuinely quiet pre-windows). Those breaks are counted and excluded; they are never re-oriented using post-break information.
 
@@ -51,9 +53,9 @@ The attacking side is chosen on shots on target first, but the main matching key
 
 | w | breaks (main) | breaks (strict) | D (main) | D (strict) | 95% CI (strict) |
 |---|---|---|---|---|---|
-| 5 | 94 | 70 | -0.020 | +0.185 | [-0.217, +0.611] |
-| 8 | 91 | 64 | -0.136 | -0.193 | [-0.674, +0.297] |
-| 10 | 90 | 69 | -0.097 | -0.009 | [-0.504, +0.481] |
+| 5 | 88 | 63 | -0.136 | +0.115 | [-0.302, +0.566] |
+| 8 | 63 | 39 | -0.251 | -0.308 | [-0.884, +0.263] |
+| 10 | 33 | 19 | +0.258 | -0.004 | [-1.118, +1.035] |
 
 ### A5 diagnostic — attacker home vs away (orientation-stratified)
 
@@ -61,9 +63,9 @@ Each break is compared with ONLY its same-orientation controls (home-attacking b
 
 | w | D, attacker home | D, attacker away | gap | breaks (home / away) |
 |---|---|---|---|---|
-| 5 | +0.015 | -0.140 | +0.155 | 40 / 33 |
-| 8 | -0.283 | -0.078 | -0.206 | 39 / 31 |
-| 10 | -0.098 | -0.115 | +0.017 | 45 / 29 |
+| 5 | -0.125 | -0.190 | +0.065 | 36 / 28 |
+| 8 | -1.059 | -0.135 | -0.924 | 26 / 19 |
+| 10 | -1.104 | -0.685 | -0.419 | 12 / 9 |
 
 The gap is small and **changes sign across windows**, which is what noise looks like rather than a systematic orientation bias. An earlier, candidate-weighted version of this table showed a large and consistently positive gap (+0.63 / +0.43 / +0.58); that was an artefact of the weighting defect described above, and it disappeared once every break was given equal weight against its own same-orientation controls.
 

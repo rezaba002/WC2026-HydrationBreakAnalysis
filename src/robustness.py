@@ -48,7 +48,15 @@ def prepare():
 
 def candidates(m: MatchData, half: str, bucket: int, ref_minute: float,
                placement_matched: bool) -> list[int]:
-    c = m.eligible_minutes(half, bucket)
+    """Eligible control anchors.
+
+    NOTE placement matching is now largely INCOMPATIBLE with contamination-free
+    controls. Controls must have their whole [c-w, c+w) span clear of the real
+    break; requiring the anchor to sit within PLACEMENT_TOL minutes of that same
+    break leaves almost nothing. Reported as a coverage failure rather than
+    silently producing a tiny, odd sample.
+    """
+    c = m.eligible_minutes(half, bucket, window=WINDOW)
     if placement_matched:
         c = [x for x in c if abs(x - ref_minute) <= PLACEMENT_TOL]
     return c
@@ -300,15 +308,15 @@ def main():
         "## 4. Leave-one-match-out (primary metric, placement matched)",
         "",
     ]
-    base = run_variant(bands, cache, "balance_disruption", placement_matched=True)
+    base = run_variant(bands, cache, "balance_disruption")
     mids = sorted(bands["match_id"].unique())
     loo = []
     for mid in mids:
-        r = run_variant(bands, cache, "balance_disruption", placement_matched=True,
+        r = run_variant(bands, cache, "balance_disruption",
                         drop_matches={int(mid)})
         if r.get("n"):
             loo.append(r["observed"] - r["null"])
-    base_gap = base["observed"] - base["null"]
+    base_gap = base["observed"] - base["null"] if base.get("n") else float("nan")
     lines += [
         f"Full sample gap (observed − null): **{base_gap:+.3f}**.",
         f"Leave-one-match-out range: **[{min(loo):+.3f}, {max(loo):+.3f}]** "

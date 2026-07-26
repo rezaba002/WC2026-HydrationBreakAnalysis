@@ -93,7 +93,7 @@ def common_support(bands, cache) -> set[tuple[int, int]]:
         if not (call - wmax >= lo - 1 and call + dur + wmax <= hi):
             continue
         m = cache[int(b["match_id"])]
-        if not m.eligible_minutes(b["half"], m.margin_bucket(call)):
+        if not m.eligible_minutes(b["half"], m.margin_bucket(call), window=max(WINDOWS)):
             continue
         keep.add((int(b["match_id"]), int(b["break_number"])))
     return keep
@@ -129,7 +129,7 @@ def analyse(bands, cache, per_min, support=None, measured_only=False):
                 "C1": r_res1 - r_pre,
                 "pred": -r_pre * dead_share,
             })
-            cands = m.eligible_minutes(b["half"], m.margin_bucket(call))
+            cands = m.eligible_minutes(b["half"], m.margin_bucket(call), window=w)
             assert cands, "common_support must exclude breaks with no eligible control"
             ctrl_by_break[key] = [
                 (rate(per_min, mid, c, w) - rate(per_min, mid, c - w, w),
@@ -148,48 +148,50 @@ def analyse(bands, cache, per_min, support=None, measured_only=False):
         N_arr, C_arr, C1_arr = (df["N"].to_numpy(), df["C"].to_numpy(),
                                 df["C1"].to_numpy())
 
-        # One match-clustered bootstrap producing BOTH contrasts, redrawing the
-        # matched control minute inside every iteration:
+        # EQUAL WEIGHT PER BREAK — same correction already applied in test_b.py.
+        # Flattening every candidate into one pooled mean would let a break with
+        # 15 eligible controls carry 15x the control weight while counting once
+        # on the real side, so the point estimate and the bootstrap interval
+        # would describe different estimands.
+        ctrl_per_break = np.array([np.mean([a for a, _ in v]) for v in pools])
+        syn_per_break = np.array([np.mean([s for _, s in v]) for v in pools])
+
+        # One match-clustered bootstrap of the SAME paired quantities the point
+        # estimates use:
         #   D = (post-resumption - pre)  -  (control post - control pre)
         #   A = (from-call change)       -  (synthetic-stoppage change)
         boot_D, boot_A, boot_synth, boot_N, boot_D1 = (
             np.empty(N_BOOT), np.empty(N_BOOT), np.empty(N_BOOT), np.empty(N_BOOT),
             np.empty(N_BOOT))
+        d_D, d_D1, d_A = (C_arr - ctrl_per_break, C1_arr - ctrl_per_break,
+                          N_arr - syn_per_break)
         for i in range(N_BOOT):
             pick = rng.integers(0, len(mids), len(mids))
             idxs = [j for p in pick for j in by_match[mids[p]]]
-            ctrl_vals, synth_vals = [], []
-            for j in idxs:
-                pool = pools[j]
-                a, s = pool[rng.integers(0, len(pool))]
-                ctrl_vals.append(a)
-                synth_vals.append(s)
-            boot_D[i] = C_arr[idxs].mean() - np.mean(ctrl_vals)
-            boot_D1[i] = C1_arr[idxs].mean() - np.mean(ctrl_vals)
-            boot_A[i] = N_arr[idxs].mean() - np.mean(synth_vals)
-            boot_synth[i] = np.mean(synth_vals)
+            boot_D[i] = d_D[idxs].mean()
+            boot_D1[i] = d_D1[idxs].mean()
+            boot_A[i] = d_A[idxs].mean()
+            boot_synth[i] = syn_per_break[idxs].mean()
             boot_N[i] = N_arr[idxs].mean()
 
-        flat_ctrl = [a for v in pools for a, _ in v]
-        flat_syn = [s for v in pools for _, s in v]
         rows.append({
             "w": w, "n_breaks": len(df), "n_matches": df["match_id"].nunique(),
             "pre": df["pre"].mean(),
             "N": df["N"].mean(), "pred": df["pred"].mean(),
-            "C": df["C"].mean(), "ctrl": float(np.mean(flat_ctrl)),
-            "D": df["C"].mean() - float(np.mean(flat_ctrl)),
+            "C": df["C"].mean(), "ctrl": float(ctrl_per_break.mean()),
+            "D": float((C_arr - ctrl_per_break).mean()),
             "D_lo": float(np.percentile(boot_D, 2.5)),
             "D_hi": float(np.percentile(boot_D, 97.5)),
-            "synth": float(np.mean(flat_syn)),
+            "synth": float(syn_per_break.mean()),
             "synth_lo": float(np.percentile(boot_synth, 2.5)),
             "synth_hi": float(np.percentile(boot_synth, 97.5)),
-            "A": df["N"].mean() - float(np.mean(flat_syn)),
+            "A": float((N_arr - syn_per_break).mean()),
             "A_lo": float(np.percentile(boot_A, 2.5)),
             "A_hi": float(np.percentile(boot_A, 97.5)),
             "N_lo": float(np.percentile(boot_N, 2.5)),
             "N_hi": float(np.percentile(boot_N, 97.5)),
             "C1": df["C1"].mean(),
-            "D1": df["C1"].mean() - float(np.mean(flat_ctrl)),
+            "D1": float((C1_arr - ctrl_per_break).mean()),
             "D1_lo": float(np.percentile(boot_D1, 2.5)),
             "D1_hi": float(np.percentile(boot_D1, 97.5)),
             "_df": df,
@@ -220,7 +222,7 @@ def event_studies(bands, cache, per_min, support, rel=range(-10, 11)):
                for r in rel]
         res_real.append(row)
         res_by_match[mid].append(len(res_real) - 1)
-        cands = m.eligible_minutes(b["half"], m.margin_bucket(call))
+        cands = m.eligible_minutes(b["half"], m.margin_bucket(call), window=max(rel))
         assert cands, "common_support must exclude breaks with no eligible control"
         res_ctrl.append([[per_min.get((mid, int(c + r)), 0) for r in rel]
                          for c in cands])
@@ -488,6 +490,15 @@ def main():
         "",
         "`N` is what a display-clock window reports. `D` is the estimate that matters:",
         "post-resumption change, differenced against matched ordinary minutes.",
+        "",
+        "**Read D carefully.** After the control-contamination fix, three of the four D",
+        "intervals include zero and the 8-minute interval excludes it only at its lower",
+        "bound (+0.001) — a hair's breadth, across four windows examined, from a bootstrap",
+        "with finite draws. That is not evidence of an effect. Note also its DIRECTION:",
+        "positive D means slightly MORE activity after a break than at clean control",
+        "minutes, the opposite of the 'breaks kill momentum' claim. The defensible",
+        "statement remains that post-resumption activity is close to matched ordinary",
+        "play, with no support for a sustained decline.",
         "",
         "## Validation 1 — synthetic dead time",
         "",

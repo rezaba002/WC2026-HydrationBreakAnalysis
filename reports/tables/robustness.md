@@ -11,10 +11,10 @@ so real and pseudo are compared at the same point of the match.
 
 | variant | n | observed | null | null 95% | pct |
 |---|---|---|---|---|---|
-| signed shot diff — unmatched (main run) | 196 | +0.403 | -0.152 | [-0.403, +0.097] | 0.000 |
-| signed shot diff — PLACEMENT MATCHED | 158 | +0.316 | -0.136 | [-0.228, -0.044] | 0.000 |
-| balance disruption — unmatched | 196 | +1.556 | +1.640 | [+1.480, +1.801] | 0.850 |
-| balance disruption — PLACEMENT MATCHED | 158 | +1.456 | +1.649 | [+1.570, +1.728] | 1.000 |
+| signed shot diff — unmatched (main run) | 183 | +0.393 | -0.102 | [-0.317, +0.115] | 0.000 |
+| signed shot diff — PLACEMENT MATCHED | — | — | — | — | — |
+| balance disruption — unmatched | 183 | +1.585 | +1.658 | [+1.519, +1.803] | 0.855 |
+| balance disruption — PLACEMENT MATCHED | — | — | — | — | — |
 
 ### 1b. Symmetric event screening (the asymmetry the diagnostic exposed)
 
@@ -25,9 +25,9 @@ construction. Here the SAME screen is applied to real breaks.
 
 | variant | n | observed | null | null 95% | pct |
 |---|---|---|---|---|---|
-| signed shot diff — symmetric screen | 173 | +0.335 | -0.096 | [-0.364, +0.173] | 0.001 |
-| signed shot diff — symmetric screen + placement matched | 155 | +0.290 | -0.158 | [-0.252, -0.065] | 0.000 |
-| balance disruption — symmetric screen + placement matched | 155 | +1.439 | +1.649 | [+1.568, +1.729] | 1.000 |
+| signed shot diff — symmetric screen | 166 | +0.337 | -0.003 | [-0.229, +0.217] | 0.001 |
+| signed shot diff — symmetric screen + placement matched | — | — | — | — | — |
+| balance disruption — symmetric screen + placement matched | — | — | — | — | — |
 
 ## 1c. THE HEADLINE EFFECT, with a match-clustered interval
 
@@ -40,13 +40,12 @@ placement-matched bias check.
 
 | variant | breaks | matches | median controls | paired effect | 95% CI (match-clustered) |
 |---|---|---|---|---|---|
-| preregistered Test A | 196 | 102 | 13 | -0.085 | [-0.238, +0.074] |
-|   └ min 3 controls | 193 | 102 | 13 | -0.081 | [-0.237, +0.082] |
-|   └ min 5 controls | 185 | 101 | 14 | -0.071 | [-0.230, +0.087] |
-|   └ min 10 controls | 143 | 91 | 17 | -0.170 | [-0.368, +0.035] |
-| placement matched ±5' | 158 | 99 | 2 | -0.193 | [-0.452, +0.056] |
+| preregistered Test A | 183 | 101 | 8 | -0.073 | [-0.258, +0.116] |
+|   └ min 3 controls | 152 | 95 | 9 | -0.173 | [-0.372, +0.030] |
+|   └ min 5 controls | 132 | 86 | 9 | -0.196 | [-0.411, +0.022] |
+|   └ min 10 controls | 18 | 18 | 10 | -0.948 | [-1.486, -0.411] |
 
-**Headline effect: -0.085, 95% match-clustered CI [-0.238, +0.074].**
+**Headline effect: -0.073, 95% match-clustered CI [-0.258, +0.116].**
 
 **This interval includes zero.** The point estimate is negative — real breaks were followed by slightly *less* disruption than their own matched control minutes — but once the uncertainty is placed around the CONTRAST and clustered by match, the difference is not distinguishable from no difference. The randomization percentile reported in §1 is more confident than this because it reflects only the draw-to-draw variability of the controls, not the match-to-match variability of the real breaks. **The clustered interval is the honest one, and the report leads with it.** Note what it still rules out: the break-unfavourable end of the interval is only +0.07 shots of extra disruption — orders of magnitude smaller than the decisive swings described publicly. The finding is 'no detectable difference', not 'breaks calmed the game'.
 
@@ -58,10 +57,10 @@ placement-matched bias check.
 
 | subgroup | n | observed | null | null 95% | pct |
 |---|---|---|---|---|---|
-| first-half breaks | 84 | +1.095 | +1.589 | [+1.500, +1.679] | 1.000 |
-| second-half breaks | 74 | +1.865 | +1.716 | [+1.595, +1.838] | 0.014 |
-| group stage | 107 | +1.458 | +1.711 | [+1.607, +1.813] | 1.000 |
-| knockout stage | 51 | +1.451 | +1.520 | [+1.392, +1.647] | 0.885 |
+| first-half breaks | — | — | — | — | — |
+| second-half breaks | — | — | — | — | — |
+| group stage | — | — | — | — | — |
+| knockout stage | — | — | — | — | — |
 
 **Exploratory note (NOT preregistered — spec §13 treats subgroups as
 exploratory).** The halves diverge: first-half breaks are markedly *less*
@@ -76,14 +75,14 @@ cut among several, and it needs preregistration before it can be a claim.
 
 | variant | n | observed | null | null 95% | pct |
 |---|---|---|---|---|---|
-| drop windows containing a red card | 158 | +1.456 | +1.649 | [+1.570, +1.728] | 1.000 |
-| drop breaks with a goal in the 3' before | 156 | +1.442 | +1.664 | [+1.583, +1.744] | 1.000 |
-| nominal 22'/67' timing instead of actual | 173 | +1.549 | +1.608 | [+1.503, +1.711] | 0.884 |
+| drop windows containing a red card | — | — | — | — | — |
+| drop breaks with a goal in the 3' before | — | — | — | — | — |
+| nominal 22'/67' timing instead of actual | 35 | +1.743 | +1.515 | [+1.371, +1.657] | 0.001 |
 
 ## 4. Leave-one-match-out (primary metric, placement matched)
 
-Full sample gap (observed − null): **-0.193**.
-Leave-one-match-out range: **[-0.224, -0.158]** across 102 refits.
+Full sample gap (observed − null): **-0.073**.
+Leave-one-match-out range: **[-0.101, -0.044]** across 102 refits.
 No single match drives the result.
 
 ## VERDICT on the quarantined signed result: NOT REPORTABLE

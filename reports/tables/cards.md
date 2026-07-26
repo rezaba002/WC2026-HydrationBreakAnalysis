@@ -6,9 +6,9 @@ Rates are yellow cards per minute, both teams. Post-break windows start at resum
 
 | w | breaks | matches | pre rate | post rate | change (real) | change (matched) | **D** | 95% CI |
 |---|---|---|---|---|---|---|---|---|
-| 5 | 196 | 102 | 0.023 | 0.019 | -0.0041 | +0.0006 | **-0.0047** | [-0.0217, +0.0124] |
-| 8 | 196 | 102 | 0.022 | 0.020 | -0.0019 | +0.0017 | **-0.0036** | [-0.0180, +0.0103] |
-| 10 | 196 | 102 | 0.024 | 0.023 | -0.0015 | +0.0033 | **-0.0049** | [-0.0174, +0.0077] |
+| 5 | 194 | 102 | 0.024 | 0.020 | -0.0041 | -0.0006 | **-0.0035** | [-0.0210, +0.0141] |
+| 8 | 183 | 101 | 0.023 | 0.021 | -0.0020 | +0.0033 | **-0.0054** | [-0.0234, +0.0120] |
+| 10 | 148 | 92 | 0.024 | 0.024 | +0.0007 | +0.0046 | **-0.0039** | [-0.0226, +0.0145] |
 
 **Every interval includes zero.** Booking rates after breaks are indistinguishable from those after matched ordinary minutes: on this measure the breaks neither calmed the game nor stirred it up.
 

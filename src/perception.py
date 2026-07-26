@@ -72,7 +72,7 @@ def main():
 
         obs = oriented_change(m, b["start_minute"], b["duration_min"], helped)
         bucket = m.margin_bucket(b["start_minute"])
-        cands = m.eligible_minutes(b["half"], bucket)
+        cands = m.eligible_minutes(b["half"], bucket, window=WINDOW)
         if not cands:
             rec.update(observed_change=obs, status="indeterminate",
                        note="no eligible pseudo-break minutes for this match/half")

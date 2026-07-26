@@ -1,204 +1,204 @@
 match_id,break_number,half,fixture,home,away,start_minute,disruption,percentile,n_candidates,has_claim,stage,cell
-2,1,H1,South Korea v Czechia,South Korea,Czechia,23,0,15.789473684210526,19,False,Group Stage,true_null
-2,2,H2,South Korea v Czechia,South Korea,Czechia,70,0,0.0,3,False,Group Stage,true_null
-3,1,H1,Canada v Bosnia and Herzegovina,Canada,Bosnia and Herzegovina,23,3,100.0,8,False,Group Stage,hidden_effect
-3,2,H2,Canada v Bosnia and Herzegovina,Canada,Bosnia and Herzegovina,69,1,25.0,12,False,Group Stage,true_null
-4,1,H1,USA v Paraguay,USA,Paraguay,24,2,100.0,10,False,Group Stage,hidden_effect
-4,2,H2,USA v Paraguay,USA,Paraguay,68,2,56.25,16,False,Group Stage,mid
-5,1,H1,Qatar v Switzerland,Qatar,Switzerland,24,2,66.66666666666666,6,False,Group Stage,mid
-5,2,H2,Qatar v Switzerland,Qatar,Switzerland,68,0,21.052631578947366,19,False,Group Stage,true_null
+2,1,H1,South Korea v Czechia,South Korea,Czechia,23,0,20.0,10,False,Group Stage,true_null
+2,2,H2,South Korea v Czechia,South Korea,Czechia,70,0,0.0,2,False,Group Stage,true_null
+3,1,H1,Canada v Bosnia and Herzegovina,Canada,Bosnia and Herzegovina,23,3,100.0,3,False,Group Stage,hidden_effect
+3,2,H2,Canada v Bosnia and Herzegovina,Canada,Bosnia and Herzegovina,69,1,25.0,8,False,Group Stage,true_null
+4,1,H1,USA v Paraguay,USA,Paraguay,24,2,100.0,6,False,Group Stage,hidden_effect
+4,2,H2,USA v Paraguay,USA,Paraguay,68,2,66.66666666666666,9,False,Group Stage,mid
+5,1,H1,Qatar v Switzerland,Qatar,Switzerland,24,2,100.0,1,False,Group Stage,hidden_effect
+5,2,H2,Qatar v Switzerland,Qatar,Switzerland,68,0,10.0,10,False,Group Stage,true_null
 6,1,H1,Brazil v Morocco,Brazil,Morocco,23,4,,0,True,Group Stage,unscored
-6,2,H2,Brazil v Morocco,Brazil,Morocco,68,1,89.47368421052632,19,False,Group Stage,hidden_effect
-7,1,H1,Haiti v Scotland,Haiti,Scotland,23,1,27.27272727272727,11,False,Group Stage,true_null
-7,2,H2,Haiti v Scotland,Haiti,Scotland,67,1,55.55555555555556,18,False,Group Stage,mid
-8,1,H1,Australia v Türkiye,Australia,Türkiye,23,2,81.81818181818183,11,False,Group Stage,hidden_effect
-8,2,H2,Australia v Türkiye,Australia,Türkiye,68,1,27.27272727272727,11,False,Group Stage,true_null
-9,1,H1,Germany v Curaçao,Germany,Curaçao,23,5,100.0,6,True,Group Stage,confirmed_feeling
-9,2,H2,Germany v Curaçao,Germany,Curaçao,69,1,18.181818181818183,11,False,Group Stage,true_null
-10,1,H1,Netherlands v Japan,Netherlands,Japan,23,1,72.22222222222221,18,False,Group Stage,mid
-10,2,H2,Netherlands v Japan,Netherlands,Japan,67,1,37.5,8,False,Group Stage,true_null
-11,1,H1,Côte d'Ivoire v Ecuador,Côte d'Ivoire,Ecuador,24,1,50.0,18,False,Group Stage,true_null
-11,2,H2,Côte d'Ivoire v Ecuador,Côte d'Ivoire,Ecuador,69,1,50.0,18,False,Group Stage,true_null
-12,1,H1,Sweden v Tunisia,Sweden,Tunisia,22,2,50.0,8,False,Group Stage,true_null
-12,2,H2,Sweden v Tunisia,Sweden,Tunisia,69,2,100.0,9,False,Group Stage,hidden_effect
-13,1,H1,Spain v Cabo Verde,Spain,Cabo Verde,23,1,55.55555555555556,18,False,Group Stage,mid
-13,2,H2,Spain v Cabo Verde,Spain,Cabo Verde,68,3,94.44444444444444,18,False,Group Stage,hidden_effect
-14,1,H1,Belgium v Egypt,Belgium,Egypt,22,1,37.5,8,False,Group Stage,true_null
-14,2,H2,Belgium v Egypt,Belgium,Egypt,67,2,87.5,8,False,Group Stage,hidden_effect
-15,1,H1,Saudi Arabia v Uruguay,Saudi Arabia,Uruguay,23,0,23.52941176470588,17,False,Group Stage,true_null
-15,2,H2,Saudi Arabia v Uruguay,Saudi Arabia,Uruguay,69,1,76.92307692307693,13,True,Group Stage,mid
-16,1,H1,IR Iran v New Zealand,IR Iran,New Zealand,25,3,27.27272727272727,11,False,Group Stage,true_null
-16,2,H2,IR Iran v New Zealand,IR Iran,New Zealand,68,2,85.71428571428571,7,False,Group Stage,hidden_effect
-17,1,H1,France v Senegal,France,Senegal,26,1,52.94117647058824,17,False,Group Stage,mid
-17,2,H2,France v Senegal,France,Senegal,68,0,50.0,4,False,Group Stage,true_null
-18,1,H1,Iraq v Norway,Iraq,Norway,24,1,33.33333333333333,12,False,Group Stage,true_null
-18,2,H2,Iraq v Norway,Iraq,Norway,69,3,83.33333333333334,12,False,Group Stage,hidden_effect
-19,1,H1,Argentina v Algeria,Argentina,Algeria,25,0,33.33333333333333,6,False,Group Stage,true_null
-19,2,H2,Argentina v Algeria,Argentina,Algeria,69,1,25.0,4,False,Group Stage,true_null
-20,1,H1,Austria v Jordan,Austria,Jordan,23,1,85.71428571428571,7,False,Group Stage,hidden_effect
-20,2,H2,Austria v Jordan,Austria,Jordan,72,0,6.666666666666667,15,True,Group Stage,perception_illusion
-21,1,H1,Portugal v Congo DR,Portugal,Congo DR,24,1,41.17647058823529,17,False,Group Stage,true_null
-21,2,H2,Portugal v Congo DR,Portugal,Congo DR,69,1,68.42105263157895,19,False,Group Stage,mid
-22,1,H1,England v Croatia,England,Croatia,23,1,50.0,8,True,Group Stage,perception_illusion
-22,2,H2,England v Croatia,England,Croatia,69,3,50.0,18,False,Group Stage,true_null
-23,1,H1,Ghana v Panama,Ghana,Panama,24,0,44.44444444444444,18,False,Group Stage,true_null
-23,2,H2,Ghana v Panama,Ghana,Panama,68,1,16.666666666666664,18,False,Group Stage,true_null
-24,1,H1,Uzbekistan v Colombia,Uzbekistan,Colombia,23,0,5.555555555555555,18,False,Group Stage,true_null
-24,2,H2,Uzbekistan v Colombia,Uzbekistan,Colombia,69,4,100.0,10,False,Group Stage,hidden_effect
-25,1,H1,Mexico v South Korea,Mexico,South Korea,23,1,77.77777777777779,18,False,Group Stage,mid
-25,2,H2,Mexico v South Korea,Mexico,South Korea,68,0,5.263157894736842,19,False,Group Stage,true_null
-26,1,H1,Czechia v South Africa,Czechia,South Africa,23,1,82.35294117647058,17,False,Group Stage,hidden_effect
-26,2,H2,Czechia v South Africa,Czechia,South Africa,69,3,100.0,15,False,Group Stage,hidden_effect
-27,1,H1,Canada v Qatar,Canada,Qatar,25,2,100.0,2,False,Group Stage,hidden_effect
-27,2,H2,Canada v Qatar,Canada,Qatar,68,2,66.66666666666666,6,False,Group Stage,mid
-28,1,H1,Switzerland v Bosnia and Herzegovina,Switzerland,Bosnia and Herzegovina,23,2,100.0,19,False,Group Stage,hidden_effect
-28,2,H2,Switzerland v Bosnia and Herzegovina,Switzerland,Bosnia and Herzegovina,69,1,41.66666666666667,12,True,Group Stage,perception_illusion
+6,2,H2,Brazil v Morocco,Brazil,Morocco,68,1,80.0,10,False,Group Stage,hidden_effect
+7,1,H1,Haiti v Scotland,Haiti,Scotland,23,1,28.57142857142857,7,False,Group Stage,true_null
+7,2,H2,Haiti v Scotland,Haiti,Scotland,67,1,66.66666666666666,9,False,Group Stage,mid
+8,1,H1,Australia v Türkiye,Australia,Türkiye,23,2,71.42857142857143,7,False,Group Stage,mid
+8,2,H2,Australia v Türkiye,Australia,Türkiye,68,1,14.285714285714285,7,False,Group Stage,true_null
+9,1,H1,Germany v Curaçao,Germany,Curaçao,23,5,100.0,1,True,Group Stage,confirmed_feeling
+9,2,H2,Germany v Curaçao,Germany,Curaçao,69,1,0.0,8,False,Group Stage,true_null
+10,1,H1,Netherlands v Japan,Netherlands,Japan,23,1,88.88888888888889,9,False,Group Stage,hidden_effect
+10,2,H2,Netherlands v Japan,Netherlands,Japan,67,1,66.66666666666666,3,False,Group Stage,mid
+11,1,H1,Côte d'Ivoire v Ecuador,Côte d'Ivoire,Ecuador,24,1,77.77777777777779,9,False,Group Stage,mid
+11,2,H2,Côte d'Ivoire v Ecuador,Côte d'Ivoire,Ecuador,69,1,66.66666666666666,9,False,Group Stage,mid
+12,1,H1,Sweden v Tunisia,Sweden,Tunisia,22,2,0.0,4,False,Group Stage,true_null
+12,2,H2,Sweden v Tunisia,Sweden,Tunisia,69,2,100.0,1,False,Group Stage,hidden_effect
+13,1,H1,Spain v Cabo Verde,Spain,Cabo Verde,23,1,33.33333333333333,9,False,Group Stage,true_null
+13,2,H2,Spain v Cabo Verde,Spain,Cabo Verde,68,3,88.88888888888889,9,False,Group Stage,hidden_effect
+14,1,H1,Belgium v Egypt,Belgium,Egypt,22,1,0.0,3,False,Group Stage,true_null
+14,2,H2,Belgium v Egypt,Belgium,Egypt,67,2,100.0,3,False,Group Stage,hidden_effect
+15,1,H1,Saudi Arabia v Uruguay,Saudi Arabia,Uruguay,23,0,25.0,8,False,Group Stage,true_null
+15,2,H2,Saudi Arabia v Uruguay,Saudi Arabia,Uruguay,69,1,75.0,8,True,Group Stage,mid
+16,1,H1,IR Iran v New Zealand,IR Iran,New Zealand,25,3,42.857142857142854,7,False,Group Stage,true_null
+16,2,H2,IR Iran v New Zealand,IR Iran,New Zealand,68,2,50.0,2,False,Group Stage,true_null
+17,1,H1,France v Senegal,France,Senegal,26,1,60.0,10,False,Group Stage,mid
+17,2,H2,France v Senegal,France,Senegal,68,0,,0,False,Group Stage,unscored
+18,1,H1,Iraq v Norway,Iraq,Norway,24,1,50.0,8,False,Group Stage,true_null
+18,2,H2,Iraq v Norway,Iraq,Norway,69,3,75.0,8,False,Group Stage,mid
+19,1,H1,Argentina v Algeria,Argentina,Algeria,25,0,,0,False,Group Stage,unscored
+19,2,H2,Argentina v Algeria,Argentina,Algeria,69,1,0.0,2,False,Group Stage,true_null
+20,1,H1,Austria v Jordan,Austria,Jordan,23,1,100.0,2,False,Group Stage,hidden_effect
+20,2,H2,Austria v Jordan,Austria,Jordan,72,0,9.090909090909092,11,True,Group Stage,perception_illusion
+21,1,H1,Portugal v Congo DR,Portugal,Congo DR,24,1,37.5,8,False,Group Stage,true_null
+21,2,H2,Portugal v Congo DR,Portugal,Congo DR,69,1,90.0,10,False,Group Stage,hidden_effect
+22,1,H1,England v Croatia,England,Croatia,23,1,,0,True,Group Stage,unscored
+22,2,H2,England v Croatia,England,Croatia,69,3,22.22222222222222,9,True,Group Stage,perception_illusion
+23,1,H1,Ghana v Panama,Ghana,Panama,24,0,44.44444444444444,9,False,Group Stage,true_null
+23,2,H2,Ghana v Panama,Ghana,Panama,68,1,11.11111111111111,9,False,Group Stage,true_null
+24,1,H1,Uzbekistan v Colombia,Uzbekistan,Colombia,23,0,0.0,9,False,Group Stage,true_null
+24,2,H2,Uzbekistan v Colombia,Uzbekistan,Colombia,69,4,100.0,5,False,Group Stage,hidden_effect
+25,1,H1,Mexico v South Korea,Mexico,South Korea,23,1,55.55555555555556,9,False,Group Stage,mid
+25,2,H2,Mexico v South Korea,Mexico,South Korea,68,0,0.0,10,False,Group Stage,true_null
+26,1,H1,Czechia v South Africa,Czechia,South Africa,23,1,62.5,8,False,Group Stage,mid
+26,2,H2,Czechia v South Africa,Czechia,South Africa,69,3,100.0,8,False,Group Stage,hidden_effect
+27,1,H1,Canada v Qatar,Canada,Qatar,25,2,,0,False,Group Stage,unscored
+27,2,H2,Canada v Qatar,Canada,Qatar,68,2,60.0,5,False,Group Stage,mid
+28,1,H1,Switzerland v Bosnia and Herzegovina,Switzerland,Bosnia and Herzegovina,23,2,100.0,10,False,Group Stage,hidden_effect
+28,2,H2,Switzerland v Bosnia and Herzegovina,Switzerland,Bosnia and Herzegovina,69,1,37.5,8,True,Group Stage,perception_illusion
 29,1,H1,Brazil v Haiti,Brazil,Haiti,26,0,,0,True,Group Stage,unscored
-29,2,H2,Brazil v Haiti,Brazil,Haiti,69,4,100.0,18,False,Group Stage,hidden_effect
-30,1,H1,Scotland v Morocco,Scotland,Morocco,24,0,22.22222222222222,18,False,Group Stage,true_null
-30,2,H2,Scotland v Morocco,Scotland,Morocco,68,0,16.666666666666664,18,False,Group Stage,true_null
-31,1,H1,USA v Australia,USA,Australia,25,1,83.33333333333334,12,False,Group Stage,hidden_effect
-31,2,H2,USA v Australia,USA,Australia,68,2,66.66666666666666,18,False,Group Stage,mid
-32,1,H1,Türkiye v Paraguay,Türkiye,Paraguay,26,0,16.666666666666664,18,False,Group Stage,true_null
-32,2,H2,Türkiye v Paraguay,Türkiye,Paraguay,68,1,66.66666666666666,18,False,Group Stage,mid
-33,1,H1,Germany v Côte d'Ivoire,Germany,Côte d'Ivoire,25,4,100.0,13,False,Group Stage,hidden_effect
-33,2,H2,Germany v Côte d'Ivoire,Germany,Côte d'Ivoire,72,1,100.0,3,False,Group Stage,hidden_effect
-34,1,H1,Ecuador v Curaçao,Ecuador,Curaçao,24,2,83.33333333333334,18,False,Group Stage,hidden_effect
-34,2,H2,Ecuador v Curaçao,Ecuador,Curaçao,68,5,66.66666666666666,18,False,Group Stage,mid
-35,1,H1,Netherlands v Sweden,Netherlands,Sweden,23,4,100.0,7,True,Group Stage,confirmed_feeling
-35,2,H2,Netherlands v Sweden,Netherlands,Sweden,69,0,0.0,9,False,Group Stage,true_null
-36,1,H1,Tunisia v Japan,Tunisia,Japan,24,1,25.0,12,False,Group Stage,true_null
-36,2,H2,Tunisia v Japan,Tunisia,Japan,70,4,100.0,15,False,Group Stage,hidden_effect
-37,1,H1,Belgium v IR Iran,Belgium,IR Iran,30,1,11.11111111111111,18,False,Group Stage,true_null
-37,2,H2,Belgium v IR Iran,Belgium,IR Iran,70,0,14.285714285714285,14,False,Group Stage,true_null
-38,1,H1,New Zealand v Egypt,New Zealand,Egypt,22,0,12.5,8,False,Group Stage,true_null
+29,2,H2,Brazil v Haiti,Brazil,Haiti,69,4,100.0,9,False,Group Stage,hidden_effect
+30,1,H1,Scotland v Morocco,Scotland,Morocco,24,0,33.33333333333333,9,False,Group Stage,true_null
+30,2,H2,Scotland v Morocco,Scotland,Morocco,68,0,11.11111111111111,9,False,Group Stage,true_null
+31,1,H1,USA v Australia,USA,Australia,25,1,100.0,3,False,Group Stage,hidden_effect
+31,2,H2,USA v Australia,USA,Australia,68,2,33.33333333333333,9,False,Group Stage,true_null
+32,1,H1,Türkiye v Paraguay,Türkiye,Paraguay,26,0,10.0,10,False,Group Stage,true_null
+32,2,H2,Türkiye v Paraguay,Türkiye,Paraguay,68,1,44.44444444444444,9,False,Group Stage,true_null
+33,1,H1,Germany v Côte d'Ivoire,Germany,Côte d'Ivoire,25,4,100.0,9,False,Group Stage,hidden_effect
+33,2,H2,Germany v Côte d'Ivoire,Germany,Côte d'Ivoire,72,1,,0,False,Group Stage,unscored
+34,1,H1,Ecuador v Curaçao,Ecuador,Curaçao,24,2,66.66666666666666,9,False,Group Stage,mid
+34,2,H2,Ecuador v Curaçao,Ecuador,Curaçao,68,5,77.77777777777779,9,False,Group Stage,mid
+35,1,H1,Netherlands v Sweden,Netherlands,Sweden,23,4,100.0,2,True,Group Stage,confirmed_feeling
+35,2,H2,Netherlands v Sweden,Netherlands,Sweden,69,0,0.0,1,False,Group Stage,true_null
+36,1,H1,Tunisia v Japan,Tunisia,Japan,24,1,0.0,8,False,Group Stage,true_null
+36,2,H2,Tunisia v Japan,Tunisia,Japan,70,4,100.0,9,False,Group Stage,hidden_effect
+37,1,H1,Belgium v IR Iran,Belgium,IR Iran,30,1,14.285714285714285,14,False,Group Stage,true_null
+37,2,H2,Belgium v IR Iran,Belgium,IR Iran,70,0,22.22222222222222,9,False,Group Stage,true_null
+38,1,H1,New Zealand v Egypt,New Zealand,Egypt,22,0,0.0,3,False,Group Stage,true_null
 38,2,H2,New Zealand v Egypt,New Zealand,Egypt,72,3,,0,False,Group Stage,unscored
-39,1,H1,Spain v Saudi Arabia,Spain,Saudi Arabia,25,1,60.0,5,False,Group Stage,mid
-39,2,H2,Spain v Saudi Arabia,Spain,Saudi Arabia,68,1,78.94736842105263,19,False,Group Stage,mid
-40,1,H1,Uruguay v Cabo Verde,Uruguay,Cabo Verde,25,2,100.0,6,False,Group Stage,hidden_effect
-40,2,H2,Uruguay v Cabo Verde,Uruguay,Cabo Verde,71,1,14.285714285714285,7,False,Group Stage,true_null
-41,1,H1,France v Iraq,France,Iraq,23,1,20.0,10,False,Group Stage,true_null
-42,1,H1,Norway v Senegal,Norway,Senegal,23,0,16.666666666666664,18,False,Group Stage,true_null
-42,2,H2,Norway v Senegal,Norway,Senegal,68,1,70.0,10,False,Group Stage,mid
-43,1,H1,Argentina v Austria,Argentina,Austria,23,3,87.5,16,False,Group Stage,hidden_effect
-43,2,H2,Argentina v Austria,Argentina,Austria,69,0,31.57894736842105,19,False,Group Stage,true_null
-45,1,H1,Portugal v Uzbekistan,Portugal,Uzbekistan,23,1,85.71428571428571,7,False,Group Stage,hidden_effect
-45,2,H2,Portugal v Uzbekistan,Portugal,Uzbekistan,69,2,91.66666666666666,12,False,Group Stage,hidden_effect
-46,1,H1,Colombia v Congo DR,Colombia,Congo DR,25,1,38.88888888888889,18,False,Group Stage,true_null
-46,2,H2,Colombia v Congo DR,Colombia,Congo DR,68,0,18.181818181818183,11,False,Group Stage,true_null
-47,1,H1,England v Ghana,England,Ghana,26,2,38.88888888888889,18,False,Group Stage,true_null
-47,2,H2,England v Ghana,England,Ghana,70,5,94.44444444444444,18,False,Group Stage,hidden_effect
-48,1,H1,Panama v Croatia,Panama,Croatia,23,0,88.88888888888889,18,False,Group Stage,hidden_effect
-48,2,H2,Panama v Croatia,Panama,Croatia,69,0,28.57142857142857,14,False,Group Stage,true_null
-49,1,H1,Czechia v Mexico,Czechia,Mexico,22,0,17.647058823529413,17,False,Group Stage,true_null
-49,2,H2,Czechia v Mexico,Czechia,Mexico,68,2,100.0,7,False,Group Stage,hidden_effect
-50,1,H1,South Africa v South Korea,South Africa,South Korea,23,1,27.77777777777778,18,False,Group Stage,true_null
-50,2,H2,South Africa v South Korea,South Africa,South Korea,69,1,71.42857142857143,7,False,Group Stage,mid
-51,1,H1,Switzerland v Canada,Switzerland,Canada,23,1,47.368421052631575,19,False,Group Stage,true_null
-51,2,H2,Switzerland v Canada,Switzerland,Canada,71,0,85.71428571428571,7,False,Group Stage,hidden_effect
-52,1,H1,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Qatar,23,0,18.181818181818183,11,False,Group Stage,true_null
-52,2,H2,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Qatar,69,5,100.0,15,False,Group Stage,hidden_effect
-53,1,H1,Scotland v Brazil,Scotland,Brazil,25,3,93.75,16,False,Group Stage,hidden_effect
-53,2,H2,Scotland v Brazil,Scotland,Brazil,68,0,18.181818181818183,11,False,Group Stage,true_null
-54,1,H1,Morocco v Haiti,Morocco,Haiti,23,1,66.66666666666666,12,False,Group Stage,mid
-54,2,H2,Morocco v Haiti,Morocco,Haiti,68,6,100.0,11,False,Group Stage,hidden_effect
-55,1,H1,Türkiye v USA,Türkiye,USA,23,0,0.0,6,False,Group Stage,true_null
-55,2,H2,Türkiye v USA,Türkiye,USA,67,6,100.0,18,False,Group Stage,hidden_effect
-56,1,H1,Paraguay v Australia,Paraguay,Australia,24,1,84.21052631578947,19,False,Group Stage,hidden_effect
-56,2,H2,Paraguay v Australia,Paraguay,Australia,68,1,50.0,18,False,Group Stage,true_null
-57,1,H1,Ecuador v Germany,Ecuador,Germany,27,0,71.42857142857143,14,False,Group Stage,mid
-57,2,H2,Ecuador v Germany,Ecuador,Germany,69,2,100.0,12,False,Group Stage,hidden_effect
-58,1,H1,Curaçao v Côte d'Ivoire,Curaçao,Côte d'Ivoire,23,2,100.0,16,False,Group Stage,hidden_effect
-58,2,H2,Curaçao v Côte d'Ivoire,Curaçao,Côte d'Ivoire,68,4,100.0,7,False,Group Stage,hidden_effect
-59,1,H1,Tunisia v Netherlands,Tunisia,Netherlands,23,2,56.25,16,False,Group Stage,mid
-59,2,H2,Tunisia v Netherlands,Tunisia,Netherlands,69,3,100.0,6,False,Group Stage,hidden_effect
-60,1,H1,Japan v Sweden,Japan,Sweden,24,1,66.66666666666666,18,False,Group Stage,mid
-60,2,H2,Japan v Sweden,Japan,Sweden,68,1,14.285714285714285,7,False,Group Stage,true_null
-61,1,H1,New Zealand v Belgium,New Zealand,Belgium,24,1,33.33333333333333,12,False,Group Stage,true_null
-61,2,H2,New Zealand v Belgium,New Zealand,Belgium,69,4,66.66666666666666,15,False,Group Stage,mid
-62,1,H1,Egypt v IR Iran,Egypt,IR Iran,23,2,66.66666666666666,9,False,Group Stage,mid
-62,2,H2,Egypt v IR Iran,Egypt,IR Iran,69,2,78.94736842105263,19,False,Group Stage,mid
-63,1,H1,Uruguay v Spain,Uruguay,Spain,23,3,100.0,18,False,Group Stage,hidden_effect
-63,2,H2,Uruguay v Spain,Uruguay,Spain,68,0,57.89473684210527,19,False,Group Stage,mid
-64,1,H1,Cabo Verde v Saudi Arabia,Cabo Verde,Saudi Arabia,24,1,77.77777777777779,18,False,Group Stage,mid
-64,2,H2,Cabo Verde v Saudi Arabia,Cabo Verde,Saudi Arabia,69,5,100.0,18,False,Group Stage,hidden_effect
+39,1,H1,Spain v Saudi Arabia,Spain,Saudi Arabia,25,1,,0,False,Group Stage,unscored
+39,2,H2,Spain v Saudi Arabia,Spain,Saudi Arabia,68,1,70.0,10,False,Group Stage,mid
+40,1,H1,Uruguay v Cabo Verde,Uruguay,Cabo Verde,25,2,100.0,1,False,Group Stage,hidden_effect
+40,2,H2,Uruguay v Cabo Verde,Uruguay,Cabo Verde,71,1,,0,False,Group Stage,unscored
+41,1,H1,France v Iraq,France,Iraq,23,1,66.66666666666666,3,False,Group Stage,mid
+42,1,H1,Norway v Senegal,Norway,Senegal,23,0,11.11111111111111,9,False,Group Stage,true_null
+42,2,H2,Norway v Senegal,Norway,Senegal,68,1,50.0,2,False,Group Stage,true_null
+43,1,H1,Argentina v Austria,Argentina,Austria,23,3,100.0,7,False,Group Stage,hidden_effect
+43,2,H2,Argentina v Austria,Argentina,Austria,69,0,10.0,10,False,Group Stage,true_null
+45,1,H1,Portugal v Uzbekistan,Portugal,Uzbekistan,23,1,50.0,2,False,Group Stage,true_null
+45,2,H2,Portugal v Uzbekistan,Portugal,Uzbekistan,69,2,100.0,5,False,Group Stage,hidden_effect
+46,1,H1,Colombia v Congo DR,Colombia,Congo DR,25,1,22.22222222222222,9,False,Group Stage,true_null
+46,2,H2,Colombia v Congo DR,Colombia,Congo DR,68,0,0.0,7,False,Group Stage,true_null
+47,1,H1,England v Ghana,England,Ghana,26,2,20.0,10,False,Group Stage,true_null
+47,2,H2,England v Ghana,England,Ghana,70,5,88.88888888888889,9,False,Group Stage,hidden_effect
+48,1,H1,Panama v Croatia,Panama,Croatia,23,0,77.77777777777779,9,False,Group Stage,mid
+48,2,H2,Panama v Croatia,Panama,Croatia,69,0,0.0,5,False,Group Stage,true_null
+49,1,H1,Czechia v Mexico,Czechia,Mexico,22,0,37.5,8,False,Group Stage,true_null
+49,2,H2,Czechia v Mexico,Czechia,Mexico,68,2,100.0,2,False,Group Stage,hidden_effect
+50,1,H1,South Africa v South Korea,South Africa,South Korea,23,1,0.0,9,False,Group Stage,true_null
+50,2,H2,South Africa v South Korea,South Africa,South Korea,69,1,0.0,2,False,Group Stage,true_null
+51,1,H1,Switzerland v Canada,Switzerland,Canada,23,1,40.0,10,False,Group Stage,true_null
+51,2,H2,Switzerland v Canada,Switzerland,Canada,71,0,100.0,3,False,Group Stage,hidden_effect
+52,1,H1,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Qatar,23,0,0.0,7,False,Group Stage,true_null
+52,2,H2,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Qatar,69,5,100.0,8,False,Group Stage,hidden_effect
+53,1,H1,Scotland v Brazil,Scotland,Brazil,25,3,100.0,7,False,Group Stage,hidden_effect
+53,2,H2,Scotland v Brazil,Scotland,Brazil,68,0,40.0,5,False,Group Stage,true_null
+54,1,H1,Morocco v Haiti,Morocco,Haiti,23,1,100.0,3,False,Group Stage,hidden_effect
+54,2,H2,Morocco v Haiti,Morocco,Haiti,68,6,100.0,7,False,Group Stage,hidden_effect
+55,1,H1,Türkiye v USA,Türkiye,USA,23,0,0.0,2,False,Group Stage,true_null
+55,2,H2,Türkiye v USA,Türkiye,USA,67,6,100.0,9,False,Group Stage,hidden_effect
+56,1,H1,Paraguay v Australia,Paraguay,Australia,24,1,70.0,10,False,Group Stage,mid
+56,2,H2,Paraguay v Australia,Paraguay,Australia,68,1,44.44444444444444,9,False,Group Stage,true_null
+57,1,H1,Ecuador v Germany,Ecuador,Germany,27,0,71.42857142857143,7,False,Group Stage,mid
+57,2,H2,Ecuador v Germany,Ecuador,Germany,69,2,100.0,8,False,Group Stage,hidden_effect
+58,1,H1,Curaçao v Côte d'Ivoire,Curaçao,Côte d'Ivoire,23,2,100.0,7,False,Group Stage,hidden_effect
+58,2,H2,Curaçao v Côte d'Ivoire,Curaçao,Côte d'Ivoire,68,4,100.0,2,False,Group Stage,hidden_effect
+59,1,H1,Tunisia v Netherlands,Tunisia,Netherlands,23,2,85.71428571428571,7,False,Group Stage,hidden_effect
+59,2,H2,Tunisia v Netherlands,Tunisia,Netherlands,69,3,100.0,1,False,Group Stage,hidden_effect
+60,1,H1,Japan v Sweden,Japan,Sweden,24,1,33.33333333333333,9,False,Group Stage,true_null
+60,2,H2,Japan v Sweden,Japan,Sweden,68,1,0.0,2,False,Group Stage,true_null
+61,1,H1,New Zealand v Belgium,New Zealand,Belgium,24,1,50.0,8,False,Group Stage,true_null
+61,2,H2,New Zealand v Belgium,New Zealand,Belgium,69,4,44.44444444444444,9,False,Group Stage,true_null
+62,1,H1,Egypt v IR Iran,Egypt,IR Iran,23,2,100.0,2,False,Group Stage,hidden_effect
+62,2,H2,Egypt v IR Iran,Egypt,IR Iran,69,2,70.0,10,False,Group Stage,mid
+63,1,H1,Uruguay v Spain,Uruguay,Spain,23,3,100.0,9,False,Group Stage,hidden_effect
+63,2,H2,Uruguay v Spain,Uruguay,Spain,68,0,40.0,10,False,Group Stage,true_null
+64,1,H1,Cabo Verde v Saudi Arabia,Cabo Verde,Saudi Arabia,24,1,100.0,9,False,Group Stage,hidden_effect
+64,2,H2,Cabo Verde v Saudi Arabia,Cabo Verde,Saudi Arabia,69,5,100.0,9,False,Group Stage,hidden_effect
 65,1,H1,Norway v France,Norway,France,24,1,33.33333333333333,6,False,Group Stage,true_null
-65,2,H2,Norway v France,Norway,France,68,2,94.44444444444444,18,False,Group Stage,hidden_effect
-66,1,H1,Senegal v Iraq,Senegal,Iraq,23,2,27.27272727272727,11,False,Group Stage,true_null
-66,2,H2,Senegal v Iraq,Senegal,Iraq,67,2,80.0,5,False,Group Stage,hidden_effect
+65,2,H2,Norway v France,Norway,France,68,2,88.88888888888889,9,False,Group Stage,hidden_effect
+66,1,H1,Senegal v Iraq,Senegal,Iraq,23,2,33.33333333333333,3,False,Group Stage,true_null
+66,2,H2,Senegal v Iraq,Senegal,Iraq,67,2,100.0,1,False,Group Stage,hidden_effect
 67,1,H1,Jordan v Argentina,Jordan,Argentina,23,2,,0,False,Group Stage,unscored
-67,2,H2,Jordan v Argentina,Jordan,Argentina,68,1,77.77777777777779,9,False,Group Stage,mid
-68,1,H1,Algeria v Austria,Algeria,Austria,23,0,54.54545454545454,11,False,Group Stage,mid
-68,2,H2,Algeria v Austria,Algeria,Austria,68,2,87.5,8,False,Group Stage,hidden_effect
-69,1,H1,Colombia v Portugal,Colombia,Portugal,25,0,5.555555555555555,18,False,Group Stage,true_null
-69,2,H2,Colombia v Portugal,Colombia,Portugal,68,4,77.77777777777779,18,False,Group Stage,mid
-70,1,H1,Congo DR v Uzbekistan,Congo DR,Uzbekistan,23,1,100.0,13,False,Group Stage,hidden_effect
+67,2,H2,Jordan v Argentina,Jordan,Argentina,68,1,100.0,2,False,Group Stage,hidden_effect
+68,1,H1,Algeria v Austria,Algeria,Austria,23,0,85.71428571428571,7,False,Group Stage,hidden_effect
+68,2,H2,Algeria v Austria,Algeria,Austria,68,2,100.0,2,False,Group Stage,hidden_effect
+69,1,H1,Colombia v Portugal,Colombia,Portugal,25,0,11.11111111111111,9,False,Group Stage,true_null
+69,2,H2,Colombia v Portugal,Colombia,Portugal,68,4,100.0,9,False,Group Stage,hidden_effect
+70,1,H1,Congo DR v Uzbekistan,Congo DR,Uzbekistan,23,1,100.0,4,False,Group Stage,hidden_effect
 70,2,H2,Congo DR v Uzbekistan,Congo DR,Uzbekistan,70,2,,0,False,Group Stage,unscored
-71,1,H1,Panama v England,Panama,England,23,2,77.77777777777779,18,True,Group Stage,mid
-71,2,H2,Panama v England,Panama,England,69,8,100.0,6,True,Group Stage,confirmed_feeling
-72,1,H1,Croatia v Ghana,Croatia,Ghana,25,1,61.53846153846154,13,False,Group Stage,mid
-72,2,H2,Croatia v Ghana,Croatia,Ghana,69,1,100.0,12,False,Group Stage,hidden_effect
-73,1,H1,South Africa v Canada,South Africa,Canada,23,1,94.44444444444444,18,False,Round of 32,hidden_effect
-73,2,H2,South Africa v Canada,South Africa,Canada,67,0,11.11111111111111,18,False,Round of 32,true_null
-74,1,H1,Brazil v Japan,Brazil,Japan,23,0,36.36363636363637,11,False,Round of 32,true_null
-74,2,H2,Brazil v Japan,Brazil,Japan,68,3,75.0,12,False,Round of 32,mid
-75,1,H1,Germany v Paraguay,Germany,Paraguay,23,1,61.111111111111114,18,False,Round of 32,mid
-75,2,H2,Germany v Paraguay,Germany,Paraguay,70,2,85.71428571428571,14,False,Round of 32,hidden_effect
-76,1,H1,Netherlands v Morocco,Netherlands,Morocco,22,3,77.77777777777779,18,False,Round of 32,mid
-76,2,H2,Netherlands v Morocco,Netherlands,Morocco,67,0,0.0,10,False,Round of 32,true_null
-77,1,H1,Côte d'Ivoire v Norway,Côte d'Ivoire,Norway,24,1,52.94117647058824,17,False,Round of 32,mid
-77,2,H2,Côte d'Ivoire v Norway,Côte d'Ivoire,Norway,68,2,72.72727272727273,11,False,Round of 32,mid
-78,1,H1,France v Sweden,France,Sweden,23,1,33.33333333333333,18,False,Round of 32,true_null
-78,2,H2,France v Sweden,France,Sweden,68,2,41.66666666666667,12,False,Round of 32,true_null
+71,1,H1,Panama v England,Panama,England,23,2,100.0,9,True,Group Stage,confirmed_feeling
+71,2,H2,Panama v England,Panama,England,69,8,100.0,1,True,Group Stage,confirmed_feeling
+72,1,H1,Croatia v Ghana,Croatia,Ghana,25,1,55.55555555555556,9,False,Group Stage,mid
+72,2,H2,Croatia v Ghana,Croatia,Ghana,69,1,100.0,8,False,Group Stage,hidden_effect
+73,1,H1,South Africa v Canada,South Africa,Canada,23,1,88.88888888888889,9,False,Round of 32,hidden_effect
+73,2,H2,South Africa v Canada,South Africa,Canada,67,0,11.11111111111111,9,False,Round of 32,true_null
+74,1,H1,Brazil v Japan,Brazil,Japan,23,0,57.14285714285714,7,False,Round of 32,mid
+74,2,H2,Brazil v Japan,Brazil,Japan,68,3,66.66666666666666,3,False,Round of 32,mid
+75,1,H1,Germany v Paraguay,Germany,Paraguay,23,1,33.33333333333333,9,False,Round of 32,true_null
+75,2,H2,Germany v Paraguay,Germany,Paraguay,70,2,80.0,5,False,Round of 32,hidden_effect
+76,1,H1,Netherlands v Morocco,Netherlands,Morocco,22,3,77.77777777777779,9,False,Round of 32,mid
+76,2,H2,Netherlands v Morocco,Netherlands,Morocco,67,0,0.0,6,False,Round of 32,true_null
+77,1,H1,Côte d'Ivoire v Norway,Côte d'Ivoire,Norway,24,1,100.0,8,False,Round of 32,hidden_effect
+77,2,H2,Côte d'Ivoire v Norway,Côte d'Ivoire,Norway,68,2,71.42857142857143,7,False,Round of 32,mid
+78,1,H1,France v Sweden,France,Sweden,23,1,22.22222222222222,9,False,Round of 32,true_null
+78,2,H2,France v Sweden,France,Sweden,68,2,33.33333333333333,6,False,Round of 32,true_null
 79,1,H1,Mexico v Ecuador,Mexico,Ecuador,25,1,,0,False,Round of 32,unscored
-79,2,H2,Mexico v Ecuador,Mexico,Ecuador,68,3,100.0,18,False,Round of 32,hidden_effect
-80,1,H1,England v Congo DR,England,Congo DR,23,0,25.0,16,True,Round of 32,perception_illusion
-80,2,H2,England v Congo DR,England,Congo DR,68,4,54.54545454545454,11,True,Round of 32,mid
-81,1,H1,Belgium v Senegal,Belgium,Senegal,27,1,100.0,3,False,Round of 32,hidden_effect
-81,2,H2,Belgium v Senegal,Belgium,Senegal,70,2,64.70588235294117,17,False,Round of 32,mid
-82,1,H1,USA v Bosnia and Herzegovina,USA,Bosnia and Herzegovina,23,0,38.88888888888889,18,False,Round of 32,true_null
-82,2,H2,USA v Bosnia and Herzegovina,USA,Bosnia and Herzegovina,69,1,40.0,10,False,Round of 32,true_null
-83,1,H1,Spain v Austria,Spain,Austria,24,1,35.714285714285715,14,False,Round of 32,true_null
-83,2,H2,Spain v Austria,Spain,Austria,68,2,71.42857142857143,7,False,Round of 32,mid
-84,1,H1,Portugal v Croatia,Portugal,Croatia,24,1,72.22222222222221,18,False,Round of 32,mid
-84,2,H2,Portugal v Croatia,Portugal,Croatia,69,5,100.0,6,False,Round of 32,hidden_effect
-85,1,H1,Switzerland v Algeria,Switzerland,Algeria,25,0,53.84615384615385,13,False,Round of 32,mid
-85,2,H2,Switzerland v Algeria,Switzerland,Algeria,67,1,66.66666666666666,18,False,Round of 32,mid
-86,1,H1,Australia v Egypt,Australia,Egypt,23,1,100.0,10,False,Round of 32,hidden_effect
-86,2,H2,Australia v Egypt,Australia,Egypt,68,1,53.84615384615385,13,False,Round of 32,mid
-87,1,H1,Argentina v Cabo Verde,Argentina,Cabo Verde,25,0,23.076923076923077,13,False,Round of 32,true_null
-87,2,H2,Argentina v Cabo Verde,Argentina,Cabo Verde,73,4,100.0,9,False,Round of 32,hidden_effect
-88,1,H1,Colombia v Ghana,Colombia,Ghana,24,2,100.0,9,False,Round of 32,hidden_effect
-88,2,H2,Colombia v Ghana,Colombia,Ghana,69,4,83.33333333333334,18,False,Round of 32,hidden_effect
-89,1,H1,Paraguay v France,Paraguay,France,23,2,77.77777777777779,18,False,Round of 16,mid
-89,2,H2,Paraguay v France,Paraguay,France,73,1,50.0,2,False,Round of 16,true_null
-90,1,H1,Canada v Morocco,Canada,Morocco,24,2,100.0,18,False,Round of 16,hidden_effect
-90,2,H2,Canada v Morocco,Canada,Morocco,68,2,100.0,15,False,Round of 16,hidden_effect
-91,1,H1,Brazil v Norway,Brazil,Norway,27,0,23.076923076923077,13,False,Round of 16,true_null
-91,2,H2,Brazil v Norway,Brazil,Norway,68,2,41.66666666666667,12,False,Round of 16,true_null
-92,1,H1,Mexico v England,Mexico,England,23,0,42.857142857142854,14,False,Round of 16,true_null
-92,2,H2,Mexico v England,Mexico,England,71,2,100.0,4,False,Round of 16,hidden_effect
-93,1,H1,Portugal v Spain,Portugal,Spain,23,2,38.88888888888889,18,False,Round of 16,true_null
-93,2,H2,Portugal v Spain,Portugal,Spain,68,2,83.33333333333334,18,False,Round of 16,hidden_effect
-94,1,H1,USA v Belgium,USA,Belgium,24,0,0.0,8,False,Round of 16,true_null
-94,2,H2,USA v Belgium,USA,Belgium,69,1,36.36363636363637,11,False,Round of 16,true_null
-95,1,H1,Argentina v Egypt,Argentina,Egypt,23,2,0.0,1,False,Round of 16,true_null
-95,2,H2,Argentina v Egypt,Argentina,Egypt,71,3,100.0,4,False,Round of 16,hidden_effect
-96,1,H1,Switzerland v Colombia,Switzerland,Colombia,23,2,72.22222222222221,18,False,Round of 16,mid
-96,2,H2,Switzerland v Colombia,Switzerland,Colombia,68,0,44.44444444444444,18,False,Round of 16,true_null
-97,1,H1,France v Morocco,France,Morocco,29,2,94.44444444444444,18,False,Quarter-finals,hidden_effect
-97,2,H2,France v Morocco,France,Morocco,67,2,100.0,8,False,Quarter-finals,hidden_effect
-98,1,H1,Spain v Belgium,Spain,Belgium,23,1,72.72727272727273,11,False,Quarter-finals,mid
-98,2,H2,Spain v Belgium,Spain,Belgium,67,0,55.55555555555556,18,False,Quarter-finals,mid
-99,1,H1,Norway v England,Norway,England,23,1,78.57142857142857,14,True,Quarter-finals,mid
-99,2,H2,Norway v England,Norway,England,68,2,94.44444444444444,18,False,Quarter-finals,hidden_effect
-100,1,H1,Argentina v Switzerland,Argentina,Switzerland,23,1,69.23076923076923,13,False,Quarter-finals,mid
+79,2,H2,Mexico v Ecuador,Mexico,Ecuador,68,3,100.0,9,False,Round of 32,hidden_effect
+80,1,H1,England v Congo DR,England,Congo DR,23,0,14.285714285714285,7,True,Round of 32,perception_illusion
+80,2,H2,England v Congo DR,England,Congo DR,68,4,28.57142857142857,7,True,Round of 32,perception_illusion
+81,1,H1,Belgium v Senegal,Belgium,Senegal,27,1,,0,False,Round of 32,unscored
+81,2,H2,Belgium v Senegal,Belgium,Senegal,70,2,62.5,8,False,Round of 32,mid
+82,1,H1,USA v Bosnia and Herzegovina,USA,Bosnia and Herzegovina,23,0,11.11111111111111,9,False,Round of 32,true_null
+82,2,H2,USA v Bosnia and Herzegovina,USA,Bosnia and Herzegovina,69,1,57.14285714285714,7,False,Round of 32,mid
+83,1,H1,Spain v Austria,Spain,Austria,24,1,12.5,8,False,Round of 32,true_null
+83,2,H2,Spain v Austria,Spain,Austria,68,2,100.0,2,False,Round of 32,hidden_effect
+84,1,H1,Portugal v Croatia,Portugal,Croatia,24,1,77.77777777777779,9,False,Round of 32,mid
+84,2,H2,Portugal v Croatia,Portugal,Croatia,69,5,100.0,1,False,Round of 32,hidden_effect
+85,1,H1,Switzerland v Algeria,Switzerland,Algeria,25,0,50.0,4,False,Round of 32,true_null
+85,2,H2,Switzerland v Algeria,Switzerland,Algeria,67,1,55.55555555555556,9,False,Round of 32,mid
+86,1,H1,Australia v Egypt,Australia,Egypt,23,1,100.0,2,False,Round of 32,hidden_effect
+86,2,H2,Australia v Egypt,Australia,Egypt,68,1,75.0,4,False,Round of 32,mid
+87,1,H1,Argentina v Cabo Verde,Argentina,Cabo Verde,25,0,33.33333333333333,9,False,Round of 32,true_null
+87,2,H2,Argentina v Cabo Verde,Argentina,Cabo Verde,73,4,100.0,3,False,Round of 32,hidden_effect
+88,1,H1,Colombia v Ghana,Colombia,Ghana,24,2,100.0,1,False,Round of 32,hidden_effect
+88,2,H2,Colombia v Ghana,Colombia,Ghana,69,4,88.88888888888889,9,False,Round of 32,hidden_effect
+89,1,H1,Paraguay v France,Paraguay,France,23,2,88.88888888888889,9,False,Round of 16,hidden_effect
+89,2,H2,Paraguay v France,Paraguay,France,73,1,,0,False,Round of 16,unscored
+90,1,H1,Canada v Morocco,Canada,Morocco,24,2,100.0,9,False,Round of 16,hidden_effect
+90,2,H2,Canada v Morocco,Canada,Morocco,68,2,100.0,7,False,Round of 16,hidden_effect
+91,1,H1,Brazil v Norway,Brazil,Norway,27,0,0.0,6,False,Round of 16,true_null
+91,2,H2,Brazil v Norway,Brazil,Norway,68,2,42.857142857142854,7,False,Round of 16,true_null
+92,1,H1,Mexico v England,Mexico,England,23,0,42.857142857142854,7,False,Round of 16,true_null
+92,2,H2,Mexico v England,Mexico,England,71,2,,0,False,Round of 16,unscored
+93,1,H1,Portugal v Spain,Portugal,Spain,23,2,22.22222222222222,9,False,Round of 16,true_null
+93,2,H2,Portugal v Spain,Portugal,Spain,68,2,77.77777777777779,9,False,Round of 16,mid
+94,1,H1,USA v Belgium,USA,Belgium,24,0,0.0,4,False,Round of 16,true_null
+94,2,H2,USA v Belgium,USA,Belgium,69,1,100.0,2,False,Round of 16,hidden_effect
+95,1,H1,Argentina v Egypt,Argentina,Egypt,23,2,,0,False,Round of 16,unscored
+95,2,H2,Argentina v Egypt,Argentina,Egypt,71,3,,0,False,Round of 16,unscored
+96,1,H1,Switzerland v Colombia,Switzerland,Colombia,23,2,77.77777777777779,9,False,Round of 16,mid
+96,2,H2,Switzerland v Colombia,Switzerland,Colombia,68,0,33.33333333333333,9,False,Round of 16,true_null
+97,1,H1,France v Morocco,France,Morocco,29,2,100.0,13,False,Quarter-finals,hidden_effect
+97,2,H2,France v Morocco,France,Morocco,67,2,100.0,3,False,Quarter-finals,hidden_effect
+98,1,H1,Spain v Belgium,Spain,Belgium,23,1,71.42857142857143,7,False,Quarter-finals,mid
+98,2,H2,Spain v Belgium,Spain,Belgium,67,0,77.77777777777779,9,False,Quarter-finals,mid
+99,1,H1,Norway v England,Norway,England,23,1,100.0,7,True,Quarter-finals,confirmed_feeling
+99,2,H2,Norway v England,Norway,England,68,2,88.88888888888889,9,False,Quarter-finals,hidden_effect
+100,1,H1,Argentina v Switzerland,Argentina,Switzerland,23,1,50.0,4,False,Quarter-finals,true_null
 100,2,H2,Argentina v Switzerland,Argentina,Switzerland,75,0,,0,False,Quarter-finals,unscored
-101,1,H1,France v Spain,France,Spain,24,0,33.33333333333333,6,False,Semi-finals,true_null
-101,2,H2,France v Spain,France,Spain,69,4,87.5,8,False,Semi-finals,hidden_effect
-102,1,H1,England v Argentina,England,Argentina,25,1,77.77777777777779,18,False,Semi-finals,mid
-102,2,H2,England v Argentina,England,Argentina,69,3,100.0,13,False,Semi-finals,hidden_effect
-103,1,H1,France v England,France,England,23,0,0.0,4,False,Third-place match,true_null
-103,2,H2,France v England,France,England,68,2,71.42857142857143,7,False,Third-place match,mid
-104,1,H1,Spain v Argentina,Spain,Argentina,25,0,50.0,18,False,Final,true_null
-104,2,H2,Spain v Argentina,Spain,Argentina,67,2,77.77777777777779,18,False,Final,mid
+101,1,H1,France v Spain,France,Spain,24,0,0.0,1,False,Semi-finals,true_null
+101,2,H2,France v Spain,France,Spain,69,4,100.0,1,False,Semi-finals,hidden_effect
+102,1,H1,England v Argentina,England,Argentina,25,1,100.0,9,False,Semi-finals,hidden_effect
+102,2,H2,England v Argentina,England,Argentina,69,3,100.0,4,False,Semi-finals,hidden_effect
+103,1,H1,France v England,France,England,23,0,,0,False,Third-place match,unscored
+103,2,H2,France v England,France,England,68,2,100.0,2,False,Third-place match,hidden_effect
+104,1,H1,Spain v Argentina,Spain,Argentina,25,0,55.55555555555556,9,False,Final,mid
+104,2,H2,Spain v Argentina,Spain,Argentina,67,2,66.66666666666666,9,False,Final,mid

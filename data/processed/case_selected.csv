@@ -1,7 +1,7 @@
 match_id,break_number,half,fixture,home,away,start_minute,disruption,percentile,n_candidates,has_claim,stage,cell,selected_as
-71,2,H2,Panama v England,Panama,England,69,8,100.0,6,True,Group Stage,confirmed_feeling,confirmed_feeling
-9,1,H1,Germany v Curaçao,Germany,Curaçao,23,5,100.0,6,True,Group Stage,confirmed_feeling,confirmed_feeling
-54,2,H2,Morocco v Haiti,Morocco,Haiti,68,6,100.0,11,False,Group Stage,hidden_effect,hidden_effect
-20,2,H2,Austria v Jordan,Austria,Jordan,72,0,6.666666666666667,15,True,Group Stage,perception_illusion,perception_illusion
-80,1,H1,England v Congo DR,England,Congo DR,23,0,25.0,16,True,Round of 32,perception_illusion,perception_illusion
-2,2,H2,South Korea v Czechia,South Korea,Czechia,70,0,0.0,3,False,Group Stage,true_null,true_null
+71,2,H2,Panama v England,Panama,England,69,8,100.0,1,True,Group Stage,confirmed_feeling,confirmed_feeling
+9,1,H1,Germany v Curaçao,Germany,Curaçao,23,5,100.0,1,True,Group Stage,confirmed_feeling,confirmed_feeling
+54,2,H2,Morocco v Haiti,Morocco,Haiti,68,6,100.0,7,False,Group Stage,hidden_effect,hidden_effect
+20,2,H2,Austria v Jordan,Austria,Jordan,72,0,9.090909090909092,11,True,Group Stage,perception_illusion,perception_illusion
+80,1,H1,England v Congo DR,England,Congo DR,23,0,14.285714285714285,7,True,Round of 32,perception_illusion,perception_illusion
+2,2,H2,South Korea v Czechia,South Korea,Czechia,70,0,0.0,2,False,Group Stage,true_null,true_null

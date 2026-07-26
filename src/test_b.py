@@ -122,7 +122,7 @@ def analyse(bands, cache, per, sot, match_sot=False):
 
             # state-matched controls: SAME pre-window advantage, own orientation
             cand = []
-            for c in m.eligible_minutes(b["half"], m.margin_bucket(call)):
+            for c in m.eligible_minutes(b["half"], m.margin_bucket(call), window=w):
                 if not (c - w >= lo - 1 and c + w <= hi):
                     continue
                 oc = orient(per, sot, mid, m.home, m.away, c - w, w)
@@ -249,6 +249,12 @@ def main():
             f"[{r['D_lo']:+.3f}, {r['D_hi']:+.3f}] |")
 
     lines += [
+        "",
+        "**Coverage warning.** Requiring controls whose whole window clears the real "
+        "break (the contamination fix) cut this sample hard: 88 / 63 / 33 breaks at "
+        "5 / 8 / 10 minutes, against 94 / 91 / 90 before. At w=10 only ~30 matches "
+        "remain and the interval is correspondingly wide — that row should be read as "
+        "underpowered rather than as an independent confirmation.",
         "",
         "Note how large the *unadjusted* swings are in BOTH columns: teams that have just "
         "been dominating give most of that edge back within minutes, break or no break. "

@@ -1,6 +1,6 @@
 # Case studies — transparent 2x2 selection (Core Output 7)
 
-Scored breaks: 196 of 203 (7 unscored: no eligible pseudo-break minutes).
+Scored breaks: 183 of 203 (20 unscored: no eligible pseudo-break minutes).
 Axis 1: |Δ shot balance| across the break, percentile vs the same match/half's ordinary minutes. Large ≥80th, small ≤50th.
 Axis 2: did the perception pilot find a public claim naming that break?
 
@@ -8,14 +8,14 @@ Axis 2: did the perception pilot find a public claim naming that break?
 
 | cell | breaks |
 |---|---|
-| confirmed_feeling | 3 |
-| perception_illusion | 4 |
-| hidden_effect | 64 |
-| true_null | 73 |
-| mid | 52 |
-| unscored | 7 |
+| confirmed_feeling | 5 |
+| perception_illusion | 5 |
+| hidden_effect | 66 |
+| true_null | 71 |
+| mid | 36 |
+| unscored | 20 |
 
-Breaks with a public claim in the pilot: **13 of 203**. Breaks with an equally large measured swing and no pilot claim: **64**.
+Breaks with a public claim in the pilot: **14 of 203**. Breaks with an equally large measured swing and no pilot claim: **66**.
 
 **How to read that asymmetry.** Collection combined a topical pass with a
 PRE-SPECIFIED STRATIFIED RANDOM SWEEP of 24 matches / 48 breaks, each searched
@@ -35,8 +35,8 @@ does not rest on that assumption.
 | confirmed_feeling | Panama v England | Group Stage | 2 | 69' | 8 | 100 | yes |
 | confirmed_feeling | Germany v Curaçao | Group Stage | 1 | 23' | 5 | 100 | yes |
 | hidden_effect | Morocco v Haiti | Group Stage | 2 | 68' | 6 | 100 | no |
-| perception_illusion | Austria v Jordan | Group Stage | 2 | 72' | 0 | 7 | yes |
-| perception_illusion | England v Congo DR | Round of 32 | 1 | 23' | 0 | 25 | yes |
+| perception_illusion | Austria v Jordan | Group Stage | 2 | 72' | 0 | 9 | yes |
+| perception_illusion | England v Congo DR | Round of 32 | 1 | 23' | 0 | 14 | yes |
 | true_null | South Korea v Czechia | Group Stage | 2 | 70' | 0 | 0 | no |
 
 ## Selection rule (applied, not curated)

@@ -47,6 +47,7 @@ PRIMARY_W = 8
 H_BOUNDS = {"H1": (1, 45), "H2": (46, 90)}
 ELIGIBLE = {"H1": range(9, 37), "H2": range(54, 82)}
 GOAL_EXCL, RED_EXCL, VAR_EXCL, BREAK_EXCL = 3, 3, 2, 3
+BREAK_WASHOUT = 1      # transition minute after the band, also kept out of controls
 
 
 def _parse_minute(v) -> float:
@@ -111,12 +112,32 @@ class MatchData:
     def _near(self, arr: np.ndarray, m: float, tol: float) -> bool:
         return bool(self._count(arr, m - tol, m + tol + 1e-9))
 
-    def eligible_minutes(self, half: str, ref_bucket: int) -> list[int]:
+    def eligible_minutes(self, half: str, ref_bucket: int,
+                         window: int | None = None) -> list[int]:
+        """Control-anchor minutes for this half.
+
+        `window` is REQUIRED for any analysis that builds pre/post windows around
+        the anchor. Excluding only anchors near the break is not enough: a
+        candidate anchored far enough away can still have its pre- or post-window
+        stretch across the real hydration break, so the "ordinary uninterrupted"
+        control would contain the very treatment it is meant to exclude. At the
+        primary 8-minute window that affected 47% of candidates, and 68% at ten
+        minutes, biasing every contrast toward the null.
+
+        With `window=w` a candidate is kept only if its full span
+        [c-w, c+w) misses the break band plus a one-minute transition washout.
+        `window=None` keeps the legacy anchor-only behaviour and is retained only
+        for callers that never build windows.
+        """
         band = self.bands.get(half)
         out = []
         for m in ELIGIBLE[half]:
             if band and (band[0] - BREAK_EXCL) <= m <= (band[1] + BREAK_EXCL):
                 continue
+            if band and window is not None:
+                lo, hi = m - window, m + window
+                if lo < band[1] + BREAK_WASHOUT and hi > band[0]:
+                    continue
             if self._near(self.goal_pos, m, GOAL_EXCL):
                 continue
             if self._near(self.red_pos, m, RED_EXCL):
@@ -172,7 +193,7 @@ def run():
     for _, br in bands.iterrows():
         m = md[br["match_id"]]
         bucket = m.margin_bucket(br["start_minute"])
-        cands = m.eligible_minutes(br["half"], bucket)
+        cands = m.eligible_minutes(br["half"], bucket, window=max(WINDOWS))
         if not cands:
             skipped.append((br["match_id"], br["half"]))
             continue

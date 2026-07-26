@@ -83,7 +83,7 @@ def analyse(bands, cache, pos):
             lo, hi = HALF[b["half"]]
             if not (call - w >= lo - 1 and call + dur + w <= hi):
                 continue
-            cands = m.eligible_minutes(b["half"], m.margin_bucket(call))
+            cands = m.eligible_minutes(b["half"], m.margin_bucket(call), window=w)
             if not cands:
                 continue
             pre = rate(pos, mid, call - w, w)

@@ -49,7 +49,7 @@ def build_matrix() -> pd.DataFrame:
         obs = m.outcomes(b["start_minute"], b["duration_min"], WINDOW, "adjusted")
         disruption = obs["balance_disruption"]
         bucket = m.margin_bucket(b["start_minute"])
-        cands = m.eligible_minutes(b["half"], bucket)
+        cands = m.eligible_minutes(b["half"], bucket, window=WINDOW)
         if cands:
             null = np.array([m.outcomes(c, 0.0, WINDOW, "adjusted")["balance_disruption"]
                              for c in cands], float)

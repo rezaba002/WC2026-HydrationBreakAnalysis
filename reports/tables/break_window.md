@@ -3,16 +3,16 @@
 **Post hoc, not preregistered** — motivated by the momentum-graphic
 discussion; results were seen before the plan was fixed. Logged as CHANGELOG E1.
 
-Common-support sample: breaks valid at all windows (196 breaks / 102 matches of 203/102).
+Common-support sample: breaks valid at all windows (148 breaks / 92 matches of 203/102).
 Rates are shots per minute, both teams. Every dead-time prediction uses each
 break's OWN measured duration, never a fixed three minutes.
 
 | w | pre | N (from call) | dead-time prediction | C (from resumption) | control | **D = C − control** | 95% CI (match-clustered) |
 |---|---|---|---|---|---|---|---|
-| 3 | 0.207 | -0.196 | -0.198 | +0.010 | -0.000 | **+0.011** | [-0.070, +0.089] |
-| 5 | 0.231 | -0.135 | -0.132 | +0.004 | +0.001 | **+0.003** | [-0.059, +0.069] |
-| 8 | 0.217 | -0.064 | -0.077 | +0.025 | -0.005 | **+0.029** | [-0.023, +0.082] |
-| 10 | 0.226 | -0.057 | -0.064 | +0.013 | -0.008 | **+0.021** | [-0.031, +0.063] |
+| 3 | 0.207 | -0.196 | -0.200 | +0.018 | -0.001 | **+0.019** | [-0.043, +0.084] |
+| 5 | 0.220 | -0.116 | -0.127 | +0.020 | -0.003 | **+0.023** | [-0.034, +0.081] |
+| 8 | 0.214 | -0.058 | -0.077 | +0.030 | -0.027 | **+0.057** | [+0.001, +0.113] |
+| 10 | 0.223 | -0.050 | -0.064 | +0.014 | -0.047 | **+0.061** | [-0.002, +0.126] |
 
 ### Transition-minute sensitivity
 
@@ -23,15 +23,24 @@ later measures how much that matters instead of asserting it:
 
 | w | D (post-window from restart) | D (post-window from restart + 1) | 95% CI |
 |---|---|---|---|
-| 3 | +0.011 | **+0.057** | [-0.029, +0.139] |
-| 5 | +0.003 | **+0.015** | [-0.048, +0.080] |
-| 8 | +0.029 | **+0.038** | [-0.013, +0.091] |
-| 10 | +0.021 | **+0.035** | [-0.016, +0.077] |
+| 3 | +0.019 | **+0.067** | [-0.004, +0.143] |
+| 5 | +0.023 | **+0.038** | [-0.021, +0.098] |
+| 8 | +0.057 | **+0.062** | [+0.005, +0.122] |
+| 10 | +0.061 | **+0.075** | [+0.013, +0.140] |
 
-Excluding the transition minute shifted the adjusted estimates upward by an average of 0.020 shots per minute, without changing the overall conclusion — every interval still includes zero. Including the partially observed transition minute therefore appears to attenuate the estimates downward. No clustered interval was computed for the DIFFERENCE between the two specifications, so this is described as an apparent shift rather than a quantified bias.
+Excluding the transition minute shifted the adjusted estimates upward by an average of 0.021 shots per minute, without changing the overall conclusion — every interval still includes zero. Including the partially observed transition minute therefore appears to attenuate the estimates downward. No clustered interval was computed for the DIFFERENCE between the two specifications, so this is described as an apparent shift rather than a quantified bias.
 
 `N` is what a display-clock window reports. `D` is the estimate that matters:
 post-resumption change, differenced against matched ordinary minutes.
+
+**Read D carefully.** After the control-contamination fix, three of the four D
+intervals include zero and the 8-minute interval excludes it only at its lower
+bound (+0.001) — a hair's breadth, across four windows examined, from a bootstrap
+with finite draws. That is not evidence of an effect. Note also its DIRECTION:
+positive D means slightly MORE activity after a break than at clean control
+minutes, the opposite of the 'breaks kill momentum' claim. The defensible
+statement remains that post-resumption activity is close to matched ordinary
+play, with no support for a sustained decline.
 
 ## Validation 1 — synthetic dead time
 
@@ -48,25 +57,25 @@ interval would not be a test.
 
 | w | real N (from call) | synthetic stoppage | **A = real − synthetic** | 95% CI (match-clustered) |
 |---|---|---|---|---|
-| 3 | -0.196 | -0.206 | **+0.010** | [-0.034, +0.069] |
-| 5 | -0.135 | -0.124 | **-0.011** | [-0.054, +0.042] |
-| 8 | -0.064 | -0.082 | **+0.018** | [-0.028, +0.069] |
-| 10 | -0.057 | -0.070 | **+0.013** | [-0.032, +0.055] |
+| 3 | -0.196 | -0.206 | **+0.011** | [-0.034, +0.054] |
+| 5 | -0.116 | -0.126 | **+0.010** | [-0.034, +0.053] |
+| 8 | -0.058 | -0.103 | **+0.044** | [-0.005, +0.095] |
+| 10 | -0.050 | -0.107 | **+0.057** | [+0.003, +0.113] |
 
-**All A intervals include zero.** The decline measured from the break call did not differ detectably from the decline produced by inserting an equivalent synthetic stoppage at matched ordinary minutes — i.e. the apparent collapse is closely reproduced by the measurement procedure alone.
+**At least one A interval excludes zero** — the real decline is NOT fully reproduced by synthetic dead time at every window; see the table.
 
 Note on wording: those control minutes are ordinary passages of football. The procedure inserts artificial dead time into them; it does not select quiet periods.
 
 ### Sensitivity — measured durations only
 
-Duration drives the synthetic stoppage, and 76 of the 196 analysed breaks have a median-imputed duration. Repeating the placebo on the breaks whose duration was actually measured:
+Duration drives the synthetic stoppage, and 55 of the 148 analysed breaks have a median-imputed duration. Repeating the placebo on the breaks whose duration was actually measured:
 
 | w | n breaks | real N | synthetic | A = real − synthetic | 95% CI |
 |---|---|---|---|---|---|
-| 3 | 120 | -0.186 | -0.208 | +0.022 | [-0.039, +0.092] |
-| 5 | 120 | -0.133 | -0.126 | -0.008 | [-0.066, +0.062] |
-| 8 | 120 | -0.068 | -0.085 | +0.018 | [-0.037, +0.084] |
-| 10 | 120 | -0.067 | -0.073 | +0.006 | [-0.048, +0.068] |
+| 3 | 93 | -0.190 | -0.210 | +0.020 | [-0.036, +0.076] |
+| 5 | 93 | -0.118 | -0.127 | +0.009 | [-0.046, +0.068] |
+| 8 | 93 | -0.063 | -0.107 | +0.044 | [-0.020, +0.111] |
+| 10 | 93 | -0.059 | -0.119 | +0.060 | [-0.019, +0.134] |
 
 ## Validation 2 — duration dose-response (UNDERPOWERED, inconclusive)
 
@@ -80,10 +89,10 @@ evidence.
 
 | w | slope of N on dead share | slope of C on dead share | distinct shares | n measured |
 |---|---|---|---|---|
-| 3 | -0.165 | +0.057 | 2 | 120 |
-| 5 | -0.162 | -0.036 | 3 | 120 |
-| 8 | -0.085 | +0.110 | 3 | 120 |
-| 10 | -0.097 | +0.334 | 3 | 120 |
+| 3 | -0.237 | -0.119 | 2 | 93 |
+| 5 | -0.271 | -0.174 | 3 | 93 |
+| 8 | -0.167 | -0.063 | 3 | 93 |
+| 10 | -0.230 | +0.204 | 3 | 93 |
 
 ## Interpretation limits
 
