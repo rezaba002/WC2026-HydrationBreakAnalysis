@@ -42,20 +42,22 @@ Ambiguous = neither side led the pre-window on shots on target or total shots (i
 
 ## Limits
 
-- Descriptive, not causal. The spec labels Test B descriptive: matching on pre-window dominance rebuilds part of the selection mechanism, which is why Test A (not this) carries the causal claim.
+- Descriptive, not causal. The spec labels Test B descriptive: matching on pre-window dominance rebuilds part of the selection mechanism, which is why Test A (not this) is the primary matched counterfactual analysis.
 - Exact matching on integer pre-window advantage keeps the comparison clean but thins the control pool; breaks with no matched control are reported above and excluded rather than matched loosely.
 - Shots and shots on target only. No per-shot xG exists in the auditable layer (CHANGELOG A2), so 'advantage' is a count, not a chance-quality measure.
 - CHANGELOG A5 ruled the HOME-oriented signed contrast unreportable because the control pool's unconditional home−away mean is biased. Orientation here is by pre-window dominance, not home/away, and both arms are oriented by the same rule, so that specific bias should cancel — the home/away split below is the check on whether it does.
 
-### Sensitivity — matching on (shot advantage, SOT advantage)
+### Sensitivity — what counts as 'comparable pressure'?
 
-The attacking side is chosen on shots on target first, but the main matching key is the total-shot advantage alone, so two spells can pair while differing in SOT dominance. Requiring both to match tests whether 'comparable pressure' means more than the same raw shot differential. It costs coverage.
+The default key is the pre-window shot ADVANTAGE alone, which pairs 1-0 with 5-4: same differential, very different intensity, and only one resembles 'we were bombarding them'. These rows tighten the definition. Each costs coverage, and with clean controls the samples get small quickly.
 
-| w | breaks (main) | breaks (strict) | D (main) | D (strict) | 95% CI (strict) |
-|---|---|---|---|---|---|
-| 5 | 88 | 63 | -0.136 | +0.115 | [-0.302, +0.566] |
-| 8 | 63 | 39 | -0.251 | -0.308 | [-0.884, +0.263] |
-| 10 | 33 | 19 | +0.258 | -0.004 | [-1.118, +1.035] |
+| w | main | + SOT advantage | + equal total shots | + both |
+|---|---|---|---|---|
+| 5 | -0.136 [-0.501, +0.247] (n=88) | +0.115 [-0.302, +0.566] (n=63) | -0.063 [-0.483, +0.348] (n=84) | +0.206 [-0.257, +0.709] (n=60) |
+| 8 | -0.251 [-0.775, +0.235] (n=63) | -0.308 [-0.884, +0.263] (n=39) | -0.433 [-1.080, +0.176] (n=47) | -0.482 [-1.301, +0.346] (n=27) |
+| 10 | +0.258 [-0.558, +1.034] (n=33) | -0.004 [-1.118, +1.035] (n=19) | +0.218 [-0.933, +1.250] (n=21) | -0.125 [-1.607, +1.268] (n=14) |
+
+Read these as coverage-limited rather than as independent confirmations: the strictest cells rest on very few breaks. What they establish is that the conclusion does not depend on the loosest matching definition, not that it has been confirmed four times.
 
 ### A5 diagnostic — attacker home vs away (orientation-stratified)
 

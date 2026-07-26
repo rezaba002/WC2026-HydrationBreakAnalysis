@@ -82,7 +82,12 @@ the final placebo test.
 
 ## 5. Placebo design — two tests, two questions
 
-### Test A (primary, causal): randomized pseudo-breaks
+### Test A (primary matched counterfactual): randomized pseudo-breaks
+
+> **Terminology corrected 2026-07-26 (CHANGELOG A6).** This heading previously read
+> "primary, causal". Treatment was never randomly assigned, so no randomized causal
+> effect is identified. Test A tests whether post-break football was unusual relative
+> to eligible pseudo-break moments — a matched counterfactual, not a causal estimate.
 For each real break:
 1. Enumerate eligible non-break minutes in the same match and half (or equivalent
    historical half).
@@ -113,6 +118,13 @@ Visualization only. Never the inference.
 - **Primary:** match-level bootstrap — resample entire matches with replacement,
   5,000 iterations, fixed seed.
 - **Robustness:** hierarchical model — observations nested in breaks nested in matches.
+  **DEVIATION, 2026-07-26 (CHANGELOG A6): not implemented.** The robustness pass instead
+  uses match-clustered bootstrapping throughout, plus placement matching, exclusion
+  sensitivities, subgroup cuts and leave-one-match-out. Both approaches address the same
+  nesting; the bootstrap was retained because it makes no distributional assumption and
+  because the primary estimates are simple means and paired differences, for which a
+  cluster bootstrap and a random-intercept model answer the same question. Recorded as a
+  deviation rather than quietly dropped.
 - Report effect sizes and compatibility intervals, **not p-values**.
 - Cluster by match, not by break: two breaks per match plus repeated team observations
   mean break-level clustering understates uncertainty exactly where the design is

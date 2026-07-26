@@ -1,9 +1,15 @@
-"""Outcome breadth: did the game's TEMPER change after breaks? (descriptive)
+"""APPENDIX — exploratory yellow-card-rate analysis.
 
-Every result so far rests on shots — attacking output. A frequent claim about
-the breaks is different in kind: that they "cool the game down" or "break its
-rhythm". Cards test that directly. They proxy tempo, aggression and game
-control, and no shot metric captures them.
+Every other result rests on shots. This adds one non-shot outcome that is
+time-stamped and dense enough to test at all.
+
+WHAT CARDS DO NOT MEASURE. A booking is not a measurement of tempo, rhythm or
+"game control". It is a referee decision, driven by referee thresholds and
+game-management style, tactical fouling, dissent, score state, match
+importance, and cards administered late for an earlier incident. Any of those
+can move card rates without the run of play changing, and the run of play can
+change without any card. Treat this as a weak, indirect signal — an appendix,
+never evidence about positional structure or tactical control.
 
 Yellow cards are the only additional event type in the 2026 layer that is both
 time-stamped and dense enough to test:
@@ -121,12 +127,15 @@ def main():
     rows = analyse(bands, cache, pos)
 
     lines = [
-        "# Did the game's temper change after breaks? (cards — descriptive)",
+        "# Appendix — exploratory yellow-card-rate analysis",
         "",
-        "Every other result in this project rests on shots. The claim that breaks 'cool "
-        "the game down' or 'break its rhythm' is different in kind, and cards test it "
-        "directly: they proxy tempo, aggression and game control, which no shot metric "
-        "captures.",
+        "**A weak, indirect signal. Not a measure of tempo, rhythm or game control.**",
+        "A booking is a referee decision, driven by referee thresholds and game-management "
+        "style, tactical fouling, dissent, score state, match importance, and cards given "
+        "late for an earlier incident. Card rates can move without the run of play "
+        "changing, and the run of play can change without any card. This is included only "
+        "because it is the one non-shot outcome in the 2026 layer that is both "
+        "time-stamped and dense enough to test at all.",
         "",
         "Rates are yellow cards per minute, both teams. Post-break windows start at "
         "resumption. Each break is differenced against the mean of its own matched "
@@ -145,8 +154,10 @@ def main():
     lines += [
         "",
         ("**Every interval includes zero.** Booking rates after breaks are "
-         "indistinguishable from those after matched ordinary minutes: on this measure "
-         "the breaks neither calmed the game nor stirred it up."
+         "indistinguishable from those after matched ordinary minutes. Given the "
+         "sparsity (~0.16 cards per 8-minute window) only a very large shift would be "
+         "detectable, so this is weak evidence of no difference in booking rates — NOT "
+         "a finding that the breaks left the character of the game unchanged."
          if zero else
          "**At least one interval excludes zero — see the table.**"),
         "",
@@ -180,11 +191,14 @@ def main():
         "",
         "## Limits",
         "",
-        "- Descriptive. Cards depend on referee behaviour, score state and match "
-        "importance; this is an association at matched moments, not a causal claim.",
+        "- **Appendix status.** Exploratory, descriptive, and a weak proxy: cards measure "
+        "referee decisions, not the run of play. Not evidence about positional structure "
+        "or tactical control.",
         "- Sparse: ~0.16 cards per 8-minute window, so intervals are wide and only a "
         "large effect would be detectable.",
         "- Yellow cards only. Reds and VAR are too rare and are control-screened.",
+        "- Confounded by referee thresholds, tactical fouling, dissent, score state and "
+        "match importance, none of which are adjusted for here.",
     ]
     (TABLES / "cards.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines))

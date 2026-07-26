@@ -49,7 +49,11 @@ placement-matched bias check.
 
 **This interval includes zero.** The point estimate is negative — real breaks were followed by slightly *less* disruption than their own matched control minutes — but once the uncertainty is placed around the CONTRAST and clustered by match, the difference is not distinguishable from no difference. The randomization percentile reported in §1 is more confident than this because it reflects only the draw-to-draw variability of the controls, not the match-to-match variability of the real breaks. **The clustered interval is the honest one, and the report leads with it.** Note what it still rules out: the break-unfavourable end of the interval is only +0.07 shots of extra disruption — orders of magnitude smaller than the decisive swings described publicly. The finding is 'no detectable difference', not 'breaks calmed the game'.
 
-**Support sensitivity.** A break with only one eligible control minute supplies the same control in every draw. Requiring ≥3, ≥5 and ≥10 controls drops the weakly-supported breaks; the estimate and interval are stable across all thresholds, so thin matching is not driving the result.
+**Support sensitivity — NOT stable, and that must be said plainly.** Requiring ≥3, ≥5 and ≥10 clean controls moves the estimate steadily more negative (−0.073 → −0.173 → −0.196 → −0.948), and the ≥10 row excludes zero.
+
+That row rests on **18 breaks in 18 matches** and is a heavily SELECTED subsample, not a random one: after the contamination fix, only matches with many eligible control minutes — few goals, cards or VAR interruptions, and a stable score state — can supply ten clean controls. Those are quiet matches, where a hydration break is a larger share of the total disturbance. So the drift is consistent with selection on match character rather than with a stronger break effect, but this analysis cannot separate the two.
+
+**Consequence:** the headline is the full-sample estimate, and the honest statement is that it is NOT robust to demanding deeper control support. Anyone citing the null should cite this row alongside it.
 
 **Note on the placement-matched variant.** Restricting controls to ±5' of each break's own minute leaves a median of 2 candidates (max 2), because the eligible window is already narrowed by score state and event exclusions. It is retained as a bias check (§1) but is too thinly supported to carry the headline, and a support sensitivity cannot be run on it at all.
 

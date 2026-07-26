@@ -25,6 +25,34 @@ versions (`|Δ shot share|`) are secondary, computed only where both windows
 contain ≥1 shot, with coverage reported. Rationale: share is 0/0-undefined in
 quiet windows; dropping them would rebuild selection-on-activity.
 
+## 2026-07-26 — terminology, deviation and control-definition corrections
+
+**A6 — "Causal" removed; hierarchical-model deviation recorded.**
+The spec headed Test A "primary, causal" while also stating it does not identify a
+randomized treatment effect, and the report's limitations said everything is
+associational. Those cannot all hold. Treatment was never randomly assigned, so
+Test A is now described throughout as the **primary matched counterfactual
+analysis**: it tests whether post-break football was unusual relative to eligible
+pseudo-break moments. "causal inference" also removed from CITATION.cff keywords.
+Separately, the spec promised a hierarchical nested model as robustness; it was not
+implemented. Match-clustered bootstrapping is used throughout instead, alongside
+placement matching, exclusion sensitivities, subgroup cuts and leave-one-match-out.
+Recorded as a deviation rather than dropped silently.
+
+**A7 — Control windows must not overlap the real break.**
+`eligible_minutes()` excluded only candidate ANCHOR minutes near the break band, never
+checking that the candidate's pre/post WINDOWS clear it. Measured contamination of the
+control arm: 12.2% of controls at w=5, **46.8% at the primary w=8**, and 67.7% at w=10
+contained the actual hydration break. Controls described as "ordinary uninterrupted
+football" therefore contained the treatment, biasing every contrast toward the null —
+the direction of all headline findings. Fixed centrally: a candidate survives only if
+its whole `[c-w, c+w)` span clears the band plus a one-minute transition washout. All
+callers pass their window; a regression test asserts no control window can overlap a
+break. Coverage fell as a result (E1 203→148 breaks; Test B 94/91/90→88/63/33) and
+placement matching became largely infeasible, since an anchor within 5' of a break
+cannot have an 8' window clear of it. All affected analyses were rerun; conclusions
+survive, with the changed numbers and reduced power reported in place.
+
 ## 2026-07-26 — exploratory addition (does NOT alter the confirmatory design)
 
 **E1 — Exploratory clock-artefact event study.** After completion of the

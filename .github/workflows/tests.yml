@@ -33,11 +33,28 @@ jobs:
         continue-on-error: true
         run: bash scripts/fetch_external.sh --metadata-only
 
-      - name: Report which optional data is present
+      # A green badge must not be achievable by skipping the core regression
+      # tests. If the metadata fetch failed, the clock-artefact and control-pool
+      # tests would silently skip and CI would still pass - so fail here first.
+      - name: Require external metadata (no silently-skipped core tests)
         run: |
-          test -f external/FIFA-World-Cup-2026-Dataset/match_events.csv \
-            && echo "external metadata present - clock-artefact tests will run" \
-            || echo "external metadata absent - those tests will skip"
+          if [ ! -f external/FIFA-World-Cup-2026-Dataset/match_events.csv ]; then
+            echo "::error::External metadata missing. The clock-artefact and"
+            echo "::error::control-pool regression tests would skip, so CI would be"
+            echo "::error::green without having run them. Failing deliberately."
+            exit 1
+          fi
+          echo "external metadata present - all tests will run"
 
-      - name: Run tests
-        run: python -m pytest tests -q -rs
+      - name: Run tests (skips are failures)
+        run: python -m pytest tests -q -rs -W error::UserWarning
+
+      # Belt and braces: assert nothing skipped, whatever the reason.
+      - name: Assert no tests were skipped
+        run: |
+          python -m pytest tests -q --no-header -rs > out.txt 2>&1 || true
+          cat out.txt
+          if grep -qiE '[0-9]+ skipped' out.txt; then
+            echo "::error::Some tests skipped - CI must not be green on skipped tests."
+            exit 1
+          fi

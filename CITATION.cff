@@ -24,10 +24,10 @@ keywords:
   - soccer
   - FIFA World Cup 2026
   - hydration breaks
-  - causal inference
+  - matched counterfactual analysis
   - placebo design
   - sports analytics
   - reproducible research
 license: MIT
-version: 1.0.0
-date-released: "2026-07-25"
+version: 1.2.0
+date-released: "2026-07-26"

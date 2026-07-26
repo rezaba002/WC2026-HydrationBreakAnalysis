@@ -1,6 +1,7 @@
-# Did the game's temper change after breaks? (cards — descriptive)
+# Appendix — exploratory yellow-card-rate analysis
 
-Every other result in this project rests on shots. The claim that breaks 'cool the game down' or 'break its rhythm' is different in kind, and cards test it directly: they proxy tempo, aggression and game control, which no shot metric captures.
+**A weak, indirect signal. Not a measure of tempo, rhythm or game control.**
+A booking is a referee decision, driven by referee thresholds and game-management style, tactical fouling, dissent, score state, match importance, and cards given late for an earlier incident. Card rates can move without the run of play changing, and the run of play can change without any card. This is included only because it is the one non-shot outcome in the 2026 layer that is both time-stamped and dense enough to test at all.
 
 Rates are yellow cards per minute, both teams. Post-break windows start at resumption. Each break is differenced against the mean of its own matched control pool (equal weight per break); paired differences bootstrapped by match.
 
@@ -10,7 +11,7 @@ Rates are yellow cards per minute, both teams. Post-break windows start at resum
 | 8 | 183 | 101 | 0.023 | 0.021 | -0.0020 | +0.0033 | **-0.0054** | [-0.0234, +0.0120] |
 | 10 | 148 | 92 | 0.024 | 0.024 | +0.0007 | +0.0046 | **-0.0039** | [-0.0226, +0.0145] |
 
-**Every interval includes zero.** Booking rates after breaks are indistinguishable from those after matched ordinary minutes: on this measure the breaks neither calmed the game nor stirred it up.
+**Every interval includes zero.** Booking rates after breaks are indistinguishable from those after matched ordinary minutes. Given the sparsity (~0.16 cards per 8-minute window) only a very large shift would be detectable, so this is weak evidence of no difference in booking rates — NOT a finding that the breaks left the character of the game unchanged.
 
 ## Why goals are NOT an outcome here
 
@@ -29,6 +30,7 @@ The FIFA post-match reports do contain rich tactical data — line height, team 
 
 ## Limits
 
-- Descriptive. Cards depend on referee behaviour, score state and match importance; this is an association at matched moments, not a causal claim.
+- **Appendix status.** Exploratory, descriptive, and a weak proxy: cards measure referee decisions, not the run of play. Not evidence about positional structure or tactical control.
 - Sparse: ~0.16 cards per 8-minute window, so intervals are wide and only a large effect would be detectable.
 - Yellow cards only. Reds and VAR are too rare and are control-screened.
+- Confounded by referee thresholds, tactical fouling, dissent, score state and match importance, none of which are adjusted for here.

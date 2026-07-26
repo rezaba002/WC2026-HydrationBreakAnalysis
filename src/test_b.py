@@ -88,11 +88,18 @@ def orient(per, sot, mid, home, away, lo, w):
     return None                                   # directionally ambiguous
 
 
-def analyse(bands, cache, per, sot, match_sot=False):
-    """match_sot: also require the control's pre-window SOT advantage to equal
-    the break's. The attacking side is chosen on SOT first, so matching only on
-    total-shot advantage can pair spells whose SOT dominance differs. Stricter,
-    and it costs coverage."""
+def analyse(bands, cache, per, sot, match_sot=False, match_intensity=False):
+    """Matching strictness.
+
+    Default key is the pre-window shot ADVANTAGE alone, which treats 1-0 and 5-4
+    as the same spell: identical differential, very different intensity. Only one
+    resembles "we were bombarding them".
+
+    match_sot        additionally require equal pre-window SOT advantage.
+    match_intensity  additionally require equal pre-window TOTAL shots, so the
+                     control spell had comparable overall attacking volume, not
+                     just the same margin. Both cost coverage.
+    """
     rng = np.random.default_rng(SEED)
     out, detail = [], []
     for w in WINDOWS:
@@ -137,6 +144,13 @@ def analyse(bands, cache, per, sot, match_sot=False):
                 _, opre_t = counts(per, sot, mid, copp, c - w, w)
                 if match_sot and (cpre_t - opre_t) != (pre_at - pre_ot):
                     continue
+                if match_intensity:
+                    cpre_s, _ = counts(per, sot, mid, catk, c - w, w)
+                    opre_s, _ = counts(per, sot, mid, copp, c - w, w)
+                    atk_pre_s, _ = counts(per, sot, mid, atk, call - w, w)
+                    opp_pre_s, _ = counts(per, sot, mid, opp, call - w, w)
+                    if (cpre_s + opre_s) != (atk_pre_s + opp_pre_s):
+                        continue
                 cand.append(((cs - os_) - c_pre,
                              ((ct - ot) - (cpre_t - opre_t)),
                              1 if (cs - os_) < 0 else 0,
@@ -303,7 +317,7 @@ def main():
         "",
         "- Descriptive, not causal. The spec labels Test B descriptive: matching on "
         "pre-window dominance rebuilds part of the selection mechanism, which is why "
-        "Test A (not this) carries the causal claim.",
+        "Test A (not this) is the primary matched counterfactual analysis.",
         "- Exact matching on integer pre-window advantage keeps the comparison clean but "
         "thins the control pool; breaks with no matched control are reported above and "
         "excluded rather than matched loosely.",
@@ -317,23 +331,34 @@ def main():
     ]
 
     # A5 diagnostic: does the result differ by whether the attacker was home?
-    # sensitivity: also match on pre-window SOT advantage
+    # sensitivities: stricter definitions of "comparable pressure"
     strict, _ = analyse(bands, cache, per, sot, match_sot=True)
+    intens, _ = analyse(bands, cache, per, sot, match_intensity=True)
+    both, _ = analyse(bands, cache, per, sot, match_sot=True, match_intensity=True)
     lines += [
         "",
-        "### Sensitivity — matching on (shot advantage, SOT advantage)",
+        "### Sensitivity — what counts as 'comparable pressure'?",
         "",
-        "The attacking side is chosen on shots on target first, but the main matching key "
-        "is the total-shot advantage alone, so two spells can pair while differing in SOT "
-        "dominance. Requiring both to match tests whether 'comparable pressure' means "
-        "more than the same raw shot differential. It costs coverage.",
+        "The default key is the pre-window shot ADVANTAGE alone, which pairs 1-0 with 5-4: "
+        "same differential, very different intensity, and only one resembles "
+        "'we were bombarding them'. These rows tighten the definition. Each costs "
+        "coverage, and with clean controls the samples get small quickly.",
         "",
-        "| w | breaks (main) | breaks (strict) | D (main) | D (strict) | 95% CI (strict) |",
-        "|---|---|---|---|---|---|",
+        "| w | main | + SOT advantage | + equal total shots | + both |",
+        "|---|---|---|---|---|",
     ]
-    for r, s in zip(rows, strict):
-        lines.append(f"| {r['w']} | {r['n']} | {s['n']} | {r['D']:+.3f} | "
-                     f"{s['D']:+.3f} | [{s['D_lo']:+.3f}, {s['D_hi']:+.3f}] |")
+    for r, s, i, bo in zip(rows, strict, intens, both):
+        def cell(x):
+            return (f"{x['D']:+.3f} [{x['D_lo']:+.3f}, {x['D_hi']:+.3f}] (n={x['n']})"
+                    if x["n"] else "no matched controls")
+        lines.append(f"| {r['w']} | {cell(r)} | {cell(s)} | {cell(i)} | {cell(bo)} |")
+    lines += [
+        "",
+        "Read these as coverage-limited rather than as independent confirmations: the "
+        "strictest cells rest on very few breaks. What they establish is that the "
+        "conclusion does not depend on the loosest matching definition, not that it has "
+        "been confirmed four times.",
+    ]
 
     lines += [
         "",

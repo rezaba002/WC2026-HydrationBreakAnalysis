@@ -1,7 +1,8 @@
 # Did hydration breaks change the 2026 World Cup?
 
-An independent, preregistered analysis of **203 recorded mandatory hydration breaks across
-102 matches** of the 2026 FIFA World Cup — the first tournament to stop every match twice
+An independent analysis of **203 recorded mandatory hydration breaks across 102 matches**
+of the 2026 FIFA World Cup, prospectively specified in a frozen, timestamped Git
+specification (not lodged in an external registry) — the first tournament to stop every match twice
 regardless of weather. (Coverage is 203 of a possible 204 breaks in 102 of 104 matches;
 every exclusion is documented.)
 
@@ -47,8 +48,8 @@ memorable, unrepresentative slice of them.
 | # | Core output | Status | Result |
 |---|---|---|---|
 | 1 | Source audit & master tables | ✅ | [source_inventory.csv](data/processed/source_inventory.csv), [audit_claims.md](reports/tables/audit_claims.md) |
-| 2 | Independent shot/xG layer | ✅ | 2,554 shots, 1,914 subs, 3,073 physical rows from FIFA PMSRs |
-| 3 | Dual-clock randomized placebo (Test A) | ✅ | [placebo_results.md](reports/tables/placebo_results.md) · [robustness.md](reports/tables/robustness.md) |
+| 2 | Independent shot-event layer (no per-shot xG exists — see limitations) | ✅ | 2,554 shots, 1,914 subs, 3,073 physical rows from FIFA PMSRs |
+| 3 | Dual-clock matched counterfactual (Test A) | ✅ | [placebo_results.md](reports/tables/placebo_results.md) · [robustness.md](reports/tables/robustness.md) |
 | 3b | State-matched directional test (Test B) | ✅ | [test_b.md](reports/tables/test_b.md) |
 | 4 | Substitution timing vs 2018/2022 | ✅ | [subs_timing.md](reports/tables/subs_timing.md) |
 | 5 | Preregistered perception dataset | ✅ | [perception.md](reports/tables/perception.md) · [codebook](docs/perception_codebook.md) |
