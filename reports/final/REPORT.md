@@ -186,25 +186,33 @@ whose **own pre-window advantage equals the break's**. That matching is essentia
 teams that have just been dominating regress to the mean whether or not anyone stops
 the game, so an unmatched comparison would manufacture an effect from nothing.
 
-| window | attacking side's swing, real breaks | swing after comparable uninterrupted spells | **difference** | 95% CI |
-|---|---|---|---|---|
-| 5 min | −1.04 | −1.03 | **−0.01** | [−0.41, +0.37] |
-| 8 min | −1.17 | −1.06 | **−0.10** | [−0.58, +0.30] |
-| 10 min | −1.31 | −1.28 | **−0.04** | [−0.57, +0.36] |
+| window | breaks | attacking side's swing, real breaks | swing after comparable uninterrupted spells | **difference** | 95% CI |
+|---|---|---|---|---|---|
+| 5 min | 94 | −1.04 | −1.02 | **−0.02** | [−0.37, +0.33] |
+| 8 min | 91 | −1.17 | −1.03 | **−0.14** | [−0.54, +0.26] |
+| 10 min | 90 | −1.31 | −1.21 | **−0.10** | [−0.55, +0.33] |
 
-**The phenomenon people describe is real — it just isn't caused by the break.** A team
-that has been dominating gives back roughly a full shot of advantage within minutes.
-That happens after hydration breaks, and it happens just as much after uninterrupted
-spells of identical dominance. The break contributes essentially nothing.
+**Among breaks with an identifiable and matchable attacking side, the attacking team
+lost roughly one shot of advantage afterwards — but no more than after comparable
+uninterrupted spells.** We found no detectable additional loss associated with the
+hydration break.
+
+That coverage qualifier matters: 90–94 of 203 breaks qualify. The rest are excluded
+because no side was clearly attacking in the pre-window, or because no exactly
+state-matched control minute exists. Both exclusions are principled and counted, but
+the conclusion covers the matchable subset, not every break.
 
 Momentum changed hands (the attacking side ended up behind on shots) after **23–30%**
-of breaks, against **31–36%** of comparable ordinary spells — if anything slightly less
-often, though every interval spans zero. Shots-on-target swings show the same null.
+of breaks, against **29–32%** of comparable ordinary spells — every interval spans zero.
+Shots-on-target swings show the same null, and the result survives a stricter match on
+pre-window shots *and* shots on target.
 
 This is the answer to the strongest version of the criticism, and it is more
-interesting than the flat-total result: the collapse fans remember genuinely occurs,
-and it is what dominance normally does. Full working, exclusions and the
-orientation-bias diagnostic: [`reports/tables/test_b.md`](../tables/test_b.md).
+interesting than the flat-total result: the collapse fans remember genuinely occurs, and
+it is what dominance normally does anyway. Test B is descriptive by design, not causal —
+matching on pre-window dominance rebuilds part of the selection mechanism, which is why
+Test A carries the causal claim. Full working, exclusions, weighting and the
+orientation diagnostic: [`reports/tables/test_b.md`](../tables/test_b.md).
 
 ### A result we deleted
 
@@ -477,8 +485,11 @@ Full working: [`reports/tables/commercial.md`](../tables/commercial.md).
 Stated plainly, because they bound every claim above.
 
 1. **No per-shot xG** in any auditable source; outcomes are shot-based.
-2. **Directional results are not reportable** — the control pool is biased for signed
-   contrasts (CHANGELOG A5). Only absolute metrics carry conclusions.
+2. **Home/away-oriented results are not reportable** — the control pool is biased for
+   that particular signed contrast (CHANGELOG A5). Test B is directional but avoids it
+   by orienting on pre-window dominance, symmetrically in both arms; its home/away
+   split is shown as a diagnostic only and is not a finding. Test B is also descriptive
+   by design, not causal.
 3. **2026 added time is unmeasurable** at board level; a lower bound is reported instead.
 4. **Physiology is out of scope.** No claim here concerns player hydration, core
    temperature, or injury. Public event data cannot support them.
@@ -509,7 +520,9 @@ python -m src.late_game        # late-game proxy
 python -m src.added_time       # added time (Core Output 6)
 python -m src.perception       # perception evaluation (Core Output 5)
 python -m src.case_studies     # case selection (Core Output 7)
-python -m pytest tests -q      # 29 tests
+python -m src.test_b           # Test B: state-matched directional (spec §5)
+python -m src.break_window     # clock-artefact analysis (exploratory, E1)
+python -m pytest tests -q      # 38 tests
 ```
 
 Sources, commits and SHA-256 hashes: `config/sources.yaml`,

@@ -21,11 +21,11 @@ ordinary. The apparent post-break shot drought was largely stopped time counted 
 football. On the primary metric the paired effect is **−0.085 shots, 95% match-clustered
 CI [−0.238, +0.074]** — no detectable difference from comparable ordinary minutes.
 
-And the directional version, which is what people actually claim: a team that had been
-dominating gives back **~1 shot of advantage** after a break — and gives back the same
-after uninterrupted spells of identical dominance (difference −0.01 to −0.10, all
-intervals spanning zero). The collapse fans remember is real; it is what dominance
-normally does.
+And the directional version, which is what people actually claim: among breaks with an
+identifiable and matchable attacking side (90–94 of 203), that team gave back **~1 shot
+of advantage** afterwards — but no more than after comparable uninterrupted spells
+(difference −0.02 to −0.14, all intervals spanning zero). The collapse fans remember is
+real; we find no detectable additional loss associated with the break.
 
 **2. Substitutions moved rather than multiplied.** Only 18.7% of second-half substitutions
 fell within ±3 minutes of their own match's break — *below* the minute-matched historical
@@ -89,7 +89,6 @@ python -m src.perception        # Core Output 5
 python -m src.added_time        # Core Output 6
 python -m src.case_studies      # Core Output 7
 python -m src.test_b            # Test B: state-matched directional (spec 5)
-python -m src.break_window      # clock-artefact analysis (exploratory, E1)
 python -m src.break_window      # clock-artefact analysis (exploratory, E1)
 python -m src.physical          # fresh-legs deployment
 python -m src.late_game         # late-game proxy

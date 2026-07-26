@@ -8,23 +8,23 @@ The attacking side is fixed from the PRE-window only (shots on target, ties on t
 
 ## Did the attacking team lose more advantage than usual?
 
-| w | breaks | matches | mean pre-break advantage | swing (real) | swing (matched spells) | **D** | 95% CI | D, orientation-standardised |
-|---|---|---|---|---|---|---|---|---|
-| 5 | 94 | 70 | +1.26 | -1.043 | -1.034 | **-0.009** | [-0.413, +0.372] | -0.005 |
-| 8 | 91 | 76 | +1.37 | -1.165 | -1.060 | **-0.104** | [-0.580, +0.300] | -0.069 |
-| 10 | 90 | 72 | +1.66 | -1.311 | -1.276 | **-0.036** | [-0.571, +0.356] | -0.034 |
+| w | breaks | matches | mean pre-break advantage | swing (real) | swing (matched spells) | **D** | 95% CI |
+|---|---|---|---|---|---|---|---|
+| 5 | 94 | 70 | +1.26 | -1.043 | -1.023 | **-0.020** | [-0.372, +0.327] |
+| 8 | 91 | 76 | +1.37 | -1.165 | -1.028 | **-0.136** | [-0.538, +0.263] |
+| 10 | 90 | 72 | +1.66 | -1.311 | -1.214 | **-0.097** | [-0.550, +0.333] |
 
 Note how large the *unadjusted* swings are in BOTH columns: teams that have just been dominating give most of that edge back within minutes, break or no break. That is regression to the mean, and it is exactly what an unmatched analysis would have mistaken for a break effect.
 
-The final column standardises the control pool to the treated sample's home/away composition, because the two pools differ by 3–11 percentage points on which side was attacking (see the A5 diagnostic). It moves the estimate negligibly relative to the interval width, so composition mismatch is not driving the result.
+**Weighting.** Every break contributes equally: each is differenced against the MEAN of its own control pool, and D is the mean of those paired differences. Pooling all candidates instead would let a break with 15 eligible controls outweigh one with a single control by 15x on the control side while counting once on the real side — the point estimate and the interval would then describe different estimands.
 
 ## Shots on target, and momentum changing hands
 
 | w | SOT swing D | 95% CI | reversal rate (real) | reversal (matched) | **D** | 95% CI |
 |---|---|---|---|---|---|---|
-| 5 | -0.011 | [-0.174, +0.267] | 23.4% | 32.2% | **-8.8%** | [-17.5%, +6.4%] |
-| 8 | +0.049 | [-0.223, +0.323] | 29.7% | 30.9% | **-1.2%** | [-12.2%, +14.1%] |
-| 10 | -0.087 | [-0.363, +0.176] | 30.0% | 35.5% | **-5.5%** | [-14.3%, +12.0%] |
+| 5 | +0.041 | [-0.157, +0.234] | 23.4% | 29.2% | **-5.8%** | [-15.9%, +4.9%] |
+| 8 | +0.054 | [-0.209, +0.312] | 29.7% | 28.8% | **+0.9%** | [-11.0%, +12.7%] |
+| 10 | -0.100 | [-0.344, +0.148] | 30.0% | 31.5% | **-1.5%** | [-14.3%, +10.7%] |
 
 `reversal` = the previously attacking team is behind on shots in the post window — momentum has changed hands.
 
@@ -45,16 +45,26 @@ Ambiguous = neither side led the pre-window on shots on target or total shots (i
 - Shots and shots on target only. No per-shot xG exists in the auditable layer (CHANGELOG A2), so 'advantage' is a count, not a chance-quality measure.
 - CHANGELOG A5 ruled the HOME-oriented signed contrast unreportable because the control pool's unconditional home−away mean is biased. Orientation here is by pre-window dominance, not home/away, and both arms are oriented by the same rule, so that specific bias should cancel — the home/away split below is the check on whether it does.
 
+### Sensitivity — matching on (shot advantage, SOT advantage)
+
+The attacking side is chosen on shots on target first, but the main matching key is the total-shot advantage alone, so two spells can pair while differing in SOT dominance. Requiring both to match tests whether 'comparable pressure' means more than the same raw shot differential. It costs coverage.
+
+| w | breaks (main) | breaks (strict) | D (main) | D (strict) | 95% CI (strict) |
+|---|---|---|---|---|---|
+| 5 | 94 | 70 | -0.020 | +0.185 | [-0.217, +0.611] |
+| 8 | 91 | 64 | -0.136 | -0.193 | [-0.674, +0.297] |
+| 10 | 90 | 69 | -0.097 | -0.009 | [-0.504, +0.481] |
+
 ### A5 diagnostic — attacker home vs away (orientation-stratified)
 
-Each stratum is compared with controls of the SAME orientation (home-attacking breaks against home-attacking control spells, and likewise away). An earlier version of this diagnostic differenced both strata against the POOLED control mean, which confounded control-pool composition with the effect and produced a spurious home/away gap.
+Each break is compared with ONLY its same-orientation controls (home-attacking breaks against home-attacking control spells, likewise away), one value per break; breaks with no same-orientation control are dropped rather than pooled. An earlier version differenced both strata against the POOLED control mean, which confounded control-pool composition with the effect.
 
-| w | D, attacker home | D, attacker away | gap | control n (home / away) |
+| w | D, attacker home | D, attacker away | gap | breaks (home / away) |
 |---|---|---|---|---|
-| 5 | +0.296 | -0.332 | +0.628 | 229 / 187 |
-| 8 | +0.150 | -0.283 | +0.433 | 249 / 165 |
-| 10 | +0.217 | -0.361 | +0.578 | 207 / 145 |
+| 5 | +0.015 | -0.140 | +0.155 | 40 / 33 |
+| 8 | -0.283 | -0.078 | -0.206 | 39 / 31 |
+| 10 | -0.098 | -0.115 | +0.017 | 45 / 29 |
 
-**The gap does not vanish, so the A5 bias survives into this design, and the home/away strata above are therefore NOT REPORTABLE as findings** — they are exactly the class of signed, home-oriented contrast that CHANGELOG A5 quarantined. They are shown only as a diagnostic on the pooled estimate.
+The gap is small and **changes sign across windows**, which is what noise looks like rather than a systematic orientation bias. An earlier, candidate-weighted version of this table showed a large and consistently positive gap (+0.63 / +0.43 / +0.58); that was an artefact of the weighting defect described above, and it disappeared once every break was given equal weight against its own same-orientation controls.
 
-What the pooled estimate inherits from that bias is limited to composition: the treated and control pools differ by 3–11 points on which side was attacking. Standardising the controls to the treated composition (final column of the main table) shifts the estimate far less than the interval width, so the headline survives. Anyone wishing to interpret the home/away split itself must first rebuild the control pool as A5 requires.
+The strata are still **not reported as findings**: they are the signed, home-oriented class CHANGELOG A5 quarantined, and each cell holds only ~30–45 breaks. They serve here purely as a check that the pooled estimate is not an average of two large opposing biases — and it is not.

@@ -88,7 +88,11 @@ def orient(per, sot, mid, home, away, lo, w):
     return None                                   # directionally ambiguous
 
 
-def analyse(bands, cache, per, sot):
+def analyse(bands, cache, per, sot, match_sot=False):
+    """match_sot: also require the control's pre-window SOT advantage to equal
+    the break's. The attacking side is chosen on SOT first, so matching only on
+    total-shot advantage can pair spells whose SOT dominance differs. Stricter,
+    and it costs coverage."""
     rng = np.random.default_rng(SEED)
     out, detail = [], []
     for w in WINDOWS:
@@ -131,6 +135,8 @@ def analyse(bands, cache, per, sot):
                 os_, ot = counts(per, sot, mid, copp, c, w)
                 _, cpre_t = counts(per, sot, mid, catk, c - w, w)
                 _, opre_t = counts(per, sot, mid, copp, c - w, w)
+                if match_sot and (cpre_t - opre_t) != (pre_at - pre_ot):
+                    continue
                 cand.append(((cs - os_) - c_pre,
                              ((ct - ot) - (cpre_t - opre_t)),
                              1 if (cs - os_) < 0 else 0,
@@ -155,45 +161,55 @@ def analyse(bands, cache, per, sot):
         sw, sot_sw, rev = (df["swing"].to_numpy(), df["sot_swing"].to_numpy(),
                            df["reversed"].to_numpy())
 
+        # EQUAL WEIGHT PER BREAK. Flattening every candidate into one pooled mean
+        # would let a break with 15 eligible controls count 15x while the real
+        # side counts each break once — the point estimate and the bootstrap
+        # would then describe different estimands. Each break gets the MEAN of
+        # its own control pool, and the contrast is paired.
+        ctrl_sw = np.array([np.mean([c[0] for c in p]) for p in pools])
+        ctrl_st = np.array([np.mean([c[1] for c in p]) for p in pools])
+        ctrl_rv = np.array([np.mean([c[2] for c in p]) for p in pools])
+        d_sw, d_st, d_rv = sw - ctrl_sw, sot_sw - ctrl_st, rev - ctrl_rv
+
         bD, bDs, bR = np.empty(N_BOOT), np.empty(N_BOOT), np.empty(N_BOOT)
         for i in range(N_BOOT):
             pick = rng.integers(0, len(mids), len(mids))
             idxs = [j for p in pick for j in by_match[mids[p]]]
-            cs, ct, cr = [], [], []
-            for j in idxs:
-                a, b_, c_, _ = pools[j][rng.integers(0, len(pools[j]))]
-                cs.append(a); ct.append(b_); cr.append(c_)
-            bD[i] = sw[idxs].mean() - np.mean(cs)
-            bDs[i] = sot_sw[idxs].mean() - np.mean(ct)
-            bR[i] = rev[idxs].mean() - np.mean(cr)
+            bD[i] = d_sw[idxs].mean()
+            bDs[i] = d_st[idxs].mean()
+            bR[i] = d_rv[idxs].mean()
 
-        fs = [a for p in pools for a, _, _, _ in p]
-        ft = [b for p in pools for _, b, _, _ in p]
-        fr = [c for p in pools for _, _, c, _ in p]
-        # orientation-stratified control means, for the A5 diagnostic: compare
-        # home-attacker breaks with home-attacker controls, and likewise away.
-        ctrl_home = [a for p in pools for a, _, _, h in p if h]
-        ctrl_away = [a for p in pools for a, _, _, h in p if not h]
+        # A5 diagnostic: each break against ONLY its same-orientation controls,
+        # again one value per break. Breaks with no same-orientation control are
+        # dropped from the diagnostic (never silently pooled).
+        atk_home = df["atk_is_home"].to_numpy()
+        same_or = np.array([
+            np.mean([c[0] for c in p if c[3] == h]) if any(c[3] == h for c in p)
+            else np.nan
+            for p, h in zip(pools, atk_home)])
+        ok = ~np.isnan(same_or)
+        d_or = sw - same_or
         out.append({
             "w": w, "n": len(df), "n_matches": df["match_id"].nunique(),
             "ambiguous": ambiguous, "unmatched": unmatched,
             "pre_adv": df["pre_adv"].mean(),
-            "swing_real": sw.mean(), "swing_ctrl": float(np.mean(fs)),
-            "D": sw.mean() - float(np.mean(fs)),
+            "swing_real": sw.mean(), "swing_ctrl": float(ctrl_sw.mean()),
+            "D": float(d_sw.mean()),
             "D_lo": float(np.percentile(bD, 2.5)),
             "D_hi": float(np.percentile(bD, 97.5)),
-            "sot_real": sot_sw.mean(), "sot_ctrl": float(np.mean(ft)),
-            "Dsot": sot_sw.mean() - float(np.mean(ft)),
+            "sot_real": sot_sw.mean(), "sot_ctrl": float(ctrl_st.mean()),
+            "Dsot": float(d_st.mean()),
             "Dsot_lo": float(np.percentile(bDs, 2.5)),
             "Dsot_hi": float(np.percentile(bDs, 97.5)),
-            "rev_real": rev.mean(), "rev_ctrl": float(np.mean(fr)),
-            "Drev": rev.mean() - float(np.mean(fr)),
+            "rev_real": rev.mean(), "rev_ctrl": float(ctrl_rv.mean()),
+            "Drev": float(d_rv.mean()),
             "Drev_lo": float(np.percentile(bR, 2.5)),
             "Drev_hi": float(np.percentile(bR, 97.5)),
             "median_ctrl": float(df["n_ctrl"].median()),
-            "ctrl_home": float(np.mean(ctrl_home)) if ctrl_home else float("nan"),
-            "ctrl_away": float(np.mean(ctrl_away)) if ctrl_away else float("nan"),
-            "n_ctrl_home": len(ctrl_home), "n_ctrl_away": len(ctrl_away),
+            "D_home": float(d_or[ok & atk_home].mean()),
+            "D_away": float(d_or[ok & ~atk_home].mean()),
+            "n_or_home": int((ok & atk_home).sum()),
+            "n_or_away": int((ok & ~atk_home).sum()),
             "_df": df,
         })
         detail.append(df)
@@ -223,19 +239,14 @@ def main():
         "",
         "## Did the attacking team lose more advantage than usual?",
         "",
-        "| w | breaks | matches | mean pre-break advantage | swing (real) | swing (matched spells) | **D** | 95% CI | D, orientation-standardised |",
-        "|---|---|---|---|---|---|---|---|---|",
+        "| w | breaks | matches | mean pre-break advantage | swing (real) | swing (matched spells) | **D** | 95% CI |",
+        "|---|---|---|---|---|---|---|---|",
     ]
     for r in rows:
-        df = r["_df"]
-        ph = df["atk_is_home"].mean()
-        dh = df[df["atk_is_home"]]["swing"].mean() - r["ctrl_home"]
-        da = df[~df["atk_is_home"]]["swing"].mean() - r["ctrl_away"]
-        r["D_std"] = ph * dh + (1 - ph) * da
         lines.append(
             f"| {r['w']} | {r['n']} | {r['n_matches']} | +{r['pre_adv']:.2f} | "
             f"{r['swing_real']:+.3f} | {r['swing_ctrl']:+.3f} | **{r['D']:+.3f}** | "
-            f"[{r['D_lo']:+.3f}, {r['D_hi']:+.3f}] | {r['D_std']:+.3f} |")
+            f"[{r['D_lo']:+.3f}, {r['D_hi']:+.3f}] |")
 
     lines += [
         "",
@@ -244,11 +255,12 @@ def main():
         "That is regression to the mean, and it is exactly what an unmatched analysis "
         "would have mistaken for a break effect.",
         "",
-        "The final column standardises the control pool to the treated sample's "
-        "home/away composition, because the two pools differ by 3–11 percentage points "
-        "on which side was attacking (see the A5 diagnostic). It moves the estimate "
-        "negligibly relative to the interval width, so composition mismatch is not "
-        "driving the result.",
+        "**Weighting.** Every break contributes equally: each is differenced against the "
+        "MEAN of its own control pool, and D is the mean of those paired differences. "
+        "Pooling all candidates instead would let a break with 15 eligible controls "
+        "outweigh one with a single control by 15x on the control side while counting "
+        "once on the real side — the point estimate and the interval would then describe "
+        "different estimands.",
         "",
         "## Shots on target, and momentum changing hands",
         "",
@@ -299,38 +311,54 @@ def main():
     ]
 
     # A5 diagnostic: does the result differ by whether the attacker was home?
+    # sensitivity: also match on pre-window SOT advantage
+    strict, _ = analyse(bands, cache, per, sot, match_sot=True)
+    lines += [
+        "",
+        "### Sensitivity — matching on (shot advantage, SOT advantage)",
+        "",
+        "The attacking side is chosen on shots on target first, but the main matching key "
+        "is the total-shot advantage alone, so two spells can pair while differing in SOT "
+        "dominance. Requiring both to match tests whether 'comparable pressure' means "
+        "more than the same raw shot differential. It costs coverage.",
+        "",
+        "| w | breaks (main) | breaks (strict) | D (main) | D (strict) | 95% CI (strict) |",
+        "|---|---|---|---|---|---|",
+    ]
+    for r, s in zip(rows, strict):
+        lines.append(f"| {r['w']} | {r['n']} | {s['n']} | {r['D']:+.3f} | "
+                     f"{s['D']:+.3f} | [{s['D_lo']:+.3f}, {s['D_hi']:+.3f}] |")
+
     lines += [
         "",
         "### A5 diagnostic — attacker home vs away (orientation-stratified)",
         "",
-        "Each stratum is compared with controls of the SAME orientation (home-attacking "
-        "breaks against home-attacking control spells, and likewise away). An earlier "
-        "version of this diagnostic differenced both strata against the POOLED control "
-        "mean, which confounded control-pool composition with the effect and produced a "
-        "spurious home/away gap.",
+        "Each break is compared with ONLY its same-orientation controls (home-attacking "
+        "breaks against home-attacking control spells, likewise away), one value per "
+        "break; breaks with no same-orientation control are dropped rather than pooled. "
+        "An earlier version differenced both strata against the POOLED control mean, "
+        "which confounded control-pool composition with the effect.",
         "",
-        "| w | D, attacker home | D, attacker away | gap | control n (home / away) |",
+        "| w | D, attacker home | D, attacker away | gap | breaks (home / away) |",
         "|---|---|---|---|---|",
     ]
     for r in rows:
-        df = r["_df"]
-        h = df[df["atk_is_home"]]["swing"].mean() - r["ctrl_home"]
-        a = df[~df["atk_is_home"]]["swing"].mean() - r["ctrl_away"]
-        lines.append(f"| {r['w']} | {h:+.3f} | {a:+.3f} | {h - a:+.3f} | "
-                     f"{r['n_ctrl_home']} / {r['n_ctrl_away']} |")
+        lines.append(f"| {r['w']} | {r['D_home']:+.3f} | {r['D_away']:+.3f} | "
+                     f"{r['D_home'] - r['D_away']:+.3f} | "
+                     f"{r['n_or_home']} / {r['n_or_away']} |")
     lines += [
         "",
-        "**The gap does not vanish, so the A5 bias survives into this design, and the "
-        "home/away strata above are therefore NOT REPORTABLE as findings** — they are "
-        "exactly the class of signed, home-oriented contrast that CHANGELOG A5 "
-        "quarantined. They are shown only as a diagnostic on the pooled estimate.",
+        "The gap is small and **changes sign across windows**, which is what noise looks "
+        "like rather than a systematic orientation bias. An earlier, candidate-weighted "
+        "version of this table showed a large and consistently positive gap "
+        "(+0.63 / +0.43 / +0.58); that was an artefact of the weighting defect described "
+        "above, and it disappeared once every break was given equal weight against its "
+        "own same-orientation controls.",
         "",
-        "What the pooled estimate inherits from that bias is limited to composition: the "
-        "treated and control pools differ by 3–11 points on which side was attacking. "
-        "Standardising the controls to the treated composition (final column of the main "
-        "table) shifts the estimate far less than the interval width, so the headline "
-        "survives. Anyone wishing to interpret the home/away split itself must first "
-        "rebuild the control pool as A5 requires.",
+        "The strata are still **not reported as findings**: they are the signed, "
+        "home-oriented class CHANGELOG A5 quarantined, and each cell holds only ~30–45 "
+        "breaks. They serve here purely as a check that the pooled estimate is not an "
+        "average of two large opposing biases — and it is not.",
     ]
 
     (TABLES / "test_b.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
