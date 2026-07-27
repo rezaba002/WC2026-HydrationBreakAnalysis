@@ -82,7 +82,11 @@ def test_prose_numbers_match_the_computed_facts(doc, facts_data):
     for path, pattern in facts.DOC_CHECKS:
         for m in re.finditer(pattern, text):
             expected = facts.lookup(facts_data, path)
-            got = float(str(m.group(1)).replace("−", "-"))
+            # Patterns may alternate over several documents' phrasings; take
+            # whichever branch actually captured.
+            captured = next((g for g in m.groups() if g is not None), None)
+            assert captured is not None, f"{path} pattern matched but captured nothing"
+            got = float(captured.replace("−", "-"))
             assert abs(got - float(expected)) < 1e-9, (
                 f"{doc} quotes {got} for {path}, but the tables now say {expected}. "
                 f"Context: {m.group(0)!r}. Fix the prose — do not edit facts.json."
@@ -102,8 +106,9 @@ def test_readme_covers_the_headline_facts(facts_data):
     text = _flat("README.md")
     for path in ("clock.display_w8.observed", "clock.adjusted_w8.observed",
                  "test_a.primary.effect", "perception.unique_supported"):
-        pattern = next(p for k, p in facts.DOC_CHECKS if k == path)
-        assert re.search(pattern, text), (
+        # A fact may have several registered phrasings; any one of them counts.
+        patterns = [p for k, p in facts.DOC_CHECKS if k == path]
+        assert any(re.search(p, text) for p in patterns), (
             f"README no longer states {path}; either restore it or drop the check"
         )
 
@@ -163,6 +168,60 @@ def test_report_test_b_table_matches_the_computed_values(facts_data):
                                  ("ci_lo", lo, f["ci"][0]), ("ci_hi", hi, f["ci"][1])):
             assert abs(got - want) < 5e-4, (
                 f"w={w} {label}: report {got}, computed {want} — regenerate the report table")
+
+
+@pytest.mark.parametrize("doc", facts.DOCS)
+def test_every_referenced_figure_exists(doc):
+    """A document may not reference a figure that was never generated.
+
+    An external draft of the article cited four plausible-looking figure names
+    that did not exist. Broken images survive proofreading easily; they do not
+    survive this.
+    """
+    path = ROOT / doc
+    text = path.read_text(encoding="utf-8")
+    missing = []
+    for rel in re.findall(r"!\[[^\]]*\]\(([^)]+)\)", text):
+        if rel.startswith(("http://", "https://")):
+            continue
+        if not (path.parent / rel).resolve().exists():
+            missing.append(rel)
+    assert not missing, f"{doc} references figures that do not exist: {missing}"
+
+
+def test_article_quotes_carry_a_verified_source():
+    """Every quotation in the article must trace to the verified claim files.
+
+    Three collected quotes failed source verification and are excluded from the
+    project; an external draft reintroduced one in altered wording under the
+    wrong outlet. Quotes are checked verbatim against what was actually logged.
+    """
+    import csv
+
+    raw = (ROOT / "reports" / "final" / "ARTICLE.md").read_text(encoding="utf-8")
+    # Strip blockquote markers first: a quotation wrapped across two lines
+    # carries a "> " into the middle of its own text.
+    article = re.sub(r"^>\s?", "", raw, flags=re.MULTILINE)
+    quoted = re.findall(r'"([^"]+)"', article)
+    quoted = [q for q in quoted if len(q.split()) >= 5]   # ignore short scare-quotes
+    assert quoted, "no quotations found — did the article's quote format change?"
+
+    logged = []
+    for name in ("perception_claims.csv", "perception_rejections.csv"):
+        with open(ROOT / "data" / "manual" / name, encoding="utf-8") as fh:
+            for row in csv.DictReader(fh):
+                for key in ("claim_text", "candidate_text"):
+                    if row.get(key):
+                        logged.append(re.sub(r"\s+", " ", row[key]).strip().lower())
+
+    # Case-insensitive: a quote embedded mid-sentence legitimately lowercases
+    # its first letter. Wording, not capitalisation, is what must match.
+    for q in quoted:
+        needle = re.sub(r"\s+", " ", q).strip().rstrip(".,").lower()
+        assert any(needle in entry for entry in logged), (
+            f"Article quotes text with no verified source record: {needle!r}. "
+            "Every quotation must appear verbatim in data/manual/perception_*.csv."
+        )
 
 
 def test_interval_sentence_counts_rather_than_universalises():

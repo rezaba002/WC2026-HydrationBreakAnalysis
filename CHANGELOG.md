@@ -53,6 +53,25 @@ placement matching became largely infeasible, since an anchor within 5' of a bre
 cannot have an 8' window clear of it. All affected analyses were rerun; conclusions
 survive, with the changed numbers and reduced power reported in place.
 
+## 2026-07-27 — published article added under the same guarantees
+
+**Article.** `reports/final/ARTICLE.md` is the general-audience version, merged from an
+independent draft and this repository's technical report. It adds no analysis. It is held to
+the same standard as everything else, and three new tests enforce that:
+
+- every number it quotes is checked against `reports/facts.json` (27 anchored checks);
+- every figure it references must exist (`test_every_referenced_figure_exists`) — an external
+  draft cited four plausible-looking figure names that had never been generated;
+- **every quotation must appear verbatim in `data/manual/perception_*.csv`**
+  (`test_article_quotes_carry_a_verified_source`). The same external draft altered a Tuchel
+  quote's wording and attributed it to Reuters when the logged source is Goal.com. Quotes in
+  this project are re-read against their source URLs; a published quote that cannot be traced
+  to that record now fails the build.
+
+**Article figures.** `src/article_figures.py` generates six presentation charts
+(`art_*.png`) by reading `facts.json`. No value is typed in, so a corrected number cannot
+leave a stale picture behind — the visual form of the defect this release exists to fix.
+
 ## 2026-07-27 — deviation record and reporting-integrity consolidation (v2.0.0)
 
 **A8 — Substitution confound adjustment specified but NOT implemented.**

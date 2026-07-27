@@ -48,6 +48,9 @@ PRIMARY_SAMPLE_NOTE = (
 )
 
 _NUM = r"[-−+]?\d+(?:\.\d+)?"
+# Unsigned decimal. Never use [\d.]+ in a check pattern: it swallows a
+# sentence-ending period and turns "0.054." into an unparseable capture.
+_DEC = r"\d+(?:\.\d+)?"
 
 
 def _f(s: str) -> float:
@@ -246,7 +249,7 @@ def collect() -> dict:
 # The sync test finds each regex in each document and asserts the captured
 # number equals the fact. This is what catches "0.658 where 0.689 belongs".
 # --------------------------------------------------------------------------
-DOCS = ["README.md", "reports/final/REPORT.md"]
+DOCS = ["README.md", "reports/final/REPORT.md", "reports/final/ARTICLE.md"]
 
 #
 # Patterns are matched against a normalised document: whitespace collapsed and
@@ -255,24 +258,62 @@ DOCS = ["README.md", "reports/final/REPORT.md"]
 DOC_CHECKS: list[tuple[str, str]] = [
     # The clock artefact — the numbers that went stale twice.
     ("clock.display_w8.observed",
-     rf"probability of a shot (?:in that window )?(?:collapses|falls) to ({_NUM})"),
+     rf"probability of a shot (?:in that window |in the post-break window )?"
+     rf"(?:collapses|falls) to ({_NUM})"),
+    ("clock.display_w8.null",
+     rf"(?:collapses|falls) to {_NUM}, against ({_NUM}) for matched ordinary minutes"),
     ("clock.adjusted_w8.observed",
      rf"(?:break-adjusted clock (?:the same )?probability is|"
-     rf"Remove the three dead minutes and it is) ({_NUM})"),
+     rf"the same probability is|Remove the three dead minutes and it is) ({_NUM})"),
     ("clock.adjusted_w8.null",
      rf"(?:break-adjusted clock (?:the same )?probability is|"
-     rf"Remove the three dead minutes and it is) {_NUM} against a null of ({_NUM})"),
+     rf"the same probability is|Remove the three dead minutes and it is) {_NUM}, ?"
+     rf"against (?:the same null of )?({_NUM})"),
     # Test A headline.
-    ("test_a.primary.effect", rf"(?:paired effect is|Effect:) ({_NUM}) shots"),
-    ("test_a.primary.ci.0", rf"95% match-clustered CI \[({_NUM}),"),
-    ("test_a.primary.ci.1", rf"95% match-clustered CI \[{_NUM}, ({_NUM})\]"),
+    ("test_a.primary.effect",
+     rf"(?:effect(?: on shot balance)? is|Effect:) ({_NUM}) shots"),
+    # Anchored to the effect value: the documents contain other 95% intervals.
+    ("test_a.primary.ci.0", rf"{_NUM} shots, 95% (?:match-clustered )?CI \[({_NUM}),"),
+    ("test_a.primary.ci.1", rf"{_NUM} shots, 95% (?:match-clustered )?CI \[{_NUM}, ({_NUM})\]"),
     ("test_a.primary.breaks",
-     r"(?:primary Test A sample of\s*|CI \[[^\]]+\][^\d]{0,4})(\d+) breaks"),
+     r"(?:primary (?:Test A )?sample of\s*|CI \[[^\]]+\][^\d]{0,4})(\d+) breaks"),
+    # Must stay anchored to "primary sample": the documents also say
+    # "203 breaks across 102 matches", which is dataset coverage, not this sample.
+    ("test_a.primary.matches",
+     r"primary (?:Test A )?sample of\s*\d+ breaks,? across (\d+) matches"),
+    ("clock.total_breaks", r"(\d+) recorded mandatory hydration breaks|"
+                           r"all (\d+) mandatory hydration breaks"),
+    # --- ARTICLE phrasings (reports/final/ARTICLE.md) ---------------------
+    ("clock.display_w8.observed",
+     rf"at least one shot in the next eight displayed minutes was ({_DEC})"),
+    ("clock.display_w8.null",
+     rf"eight displayed minutes was {_DEC}, against ({_DEC})"),
+    ("clock.adjusted_w8.observed", rf"same probability rises to ({_DEC})"),
+    ("clock.adjusted_w8.null", rf"slightly above the same ({_DEC}) benchmark"),
+    ("test_a.primary.breaks", r"eight-minute analysis, (\d+) breaks across"),
+    ("test_a.primary.matches", r"eight-minute analysis, \d+ breaks across (\d+) matches"),
+    ("test_b.w5.swing_real", rf"giving back ({_NUM}) shots of advantage"),
+    ("test_b.w5.swing_control",
+     rf"uninterrupted spells produced ({_NUM}) over the same span"),
+    ("test_b.w5.D", rf"difference was ({_NUM}) shots at five minutes"),
+    ("test_b.w8.D", rf"shots at five minutes, ({_NUM}) at eight"),
+    ("test_b.w10.D", rf"at five minutes, {_NUM} at eight and ({_NUM}) at ten"),
+    ("perception.unique_total", r"Among (\d+) unique breaks that attracted"),
+    ("perception.unique_supported",
+     r"unique breaks that attracted a verified, testable claim, (\d+) were supported"),
+    ("perception.claim_supported", r"At claim level, (\d+) of \d+"),
+    ("perception.claim_total", r"At claim level, \d+ of (\d+)"),
+    ("perception.sweep_with_claims", r"only (\d+) of \d+ sampled breaks"),
+    ("perception.sweep_n", r"only \d+ of (\d+) sampled breaks"),
+    ("test_b.w5.breaks", r"Coverage falls from (\d+) matchable breaks"),
+    ("test_b.w10.breaks", r"matchable breaks\s*at five minutes to (\d+) at ten"),
     ("test_a.loo.lo", rf"Leave-one-match-out \(\d+ refits\).{{0,40}}?\[({_NUM}),"),
     ("test_a.loo.hi", rf"Leave-one-match-out \(\d+ refits\).{{0,40}}?\[{_NUM}, ({_NUM})\]"),
     # Perception — denominator and hit rate.
-    ("perception.unique_supported", r"(\d+) of \d+ unique claimed breaks"),
-    ("perception.unique_total", r"\d+ of (\d+) unique claimed breaks"),
+    ("perception.unique_supported", r"(\d+) of \d+ unique claimed breaks|"
+                                    r"right (\d+) times out of \d+"),
+    ("perception.unique_total", r"\d+ of (\d+) unique claimed breaks|"
+                                r"right \d+ times out of (\d+)"),
     ("perception.claim_supported", r"(?:\(|claim-level, for comparison, is )(\d+) of \d+"
                                    r"(?: at claim level|\s*\(\d+%\))"),
     ("perception.claim_total", r"(?:\(|claim-level, for comparison, is )\d+ of (\d+)"
@@ -281,13 +322,25 @@ DOC_CHECKS: list[tuple[str, str]] = [
                                      r"(?: randomly)? sampled breaks"),
     ("perception.sweep_n", r"(?:claims on just|attached to just) \d+ of (\d+)"
                            r"(?: randomly)? sampled breaks"),
-    ("subs.pct", r"Only ([\d.]+)% of (?:2026 )?second-half substitutions"),
+    ("subs.pct", r"([\d.]+)% of second-half\s*substitutions"),
+    # NOTE: patterns are matched against text with '*' stripped, so they must
+    # never contain literal markdown emphasis.
+    ("subs.before_2026", r"before the stoppage \(([\d.]+)%"),
+    ("subs.after_2026", r"from the restart \(([\d.]+)%"),
+    # Test B — the regression-to-the-mean contrast the article leads on.
+    ("test_b.w5.swing_control", rf"gave back ({_NUM}) shots of advantage"),
+    ("test_b.w5.swing_real", rf"with no break at all, against ({_NUM})"),
+    ("test_b.w5.D", rf"difference is ({_NUM}), with an interval"),
+    ("test_b.w5.ci.0", rf"an interval running from ({_NUM}) to {_NUM}"),
+    ("test_b.w5.ci.1", rf"an interval running from {_NUM} to ({_NUM})"),
     # Appendix — cards, and the goal-depletion artefact.
     ("cards.w5.D", rf"D = ({_NUM}) / {_NUM} / {_NUM} at the 5 / 8 / 10-minute"),
     ("cards.w8.D", rf"D = {_NUM} / ({_NUM}) / {_NUM} at the 5 / 8 / 10-minute"),
     ("cards.w10.D", rf"D = {_NUM} / {_NUM} / ({_NUM}) at the 5 / 8 / 10-minute"),
-    ("cards.goals_real_w8", r"([\d.]+) goals per 8-minute break window against"),
-    ("cards.goals_control_w8", r"goals per 8-minute break window against ([\d.]+)"),
+    ("cards.goals_real_w8", rf"({_DEC}) goals per 8-minute break window against|"
+                            rf"contain ({_DEC}) goals per eight minutes"),
+    ("cards.goals_control_w8", rf"goals per 8-minute break window against ({_DEC})|"
+                               rf"matched control windows contain ({_DEC})"),
     ("cards.n_goals", r"denser than cards \((\d+) vs \d+\)"),
     ("cards.n_cards", r"denser than cards \(\d+ vs (\d+)\)"),
     # Test B directional — sample sizes and effects.
@@ -301,16 +354,21 @@ DOC_CHECKS: list[tuple[str, str]] = [
     ("test_b.w8.D", rf"D = {_NUM} / ({_NUM}) / {_NUM}, every interval"),
     ("test_b.w10.D", rf"D = {_NUM} / {_NUM} / ({_NUM}), every interval"),
     # The support-sensitivity drift — the honest weak point, quoted in both docs.
-    ("test_a.primary.effect", rf"steadily more negative \(({_NUM}) → {_NUM} → {_NUM} → {_NUM}\)"),
-    ("test_a.min3.effect", rf"steadily more negative \({_NUM} → ({_NUM}) → {_NUM} → {_NUM}\)"),
-    ("test_a.min5.effect", rf"steadily more negative \({_NUM} → {_NUM} → ({_NUM}) → {_NUM}\)"),
-    ("test_a.min10.effect", rf"steadily more negative \({_NUM} → {_NUM} → {_NUM} → ({_NUM})\)"),
+    ("test_a.primary.effect", rf"steadily more negative \(({_NUM}) → {_NUM} → {_NUM} → {_NUM}\)|"
+                              rf"drifts away from zero: ({_NUM}), then {_NUM}, then {_NUM}"),
+    ("test_a.min3.effect", rf"steadily more negative \({_NUM} → ({_NUM}) → {_NUM} → {_NUM}\)|"
+                           rf"drifts away from zero: {_NUM}, then ({_NUM}), then {_NUM}"),
+    ("test_a.min5.effect", rf"steadily more negative \({_NUM} → {_NUM} → ({_NUM}) → {_NUM}\)|"
+                           rf"drifts away from zero: {_NUM}, then {_NUM}, then ({_NUM})"),
+    ("test_a.min10.effect", rf"steadily more negative \({_NUM} → {_NUM} → {_NUM} → ({_NUM})\)|"
+                            rf"at the strictest cut ({_NUM}), which does exclude zero"),
     ("test_a.min10.breaks", r"rests on (\d+) breaks in"),
 ]
 
 # A check that never matches is a check that cannot fail. Each document must
 # exercise at least this many distinct facts, or the patterns have rotted.
-MIN_CHECKS = {"README.md": 22, "reports/final/REPORT.md": 25}
+MIN_CHECKS = {"README.md": 22, "reports/final/REPORT.md": 25,
+              "reports/final/ARTICLE.md": 24}
 
 
 def lookup(facts: dict, path: str):
