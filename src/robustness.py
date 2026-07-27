@@ -9,10 +9,13 @@ QUARANTINED it, because two structural asymmetries could manufacture it:
   2. anything that varies with match-clock position (shot rate, game state)
      therefore contaminates the signed contrast.
 
-The decisive test here is PLACEMENT MATCHING: restrict each break's pseudo
-candidates to +/-PLACEMENT_TOL minutes of that break's own minute, so real and
-pseudo are compared at the same point of the match. If the signed effect is
-real it should survive; if it was a placement artefact it should collapse.
+PLACEMENT MATCHING was designed as the decisive test: restrict each break's
+pseudo candidates to +/-PLACEMENT_TOL minutes of that break's own minute, so
+real and pseudo are compared at the same point of the match. After the
+control-contamination fix (CHANGELOG A7) it is no longer computable — a control
+whose whole window must clear the break cannot also sit within five minutes of
+it. It is retained as a REPORTED COVERAGE FAILURE, not quietly dropped, and
+every other section runs the primary unmatched specification.
 
 Also runs: half and stage subgroups, exclusion sensitivities, nominal-vs-actual
 break timing, and leave-one-match-out on the primary metric.
@@ -146,10 +149,15 @@ def main():
         "`pct` = share of null draws at or above the observed mean; ~0.5 means",
         "real breaks look like ordinary matched minutes.",
         "",
-        "## 1. THE DECISIVE TEST — placement matching",
+        "## 1. Placement matching — DESIGNED AS THE DECISIVE TEST, NOW UNCOMPUTABLE",
         "",
-        f"Pseudo-breaks restricted to ±{PLACEMENT_TOL}' of each real break's own minute,",
-        "so real and pseudo are compared at the same point of the match.",
+        f"The intended check restricted pseudo-breaks to ±{PLACEMENT_TOL}' of each real",
+        "break's own minute, so real and pseudo would be compared at the same point of the",
+        "match. After the control-contamination fix (CHANGELOG A7) a control window must",
+        f"clear the break entirely, which a minute within ±{PLACEMENT_TOL}' of it cannot do.",
+        "The placement-matched rows below are therefore EMPTY BY CONSTRUCTION — shown as",
+        "a reported coverage failure rather than deleted. Everything else in this file uses",
+        "the primary unmatched specification.",
         "",
         "| variant | n | observed | null | null 95% | pct |",
         "|---|---|---|---|---|---|",
@@ -223,6 +231,7 @@ def main():
                 f"{r['paired_effect']:+.3f} | "
                 f"[{r['paired_lo']:+.3f}, {r['paired_hi']:+.3f}] |")
     base_r = support_rows[0][1]
+    deep = next(r for lbl, r in support_rows if "min 10" in lbl)
     crosses_zero = base_r["paired_lo"] < 0 < base_r["paired_hi"]
     lines += [
         "",
@@ -237,18 +246,21 @@ def main():
          "reflects only the draw-to-draw variability of the controls, not the "
          "match-to-match variability of the real breaks. **The clustered interval is the "
          "honest one, and the report leads with it.** Note what it still rules out: the "
-         "break-unfavourable end of the interval is only +0.07 shots of extra disruption "
-         "— orders of magnitude smaller than the decisive swings described publicly. The "
-         "finding is 'no detectable difference', not 'breaks calmed the game'."
+         f"break-unfavourable end of the interval is only {base_r['paired_hi']:+.2f} shots "
+         "of extra disruption — orders of magnitude smaller than the decisive swings "
+         "described publicly. The finding is 'no detectable difference', not 'breaks "
+         "calmed the game'."
          if crosses_zero else
          "The interval excludes zero."),
         "",
         "**Support sensitivity — NOT stable, and that must be said plainly.** Requiring "
-        "≥3, ≥5 and ≥10 clean controls moves the estimate steadily more negative "
-        "(−0.073 → −0.173 → −0.196 → −0.948), and the ≥10 row excludes zero.",
+        "≥3, ≥5 and ≥10 clean controls moves the estimate steadily more negative ("
+        + " → ".join(f"{r['paired_effect']:+.3f}" for _, r in support_rows if r.get("n"))
+        + f"), and the ≥10 row {'excludes' if deep['paired_lo'] > 0 or deep['paired_hi'] < 0 else 'includes'} zero.",
         "",
-        "That row rests on **18 breaks in 18 matches** and is a heavily SELECTED "
-        "subsample, not a random one: after the contamination fix, only matches with many "
+        f"That row rests on **{deep['n']} breaks in {deep['n_matches']} matches** and is a "
+        "heavily SELECTED subsample, not a random one: after the contamination fix, only "
+        "matches with many "
         "eligible control minutes — few goals, cards or VAR interruptions, and a stable "
         "score state — can supply ten clean controls. Those are quiet matches, where a "
         "hydration break is a larger share of the total disturbance. So the drift is "
@@ -259,13 +271,11 @@ def main():
         "statement is that it is NOT robust to demanding deeper control support. Anyone "
         "citing the null should cite this row alongside it.",
         "",
-        "**Note on the placement-matched variant.** Restricting controls to ±5' of each "
-        "break's own minute leaves a median of 2 candidates (max 2), because the eligible "
-        "window is already narrowed by score state and event exclusions. It is retained "
-        "as a bias check (§1) but is too thinly supported to carry the headline, and a "
-        "support sensitivity cannot be run on it at all.",
+        "**Note on the placement-matched variant.** It is reported as a coverage failure "
+        "in §1 and cannot carry the headline or a support sensitivity. Sections 2-4 below "
+        "therefore all use the PRIMARY UNMATCHED specification, and are labelled as such.",
         "",
-        "## 2. Subgroups (primary metric: balance disruption, placement matched)",
+        "## 2. Subgroups (primary metric: balance disruption, primary unmatched spec)",
         "",
         "| subgroup | n | observed | null | null 95% | pct |",
         "|---|---|---|---|---|---|",
@@ -276,23 +286,27 @@ def main():
         "group stage": lambda b, m: stage.get(b["match_id"]) == "Group Stage",
         "knockout stage": lambda b, m: stage.get(b["match_id"]) != "Group Stage",
     }
+    sub_res = {}
     for label, f in subs.items():
-        r = run_variant(bands, cache, "balance_disruption",
-                        placement_matched=True, row_filter=f)
+        r = run_variant(bands, cache, "balance_disruption", row_filter=f)
+        sub_res[label] = r
         lines.append(f"| {label} " + fmt(r))
 
+    h1, h2 = sub_res["first-half breaks"], sub_res["second-half breaks"]
     lines += [
         "",
         "**Exploratory note (NOT preregistered — spec §13 treats subgroups as",
-        "exploratory).** The halves diverge: first-half breaks are markedly *less*",
-        "disruptive than matched ordinary minutes (1.10 vs 1.59), while second-half",
-        "breaks are the one subgroup sitting *above* its null (1.87 vs 1.72, pct 0.014).",
-        "That is coherent with the substitution result — subs are displaced to the",
-        "second break's restart — so the second break plausibly carries the tactical",
-        "activity the first does not. Coherent is not confirmed: this is one subgroup",
-        "cut among several, and it needs preregistration before it can be a claim.",
+        "exploratory).** The halves diverge: first-half breaks sit at "
+        f"{h1['observed']:.2f} against a null of {h1['null']:.2f} (pct {h1['pct_null_ge_obs']:.3f}), "
+        f"second-half breaks at {h2['observed']:.2f} against {h2['null']:.2f} "
+        f"(pct {h2['pct_null_ge_obs']:.3f}).",
+        "That the second break is the more active one is coherent with the substitution",
+        "result — subs are displaced to the second break's restart — so it plausibly",
+        "carries tactical activity the first does not. Coherent is not confirmed: this is",
+        "one subgroup cut among several, and it needs preregistration before it can be a",
+        "claim.",
         "",
-        "## 3. Exclusion sensitivities (placement matched)",
+        "## 3. Exclusion sensitivities (primary unmatched spec)",
         "",
         "| variant | n | observed | null | null 95% | pct |",
         "|---|---|---|---|---|---|",
@@ -307,16 +321,14 @@ def main():
 
     for label, f in (("drop windows containing a red card", no_red),
                      ("drop breaks with a goal in the 3' before", no_goal_before)):
-        r = run_variant(bands, cache, "balance_disruption",
-                        placement_matched=True, row_filter=f)
+        r = run_variant(bands, cache, "balance_disruption", row_filter=f)
         lines.append(f"| {label} " + fmt(r))
-    r = run_variant(bands, cache, "balance_disruption",
-                    placement_matched=True, use_nominal=True)
+    r = run_variant(bands, cache, "balance_disruption", use_nominal=True)
     lines.append("| nominal 22'/67' timing instead of actual " + fmt(r))
 
     lines += [
         "",
-        "## 4. Leave-one-match-out (primary metric, placement matched)",
+        "## 4. Leave-one-match-out (primary metric, primary unmatched spec)",
         "",
     ]
     base = run_variant(bands, cache, "balance_disruption")

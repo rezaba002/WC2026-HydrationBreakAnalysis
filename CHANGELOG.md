@@ -53,6 +53,55 @@ placement matching became largely infeasible, since an anchor within 5' of a bre
 cannot have an 8' window clear of it. All affected analyses were rerun; conclusions
 survive, with the changed numbers and reduced power reported in place.
 
+## 2026-07-27 — deviation record and reporting-integrity consolidation (v2.0.0)
+
+**A8 — Substitution confound adjustment specified but NOT implemented.**
+Spec §8 says the substitution comparison controls for "score state, half, stage, team
+strength, effective remaining minutes, minute-recording rounding". Only minute matching
+and stage/half stratification were implemented; score state and team strength are
+reported DESCRIPTIVELY (shares by score state) and never adjusted for. The headline
+substitution result is a minute-matched share contrast, not a covariate-adjusted one.
+Recorded as a deviation rather than quietly dropped. It does not threaten the finding's
+direction — 2026 sits *below* both historical expectations, and an unadjusted comparison
+would if anything favour the excess the thesis predicted — but the result should be read
+as a raw minute-matched contrast.
+
+**A9 — Placement matching retired to a reported coverage failure.**
+After A7, a control anchor within ±5' of a break cannot have an 8' window clear of it, so
+the placement-matched variant returns nothing. It had still been used to LABEL the
+subgroup, exclusion-sensitivity and leave-one-match-out sections, which either printed
+empty tables under a "placement matched" heading or (in the leave-one-out case) ran the
+unmatched specification under a matched label. Those three sections now run and are
+labelled as the **primary unmatched specification**; §1 retains the placement-matched rows
+as explicitly empty, with the reason stated. No estimate changed meaning; several tables
+that had been blank since A7 are populated again.
+
+**Reporting integrity — generated facts replace hand-typed numbers.**
+The recurring defect in this project was never the analysis; it was that corrected numbers
+did not propagate into prose. Five review rounds each found stale figures (clock
+probabilities, an obsolete robustness summary, wrong perception denominators) and false
+universal claims ("every interval includes zero") sitting beside tables that disproved
+them. Fixed structurally rather than by re-checking:
+
+- `src/facts.py` regenerates every headline number into `reports/facts.json` and
+  `reports/FACTS.md` from the analysis tables. Prose quotes that file; nothing else.
+- `util.interval_sentence()` GENERATES interval-summary sentences by counting, so a
+  universal claim cannot survive a rerun that falsifies it. `break_window.py` and
+  `cards.py` now use it.
+- `tests/test_report_sync.py` fails the build when README or the report disagrees with
+  the computed values, when a generated table universalises a false interval claim, when
+  a document claims robustness the sensitivity analysis contradicts, or when the checks
+  themselves stop matching enough of a document to be meaningful.
+
+**Primary sample declared once.** Primary Test A = **183 breaks** (8-minute window,
+maximal clean control support). The cross-window common-support sample = **148 breaks**
+(valid at w=3/5/8/10 simultaneously), used only by E1. The second is a subset of the
+first, not a correction to it; both are labelled everywhere they appear.
+
+**Version.** Released as **2.0.0**. The public history had already reached v1.4.1, and a
+subsequent `v1.2.0-final` tag moved the version backwards — an error. The major bump
+reflects the A7 control-definition change, which altered samples and estimates repo-wide.
+
 ## 2026-07-26 — exploratory addition (does NOT alter the confirmatory design)
 
 **E1 — Exploratory clock-artefact event study.** After completion of the

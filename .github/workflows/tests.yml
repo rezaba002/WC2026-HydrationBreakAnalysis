@@ -27,8 +27,9 @@ jobs:
       # tournament metadata (match_events.csv, teams.csv), which is NOT
       # committed — provider data is not redistributed from this repository.
       # Fetch just those two CSVs from the public upstream dataset so those
-      # tests actually run in CI. If this step fails the suite still passes;
-      # the affected module skips itself rather than erroring.
+      # tests actually run in CI. continue-on-error only defers the failure —
+      # the next step turns a missing fetch into a hard failure, so a green
+      # badge can never mean "the core regression tests were skipped".
       - name: Fetch external tournament metadata (public, not redistributed here)
         continue-on-error: true
         run: bash scripts/fetch_external.sh --metadata-only

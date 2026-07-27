@@ -40,7 +40,7 @@ import numpy as np
 import pandas as pd
 
 from .placebo import MatchData, load_inputs
-from .util import PROCESSED, TABLES
+from .util import PROCESSED, TABLES, interval_sentence
 
 WINDOWS = (3, 5, 8, 10)
 SEED = 20260724
@@ -314,8 +314,11 @@ def figure_a(rows):
     ax2.set_xlabel("window length (minutes)")
     ax2.set_xticks(W)
     ax2.set_ylim(-0.11, 0.13)
-    ax2.set_title("B · Direct contrast — every interval includes zero",
-                  color=INK, fontsize=11.5, fontweight="bold", loc="left")
+    n_excl = sum(1 for r in rows if r["A_lo"] > 0 or r["A_hi"] < 0)
+    ax2.set_title(
+        "B · Direct contrast — every interval includes zero" if not n_excl else
+        f"B · Direct contrast — {n_excl} of {len(rows)} intervals exclude zero",
+        color=INK, fontsize=11.5, fontweight="bold", loc="left")
 
     for ax in (ax1, ax2):
         ax.grid(axis="x", visible=False)
@@ -478,9 +481,11 @@ def main():
         "",
         (f"Excluding the transition minute shifted the adjusted estimates "
          f"{'upward' if shift > 0 else 'downward'} by an average of {abs(shift):.3f} "
-         "shots per minute, without changing the overall conclusion — every interval "
-         "still includes zero. Including the partially observed transition minute "
-         f"therefore appears to attenuate the estimates {'downward' if shift > 0 else 'upward'}. "
+         "shots per minute. " +
+         interval_sentence([(r["D1_lo"], r["D1_hi"]) for r in rows],
+                           "transition-excluded D") +
+         " Including the partially observed transition minute therefore appears to "
+         f"attenuate the estimates {'downward' if shift > 0 else 'upward'}. "
          "No clustered interval was computed for the DIFFERENCE between the two "
          "specifications, so this is described as an apparent shift rather than a "
          "quantified bias."),
@@ -491,10 +496,11 @@ def main():
         "`N` is what a display-clock window reports. `D` is the estimate that matters:",
         "post-resumption change, differenced against matched ordinary minutes.",
         "",
-        "**Read D carefully.** After the control-contamination fix, three of the four D",
-        "intervals include zero and the 8-minute interval excludes it only at its lower",
-        "bound (+0.001) — a hair's breadth, across four windows examined, from a bootstrap",
-        "with finite draws. That is not evidence of an effect. Note also its DIRECTION:",
+        "**Read D carefully.** After the control-contamination fix: " +
+        interval_sentence([(r["D_lo"], r["D_hi"]) for r in rows], "D"),
+        "Any exclusion here sits a hair's breadth from zero, across four windows examined,",
+        "from a bootstrap with finite draws. That is not evidence of an effect. Note also",
+        "the DIRECTION of D:",
         "positive D means slightly MORE activity after a break than at clean control",
         "minutes, the opposite of the 'breaks kill momentum' claim. The defensible",
         "statement remains that post-resumption activity is close to matched ordinary",
@@ -520,16 +526,20 @@ def main():
         lines.append(f"| {r['w']} | {r['N']:+.3f} | {r['synth']:+.3f} | "
                      f"**{r['A']:+.3f}** | [{r['A_lo']:+.3f}, {r['A_hi']:+.3f}] |")
 
-    zero_all = all(r["A_lo"] < 0 < r["A_hi"] for r in rows)
+    a_ivs = [(r["A_lo"], r["A_hi"]) for r in rows]
+    zero_all = not any(lo > 0 or hi < 0 for lo, hi in a_ivs)
     lines += [
         "",
-        ("**All A intervals include zero.** The decline measured from the break call did "
-         "not differ detectably from the decline produced by inserting an equivalent "
-         "synthetic stoppage at matched ordinary minutes — i.e. the apparent collapse is "
-         "closely reproduced by the measurement procedure alone."
-         if zero_all else
-         "**At least one A interval excludes zero** — the real decline is NOT fully "
-         "reproduced by synthetic dead time at every window; see the table."),
+        (interval_sentence(a_ivs, "A") + " " +
+         ("The decline measured from the break call did not differ detectably from the "
+          "decline produced by inserting an equivalent synthetic stoppage at matched "
+          "ordinary minutes — i.e. the apparent collapse is closely reproduced by the "
+          "measurement procedure alone."
+          if zero_all else
+          "So the real decline is not FULLY reproduced by synthetic dead time at every "
+          "window: at the widest window a small residual remains after the clock artefact "
+          "is accounted for. Its direction is the same as the artefact's, and the "
+          "magnitude is a few hundredths of a shot per minute.")),
         "",
         "Note on wording: those control minutes are ordinary passages of football. The "
         "procedure inserts artificial dead time into them; it does not select quiet "
@@ -578,9 +588,9 @@ def main():
         "",
         "## Interpretation limits",
         "",
-        "- All A intervals include zero; they exclude differences larger than about "
-        "0.07 shots/min between the real and synthetic declines. Whether that is "
-        "'small' is a judgement about football, not a statistical fact.",
+        f"- The A intervals bound the real-vs-synthetic difference at roughly "
+        f"{max(abs(r['A_hi']) for r in rows):.2f} shots/min in either direction. "
+        "Whether that is 'small' is a judgement about football, not a statistical fact.",
         "- The D estimates permit modest effects in either direction, especially at the "
         "3-minute window. This is 'no detectable decline', NOT proof of no effect.",
         "- Shot activity is not the momentum algorithm. This shows how a display-clock "

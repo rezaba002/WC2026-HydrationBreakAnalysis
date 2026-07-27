@@ -11,7 +11,7 @@ Rates are yellow cards per minute, both teams. Post-break windows start at resum
 | 8 | 183 | 101 | 0.023 | 0.021 | -0.0020 | +0.0033 | **-0.0054** | [-0.0234, +0.0120] |
 | 10 | 148 | 92 | 0.024 | 0.024 | +0.0007 | +0.0046 | **-0.0039** | [-0.0226, +0.0145] |
 
-**Every interval includes zero.** Booking rates after breaks are indistinguishable from those after matched ordinary minutes. Given the sparsity (~0.16 cards per 8-minute window) only a very large shift would be detectable, so this is weak evidence of no difference in booking rates — NOT a finding that the breaks left the character of the game unchanged.
+**Every card-rate interval includes zero.** Booking rates after breaks are indistinguishable from those after matched ordinary minutes. Given the sparsity (~0.16 cards per 8-minute window) only a very large shift would be detectable, so this is weak evidence about booking RATES — NOT a finding that the breaks left the character of the game unchanged.
 
 ## Why goals are NOT an outcome here
 

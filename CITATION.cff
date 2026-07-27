@@ -8,13 +8,17 @@ authors:
     alias: rezaba002
 repository-code: "https://github.com/rezaba002/WC2026-HydrationBreakAnalysis"
 abstract: >-
-  An independent, preregistered analysis of the 203 mandatory hydration breaks
-  at the 2026 FIFA World Cup. Using a randomized pseudo-break design on a
-  break-adjusted clock, the study finds no unusually large average change in
-  shot balance after breaks: the apparent post-break shot drought is largely an
-  artifact of counting stopped time as football. Structural changes were
+  An independent analysis of the 203 mandatory hydration breaks at the 2026
+  FIFA World Cup, prospectively specified in a frozen, timestamped Git
+  specification (not lodged in an external registry). Using a randomized
+  pseudo-break design on a break-adjusted clock, the study finds no detectable
+  average change in shot balance after breaks on the primary 183-break sample:
+  the apparent post-break shot drought is largely an
+  artifact of counting stopped time as football. The estimate is not robust to
+  demanding deeper matched-control support, and that limitation is reported
+  alongside the headline. Structural changes were
   measurable instead — substitutions displaced to the restart, a fresh-legs
-  deployment window, and longer matches. A preregistered perception dataset,
+  deployment window, and longer matches. A prospectively specified perception dataset,
   collected via a stratified random sweep and verified against source, finds
   public claims attached to only about 8% of breaks while being supported
   roughly half the time, indicating an availability-sampling effect rather than
@@ -29,5 +33,5 @@ keywords:
   - sports analytics
   - reproducible research
 license: MIT
-version: 1.2.0
-date-released: "2026-07-26"
+version: 2.0.0
+date-released: "2026-07-27"

@@ -28,15 +28,15 @@ later measures how much that matters instead of asserting it:
 | 8 | +0.057 | **+0.062** | [+0.005, +0.122] |
 | 10 | +0.061 | **+0.075** | [+0.013, +0.140] |
 
-Excluding the transition minute shifted the adjusted estimates upward by an average of 0.021 shots per minute, without changing the overall conclusion — every interval still includes zero. Including the partially observed transition minute therefore appears to attenuate the estimates downward. No clustered interval was computed for the DIFFERENCE between the two specifications, so this is described as an apparent shift rather than a quantified bias.
+Excluding the transition minute shifted the adjusted estimates upward by an average of 0.021 shots per minute. **2 of 4 transition-excluded D intervals exclude zero** ([+0.005, +0.122], [+0.013, +0.140]); the remainder include it. Including the partially observed transition minute therefore appears to attenuate the estimates downward. No clustered interval was computed for the DIFFERENCE between the two specifications, so this is described as an apparent shift rather than a quantified bias.
 
 `N` is what a display-clock window reports. `D` is the estimate that matters:
 post-resumption change, differenced against matched ordinary minutes.
 
-**Read D carefully.** After the control-contamination fix, three of the four D
-intervals include zero and the 8-minute interval excludes it only at its lower
-bound (+0.001) — a hair's breadth, across four windows examined, from a bootstrap
-with finite draws. That is not evidence of an effect. Note also its DIRECTION:
+**Read D carefully.** After the control-contamination fix: **1 of 4 D intervals exclude zero** ([+0.001, +0.113]); the remainder include it.
+Any exclusion here sits a hair's breadth from zero, across four windows examined,
+from a bootstrap with finite draws. That is not evidence of an effect. Note also
+the DIRECTION of D:
 positive D means slightly MORE activity after a break than at clean control
 minutes, the opposite of the 'breaks kill momentum' claim. The defensible
 statement remains that post-resumption activity is close to matched ordinary
@@ -62,7 +62,7 @@ interval would not be a test.
 | 8 | -0.058 | -0.103 | **+0.044** | [-0.005, +0.095] |
 | 10 | -0.050 | -0.107 | **+0.057** | [+0.003, +0.113] |
 
-**At least one A interval excludes zero** — the real decline is NOT fully reproduced by synthetic dead time at every window; see the table.
+**1 of 4 A intervals exclude zero** ([+0.003, +0.113]); the remainder include it. So the real decline is not FULLY reproduced by synthetic dead time at every window: at the widest window a small residual remains after the clock artefact is accounted for. Its direction is the same as the artefact's, and the magnitude is a few hundredths of a shot per minute.
 
 Note on wording: those control minutes are ordinary passages of football. The procedure inserts artificial dead time into them; it does not select quiet periods.
 
@@ -96,7 +96,7 @@ evidence.
 
 ## Interpretation limits
 
-- All A intervals include zero; they exclude differences larger than about 0.07 shots/min between the real and synthetic declines. Whether that is 'small' is a judgement about football, not a statistical fact.
+- The A intervals bound the real-vs-synthetic difference at roughly 0.11 shots/min in either direction. Whether that is 'small' is a judgement about football, not a statistical fact.
 - The D estimates permit modest effects in either direction, especially at the 3-minute window. This is 'no detectable decline', NOT proof of no effect.
 - Shot activity is not the momentum algorithm. This shows how a display-clock window can manufacture an apparent collapse; it does not reproduce, and cannot prove the cause of, any published momentum curve.
 - Activity in the final minute before the call is lower than at control minutes. That pre-trend may reflect stoppage selection, timestamp granularity or random variation and is NOT interpreted causally here.

@@ -13,8 +13,9 @@ HYD = EXTERNAL / "wc2026-hydration-momentum"
 FIFA = EXTERNAL / "FIFA-World-Cup-2026-Dataset"
 ANALYTICS = EXTERNAL / "wc26-analytics"
 PROCESSED = ROOT / "data" / "processed"
-FIGURES = ROOT / "reports" / "figures"
-TABLES = ROOT / "reports" / "tables"
+REPORTS = ROOT / "reports"
+FIGURES = REPORTS / "figures"
+TABLES = REPORTS / "tables"
 
 # Hydration-repo spelling -> FIFA-dataset spelling
 TEAM_NAME_MAP = {
@@ -26,6 +27,30 @@ TEAM_NAME_MAP = {
 
 def norm_team(name: str) -> str:
     return TEAM_NAME_MAP.get(name, name)
+
+
+def excludes_zero(lo: float, hi: float) -> bool:
+    return lo > 0 or hi < 0
+
+
+def interval_sentence(intervals, subject: str) -> str:
+    """Describe a set of confidence intervals — GENERATED, never hard-coded.
+
+    Hand-written versions of this sentence went false three separate times while
+    sitting directly beside a table that disproved them. Every module that wants
+    to summarise a column of intervals must call this, and
+    tests/test_report_sync.py fails the build on any universal claim that the
+    numbers contradict.
+    """
+    intervals = [tuple(iv) for iv in intervals]
+    bad = [iv for iv in intervals if excludes_zero(*iv)]
+    if not bad:
+        return f"**Every {subject} interval includes zero.**"
+    if len(bad) == len(intervals):
+        return f"**Every {subject} interval excludes zero.**"
+    return (f"**{len(bad)} of {len(intervals)} {subject} intervals exclude zero**"
+            f" ({', '.join(f'[{lo:+.3f}, {hi:+.3f}]' for lo, hi in bad)});"
+            f" the remainder include it.")
 
 
 def load_json(path: Path):

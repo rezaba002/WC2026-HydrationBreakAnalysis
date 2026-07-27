@@ -16,17 +16,25 @@ every exclusion is documented.)
 
 **1. The average competitive effect is null — and the obvious counter-evidence is a clock
 artifact.** Measured on the display clock, where the 8-minute post-break window *starts at
-the break and includes the stoppage*, the probability of a shot collapses to 0.658 against
-a ~0.80 baseline. Remove the three dead minutes and it is 0.806 against a null of 0.822:
-ordinary. The apparent post-break shot drought was largely stopped time counted as
-football. On the primary metric the paired effect is **−0.085 shots, 95% match-clustered
-CI [−0.238, +0.074]** — no detectable difference from comparable ordinary minutes.
+the break and includes the stoppage*, the probability of a shot collapses to 0.689. Remove
+the three dead minutes and it is 0.818 against a null of 0.787: ordinary. The apparent
+post-break shot drought was largely stopped time counted as football. On the primary metric
+— the primary Test A sample of **183 breaks** across 101 matches — the paired effect is
+**−0.073 shots, 95% match-clustered
+CI [−0.258, +0.116]** — no detectable difference from comparable ordinary minutes.
+
+*With one caveat we state up front:* demanding deeper control support moves that estimate
+steadily more negative (−0.073 → −0.173 → −0.196 → −0.948), and the strictest cut excludes
+zero. That cut rests on 18 breaks in quiet, heavily selected matches, so it is consistent
+with selection rather than a stronger effect — but the null is **not** robust to it, and
+anyone citing the headline should cite this alongside it.
 
 And the directional version, which is what people actually claim: among breaks with an
-identifiable and matchable attacking side (90–94 of 203), that team gave back **~1 shot
-of advantage** afterwards — but no more than after comparable uninterrupted spells
-(difference −0.02 to −0.14, all intervals spanning zero). The collapse fans remember is
-real; we find no detectable additional loss associated with the break.
+identifiable and matchable attacking side (88 / 63 / 33 at the 5 / 8 / 10-minute windows),
+that team gave back **~1 shot of advantage** afterwards — but no more than after comparable
+uninterrupted spells (D = −0.136 / −0.251 / +0.258, every interval spanning zero). The
+collapse fans remember is real; we find no detectable additional loss associated with the
+break.
 
 **2. Substitutions moved rather than multiplied.** Only 18.7% of second-half substitutions
 fell within ±3 minutes of their own match's break — *below* the minute-matched historical
@@ -35,8 +43,8 @@ minutes after the restart. Coaches waited for the break, then acted.
 
 **3. Public claims were right about half the time — but attached to almost nothing.** A
 stratified random sweep found claims on just **4 of 48 sampled breaks (8.3%, 95% CI
-3.3–19.6%)**. Among verified claims, **7 of 13 unique claimed breaks** were supported
-(8 of 17 at claim level). Observers were not inventing swings; they were describing a tiny,
+3.3–19.6%)**. Among verified claims, **7 of 12 unique claimed breaks** were supported
+(8 of 16 at claim level). Observers were not inventing swings; they were describing a tiny,
 memorable, unrepresentative slice of them.
 
 ![Real breaks vs 10,000 comparable moments](reports/figures/fig_placebo.png)
@@ -56,8 +64,15 @@ memorable, unrepresentative slice of them.
 | 6 | Added time & duration | ✅ | [added_time.md](reports/tables/added_time.md) |
 | 7 | Case studies (2×2 selection) | ✅ | [case_studies.md](reports/tables/case_studies.md) |
 | + | Fresh-legs deployment · late-game proxy | ✅ | [physical_freshlegs.md](reports/tables/physical_freshlegs.md) · [late_game.md](reports/tables/late_game.md) |
+| E1 | Clock-artefact decomposition (exploratory) | ✅ | [break_window.md](reports/tables/break_window.md) |
+| A | Appendix — yellow-card rates (weak proxy) | ✅ | [cards.md](reports/tables/cards.md) |
+| C | Commercial inventory arithmetic | ✅ | [commercial.md](reports/tables/commercial.md) |
 
 Twelve figures in [reports/figures/](reports/figures/).
+
+**Every number quoted in this README and in the report is generated into
+[reports/FACTS.md](reports/FACTS.md) by `python -m src.facts`, and
+`tests/test_report_sync.py` fails the build if any document drifts from it.**
 
 ## Why you might trust it
 
@@ -65,7 +80,8 @@ Twelve figures in [reports/figures/](reports/figures/).
 - A strong, robustness-passing directional result was **found and then deleted** once its control pool proved biased (CHANGELOG A5).
 - The perception sample was drawn **at random and pre-specified**, not chosen from famous matches — and null results are logged.
 - Every quote was **re-read against its source**; three failed and are excluded from all figures.
-- 38 tests validate IDs, break uniqueness, clock arithmetic, control-pool integrity and table consistency.
+- A control-window contamination defect was found and fixed after publication (CHANGELOG A7); the samples and estimates it changed are reported, not quietly replaced.
+- The test suite validates IDs, break uniqueness, clock arithmetic, control-pool integrity, table consistency — and that **the prose still matches the computed numbers**, so a corrected figure cannot leave a stale sentence behind.
 
 ## Reproduce
 
@@ -91,11 +107,14 @@ python -m src.added_time        # Core Output 6
 python -m src.case_studies      # Core Output 7
 python -m src.test_b            # Test B: state-matched directional (spec 5)
 python -m src.break_window      # clock-artefact analysis (exploratory, E1)
+python -m src.cards             # appendix: yellow-card rates
+python -m src.commercial        # commercial inventory arithmetic
 python -m src.physical          # fresh-legs deployment
 python -m src.late_game         # late-game proxy
 python -m src.charts            # figures
+python -m src.facts             # regenerate reports/facts.json + FACTS.md
 python -m src.make_pdf          # report PDF
-python -m pytest tests -q
+python -m pytest tests -q       # incl. prose-vs-numbers sync checks
 ```
 
 Python 3.11. `make_pdf` renders via headless Edge/Chromium.

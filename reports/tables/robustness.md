@@ -4,10 +4,15 @@ Window 8 break-adjusted minutes, seed 20260724, 10000 draws.
 `pct` = share of null draws at or above the observed mean; ~0.5 means
 real breaks look like ordinary matched minutes.
 
-## 1. THE DECISIVE TEST — placement matching
+## 1. Placement matching — DESIGNED AS THE DECISIVE TEST, NOW UNCOMPUTABLE
 
-Pseudo-breaks restricted to ±5' of each real break's own minute,
-so real and pseudo are compared at the same point of the match.
+The intended check restricted pseudo-breaks to ±5' of each real
+break's own minute, so real and pseudo would be compared at the same point of the
+match. After the control-contamination fix (CHANGELOG A7) a control window must
+clear the break entirely, which a minute within ±5' of it cannot do.
+The placement-matched rows below are therefore EMPTY BY CONSTRUCTION — shown as
+a reported coverage failure rather than deleted. Everything else in this file uses
+the primary unmatched specification.
 
 | variant | n | observed | null | null 95% | pct |
 |---|---|---|---|---|---|
@@ -47,43 +52,42 @@ placement-matched bias check.
 
 **Headline effect: -0.073, 95% match-clustered CI [-0.258, +0.116].**
 
-**This interval includes zero.** The point estimate is negative — real breaks were followed by slightly *less* disruption than their own matched control minutes — but once the uncertainty is placed around the CONTRAST and clustered by match, the difference is not distinguishable from no difference. The randomization percentile reported in §1 is more confident than this because it reflects only the draw-to-draw variability of the controls, not the match-to-match variability of the real breaks. **The clustered interval is the honest one, and the report leads with it.** Note what it still rules out: the break-unfavourable end of the interval is only +0.07 shots of extra disruption — orders of magnitude smaller than the decisive swings described publicly. The finding is 'no detectable difference', not 'breaks calmed the game'.
+**This interval includes zero.** The point estimate is negative — real breaks were followed by slightly *less* disruption than their own matched control minutes — but once the uncertainty is placed around the CONTRAST and clustered by match, the difference is not distinguishable from no difference. The randomization percentile reported in §1 is more confident than this because it reflects only the draw-to-draw variability of the controls, not the match-to-match variability of the real breaks. **The clustered interval is the honest one, and the report leads with it.** Note what it still rules out: the break-unfavourable end of the interval is only +0.12 shots of extra disruption — orders of magnitude smaller than the decisive swings described publicly. The finding is 'no detectable difference', not 'breaks calmed the game'.
 
-**Support sensitivity — NOT stable, and that must be said plainly.** Requiring ≥3, ≥5 and ≥10 clean controls moves the estimate steadily more negative (−0.073 → −0.173 → −0.196 → −0.948), and the ≥10 row excludes zero.
+**Support sensitivity — NOT stable, and that must be said plainly.** Requiring ≥3, ≥5 and ≥10 clean controls moves the estimate steadily more negative (-0.073 → -0.173 → -0.196 → -0.948), and the ≥10 row excludes zero.
 
 That row rests on **18 breaks in 18 matches** and is a heavily SELECTED subsample, not a random one: after the contamination fix, only matches with many eligible control minutes — few goals, cards or VAR interruptions, and a stable score state — can supply ten clean controls. Those are quiet matches, where a hydration break is a larger share of the total disturbance. So the drift is consistent with selection on match character rather than with a stronger break effect, but this analysis cannot separate the two.
 
 **Consequence:** the headline is the full-sample estimate, and the honest statement is that it is NOT robust to demanding deeper control support. Anyone citing the null should cite this row alongside it.
 
-**Note on the placement-matched variant.** Restricting controls to ±5' of each break's own minute leaves a median of 2 candidates (max 2), because the eligible window is already narrowed by score state and event exclusions. It is retained as a bias check (§1) but is too thinly supported to carry the headline, and a support sensitivity cannot be run on it at all.
+**Note on the placement-matched variant.** It is reported as a coverage failure in §1 and cannot carry the headline or a support sensitivity. Sections 2-4 below therefore all use the PRIMARY UNMATCHED specification, and are labelled as such.
 
-## 2. Subgroups (primary metric: balance disruption, placement matched)
+## 2. Subgroups (primary metric: balance disruption, primary unmatched spec)
 
 | subgroup | n | observed | null | null 95% | pct |
 |---|---|---|---|---|---|
-| first-half breaks | — | — | — | — | — |
-| second-half breaks | — | — | — | — | — |
-| group stage | — | — | — | — | — |
-| knockout stage | — | — | — | — | — |
+| first-half breaks | 91 | +1.176 | +1.500 | [+1.319, +1.681] | 1.000 |
+| second-half breaks | 92 | +1.989 | +1.814 | [+1.598, +2.033] | 0.068 |
+| group stage | 127 | +1.622 | +1.739 | [+1.567, +1.913] | 0.915 |
+| knockout stage | 56 | +1.500 | +1.474 | [+1.232, +1.714] | 0.442 |
 
 **Exploratory note (NOT preregistered — spec §13 treats subgroups as
-exploratory).** The halves diverge: first-half breaks are markedly *less*
-disruptive than matched ordinary minutes (1.10 vs 1.59), while second-half
-breaks are the one subgroup sitting *above* its null (1.87 vs 1.72, pct 0.014).
-That is coherent with the substitution result — subs are displaced to the
-second break's restart — so the second break plausibly carries the tactical
-activity the first does not. Coherent is not confirmed: this is one subgroup
-cut among several, and it needs preregistration before it can be a claim.
+exploratory).** The halves diverge: first-half breaks sit at 1.18 against a null of 1.50 (pct 1.000), second-half breaks at 1.99 against 1.81 (pct 0.068).
+That the second break is the more active one is coherent with the substitution
+result — subs are displaced to the second break's restart — so it plausibly
+carries tactical activity the first does not. Coherent is not confirmed: this is
+one subgroup cut among several, and it needs preregistration before it can be a
+claim.
 
-## 3. Exclusion sensitivities (placement matched)
+## 3. Exclusion sensitivities (primary unmatched spec)
 
 | variant | n | observed | null | null 95% | pct |
 |---|---|---|---|---|---|
-| drop windows containing a red card | — | — | — | — | — |
-| drop breaks with a goal in the 3' before | — | — | — | — | — |
-| nominal 22'/67' timing instead of actual | 35 | +1.743 | +1.515 | [+1.371, +1.657] | 0.001 |
+| drop windows containing a red card | 180 | +1.594 | +1.661 | [+1.517, +1.806] | 0.829 |
+| drop breaks with a goal in the 3' before | 166 | +1.494 | +1.581 | [+1.434, +1.729] | 0.884 |
+| nominal 22'/67' timing instead of actual | 190 | +1.595 | +1.606 | [+1.468, +1.742] | 0.579 |
 
-## 4. Leave-one-match-out (primary metric, placement matched)
+## 4. Leave-one-match-out (primary metric, primary unmatched spec)
 
 Full sample gap (observed − null): **-0.073**.
 Leave-one-match-out range: **[-0.101, -0.044]** across 102 refits.

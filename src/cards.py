@@ -48,7 +48,7 @@ import numpy as np
 import pandas as pd
 
 from .placebo import MatchData, _parse_minute, load_inputs
-from .util import FIFA, PROCESSED, TABLES
+from .util import FIFA, PROCESSED, TABLES, interval_sentence
 
 WINDOWS = (5, 8, 10)
 SEED = 20260724
@@ -150,16 +150,18 @@ def main():
             f"{r['post']:.3f} | {r['delta_real']:+.4f} | {r['delta_ctrl']:+.4f} | "
             f"**{r['D']:+.4f}** | [{r['D_lo']:+.4f}, {r['D_hi']:+.4f}] |")
 
-    zero = all(r["D_lo"] < 0 < r["D_hi"] for r in rows)
+    ivs = [(r["D_lo"], r["D_hi"]) for r in rows]
+    zero = not any(lo > 0 or hi < 0 for lo, hi in ivs)
     lines += [
         "",
-        ("**Every interval includes zero.** Booking rates after breaks are "
-         "indistinguishable from those after matched ordinary minutes. Given the "
-         "sparsity (~0.16 cards per 8-minute window) only a very large shift would be "
-         "detectable, so this is weak evidence of no difference in booking rates — NOT "
-         "a finding that the breaks left the character of the game unchanged."
-         if zero else
-         "**At least one interval excludes zero — see the table.**"),
+        (interval_sentence(ivs, "card-rate") + " " +
+         ("Booking rates after breaks are indistinguishable from those after matched "
+          "ordinary minutes. "
+          if zero else
+          "See the table for which windows. ") +
+         "Given the sparsity (~0.16 cards per 8-minute window) only a very large shift "
+         "would be detectable, so this is weak evidence about booking RATES — NOT a "
+         "finding that the breaks left the character of the game unchanged."),
         "",
         "## Why goals are NOT an outcome here",
         "",
