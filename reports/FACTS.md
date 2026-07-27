@@ -1,6 +1,6 @@
 # FACT SHEET — every number the prose is allowed to quote
 
-Generated 2026-07-27 by `python -m src.facts` from the tables in
+Generated 2026-07-28 by `python -m src.facts` from the tables in
 `reports/tables/`. **Do not re-type numbers into prose from anywhere else.**
 `tests/test_report_sync.py` fails the build when a document disagrees with this.
 

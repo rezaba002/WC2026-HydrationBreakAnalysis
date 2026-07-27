@@ -198,7 +198,7 @@ def test_article_quotes_carry_a_verified_source():
     """
     import csv
 
-    raw = (ROOT / "reports" / "final" / "ARTICLE.md").read_text(encoding="utf-8")
+    raw = (ROOT / "publication" / "ARTICLE.md").read_text(encoding="utf-8")
     # Strip blockquote markers first: a quotation wrapped across two lines
     # carries a "> " into the middle of its own text.
     article = re.sub(r"^>\s?", "", raw, flags=re.MULTILINE)

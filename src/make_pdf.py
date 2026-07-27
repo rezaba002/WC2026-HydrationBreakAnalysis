@@ -1,9 +1,15 @@
-"""Render reports/final/REPORT.md to a print-quality PDF.
+"""Render the project's Markdown documents to print-quality PDFs.
 
 Markdown -> self-contained HTML (figures base64-embedded) -> PDF via headless
-Edge. Kept in the repo so the PDF is reproducible like every other artifact.
+Edge. Kept in the repo so the PDFs are reproducible like every other artifact.
 
-Run:  python -m src.make_pdf
+Two documents, two audiences:
+  reports/final/REPORT.md   the technical report        -> reports/final/
+  publication/ARTICLE.md    the general-audience piece  -> publication/
+
+Run:  python -m src.make_pdf            # both
+      python -m src.make_pdf report     # one
+      python -m src.make_pdf article
 """
 from __future__ import annotations
 
@@ -18,9 +24,29 @@ import markdown
 
 from .util import ROOT
 
-SRC = ROOT / "reports" / "final" / "REPORT.md"
-HTML = ROOT / "reports" / "final" / "REPORT.html"
-PDF = ROOT / "reports" / "final" / "WC2026_Hydration_Break_Report.pdf"
+class Doc:
+    def __init__(self, key, src, html, pdf, title):
+        self.key = key
+        self.src = ROOT / src
+        self.html = ROOT / html
+        self.pdf = ROOT / pdf
+        self.title = title
+
+
+DOCS = {
+    d.key: d for d in [
+        Doc("report",
+            "reports/final/REPORT.md",
+            "reports/final/REPORT.html",
+            "reports/final/WC2026_Hydration_Break_Report.pdf",
+            "WC2026 Hydration Break Report"),
+        Doc("article",
+            "publication/ARTICLE.md",
+            "publication/ARTICLE.html",
+            "publication/WC2026_Hydration_Breaks_Article.pdf",
+            "Did hydration breaks really kill momentum at the 2026 World Cup?"),
+    ]
+}
 
 EDGE_CANDIDATES = [
     Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"),
@@ -85,26 +111,33 @@ em { color: #52514e; }
 """
 
 
-def embed_images(md_text: str) -> str:
-    """Replace ![alt](../figures/x.png) with base64 data URIs."""
+def embed_images(md_text: str, base: Path) -> str:
+    """Replace ![alt](path/x.png) with base64 data URIs, relative to `base`."""
+    missing = []
+
     def repl(m: re.Match) -> str:
         alt, rel = m.group(1), m.group(2)
-        p = (SRC.parent / rel).resolve()
+        p = (base / rel).resolve()
         if not p.exists():
-            print(f"  WARNING: missing figure {rel}", file=sys.stderr)
+            missing.append(rel)
             return m.group(0)
         b64 = base64.b64encode(p.read_bytes()).decode()
         return f"![{alt}](data:image/png;base64,{b64})"
-    return re.sub(r"!\[([^\]]*)\]\(([^)]+\.png)\)", repl, md_text)
+
+    out = re.sub(r"!\[([^\]]*)\]\(([^)]+\.png)\)", repl, md_text)
+    if missing:
+        # A silently missing figure ships a PDF with a broken image in it.
+        raise FileNotFoundError(f"missing figures for {base}: {missing}")
+    return out
 
 
-def build_html() -> str:
-    md_text = embed_images(SRC.read_text(encoding="utf-8"))
+def build_html(doc: Doc) -> str:
+    md_text = embed_images(doc.src.read_text(encoding="utf-8"), doc.src.parent)
     body = markdown.markdown(
         md_text, extensions=["tables", "fenced_code", "attr_list", "sane_lists"]
     )
     return (f'<!doctype html><html><head><meta charset="utf-8">'
-            f"<title>WC2026 Hydration Break Report</title>"
+            f"<title>{doc.title}</title>"
             f"<style>{CSS}</style></head><body>{body}</body></html>")
 
 
@@ -115,26 +148,36 @@ def find_edge() -> Path:
     raise FileNotFoundError("Microsoft Edge not found; cannot render PDF")
 
 
-def main():
-    HTML.write_text(build_html(), encoding="utf-8")
-    print(f"wrote {HTML} ({HTML.stat().st_size / 1024:.0f} KB)")
+def render(doc: Doc, edge: Path) -> None:
+    doc.pdf.parent.mkdir(parents=True, exist_ok=True)
+    doc.html.write_text(build_html(doc), encoding="utf-8")
+    print(f"wrote {doc.html} ({doc.html.stat().st_size / 1024:.0f} KB)")
 
-    if PDF.exists():
-        PDF.unlink()
-    edge = find_edge()
+    if doc.pdf.exists():
+        doc.pdf.unlink()
     subprocess.run(
         [str(edge), "--headless", "--disable-gpu", "--no-pdf-header-footer",
-         f"--print-to-pdf={PDF}", HTML.as_uri()],
+         f"--print-to-pdf={doc.pdf}", doc.html.as_uri()],
         check=True, capture_output=True, timeout=180,
     )
     # Edge writes asynchronously; wait for the file to settle
     for _ in range(30):
-        if PDF.exists() and PDF.stat().st_size > 0:
+        if doc.pdf.exists() and doc.pdf.stat().st_size > 0:
             break
         time.sleep(1)
-    if not PDF.exists():
-        raise RuntimeError("Edge did not produce a PDF")
-    print(f"wrote {PDF} ({PDF.stat().st_size / 1024:.0f} KB)")
+    if not doc.pdf.exists():
+        raise RuntimeError(f"Edge did not produce {doc.pdf}")
+    print(f"wrote {doc.pdf} ({doc.pdf.stat().st_size / 1024:.0f} KB)")
+
+
+def main():
+    keys = sys.argv[1:] or list(DOCS)
+    unknown = [k for k in keys if k not in DOCS]
+    if unknown:
+        raise SystemExit(f"unknown document(s) {unknown}; choose from {list(DOCS)}")
+    edge = find_edge()
+    for k in keys:
+        render(DOCS[k], edge)
 
 
 if __name__ == "__main__":

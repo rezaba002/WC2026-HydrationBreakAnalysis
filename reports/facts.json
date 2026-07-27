@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-07-28",
   "primary_sample_note": "Primary Test A sample = 183 breaks (8-minute window, maximal clean control support). The cross-window common-support sample = 148 breaks (valid at all of w=3/5/8/10 simultaneously), used only by the exploratory E1 decomposition.",
   "test_a": {
     "primary": {

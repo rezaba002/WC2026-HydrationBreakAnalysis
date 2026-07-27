@@ -6,9 +6,8 @@ specification (not lodged in an external registry) — the first tournament to s
 regardless of weather. (Coverage is 203 of a possible 204 breaks in 102 of 104 matches;
 every exclusion is documented.)
 
-📰 **[Read the article](reports/final/ARTICLE.md)** ·
-📄 [Full report (PDF)](reports/final/WC2026_Hydration_Break_Report.pdf) ·
-[Markdown version](reports/final/REPORT.md) ·
+📰 **[Read the article](publication/ARTICLE.md)** ([PDF](publication/WC2026_Hydration_Breaks_Article.pdf)) ·
+📄 [Full technical report](reports/final/REPORT.md) ([PDF](reports/final/WC2026_Hydration_Break_Report.pdf)) ·
 [Frozen specification](spec.md) · [Amendments & limitations](CHANGELOG.md)
 
 ---
@@ -115,7 +114,7 @@ python -m src.late_game         # late-game proxy
 python -m src.charts            # figures
 python -m src.facts             # regenerate reports/facts.json + FACTS.md
 python -m src.article_figures   # article charts (reads facts.json)
-python -m src.make_pdf          # report PDF
+python -m src.make_pdf          # report + article PDFs
 python -m pytest tests -q       # incl. prose-vs-numbers sync checks
 ```
 

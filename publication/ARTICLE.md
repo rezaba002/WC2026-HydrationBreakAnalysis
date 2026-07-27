@@ -1,4 +1,4 @@
-# Did hydration breaks really kill momentum at the 2026 World Cup?
+﻿# Did hydration breaks really kill momentum at the 2026 World Cup?
 
 *A tournament-wide analysis suggests the television clock exaggerated the immediate lull,
 dominant teams usually cooled off anyway, and the clearest effects were on coaching,
@@ -49,7 +49,7 @@ FIFA mandated one break in each half of every match. They did not begin exactly 
 nominal 22nd and 67th minutes: referees waited for a natural stoppage, producing modal start
 times of 23' and 68'.
 
-![Break timing](../figures/fig_break_timing.png)
+![Break timing](../reports/figures/fig_break_timing.png)
 
 *When the breaks actually happened. Referees waited for a natural stoppage, so the
 distribution sits just after each nominal minute.*
@@ -60,7 +60,7 @@ each break and found a median of **26.1 °C**. Only **38 of 203** breaks occurre
 cooling-break trigger. FIFPRO, the players' union, is more cautious, recommending cooling
 breaks above roughly 26 °C and match delays above 28 °C.
 
-![WBGT distribution](../figures/fig_wbgt.png)
+![WBGT distribution](../reports/figures/fig_wbgt.png)
 
 *Most breaks happened below the former 32 °C mandatory threshold cited in secondary
 reporting. FIFPRO recommends action at considerably lower heat-stress levels.*
@@ -105,7 +105,7 @@ next eight displayed minutes was **0.689**, against **0.787** at matched ordinar
 Remove the hydration dead time and the same probability rises to **0.818** — slightly *above*
 the same 0.787 benchmark.
 
-![The clock artifact](../figures/art_clock.png)
+![The clock artifact](../reports/figures/art_clock.png)
 
 *The apparent post-break drought, and what happens when you stop counting stopped time as
 football.*
@@ -118,7 +118,7 @@ Nothing is deleted; no quiet periods are cherry-picked; only elapsed time is ins
 **The collapse reappears.** Fake stoppages inserted into ordinary football reproduce most of
 the decline that real hydration breaks appeared to cause.
 
-![Event study around the break](../figures/fig_break_window.png)
+![Event study around the break](../reports/figures/fig_break_window.png)
 
 *Shot rate aligned to the break call and to the resumption. The dive is in the display-clock
 alignment, not in the football either side of it.*
@@ -147,7 +147,7 @@ Negative means real breaks were followed by slightly *less* disruption than thei
 the opposite of the complaint. The interval includes zero. In ordinary language: the analysis
 did not detect a tournament-wide increase in shot-balance disruption after hydration breaks.
 
-![Placebo distribution](../figures/fig_placebo.png)
+![Placebo distribution](../reports/figures/fig_placebo.png)
 
 *Real breaks against 10,000 comparable moments where nobody stopped the game.*
 
@@ -156,7 +156,7 @@ support moves the estimate steadily more negative: **−0.173** with at least th
 **−0.196** with at least five, and **−0.948** with at least ten. That last figure excludes
 zero.
 
-![Test A and its sensitivities](../figures/art_test_a_forest.png)
+![Test A and its sensitivities](../reports/figures/art_test_a_forest.png)
 
 *The primary estimate, and what happens when you demand progressively more clean comparison
 minutes per break.*
@@ -190,14 +190,14 @@ over the following five minutes. The complaint appears vindicated.
 Except that comparable uninterrupted spells produced **−0.955** over the same span, with no
 break at all.
 
-![Regression to the mean](../figures/art_regression.png)
+![Regression to the mean](../reports/figures/art_regression.png)
 
 *The collapse is real. It is also what intense attacking pressure normally does next.*
 
 The additional break-associated difference was **−0.136** shots at five minutes, **−0.251** at
 eight and **+0.258** at ten. Every confidence interval crossed zero.
 
-![Directional test](../figures/art_test_b_forest.png)
+![Directional test](../reports/figures/art_test_b_forest.png)
 
 *Extra advantage lost after a break, beyond what comparable uninterrupted spells lose anyway.*
 
@@ -219,7 +219,7 @@ historical expectations of **19.6%** (2018) and **20.7%** (2022). Slightly *belo
 The pattern underneath that total is the revealing part: a deficit in the three minutes
 **before** the stoppage (6.8%) and a surplus in the three minutes **from the restart** (15.0%).
 
-![Substitution displacement](../figures/fig_subs_curve.png)
+![Substitution displacement](../reports/figures/fig_subs_curve.png)
 
 *Coaches did not make more changes. They made the same changes three minutes later, using the
 guaranteed meeting to brief the player first.*
@@ -228,7 +228,7 @@ The fresh-legs data fit that reading without proving any physiological benefit f
 itself. Players introduced at the stoppage produced far more high-speed output than the
 starters they replaced — 66.3 sprints per 90 against 45.7 — as substitutes generally should.
 
-![Fresh legs](../figures/fig_freshlegs.png)
+![Fresh legs](../reports/figures/fig_freshlegs.png)
 
 *Fresh legs versus the legs they replaced. The gap is large — and it is a substitution effect,
 not a hydration effect.*
@@ -240,7 +240,7 @@ Matches also got structurally longer. Two breaks sit inside the clock and are ad
 stoppage time, so 2026 matches carry roughly six mandated extra minutes on top of an already
 stretched environment.
 
-![Added time](../figures/fig_added_time.png)
+![Added time](../reports/figures/fig_added_time.png)
 
 *Second-half length across three tournaments. Exact 2026 board minutes are absent from every
 auditable source, so 2026 is reported as a floor, never as a board figure.*
@@ -260,7 +260,7 @@ The denominator tells the other half of the story. In a stratified random sweep,
 48 sampled breaks** had any located public claim — 8.3%, with a wide interval from 3.3% to
 19.6%.
 
-![Perception](../figures/art_perception.png)
+![Perception](../reports/figures/art_perception.png)
 
 *Pundits were right about half the time. They were also describing roughly one break in
 twelve.*
@@ -280,7 +280,7 @@ That break drew three separate published claims — more coverage than any other
 Measured against its own match-half's ordinary minutes, the shot-differential swing sat at the
 43rd percentile: **entirely unremarkable**, and not supported.
 
-![Case studies](../figures/fig_case_studies.png)
+![Case studies](../reports/figures/fig_case_studies.png)
 
 *Selected breaks across the two-by-two of large/small swing and claimed/unclaimed. The
 unclaimed cells are not empty — they are simply never discussed.*
@@ -336,7 +336,7 @@ I could claim in them did not, and the published numbers now reflect that.
 shots — more meaningful, well time-stamped, and more numerous than cards. Break windows contain
 **0.227** goals per eight minutes; matched control windows contain **0.054**.
 
-![The goals trap](../figures/art_goals_trap.png)
+![The goals trap](../reports/figures/art_goals_trap.png)
 
 *A four-fold difference that is entirely an artifact of my own control screen.*
 

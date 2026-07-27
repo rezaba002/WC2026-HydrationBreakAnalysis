@@ -55,7 +55,7 @@ survive, with the changed numbers and reduced power reported in place.
 
 ## 2026-07-27 — published article added under the same guarantees
 
-**Article.** `reports/final/ARTICLE.md` is the general-audience version, merged from an
+**Article.** `publication/ARTICLE.md` is the general-audience version, merged from an
 independent draft and this repository's technical report. It adds no analysis. It is held to
 the same standard as everything else, and three new tests enforce that:
 
@@ -71,6 +71,12 @@ the same standard as everything else, and three new tests enforce that:
 **Article figures.** `src/article_figures.py` generates six presentation charts
 (`art_*.png`) by reading `facts.json`. No value is typed in, so a corrected number cannot
 leave a stale picture behind — the visual form of the defect this release exists to fix.
+
+**Separated from the report.** The article and its PDF live in `publication/`, not
+alongside the technical report: they are different documents for different readers, and the
+LinkedIn post and video script will join them there. `src/make_pdf.py` now renders both
+documents (`python -m src.make_pdf [report|article]`) and raises rather than warning when a
+figure is missing — a warning still ships a PDF with a broken image in it.
 
 ## 2026-07-27 — deviation record and reporting-integrity consolidation (v2.0.0)
 

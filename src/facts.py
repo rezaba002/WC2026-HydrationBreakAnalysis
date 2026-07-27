@@ -249,7 +249,7 @@ def collect() -> dict:
 # The sync test finds each regex in each document and asserts the captured
 # number equals the fact. This is what catches "0.658 where 0.689 belongs".
 # --------------------------------------------------------------------------
-DOCS = ["README.md", "reports/final/REPORT.md", "reports/final/ARTICLE.md"]
+DOCS = ["README.md", "reports/final/REPORT.md", "publication/ARTICLE.md"]
 
 #
 # Patterns are matched against a normalised document: whitespace collapsed and
@@ -283,7 +283,7 @@ DOC_CHECKS: list[tuple[str, str]] = [
      r"primary (?:Test A )?sample of\s*\d+ breaks,? across (\d+) matches"),
     ("clock.total_breaks", r"(\d+) recorded mandatory hydration breaks|"
                            r"all (\d+) mandatory hydration breaks"),
-    # --- ARTICLE phrasings (reports/final/ARTICLE.md) ---------------------
+    # --- ARTICLE phrasings (publication/ARTICLE.md) -----------------------
     ("clock.display_w8.observed",
      rf"at least one shot in the next eight displayed minutes was ({_DEC})"),
     ("clock.display_w8.null",
@@ -368,7 +368,7 @@ DOC_CHECKS: list[tuple[str, str]] = [
 # A check that never matches is a check that cannot fail. Each document must
 # exercise at least this many distinct facts, or the patterns have rotted.
 MIN_CHECKS = {"README.md": 22, "reports/final/REPORT.md": 25,
-              "reports/final/ARTICLE.md": 24}
+              "publication/ARTICLE.md": 24}
 
 
 def lookup(facts: dict, path: str):
