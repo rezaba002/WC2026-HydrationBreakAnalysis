@@ -10,3 +10,6 @@ __pycache__/
 # PDF build intermediates (figures base64-inlined); the PDFs are committed
 reports/final/REPORT.html
 publication/ARTICLE.html
+
+# post drafts - working files, not part of the published record
+publication/LINKEDIN_POST.md
