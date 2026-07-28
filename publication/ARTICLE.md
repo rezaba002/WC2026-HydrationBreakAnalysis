@@ -1,4 +1,4 @@
-﻿# Did hydration breaks really kill momentum at the 2026 World Cup?
+# Did hydration breaks really kill momentum at the 2026 World Cup?
 
 *A tournament-wide analysis suggests the television clock exaggerated the immediate lull,
 dominant teams usually cooled off anyway, and the clearest effects were on coaching,
